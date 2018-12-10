@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+  <!-- Adjust Steel -->
+  <recipe name="Alloy: Steel" disabled="true" />
+  <recipe name="Alloy: Steel (Oredict)" required="false">
+    <alloying energy="4000" exp="0">
+      <input name="ingotIron"/>
+      <input name="fuelCoke"/>
+      <input name="dustCoal" amount="2"/>
+      <output name="ingotSteel"/>
+    </alloying>
+  </recipe>
+  <!-- Add more SAG Mill clippings recipes -->
+  <recipe name="Sagmill: Fern" required="true">
+    <sagmilling energy="1200">
+      <input name="minecraft:tallgrass:2"/>
+      <output name="itemPlantgreen" chance="0.6" />
+      <output name="itemPlantgreen" chance="0.3" />
+      <output name="itemPlantgreen" chance="0.1" />
+      <output name="itemPlantbrown" chance="0.05" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Sagmill: Frost Garden" required="true">
+    <sagmilling energy="1200">
+      <input name="harvestcraft:frostgarden"/>
+      <output name="itemPlantgreen" chance="0.6" />
+      <output name="itemPlantgreen" chance="0.3" />
+      <output name="itemPlantgreen" chance="0.1" />
+      <output name="itemPlantbrown" chance="0.05" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Sagmill: Shaded Garden" required="true">
+    <sagmilling energy="1200">
+      <input name="harvestcraft:shadedgarden"/>
+      <output name="itemPlantgreen" chance="0.6" />
+      <output name="itemPlantgreen" chance="0.3" />
+      <output name="itemPlantgreen" chance="0.1" />
+      <output name="itemPlantbrown" chance="0.05" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Sagmill: Soggy Garden" required="true">
+    <sagmilling energy="1200">
+      <input name="harvestcraft:soggygarden"/>
+      <output name="itemPlantgreen" chance="0.6" />
+      <output name="itemPlantgreen" chance="0.3" />
+      <output name="itemPlantgreen" chance="0.1" />
+      <output name="itemPlantbrown" chance="0.05" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Sagmill: Tropical Garden" required="true">
+    <sagmilling energy="1200">
+      <input name="harvestcraft:tropicalgarden"/>
+      <output name="itemPlantgreen" chance="0.6" />
+      <output name="itemPlantgreen" chance="0.3" />
+      <output name="itemPlantgreen" chance="0.1" />
+      <output name="itemPlantbrown" chance="0.05" />
+    </sagmilling>
+  </recipe>
+  <recipe name="Sagmill: Windy Garden" required="true">
+    <sagmilling energy="1200">
+      <input name="harvestcraft:windygarden"/>
+      <output name="itemPlantgreen" chance="0.6" />
+      <output name="itemPlantgreen" chance="0.3" />
+      <output name="itemPlantgreen" chance="0.1" />
+      <output name="itemPlantbrown" chance="0.05" />
+    </sagmilling>
+  </recipe>
+</enderio:recipes>

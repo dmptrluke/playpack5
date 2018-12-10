@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+
+<!--
+
+These are the built-in recipes. You cannot change this file, it is a
+reference for you only and will be generated every time the game starts.
+
+To make changes to the recipes, copy the recipes you want to change to
+a file in the 'user' folder.
+
+You can also disable all built-in recipes with the setting "loadCoreRecipes"
+in the Ender IO config file, so that only your files in the 'user' folder will
+be loaded. Please be advised that a number of recipes are absolutely needed,
+so you will have to copy those over into a 'user' file for the game to load.
+
+Recipes that have entities that cannot be
+found in-game are either skipped or an error, depending on their "required"
+attribute.
+
+More information on the syntax can be found in the recipes.xsd file. An
+XML editor will display that as tooltips when editing this file.
+
+ -->
+
+  <recipe name="Spawner, Astral Sorcery" required="false">
+    <spawning>
+      <entity name="astralsorcery:entityflare" costMultiplier="1.0" disabled="true"/> <!-- Flare -->
+      <entity name="astralsorcery:entityliquidspark" costMultiplier="1.0" disabled="true"/> <!-- Liquid Spark -->
+      <entity name="astralsorcery:entityspectraltool" costMultiplier="1.0" disabled="true"/> <!-- Spectral Tool -->
+    </spawning>
+  </recipe>
+
+  <recipe name="Spawner, Forestry" required="false">
+    <spawning>
+      <entity name="forestry:butterflyge" costMultiplier="1.0" disabled="true"/> <!-- Butterfly -->
+    </spawning>
+  </recipe>
+
+  <recipe name="Spawner, Thaumcraft" required="false">
+    <spawning>
+      <!-- Thaumcraft - Enabled Entities -->
+      <entity name="thaumcraft:pech" costMultiplier="25.0" disabled="false"/> <!-- Pech -->
+      <entity name="thaumcraft:wisp" costMultiplier="10.0" disabled="false"/> <!-- Wisp -->
+      <entity name="thaumcraft:firebat" costMultiplier="10.0" disabled="false"/> <!-- Firebat -->
+      <entity name="thaumcraft:spellbat" costMultiplier="10.0" disabled="false"/> <!-- Spellbat -->
+      <entity name="thaumcraft:brainyzombie" costMultiplier="10.0" disabled="false"/> <!-- Angry Zombie -->
+      <entity name="thaumcraft:giantbrainyzombie" costMultiplier="20.0" disabled="false"/> <!-- Furious Zombie -->
+
+      <!-- Thaumcraft - Disabled Entities -->
+      <entity name="thaumcraft:golem" costMultiplier="1.0" disabled="true"/> <!-- Golen -->
+
+      <entity name="thaumcraft:cultistknight" costMultiplier="1.0" disabled="true"/> <!-- Crimson Knight -->
+      <entity name="thaumcraft:cultistcleric" costMultiplier="1.0" disabled="true"/> <!-- Crimson Cleric -->
+      <entity name="thaumcraft:cultistleader" costMultiplier="1.0" disabled="true"/> <!-- Crimson Praetor -->
+      <entity name="thaumcraft:cultistportallesser" costMultiplier="1.0" disabled="true"/> <!-- Lesser Crimson Portal -->
+      <entity name="thaumcraft:cultistportalgreater" costMultiplier="1.0" disabled="true"/> <!-- Greater Crimson Portal -->
+
+      <entity name="thaumcraft:eldritchcrab" costMultiplier="1.0" disabled="true"/> <!-- Eldritch Crab -->
+      <entity name="thaumcraft:eldritchwarden" costMultiplier="1.0" disabled="true"/> <!-- Eldritch Warden -->
+      <entity name="thaumcraft:eldritchgolem" costMultiplier="1.0" disabled="true"/> <!-- Eldritch Construct -->
+      <entity name="thaumcraft:eldritchguardian" costMultiplier="1.0" disabled="true"/> <!-- Eldritch Guardian -->
+
+      <entity name="thaumcraft:taintacle" costMultiplier="1.0" disabled="true"/> <!-- Taintacle -->
+      <entity name="thaumcraft:taintseed" costMultiplier="1.0" disabled="true"/> <!-- Taint Seed -->
+      <entity name="thaumcraft:taintswarm" costMultiplier="1.0" disabled="true"/> <!-- Taint Swarm -->
+      <entity name="thaumcraft:taintacletiny" costMultiplier="1.0" disabled="true"/> <!-- Taint Tendril -->
+      <entity name="thaumcraft:taintcrawler" costMultiplier="1.0" disabled="true"/> <!-- Tainted Crawler -->
+      <entity name="thaumcraft:taintaclegiant" costMultiplier="1.0" disabled="true"/> <!-- Giant Taintacle -->
+      <entity name="thaumcraft:taintseedprime" costMultiplier="1.0" disabled="true"/> <!-- Giant Taint Seed -->
+
+      <entity name="thaumcraft:mindspider" costMultiplier="1.0" disabled="true"/> <!-- Mind Spider -->
+      <entity name="thaumcraft:thaumslime" costMultiplier="1.0" disabled="true"/> <!-- Thaumic Slime -->
+      <entity name="thaumcraft:inhabitedzombie" costMultiplier="1.0" disabled="true"/> <!-- Shambling Husk -->
+
+      <!-- Thaumcraft - Object-Like Entities -->
+      <entity name="thaumcraft:arcanebore" costMultiplier="1.0" disabled="true"/> <!-- Arcane Bore -->
+      <entity name="thaumcraft:turretbasic" costMultiplier="1.0" disabled="true"/> <!-- Automated Crossbow -->
+      <entity name="thaumcraft:turretadvanced" costMultiplier="1.0" disabled="true"/> <!-- Advanced Automated Crossbow -->
+    </spawning>
+  </recipe>
+
+  <recipe name="Spawner, Twilight Forest" required="false">
+    <spawning>
+      <!-- Twilight Forest - Vanilla Equivilant -->
+      <entity name="twilightforest:wild_boar" costMultiplier="0.5" disabled="false"/> <!-- Wild Boar -->
+      <entity name="twilightforest:bighorn_sheep" costMultiplier="0.5" disabled="false"/> <!-- Bighorn Sheep -->
+      <entity name="twilightforest:bunny" costMultiplier="0.1" disabled="false"/> <!-- Forest Bunny -->
+
+      <!-- Twilight Forest - Passive Mobs -->
+      <entity name="twilightforest:deer" costMultiplier="1.0" disabled="false"/> <!-- Wild Deer -->
+      <entity name="twilightforest:penguin" costMultiplier="1.0" disabled="false"/> <!-- Penguin -->
+      <entity name="twilightforest:tiny_bird" costMultiplier="1.0" disabled="false"/> <!-- Tiny Bird -->
+      <entity name="twilightforest:squirrel" costMultiplier="1.0" disabled="false"/> <!-- Forest Squirrel -->
+
+      <!-- Twilight Forest - Aggresive Mobs -->
+      <!-- TODO: Provide with proper values -->
+      <entity name="twilightforest:redcap" costMultiplier="5.0" disabled="false"/> <!-- Redcap -->
+      <entity name="twilightforest:swarm_spider" costMultiplier="5.0" disabled="false"/> <!-- Swarm Spider -->
+      <entity name="twilightforest:skeleton_druid" costMultiplier="5.0" disabled="false"/> <!-- Skeleton Druid -->
+      <entity name="twilightforest:hostile_wolf" costMultiplier="5.0" disabled="false"/> <!-- Hostile Wolf -->
+      <entity name="twilightforest:wraith" costMultiplier="5.0" disabled="false"/> <!-- Twilight Wraith -->
+      <entity name="twilightforest:hedge_spider" costMultiplier="5.0" disabled="false"/> <!-- Hedge Spider -->
+      <entity name="twilightforest:kobold" costMultiplier="5.0" disabled="false"/> <!-- Kobold -->
+      <entity name="twilightforest:mosquito_swarm" costMultiplier="5.0" disabled="false"/> <!-- Mosquito Swarm -->
+      <entity name="twilightforest:death_tome" costMultiplier="5.0" disabled="false"/> <!-- Death Tome -->
+      <entity name="twilightforest:minoshroom" costMultiplier="5.0" disabled="false"/> <!-- Minoshroom -->
+      <entity name="twilightforest:fire_beetle" costMultiplier="5.0" disabled="false"/> <!-- Fire Beetle -->
+      <entity name="twilightforest:slime_beetle" costMultiplier="5.0" disabled="false"/> <!-- Slime Beetle -->
+      <entity name="twilightforest:pinch_beetle" costMultiplier="5.0" disabled="false"/> <!-- Pinch Beetle -->
+      <entity name="twilightforest:maze_slime" costMultiplier="5.0" disabled="false"/> <!-- Maz Slime -->
+      <entity name="twilightforest:redcap_sapper" costMultiplier="5.0" disabled="false"/> <!-- Redcap Sapper -->
+      <entity name="twilightforest:mist_wolf" costMultiplier="5.0" disabled="false"/> <!-- Mist Wolf -->
+      <entity name="twilightforest:king_spider" costMultiplier="5.0" disabled="false"/> <!-- King Spider -->
+      <entity name="twilightforest:mini_ghast" costMultiplier="5.0" disabled="false"/> <!-- Carminite Ghastling -->
+      <entity name="twilightforest:tower_ghast" costMultiplier="5.0" disabled="false"/> <!-- Carminite Ghastguard -->
+      <entity name="twilightforest:tower_termite" costMultiplier="5.0" disabled="false"/> <!-- Towerwood Borer -->
+      <entity name="twilightforest:tower_broodling" costMultiplier="5.0" disabled="false"/> <!-- Carminite Broodling -->
+      <entity name="twilightforest:blockchain_goblin" costMultiplier="5.0" disabled="false"/> <!-- Block and Chain Goblin -->
+      <entity name="twilightforest:helmet_crab" costMultiplier="5.0" disabled="false"/> <!-- Helmet Crabb -->
+      <entity name="twilightforest:yeti" costMultiplier="5.0" disabled="false"/> <!-- Yeti -->
+      <entity name="twilightforest:winter_wolf" costMultiplier="5.0" disabled="false"/> <!-- Winter Wolf -->
+      <entity name="twilightforest:snow_guardian" costMultiplier="5.0" disabled="false"/> <!-- Snow Guardian -->
+      <entity name="twilightforest:troll" costMultiplier="5.0" disabled="false"/> <!-- Cave Troll -->
+
+      <!-- Twilight Forest - Cross-Mod Balance Entities -->
+      <entity name="twilightforest:tower_golem" costMultiplier="10" disabled="true"/> <!-- Carminite Golem -->
+
+      <!-- Twilight Forest - Unique Creatures -->
+      <entity name="twilightforest:raven" costMultiplier="50" disabled="false"/> <!-- Forest Raven -->
+      <entity name="twilightforest:minotaur" costMultiplier="100" disabled="false"/> <!-- Minotaur -->
+      <entity name="twilightforest:quest_ram" costMultiplier="100" disabled="false"/> <!-- Questing Ram -->
+      <entity name="twilightforest:giant_miner" costMultiplier="100" disabled="false"/> <!-- Giant Miner -->
+      <entity name="twilightforest:armored_giant" costMultiplier="100" disabled="false"/> <!-- Armored Giant -->
+
+      <!-- Twilight Forest - Bosses -->
+      <entity name="twilightforest:naga" costMultiplier="1.0" disabled="true"/> <!-- Naga -->
+      <entity name="twilightforest:hydra" costMultiplier="1.0" disabled="true"/> <!-- Hydra -->
+      <entity name="twilightforest:lich" costMultiplier="1.0" disabled="true"/> <!-- Twilight Lich -->
+      <entity name="twilightforest:lich_minion" costMultiplier="1.0" disabled="true"/> <!-- Lich Minion -->
+      <entity name="twilightforest:ur_ghast" costMultiplier="1.0" disabled="true"/> <!-- Ur-ghast -->
+      <entity name="twilightforest:knight_phantom" costMultiplier="1.0" disabled="true"/> <!-- Knight Phantom -->
+      <entity name="twilightforest:yeti_alpha" costMultiplier="1.0" disabled="true"/> <!-- Alpha Yeti -->
+      <entity name="twilightforest:snow_queen" costMultiplier="1.0" disabled="true"/> <!-- Snow Queen -->
+      <entity name="twilightforest:hydra_head" costMultiplier="1.0" disabled="true"/> <!-- Hydra Head -->
+
+      <!-- Twilight Forest - NYI -->
+      <entity name="twilightforest:boggard" costMultiplier="1.0" disabled="true"/> <!-- Boggard [NYI] -->
+      <entity name="twilightforest:castle_guardian" costMultiplier="1.0" disabled="true"/> <!-- Castle Guardian [NYI] -->
+      <entity name="twilightforest:adherent" costMultiplier="1.0" disabled="true"/> <!-- Adherent [NYI] -->
+      <entity name="twilightforest:harbinger_cube" costMultiplier="1.0" disabled="true"/> <!-- Unlocalized [NYI] -->
+      <entity name="twilightforest:roving_cube" costMultiplier="1.0" disabled="true"/> <!-- Unlocalized [NYI] -->
+
+      <!-- Twilight Forest - Non Entity-Like Objects -->
+      <entity name="twilightforest:firefly" costMultiplier="1.0" disabled="true"/> <!-- Firefly -->
+      <entity name="twilightforest:loyal_zombie" costMultiplier="1.0" disabled="true"/> <!-- Loyal Zombie -->
+      <entity name="twilightforest:goblin_knight_upper" costMultiplier="1.0" disabled="true"/> <!-- Upper Goblin Knight -->
+      <entity name="twilightforest:goblin_knight_lower" costMultiplier="1.0" disabled="true"/> <!-- Lower Goblin Knight -->
+      <entity name="twilightforest:stable_ice_core" costMultiplier="1.0" disabled="true"/> <!-- Stable Ice Core -->
+      <entity name="twilightforest:unstable_ice_core" costMultiplier="1.0" disabled="true"/> <!-- Unstable Ice Core -->
+      <entity name="twilightforest:ice_crystal" costMultiplier="1.0" disabled="true"/> <!-- Ice Crystal -->
+    </spawning>
+  </recipe>
+</enderio:recipes>

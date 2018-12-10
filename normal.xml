@@ -1,0 +1,3054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://dmptr.com/launcher/ServerPackv2.xsl" type="text/xsl" ?>
+<ServerPack version="3.4" 
+	xmlns="http://www.mcupdater.com" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="playpack_redux" abstract="false" name="PlayPack Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="modded.dmptr.com" version="1.12.2"
+	 generateList="true" autoConnect="false" revision="0" 
+	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
+		<Meta>
+			<note>A smaller, faster refreshed version of PlayPack.</note>
+			<note title="Latest Changes">???</note>
+		</Meta>
+		<Module name="Old Java Warning" id="oldjava" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/OldJavaWarning-1.12.2-1.0.6.jar</URL>
+			<Size>6140</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>edec6ef95865f9071ec83359b7e095a6</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Warns about old Java..</description>
+				<version>1.0.6</version>
+				<url>http://www.darkhax.net</url>
+				<authors>Darkhax</authors>
+			</Meta>
+		</Module>
+		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
+			<Size>9998</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>621284389aad47e6d5c37c18846960e2</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Stops logs from being annoying</description>
+				<version>1.1.14</version>
+				<url>https://minecraft.curseforge.com/projects/stuff-a-sock-in-it</url>
+				<authors>Darkhax</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/sasit.cfg</URL>
+				<Path>config/sasit.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3633e1f63c63e44850be36be096c19f1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Fullscreen Windowed" id="fw" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FullscreenWindowed-1.12-1.6.0.jar</URL>
+			<Size>18396</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c7679200bdf1f6cb71361555407a4c7f</MD5>
+			<Meta>
+				<credits>To all the documentation out there, Thank You. Credits to MrWhalerus for 1.12 update</credits>
+				<description>Activates fullscreen windowed mode for Minecraft</description>
+				<version>1.6.0</version>
+				<url>https://github.com/hancin/Fullscreen-Windowed-Minecraft</url>
+				<authors>Hancin</authors>
+			</Meta>
+		</Module>
+		<Module name="Hwyla" id="waila" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Hwyla-1.8.26-B41_1.12.2.jar</URL>
+			<Size>453778</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>bca1c069d9171d331d211d24e8a3b770</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Hwyla (Here's What You're Looking At) is a UI improvement mod aimed at providing block information directly ingame.</description>
+				<version>1.8.26</version>
+				<url>https://minecraft.curseforge.com/projects/hwyla</url>
+				<authors>ProfMobius, TehNut</authors>
+			</Meta>
+		</Module>
+		<Module name="WorldEdit" id="worldedit" depends="" side="BOTH">
+			<URL>https://dmptr.com/pack_redux/files/mods/worldedit-forge-mc1.12-6.1.8-dist.jar</URL>
+			<MD5>73ECBB8656A5FD5823852078F0FB7CA7</MD5>
+			<Required isDefault='false'>false</Required>
+			<ModType>Regular</ModType>
+			<Meta>
+				<credits></credits>
+				<description>WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer.</description>
+				<version>6.1.8</version>
+				<url>http://wiki.sk89q.com/wiki/WorldEdit</url>
+				<authors>sk89q, wizjany, TomyLobo, kenzierocks</authors>
+			</Meta>
+			<Submodule name="WorldEdit CUI" id="worldeditcuife2">
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12-14.21.1.2387.jar</URL>
+				<Size>461792</Size>
+				<MD5>de1eb987ae68dc49b704fcb3edeea4e0</MD5>
+				<ModType>Regular</ModType>
+				<Meta>
+					<credits>Thanks to LoadingByte for maintaining and updating GuiLib. Thnaks to Zyin&apos;s for releasing his code.</credits>
+					<description>WorldEdit CUI Forge Edition 2 is a forge client-side user interface for WorldEdit</description>
+					<version>2.1.2-mf-1.12.2-14.23.0.2487</version>
+					<url>https://minecraft.curseforge.com/projects/worldeditcui-forge-edition-2</url>
+					<authors>Hexosse</authors>
+				</Meta>
+			</Submodule>
+		</Module>
+		<Module name="FoamFix" id="foamfix" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/foamfix-0.10.3-1.12.2.jar</URL>
+			<Size>216000</Size>
+			<Required>true</Required>
+			<ModType jreArgs="-XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M">Regular</ModType>
+			<MD5>55b225238af64ead15ef6175d5da0bf9</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
+				<version>@VERSION@</version>
+				<url>http://asie.pl/Projects/Minecraft/Mods/FoamFix</url>
+				<authors>asiekierka</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/foamfix.cfg</URL>
+				<Path>config/foamfix.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b12b88b979d6954f3fe6f51fcd2109e6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="BetterFPS" id="betterfps" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BetterFps-1.4.8.jar</URL>
+			<Size>155196</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>D36F4D3C0F96E99A9A1AD2E8EEDA1FC4</MD5>
+			<Meta>
+				<credits>Alexandria - original idea</credits>
+				<description>BetterFps is a Minecraft mod that adds a few performance improvements, trying to be compatible with other mods.</description>
+				<version>1.4.8</version>
+				<url>https://minecraft.curseforge.com/projects/betterfps</url>
+				<authors>Guichaguri</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/betterfps.json</URL>
+				<Path>config/betterfps.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4a5f14d6abb88f393bffef75496fe609</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="CLIENT">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Xaeros_Minimap_1.15.9_Forge_1.12.jar</URL>
+			<Size>365364</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>e62db310211f6648314407881fec7182</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The most &quot;vanilla-looking&quot; minimap for Minecraft.</description>
+				<version>1.15.9</version>
+				<url></url>
+				<authors>Xaero96</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/xaerominimap.txt</URL>
+				<Path>config/xaerominimap.txt</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>78e8ccc506fd10d5d559cc27ef5ce742</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Tails" id="Tails" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Tails-1.12-1.10.0.jar</URL>
+			<Size>269876</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>2d8523ff0fcfc157292051395da6b78d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>For all your taily needs</description>
+				<version>1.12-1.10.0</version>
+				<url>https://github.com/kihira</url>
+				<authors>Kihira</authors>
+			</Meta>
+		</Module>
+		<Module name="Xaero&apos;s World Map" id="XaeroWorldMap" depends="" side="CLIENT">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/XaerosWorldMap_1.3.2_Forge_1.12.jar</URL>
+			<Size>198632</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>8136c357d5d03d7d3811a387ccd40bba</MD5>
+			<Meta>
+				<credits>Xaero96</credits>
+				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
+				<version>1.3.2</version>
+				<url></url>
+				<authors>Xaero96</authors>
+			</Meta>
+		</Module>
+		<Module name="JourneyMap" id="journeymap" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/journeymap-1.12.2-5.5.2%20(2).jar</URL>
+			<Size>1822850</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>b743562dac1b5334c20ac87b54c0b518</MD5>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/journeymap/config/5.5/journeymap.minimap.config</URL>
+				<Path>journeymap/config/5.5/journeymap.minimap.config</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>356d9570ec23341c336dfd2b81388f7c</MD5>
+			</ConfigFile>
+			<Meta>
+				<credits></credits>
+				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. Alternative to Xaeros map mods.</description>
+				<version>1.12.2-5.5.2</version>
+				<url>http://journeymap.info</url>
+				<authors>techbrew, mysticdrew</authors>
+			</Meta>
+		</Module>
+		<Module name="Better Foliage" id="betterfoliage" depends="" side="CLIENT">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BetterFoliage-MC1.12-2.2.0.jar</URL>
+			<Size>926081</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>e05a720c5900b9bac4e01179abe8eef6</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Leafier leaves and grassier grass</description>
+				<version>2.2.0</version>
+				<url>https://minecraft.curseforge.com/projects/better-foliage</url>
+				<authors>octarine-noise (code), Meringue (textures)</authors>
+				<note>High Performance Impact</note>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/betterfoliage.cfg</URL>
+				<Path>config/betterfoliage.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>fa6f5224ce68059be075c1c25610c13f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Client Tweaks" id="clienttweaks" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ClientTweaks_1.12.2-3.1.11.jar</URL>
+			<Size>30515</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0b0c58701276b30b005bca8aeef29f9c</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>There, I fixed Minecraft for you.</description>
+				<version>3.1.11</version>
+				<url>http://balyware.com</url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/clienttweaks.cfg</URL>
+				<Path>config/clienttweaks.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>9d69448e581152edf5c318d6887f3c5e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Dynamic Surroundings" id="dsurround" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DynamicSurroundings-1.12.2-3.4.10.4.jar</URL>
+			<Size>22364094</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>dcb4c3f4a7ec8c6305223e228ca58247</MD5>
+			<Meta>
+				<credits>Wirsbo for BetterRain; MrRube for Aurora Rubealis; Hurricaaane for Presence Footsteps and MAtmos; Mr_okushama for Battle Music; Ezer&apos;Arch for Galacticraft configurations</credits>
+				<description>Adds a variety of sound and visual effects to improve your Minecraft experience</description>
+				<version>1.12.2-3.4.10.4</version>
+				<url>https://github.com/OreCruncher/DynamicSurroundings/wiki</url>
+				<authors>OreCruncher, Abastro</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/dsurround/dsurround.cfg</URL>
+				<Path>config/dsurround/dsurround.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>24afc25c707cb84c32a4ad6a3ef72c1d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="LagGoggles [DEV]" id="laggoggles" depends="" side="CLIENT">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/LagGoggles-FORGE-1.12.2-4.1.jar</URL>
+			<Size>380607</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>508E3DA28E01551D9E140EAF033C18AF</MD5>
+			<Meta>
+				<credits></credits>
+				<description>LagGoggles is a profiler where you can see timings in the world, visually. It comes with a custom GUI using a configurable keybind.</description>
+				<version>4.1</version>
+				<note>Debug Tool</note>
+				<url>https://minecraft.curseforge.com/projects/laggoggles</url>
+				<authors>octarine-noise (code), Meringue (textures)</authors>
+			</Meta>
+		</Module>
+		<Module name="Sampler [DEV]" id="Sampler" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/sampler-1.80.jar</URL>
+			<Size>276292</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>c4d45796a48af17198c64d4528ebb518</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Sampling Performance Profiler.</description>
+				<version>1.80</version>
+				<note>Debug Tool</note>
+				<authors>Player</authors>
+			</Meta>
+		</Module>
+		<Module name="Caliper [DEV]" id="caliper" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Caliper-1.12.2-1.1.34%20(2).jar</URL>
+			<Size>82878</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>bdb3fd140c0c065103c021419f8d838d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A collection of tools for testing and developing mods and modpacks.</description>
+				<version>1.1.34</version>
+				<url>https://minecraft.curseforge.com/projects/caliper</url>
+				<authors>Darkhax</authors>
+				<note>Debug Tool</note>
+			</Meta>
+		</Module>
+		<Module name="Texture Pack: Sphax PureBDcraft" id="sphax" depends="" side="CLIENT">
+			<URL priority="0">https://dmptr.com/pack_redux/files/extra/newsphax.zip</URL>
+			<Size>50986209</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<ModPath>resourcepacks/sphax.zip</ModPath>
+			<MD5>541E0F34E44E42D726CDF032DFE92260</MD5>
+			<Meta>
+				<description>PureBDcraft completely transforms the Minecraft experience and makes it look like a comic. Blocks, creatures, items and UI are revamped in high definition, and are full of details and geeky references.</description>
+				<url>https://bdcraft.net/</url>
+				<version>r1</version>
+			</Meta>
+		</Module>
+		<Module name="Texture Pack: Unity" id="unity" depends="" side="CLIENT">
+			<URL priority="0">https://dmptr.com/pack_redux/files/extra/unity.zip</URL>
+			<Size>10600328</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<ModPath>resourcepacks/unity.zip</ModPath>
+			<MD5>819BE8167DD2576D18C94FEAB8140AF5</MD5>
+			<Meta>
+				<description>The Unity resource pack follows the traditional Minecraft aesthetics but adds subtle depth and more natural colors.</description>
+				<url>https://minecraft.curseforge.com/projects/unity</url>
+				<version>1.6.4</version>
+			</Meta>
+		</Module>
+		<Module name="Texture Pack: Lithos" id="lithoscore" depends="faithful" side="CLIENT">
+			<URL priority="0">https://dmptr.com/pack_redux/files/extra/lithoscore-1.21.zip</URL>
+			<Size>41077494</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<ModPath>resourcepacks/lithoscore.zip</ModPath>
+			<MD5>E8428F426D4A434DE887D9FF98E55017</MD5>
+			<Meta>
+				<description>Faithful, but better! Everything should be instantly recognisable to those familiar with default textures, or with the things in real life.</description>
+				<url>https://minecraft.curseforge.com/projects/lithos-core-32x-1-6-1-11-complete</url>
+				<version>1.21</version>
+			</Meta>
+			<Submodule name="Lithos: Luminous" id="lithosluminous">
+				<URL priority="0">https://dmptr.com/pack_redux/files/extra/lithosluminous.zip</URL>
+				<Size>41077494</Size>
+				<ModType>Regular</ModType>
+				<ModPath>resourcepacks/lithosluminous.zip</ModPath>
+				<MD5>8B79915DA2261C0408CAA03A4D7B1A1F</MD5>
+			</Submodule>
+		</Module>
+		<Module name="Default Options" id="defaultoptions" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DefaultOptions_1.12.2-9.2.8.jar</URL>
+			<Size>15056</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5510673c0fad1e3b6617b3d97d54b3d5</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>A way for modpacks to ship a default (key) configuration without having to include an options.txt file.</description>
+				<version>9.2.8</version>
+				<url>http://blay09.net</url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/defaultoptions/keybindings.txt</URL>
+				<Path>config/defaultoptions/keybindings.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9d7a50cc37e67dcf6bc46edfd5d5dfdd</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/defaultoptions/options.txt</URL>
+				<Path>config/defaultoptions/options.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2dde22a438ff622b0e62297e31b6ca12</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Texture Pack: Faithful 32x" id="faithful" depends="" side="CLIENT">
+			<URL priority="0">https://dmptr.com/pack_redux/files/extra/faithful.zip</URL>
+			<Size>10600328</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<ModPath>resourcepacks/faithful.zip</ModPath>
+			<MD5>19E379F5A3AF3411D9D888B8A3B5AFE2</MD5>
+			<Meta>
+				<description> It is faithful to the original look of Minecraft but the resolution is higher (64×64 instead of 16×16).</description>
+				<url>http://f32.me/</url>
+				<version>MASTER</version>
+			</Meta>
+		</Module>
+		<Module name="Connected Textures Mod" id="ctm" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CTM-MC1.12.2-0.3.2.18.jar</URL>
+			<Size>192297</Size>
+			<Required isDefault="true">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>ae47db2db3a8210e4647a5145fd30b00</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows resource packs to add connected textures, emissive rendering, and much more.</description>
+				<version>0.3.2.18</version>
+				<url>https://minecraft.curseforge.com/projects/ctm</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+				<note>Use this or Optifine, not both.</note>
+			</Meta>
+		</Module>
+		<Module name="OptiFine" id="OptiFine" depends="" side="CLIENT">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/OptiFine_1.12.2_HD_U_E2.jar</URL>
+			<Size>2422035</Size>
+			<Required isDefault="false">false</Required>
+			<ModType>Regular</ModType>
+			<MD5>D5EB6EB63A260738C3AA7E981448451A</MD5>
+			<Meta>
+				<version>1.12.2 HD U E2</version>
+				<description>OptiFine is a Minecraft optimization mod. It allows Minecraft to run faster and look better with many configuration options.</description>
+				<url>https://www.optifine.net/</url>
+				<note>Use this or ConnectedTexturesMod, not both.</note>
+			</Meta>
+		</Module>
+		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Controlling-3.0.6.jar</URL>
+			<Size>26034</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0d9a0429c72bc1c06358f1166bdd8c59</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Gives people more control of the key binding screen.</description>
+				<version>3.0.6</version>
+				<url></url>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="Better Advancements" id="betteradvancements" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BetterAdvancements-1.12.2-0.0.5.17.jar</URL>
+			<Size>43462</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a16be15706357e59ccb196e59d17e33d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An improvement to the Advancements screen.</description>
+				<version>0.0.5</version>
+				<url>https://github.com/way2muchnoise/BetterAdvancements</url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/betteradvancements/betteradvancements.cfg</URL>
+				<Path>config/betteradvancements/betteradvancements.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a5db7c231603204ac3c2ae27e6db5fee</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="ChickenChunks" id="chickenchunks" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ChickenChunks-1.12.2-2.4.1.73-universal.jar</URL>
+			<Size>134368</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c930adfeaa59c7d846b440e11a101d97</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Advanced chunkloading management</description>
+				<version>2.4.1.73</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/ChickenChunks.cfg</URL>
+				<Path>config/ChickenChunks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9e83ddacb08e4735ffc46089485646af</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Akashic Tome" id="akashictome" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AkashicTome-1.2-11.jar</URL>
+			<Size>43825</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d2dc88aa38024c62ae548df1d661cbcb</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The book of books.</description>
+				<version>1.2-11</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/akashictome.cfg</URL>
+				<Path>config/akashictome.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>06bec191c407ecead5a84991385e3afa</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/akashictome.zs</URL>
+				<Path>scripts/akashictome.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>28988a67e3c0e206781d2d08ed3f64bc</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="AppleCore" id="AppleCore" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AppleCore-mc1.12.2-3.1.4.jar</URL>
+			<Size>81946</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>94CE127BF0586F0335AA3B4191A2D9D6</MD5>
+			<Meta>
+				<version>3.1.4</version>
+				<url>https://minecraft.curseforge.com/projects/applecore</url>
+				<description>An API for modifying the food and hunger mechanics of Minecraft.</description>
+				<authors>squeek</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forge.cfg</URL>
+				<Path>config/forge.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>13b8b721186781dac92a279d4cdf99e2</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AppleSkin-mc1.12-1.0.9.jar</URL>
+			<Size>32317</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0e0af1e6f80ea2ee7ecfc2f8f44b897b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds various food-related HUD improvements</description>
+				<version>1.0.9</version>
+				<url>https://minecraft.curseforge.com/projects/appleskin</url>
+				<authors>squeek</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/appleskin.cfg</URL>
+				<Path>config/appleskin.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5985c69d22b2f08443f7179dcd227f68</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Bookshelf" id="bookshelf" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Bookshelf-1.12.2-2.3.569.jar</URL>
+			<Size>243489</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>03044c8c184e066a6c7db4b797da75de</MD5>
+			<Meta>
+				<credits>ChickenBones, CyanideX, iLexiconn, SanAndreasP, VikeStep, jaredlll08</credits>
+				<description>Bookshelf is a core/library mod, which adds new features and tools into the game for other content creators to work with. The primary focus of this project is to make use of the combined strength of the modded community to create wonderful tools that everyone can use.</description>
+				<version>2.3.569</version>
+				<url>http://minecraft.curseforge.com/projects/bookshelf</url>
+				<authors>darkhax, lclc98</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/bookshelf.cfg</URL>
+				<Path>config/bookshelf.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bc1cd7c38b3bd60afeac4b8c7c5388ca</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Dark Utilities" id="darkutils" depends="bookshelf" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DarkUtils-1.12.2-1.8.219.jar</URL>
+			<Size>418931</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0ef94d4c3f1e7fb963fb20f098d5c218</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A mod that adds a bunch of new utilities to the game.</description>
+				<version>1.8.219</version>
+				<url>http://www.darkhax.net</url>
+				<authors>Darkhax</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/darkutils.cfg</URL>
+				<Path>config/darkutils.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6c02d869e624d7d4a7b2304fd5ccd0e5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CyclopsCore-1.12.2-0.11.11.jar</URL>
+			<Size>824126</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>235d8729f67c86c64093a7c18de2d255</MD5>
+			<Meta>
+				<credits>kroeserr, _EeB_</credits>
+				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
+				<version>1.12.2-0.11.11</version>
+				<url>https://minecraft.curseforge.com/projects/cyclops-core</url>
+				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cyclopscore.cfg</URL>
+				<Path>config/cyclopscore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4b3a81c3f9b2b7696e21d198a5420610</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CommonCapabilities" id="commoncapabilities" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CommonCapabilities-1.12-1.4.0.jar</URL>
+			<Size>77016</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8d99dc5e5df88b6be61a3d12a15e9e36</MD5>
+			<Meta>
+				<credits>kroeserr</credits>
+				<description>Forge Capabilities that can be shared by multiple mods</description>
+				<version>1.12-1.4.0</version>
+				<url>https://github.com/CyclopsMC/CommonCapabilities</url>
+				<authors>rubensworks (aka kroeserr)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/commoncapabilities.cfg</URL>
+				<Path>config/commoncapabilities.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>078a3c5fdba847b355d8994d0d09ea4a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-0.11.18.jar</URL>
+			<Size>2751117</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fb146fc7ccd9cf06cea61530cc914d7b</MD5>
+			<Meta>
+				<credits>kroeserr, Yulife (textures)</credits>
+				<description>Take full and automated control of your appliances.</description>
+				<version>1.12.2-0.11.18</version>
+				<url>https://minecraft.curseforge.com/projects/integrated-dynamics</url>
+				<authors>rubensworks (aka kroeserr)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/integrateddynamics.cfg</URL>
+				<Path>config/integrateddynamics.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ec8f666041e347a563fe4d21d1a5bf6e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/integrateddynamicscompat.cfg</URL>
+				<Path>config/integrateddynamicscompat.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>09e71113e18d6dac364d3d7b13d0dd79</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Integrated Tunnels" id="integratedtunnels" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTunnels-1.12.2-1.5.6.jar</URL>
+			<Size>1711609</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0369afe05f401860fdc2391129835b4a</MD5>
+			<Meta>
+				<credits>rubensworks (aka kroeserr)</credits>
+				<description>Transfer other stuff over Integrated Dynamics networks</description>
+				<version>1.12.2-1.5.6</version>
+				<url>https://github.com/CyclopsMC/IntegratedTunnels</url>
+				<authors>rubensworks (aka kroeserr)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/integratedtunnels.cfg</URL>
+				<Path>config/integratedtunnels.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>db1b2f576c9d01abfac638868feaeb2b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/integratedtunnelscompat.cfg</URL>
+				<Path>config/integratedtunnelscompat.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6bbd6660b6fcad1513e90b0bf896d16e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/appliedenergistics2-rv6-stable-4.jar</URL>
+			<Size>4057137</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5df58707322cbc69d7295375efc57cc4</MD5>
+			<Meta>
+				<credits>AlgorithmX2</credits>
+				<description>A Mod about Matter, Energy and using them to conquer the world..</description>
+				<version>rv6-stable-3</version>
+				<url>http://ae2.ae-mod.info</url>
+				<authors>AlgorithmX2</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/AppliedEnergistics2/AppliedEnergistics2.cfg</URL>
+				<Path>config/AppliedEnergistics2/AppliedEnergistics2.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4387d0f6a78c6fb9528c5d30c2bc5f14</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/AppliedEnergistics2/CustomRecipes.cfg</URL>
+				<Path>config/AppliedEnergistics2/CustomRecipes.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c7a7947cc94ec312f683d6ca7213319e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/AppliedEnergistics2/Facades.cfg</URL>
+				<Path>config/AppliedEnergistics2/Facades.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>31ea7a44c5b309cc50305177f53f6099</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Wireless Crafting Terminal 2" id="wct" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WirelessCraftingTerminal-1.12.2-3.10.82.jar</URL>
+			<Size>378953</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>aa135034ee2a4f70bdadb718f715c4b5</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds a wireless version of the AE2 crafting terminal</description>
+				<version>1.12.2-3.10.82</version>
+				<url></url>
+				<authors>TheRealp455w0rd</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/WirelessCraftingTerminal.cfg</URL>
+				<Path>config/WirelessCraftingTerminal.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3f2ccd83f811caf2d12eb087fa5b576f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AutoRegLib-1.3-21.jar</URL>
+			<Size>100146</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fb487a6814be2dc64a373160242599ad</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Automatically item, block, and model registration for mods.</description>
+				<version>1.3-21</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="Baubles" id="baubles" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Baubles-1.12-1.5.2.jar</URL>
+			<Size>108450</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>944dec4ef3fbfd4d498d94a7047af201</MD5>
+			<Meta>
+				<credits>Special thanks to chicken_bones</credits>
+				<description>Adding a touch of bling to Minecraft</description>
+				<version>1.12-1.5.2</version>
+				<url>http://www.minecraftforum.net/topic/2535073-baubles</url>
+				<authors>Azanor</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/baubles.cfg</URL>
+				<Path>config/baubles.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2686fb61e4e9948ba0ed545122c01b43</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Initial Inventory" id="initialinventory" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/InitialInventory-3.0.0.jar</URL>
+			<Size>7863</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>44a3ebc29fe9531ec290e292d07d7d84</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>3.0.0</version>
+				<url></url>
+				<authors></authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/initialinventory.zs</URL>
+				<Path>scripts/initialinventory.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1599bf922e36322fa10534d85b2833f1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Earthworks" id="earthworks" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Earthworks-1.12-1.3.6.jar</URL>
+			<Size>705301</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ccf12258496a6e5936b6e0bc6def74b3</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds a small variety of earthen based building blocks.</description>
+				<version>1.3.6</version>
+				<url></url>
+				<authors>Alsender</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/earthworks.cfg</URL>
+				<Path>config/earthworks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e8a5ab82127c35caf2d2abd4b63dd209</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/earthworks.zs</URL>
+				<Path>scripts/earthworks.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3a7dc1021d1a63711b40c187328f8c41</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Building Gadgets" id="buildinggadgets" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BuildingGadgets-2.4.6.jar</URL>
+			<Size>409072</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5e9c087875ab1e98ec9ee7510066d91b</MD5>
+			<Meta>
+				<credits>The Forge and FML guys, McJty, Vazkii, CPW, and Pahimar for helping me learn java/forge modding.  Rorax for the textures!</credits>
+				<description>Adds some gadgets to help you build!</description>
+				<version>2.4.6</version>
+				<url>https://minecraft.curseforge.com/projects/building-gadgets</url>
+				<authors>Direwolf20</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/BuildingGadgets.cfg</URL>
+				<Path>config/BuildingGadgets.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0e5d3580218fce0e80f805b8b93e1f58</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="McJtyLib" id="mcjtylib_ng" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/mcjtylib-1.12-3.0.7.jar</URL>
+			<Size>492317</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3f664ff28bce2f3146a4573a00ed24b9</MD5>
+			<Meta>
+				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
+				<description>McJtyLib library for RFTools, Deep Resonance, ...</description>
+				<version>1.12-3.0.7</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+		</Module>
+
+		<Module name="RFTools" id="rftools" depends="mcjtylib_ng" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rftools-1.12-7.59.jar</URL>
+			<Size>2892808</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0ab1f3987a55a0c1745310c7de75caa1</MD5>
+			<Meta>
+				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
+				<description>RedFlux tools</description>
+				<version>1.12-7.59</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/rftools/rftools.cfg</URL>
+				<Path>config/rftools/rftools.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>44a9f7e89247b86c27b30c1cc98fb20e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/rftools.zs</URL>
+				<Path>scripts/rftools.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a0cefa501e4924637e903637d2009e54</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="RFTools Control" id="rftoolscontrol" depends="rftools" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rftoolsctrl-1.12-1.9.2.jar</URL>
+			<Size>590793</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>810041dd9105cabd095b9886da38ee50</MD5>
+			<Meta>
+				<credits></credits>
+				<description>RFTools Control Addon</description>
+				<version>1.12-1.9.2</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/rftools/control.cfg</URL>
+				<Path>config/rftools/control.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c907650bbadcac65c086d53ce6657bb4</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Fairy Lights" id="fairylights" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/fairylights-2.1.4-1.12.2.jar</URL>
+			<Size>1149509</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2be3aac2426c54e9da3b2e3fde94c69b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds fairy lights and other decorations to Minecraft</description>
+				<version>2.1.4</version>
+				<url>https://bit.ly/FairyLightsMod</url>
+				<authors>pau101</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/fairylights.cfg</URL>
+				<Path>config/fairylights.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>924438e38169042d4cdf384e0a05122b</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="BiblioCraft" id="bibliocraft" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiblioCraft[v2.4.5][MC1.12.2].jar</URL>
+			<Size>5122856</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5b9f1a1543a1fdf687fe4761e3d63ed4</MD5>
+			<Meta>
+				<credits></credits>
+				<description>BiblioCraft adds fancy storage containers including bookcases, armor stands, potion shelves, regular shelves, tool racks, glass weapon cases, wooden desks and wooden chest labels and now add machines, redstone interactions, and eyeware, fancy lamps and golden lanterns. Also Tables, enchanted plates, map frames, and seats!</description>
+				<version>2.4.5</version>
+				<url>http://www.bibliocraftmod.com</url>
+				<authors>Joseph &apos;Nuchaz&apos; Sinclair</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/bibliocraft.cfg</URL>
+				<Path>config/bibliocraft.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1f4776b06c7b5783bacf2329ee9964a4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/fmlModState.properties</URL>
+				<Path>config/fmlModState.properties</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6985163fab8617c5f708f297cf300069</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Thaumcraft-1.12.2-6.1.BETA26.jar</URL>
+			<Size>11360786</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3b13783ccaafb5d5b9ce8cb85e87fff6</MD5>
+			<Meta>
+				<credits>Special thanks to CovertJaguar, Dan Scott, Lorc, bonemouse, Scott Killen, Rorax and chicken_bones</credits>
+				<description>Adding a touch of magic to Minecraft</description>
+				<version>1.12.2-6.1.BETA26</version>
+				<url>http://www.minecraftforum.net/topic/2011841-thaumcraft</url>
+				<authors>Azanor</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/thaumcraft_graphics.cfg</URL>
+				<Path>config/thaumcraft_graphics.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5202c3b3e0bda3582dce883493a01da5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/thaumcraft_misc.cfg</URL>
+				<Path>config/thaumcraft_misc.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>18000790abd5af1021d360bc3e9251f1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/thaumcraft_world.cfg</URL>
+				<Path>config/thaumcraft_world.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9e8144cf1485c0bae7c955d9a8c1dafe</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="ThaumicJEI" id="jei-thaumic" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThaumicJEI-1.12.2-1.5.4-22.jar</URL>
+			<Size>55358</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>958cf6ce34bdb5810e06d71ffd884ea5</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Simple JEI addon for Thaumcraft</description>
+				<version>1.12.2-1.5.4-22</version>
+				<url></url>
+				<authors>Buuz135</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/thaumicjei.cfg</URL>
+				<Path>config/thaumicjei.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bab229c56f1102bde640a87867c54632</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/thaumicjei_itemstack_aspects.json</URL>
+				<Path>config/thaumicjei_itemstack_aspects.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7ecd186a731860ad72c8ff5d58407bd3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thaumic Periphery" id="thaumicperiphery" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/thaumicperiphery-0.3.0.jar</URL>
+			<Size>285370</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c720d47a3a6cf3bce8f8640dce2a5d81</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>0.3.0</version>
+				<url></url>
+				<authors>mangoose</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/thaumic_periphery.cfg</URL>
+				<Path>config/thaumic_periphery.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bade88f78a4a397af1c6b7f0518de491</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiomesOPlenty-1.12.2-7.0.1.2419-universal.jar</URL>
+			<Size>4691467</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2f4abc0e14bca7e0bf12c03b077c0fdf</MD5>
+			<Meta>
+				<credits>Tim Rurkowski, gamax92, GridMonkey, and many more</credits>
+				<description>Adds over 50 new biomes, blocks, and more!</description>
+				<version>7.0.1</version>
+				<url>http://mods.curse.com/mc-mods/minecraft/220318-biomes-o-plenty</url>
+				<authors>Adubbz, Amnet, Cheeserolls, Forstride, ted80</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/biomesoplenty/biome_ids.json</URL>
+				<Path>config/biomesoplenty/biome_ids.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7bcf66f0c04d17ad731952b3661269cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/biomesoplenty/world.json</URL>
+				<Path>config/biomesoplenty/world.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9BF047A24696D188ACC75C02DBC3E327</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/biomesoplenty/gameplay.cfg</URL>
+				<Path>config/biomesoplenty/gameplay.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3b208b049aa5572878d916339b4e9f37</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/biomesoplenty/misc.cfg</URL>
+				<Path>config/biomesoplenty/misc.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>473915f91e179e68d572e255af580af5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/biomesoplenty.zs</URL>
+				<Path>scripts/biomesoplenty.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b3234953b2a6be1c8bcca056af3f0fc5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Bullseye" id="bullseye" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Bullseye-1.12.2-3.0.7.jar</URL>
+			<Size>137850</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0f23f7cfdc626dae44125c46238c71bc</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds new arrows, including fire arrows, dye arrows, bomb arrows, and more!</description>
+				<version>3.0.7</version>
+				<url>https://minecraft.curseforge.com/projects/bullseye</url>
+				<authors>Forstride</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/bullseye/config.cfg</URL>
+				<Path>config/bullseye/config.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bb0f0f9e2709a6abcb12d4f0503a9187</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Chameleon" id="chameleon" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Chameleon-1.12-4.1.3.jar</URL>
+			<Size>96859</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e42efa8f4fd42d2918128a826b740e98</MD5>
+			<Meta>
+				<credits>By jaquadro</credits>
+				<description>Shared code and render support for mods.  Used by jaquadro&apos;s mods.</description>
+				<version>1.12-4.1.3</version>
+				<url>http://www.jaquadro.com/</url>
+				<authors>jaquadro</authors>
+			</Meta>
+		</Module>
+		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CodeChickenLib-1.12.2-3.2.2.353-universal.jar</URL>
+			<Size>700785</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f8b4843eccafb2213512ba9be17bfad2</MD5>
+			<Meta>
+				<credits></credits>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
+				<version>3.2.2.353</version>
+				<url>http://chickenbones.net/Pages/links.html</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/codechicken/supporters.json</URL>
+				<Path>config/codechicken/supporters.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e3afca7cad44dfe35ccf489d71ec7ad1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/codechicken/supporters.marker</URL>
+				<Path>config/codechicken/supporters.marker</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>17b093608a8b9dec117bbee9063b0eae</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/codechickenlib.cfg</URL>
+				<Path>config/codechickenlib.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f3071b6d4e637cd963d4ae278a1815b2</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CoFHCore-1.12.2-4.6.1.22-universal.jar</URL>
+			<Size>844143</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dd6593a086ba969dd3eaeae281f669ff</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
+				<version>4.6.1.22</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/core/client.cfg</URL>
+				<Path>config/cofh/core/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>cf39e7ff1313f93bf745ec02c8cba1e6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/core/common.cfg</URL>
+				<Path>config/cofh/core/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d9c36136d6b446a80e35c33d689b9086</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/core/friends.cfg</URL>
+				<Path>config/cofh/core/friends.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CoFH World" id="cofhworld" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CoFHWorld-1.12.2-1.3.0.6-universal.jar</URL>
+			<Size>531831</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c62ac9be4542047c31d847a80d3955ea</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Provides advanced and highly customizable world generation capabilities.</description>
+				<version>1.3.0.6</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/config.cfg</URL>
+				<Path>config/cofh/world/config.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a19264ea49160c275a436700aea5290d</MD5>
+			</ConfigFile>
+				<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/01_thermalfoundation_ores.json</URL>
+				<Path>config/cofh/world/01_thermalfoundation_ores.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>98fa70dfa17e94f27e09dd2008c41bec</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/02_thermalfoundation_oil.json</URL>
+				<Path>config/cofh/world/02_thermalfoundation_oil.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e36e1a8ca244b86a60ebfea7c4eac4e2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/03_thermalfoundation_clathrates.json</URL>
+				<Path>config/cofh/world/03_thermalfoundation_clathrates.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0a91046475638b0c0d2964b035b74b1c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/04_thermalfoundation_extras.json</URL>
+				<Path>config/cofh/world/04_thermalfoundation_extras.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9b98a868fa71eb646a0f972cedb6770f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/05_bop_gems.json</URL>
+				<Path>config/cofh/world/05_bop_gems.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4895987a5db1427206de83cd11125bfc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/06_forestry.json</URL>
+				<Path>config/cofh/world/06_forestry.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>59c81833993a294e83f6a292f4c0a0d6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Colytra" id="colytra" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/colytra-1.12.2-1.1.0.jar</URL>
+			<Size>82913</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>491fe2133ec64357a74f6d7440289a81</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows attachment of elytras to chestplates and includes an elytra bauble for Baubles</description>
+				<version>1.12.2-1.1.0</version>
+				<url>https://minecraft.curseforge.com/projects/colytra</url>
+				<authors>C4</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/colytra.cfg</URL>
+				<Path>config/colytra.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>445f5be640d363b7c855179541732d8c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Ranged Pumps" id="rangedpumps" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rangedpumps-0.5.jar</URL>
+			<Size>21519</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>29512482818fe06791e9af63c611e4b2</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Ranged Pumps is a simple mod that adds a pump that pumps liquids in a range</description>
+				<version>0.5</version>
+				<url></url>
+				<authors>Ranged Pumps contributors</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/rangedpumps.cfg</URL>
+				<Path>config/rangedpumps.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>58d397519b922fab5ac3ec4498331a4e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Comforts" id="comforts" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/comforts-1.12.2-1.3.1.jar</URL>
+			<Size>175313</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>da8374e636717a0c8acb637bb7333585</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds sleeping bags and hammocks for portability and daytime napping without setting a new spawn. Comes in 16 different colors!</description>
+				<version>1.12.2-1.3.1</version>
+				<url></url>
+				<authors>C4</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/comforts.cfg</URL>
+				<Path>config/comforts.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>64359730f9ea745ec599e1c8df2d4eb9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/bagstobeds.zs</URL>
+				<Path>scripts/bagstobeds.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3556642ecce82b13ee70949d5da419d3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Construct&apos;s Armory" id="conarm" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/conarm-1.12.2-1.2.0.2.jar</URL>
+			<Size>847811</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>18cda2289e47f4f75c93f6ba418f234c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Tinkers&apos; Construct add-on for those looking to enter the world of armor</description>
+				<version>1.12.2-1.2.0.2</version>
+				<url></url>
+				<authors>C4</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/conarm.cfg</URL>
+				<Path>config/conarm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>934EAAFFCF7B61EC960FCC6F133A00E2</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Computronics" id="computronics" depends="" side="BOTH">
+			<URL priority="0">http://dmptr.com/pack/files/mods/Computronics-1.12.1-1.6.5.jar</URL>
+			<Size>1032851</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>755f04479da5a436831315e90485fe56</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A ComputerCraft/OpenComputers addon mod.</description>
+				<version>1.12.1-1.6.5</version>
+				<url>https://wiki.vexatos.com/wiki:computronics</url>
+				<authors>asiekierka, Techokami, Vexatos</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://dmptr.com/pack/files/config/computronics.cfg</URL>
+				<Path>config/computronics.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d4d6687d550dec4f92d7652d6c7c27cf</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Cooking for Blockheads" id="cookingforblockheads" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CookingForBlockheads_1.12.2-6.4.65.jar</URL>
+			<Size>584467</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dfe4a46ba6daf56434a080edf5b1554f</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>Adds a cooking book and multiblock kitchens that only shows recipes you can make with what you currently have in your inventory.</description>
+				<version>6.4.65</version>
+				<url></url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cookingforblockheads.cfg</URL>
+				<Path>config/cookingforblockheads.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4e3df95267484efa952e12149c92ec34</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Farming for Blockheads" id="farmingforblockheads" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FarmingForBlockheads_1.12.2-3.1.26.jar</URL>
+			<Size>242247</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2f55dbd8c852fe4482a4be5de838aa80</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>Adds a seed market with a search bar and a scrolling grid.</description>
+				<version>3.1.26</version>
+				<url></url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/FarmingForBlockheads/Market.json</URL>
+				<Path>config/FarmingForBlockheads/Market.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>28b2ae29e9a8f9c462683383b0f9056d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/farmingforblockheads.cfg</URL>
+				<Path>config/farmingforblockheads.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>63d1657e752db2831069c1c4f4aa35ca</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Charset Lib" id="charsetlib" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Charset-Lib-0.5.5.6.jar</URL>
+			<Size>1123473</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>48c2d5a556650ad7e04d69f016412a65</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Arrange Your Experience</description>
+				<version>0.5.5.6</version>
+				<url>http://charset.asie.pl</url>
+				<authors>asiekierka</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://dmptr.com/pack/files/config/charset/charset.cfg</URL>
+				<Path>config/charset/charset.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>39c961767d42ce232d29e3fc62b0c6cb</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://dmptr.com/pack/files/config/charset/ids.cfg</URL>
+				<Path>config/charset/ids.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1cbb881da0235409919f6ae60be012d6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://dmptr.com/pack/files/config/charset/module/lib.cfg</URL>
+				<Path>config/charset/module/lib.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>78d06b14f083053b76d7dff2933bda23</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">http://dmptr.com/pack/files/config/charset/modules.cfg</URL>
+				<Path>config/charset/modules.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>45144c80b0e810b2aa32ee37bca5bc5a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Charset Crafting" id="charsetcrafting" depends="charsetlib" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Charset-Crafting-0.5.5.0.jar</URL>
+			<Size>112491</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0b3500d336804df0ef528d90e2337d0b</MD5>
+		</Module>
+		<Module name="SimpleLogic Gates" id="simplelogic_gates" depends="charsetlib" side="BOTH">
+			<URL priority="0">http://dmptr.com/pack/files/mods/SimpleLogic-Gates-0.5.5.0.jar</URL>
+			<Size>132795</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>E29A2542C53BB82E1246BED326AEA13C</MD5>
+			<ConfigFile>
+				<URL priority="0">http://dmptr.com/pack/files/config/charset/module/simplelogic.gates.cfg</URL>
+				<Path>config/charset/module/simplelogic.gates.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>79C1A7886490657F6B570019F967EF33</MD5>
+			</ConfigFile>
+			<Meta>
+				<credits></credits>
+				<description>SimpleLogic Gates is a mod which adds redstone gates, inspired by the designs found in RedPower 2 and its spiritual successors, in particular RedLogic.</description>
+				<version>0.5.5.0</version>
+				<url>https://minecraft.curseforge.com/projects/simplelogic-gates</url>
+				<authors>asiekierka</authors>
+			</Meta>
+		</Module>
+		<Module name="SimpleLogic Wires" id="simplelogic_wires" depends="charsetlib" side="BOTH">
+			<URL priority="0">http://dmptr.com/pack/files/mods/SimpleLogic-Wires-0.5.5.0.jar</URL>
+			<Size>40660</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>E32BB92B2A74574FC1EA723B893114C1</MD5>
+			<ConfigFile>
+				<URL priority="0">http://dmptr.com/pack/files/config/charset/module/simplelogic.wires.cfg</URL>
+				<Path>config/charset/module/simplelogic.wires.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d4fc254b33e43beb358566e0e98645ec</MD5>
+			</ConfigFile>
+			<Meta>
+				<credits></credits>
+				<description>SimpleLogic Wires is a mod which adds redstone, insulated and bundled cables.</description>
+				<version>0.5.5.0</version>
+				<url>https://minecraft.curseforge.com/projects/simplelogic-wires</url>
+				<authors>asiekierka</authors>
+			</Meta>
+		</Module>
+		<Module name="Chisels &amp; Bits" id="chiselsandbits" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/chiselsandbits-14.29.jar</URL>
+			<Size>730497</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>08229bd6802b8a85039d5caa82637d1f</MD5>
+			<Meta>
+				<credits>AlgorithmX2</credits>
+				<description>a mod about Sculpting, Decorating and Aesthetics</description>
+				<version>14.29</version>
+				<url>http://minecraft.curseforge.com/projects/chisels-bits</url>
+				<authors>AlgorithmX2</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://dmptr.com/pack/files/config/chiselsandbits.cfg</URL>
+				<Path>config/chiselsandbits.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ffbad73260c91b5924eb0c8d4bee21bf</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Cosmetic Armor Reworked" id="cosmeticarmorreworked" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CosmeticArmorReworked-1.12.2-v3.jar</URL>
+			<Size>73942</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>750404735b8e6a87e9a918aafab9b095</MD5>
+			<Meta>
+				<credits>dmillerw - original author; azanor - some code learned from baubles; izuminya - button icon; Deph0 and sblectric for their support when I&apos;m absent</credits>
+				<description>This mod allows you to wear two sets of armor, one for display, one for function. You can also hide armor for your skin. For PVP, you can stop the mod from functioning on your client side.</description>
+				<version>1.12.2-v3</version>
+				<url>https://github.com/zlainsama/cosmeticarmorreworked</url>
+				<authors>zlainsama</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cosmeticarmorreworked.cfg</URL>
+				<Path>config/cosmeticarmorreworked.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0417df75fa34368ad47909bfc03bf90e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Nature&apos;s Compass" id="naturescompass" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/NaturesCompass-1.12.2-1.5.1.jar</URL>
+			<Size>180209</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8a1c19eb3a656ba4a577ba9864399540</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Search for a biome and get information about it.</description>
+				<version>1.12.2-1.5.1</version>
+				<url>https://minecraft.curseforge.com/projects/natures-compass</url>
+				<authors>ChaosTheDude</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/naturescompass.cfg</URL>
+				<Path>config/naturescompass.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ddc2d917a4983077f060a2912ee17939</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CraftingTweaks_1.12.2-8.1.9.jar</URL>
+			<Size>97854</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ffd1e2b5c4f244f4a7c6d4ee2e4c2090</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>Allows you to rotate or clear the crafting matrix by the press of a button, in any (supported) crafting window.</description>
+				<version>8.1.9</version>
+				<url>http://balyware.com</url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="Dimensional Doors" id="dimdoors" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DimensionalDoors-3.0.9-287%20(1).jar</URL>
+			<Size>7714476</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fcc5854114dd4d8edc58a1f71d641ea9</MD5>
+			<Meta>
+				<credits>Created by StevenRS11, Coded by StevenRS11 and SenseiKiwi, Logo and Testing by Jaitsu, Recent updates by Zixiken and Waterpicker</credits>
+				<description>Bend and twist reality itself, creating pocket dimensions, rifts, and much more</description>
+				<version>3.0.9</version>
+				<url>https://github.com/DimensionalDevelopment/DimDoors</url>
+				<authors>StevenRS11, SenseiKiwi, Zixiken, WaterPicker, Robijnvogel, ZombieHDGaming, Runemoro</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/dimdoors.cfg</URL>
+				<Path>config/dimdoors.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>17ef98265413cd91782551ec62a9988d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="IndustrialCraft 2" id="ic2" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/industrialcraft-2-2.8.104-ex112.jar</URL>
+			<Size>8069101</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f0fcdb3740d2c548588d46fce9b75f2b</MD5>
+			<Meta>
+				<credits>Contributions by many people</credits>
+				<description>Industrial age themed expansion for Minecraft.</description>
+				<version>2.8.104-ex112</version>
+				<url>http://www.industrial-craft.net</url>
+				<authors>Alblaka, Player, RichardG, Thunderdark, GregoriusT, alexthesax, Drashian, Elementalist, Feanturi, Lurch1985, SirusKing, tahu44, Aroma1997, estebes, Chocohead</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/IC2.ini</URL>
+				<Path>config/IC2.ini</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3e3f7f6922d7ef02d4c7791263a168fb</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mekanism-1.12.2-9.4.13.349%20(3).jar</URL>
+			<Size>16020358</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bf6d861193adb5d51f9eabe072bcd840</MD5>
+			<Meta>
+				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
+				<description>Energy, Armor, Tools, Weapons, Machines, Magic.</description>
+				<version>1.12.2-9.4.13.349</version>
+				<url></url>
+				<authors>aidancbrady</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/mekanism.cfg</URL>
+				<Path>config/mekanism.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2df2b00f72c36db7d9f49659d05e592e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/mekanism.zs</URL>
+				<Path>scripts/mekanism.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0a2708fe21cfdcf573a92d9ec577d034</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Actually Additions" id="actuallyadditions" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ActuallyAdditions-1.12.2-r143.jar</URL>
+			<Size>2905493</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a9c15c72028c92ef1b358c04258aa1fb</MD5>
+			<Meta>
+				<credits>Author: Ellpeck; Textures and Models: BootyToast, GlenthorLP, canitzp</credits>
+				<description>Do you want Automation? Wireless Transport? Better Machines? A cup o&apos; Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more!</description>
+				<version>1.12.2-r143</version>
+				<url>http://github.com/Ellpeck/ActuallyAdditions</url>
+				<authors>Ellpeck</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/actuallyadditions.cfg</URL>
+				<Path>config/actuallyadditions.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d9efb513d72ab5c945fd214ef7eb28f6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CraftTweaker2-1.12-4.1.13.jar</URL>
+			<Size>1315744</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3ef4307be8af3a278c5556b4622ebe4f</MD5>
+			<Meta>
+				<credits>Created By StanHebben and Jaredlll08</credits>
+				<description>Customize your minecraft experience!</description>
+				<version>1.12-4.1.13</version>
+				<url>http://minetweaker3.powerofbytes.com</url>
+				<authors>StanHebben, Jaredlll08</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/unification.zs</URL>
+				<Path>scripts/unification.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dadddb4945ed7c49b5baec296291d9cb</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/forestry_fluids.zs</URL>
+				<Path>scripts/forestry_fluids.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>A54D50811065199DBE55CDA05C6AB670</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/thermal.zs</URL>
+				<Path>scripts/thermal.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/localisation.zs</URL>
+				<Path>scripts/localisation.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1E46A402E03199BC7CA216194A765642</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/danknull.zs</URL>
+				<Path>scripts/danknull.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>134B73B8BFAE633E1CBF42ED2816F3A6</MD5>
+			</ConfigFile>
+			<Submodule name="ModTweaker" id="modtweaker">
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/modtweaker-4.0.15.jar</URL>
+				<Size>430351</Size>
+				<ModType>Regular</ModType>
+				<MD5>077962eca1a41f0d116e72153b996d2e</MD5>
+			</Submodule>
+			<Submodule name="MTLib" id="mtlib">
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/MTLib-3.0.5.jar</URL>
+				<Size>30005</Size>
+				<ModType>Regular</ModType>
+				<MD5>B8830961B5984565F3ED652D928E7115</MD5>
+			</Submodule>
+		</Module>
+		<Module name="BiomeTweaker" id="biometweaker" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiomeTweaker-1.12.2-3.2.354.jar</URL>
+			<Size>570149</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>eb9a862d4317330199e06d02b872d8a1</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Used to tweak various characteristics of biomes.</description>
+				<version>3.2</version>
+				<url>http://minecraft.curseforge.com/mc-mods/228895-biometweaker</url>
+				<authors>superckl</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/BiomeTweaker.cfg</URL>
+				<Path>config/BiomeTweaker/BiomeTweaker.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>40300d58b1f3360a6b077d58faaf8661</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/colours.cfg</URL>
+				<Path>config/BiomeTweaker/scripts/colours.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1a8bba2a4ff81c46a93c7b7659b1cad9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/traverse.cfg</URL>
+				<Path>config/BiomeTweaker/scripts/traverse.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ed85243f531163d694188435ffa5df1c</MD5>
+			</ConfigFile>
+			<Submodule name="BiomeTweakerCore" id="biometweakercore">
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiomeTweakerCore-1.12.2-1.0.39.jar</URL>
+				<Size>45137</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>b79eb875292bb76eec12b19fd2a692b1</MD5>
+				<ConfigFile>
+					<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweakerCore/BiomeTweakerCore.cfg</URL>
+					<Path>config/BiomeTweakerCore/BiomeTweakerCore.cfg</Path>
+					<NoOverwrite>false</NoOverwrite>
+					<MD5>a33ee8b9e3de3d2a968c9af1aa60e7ca</MD5>
+				</ConfigFile>
+			</Submodule>
+		</Module>
+		<Module name="Custom Main Menu" id="custommainmenu" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CustomMainMenu-MC1.12.2-2.0.9.jar</URL>
+			<Size>177791</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0d34d658c07ebe9dd36aba17e59f8d3d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows you to edit the mainmenu using json</description>
+				<version>2.0.9</version>
+				<url></url>
+				<authors>lumien</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="10">https://dmptr.com/pack_redux/files/config/CustomMainMenu/mainmenu.json</URL>
+				<Path>config/CustomMainMenu/mainmenu.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>66bc3cf6344abc8aeeefa2242406c83d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderStorage-1.12.2-2.4.5.135-universal%20(1).jar</URL>
+			<Size>223227</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d7d6b1991449110cfa7b1844b5811f75</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Stores your stuff in the END!</description>
+				<version>2.4.5.135</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderstorage.cfg</URL>
+				<Path>config/enderstorage.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4b0b0830477318af570aba5ebed71ebd</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/enderstorage.zs</URL>
+				<Path>scripts/enderstorage.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>EA7E9B5ACE3EF4A1892958DEFC934719</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="EnderCore" id="endercore" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderCore-1.12.2-0.5.43.jar</URL>
+			<Size>619322</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1ede234a49239cdea92632b568ffe4be</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Library mod used by EnderIO, EnderZoo, and others</description>
+				<version>1.12.2-0.5.43</version>
+				<url>http://enderio.com</url>
+				<authors>tterrag, CrazyPants, HenryLoenwind</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/endercore/cropconfig.json</URL>
+				<Path>config/endercore/cropconfig.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4d5fe6b6e730947d24068daa34d50a1c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/endercore/endercore.cfg</URL>
+				<Path>config/endercore/endercore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>64f6aadaaf7458b1b4b6571da26948cf</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Exchangers" id="exchangers" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Exchangers-1.12.2-2.8.jar</URL>
+			<Size>281052</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6a01826309531ba47dea317e5dd5b409</MD5>
+			<Meta>
+				<credits>ThatGamerBlue, ColossalPercy, JCOnline_ and many other people that helped the development of this mod!</credits>
+				<description>Block Exchangers.</description>
+				<version>1.12.2-2.8</version>
+				<url>https://github.com/JackyyTV/Exchangers</url>
+				<authors>Jackyy, Turkey2349</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/Exchangers.cfg</URL>
+				<Path>config/Exchangers.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6ffb869e19ee598d24defc2fa1bdeac3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Outfox" id="outfox" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/outfox-0.1.3-mc1.12.2.jar</URL>
+			<Size>131999</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6275de5752ac7c4c0e59278ddf0bf434</MD5>
+			<Meta>
+				<description>Adds adorable, tameable Foxes to Minecraft&apos;s forests. Once befriended, they can sniff out any block in the world and lead you to them.</description>
+				<version>0.1.3</version>
+				<url></url>
+				<authors>Kais</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/outfox.cfg</URL>
+				<Path>config/outfox.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7181c425898452f5aaec411144fa14c4</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Engineer's Doors" id="engineersdoors" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/engineers_doors-1.12.2-0.8.0.jar</URL>
+			<Size>121107</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>631f58b289270004917bfcb8b1f2bedf</MD5>
+			<Meta>
+				<credits>Damien A.W. &quot;Hazard&quot; (original IE art), &quot;Slanesh&quot; (stone door sound)</credits>
+				<description>Adds doors, trapdoors, and fence gates for Immersive Engineering.</description>
+				<version>0.8.0</version>
+				<url></url>
+				<authors>Nihiltres</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/engineersdoors.cfg</URL>
+				<Path>config/engineersdoors.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b454ee84498d520ffa304e5301f2bc2f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Extra Alchemy" id="extraalchemy" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/extraalchemy-0.3.8.6.1-release.jar</URL>
+			<Size>210138</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c558dd3e132ef13a2af64f1e1bf1de02</MD5>
+			<Meta>
+				<credits>Thanks to my Patrons: Jeremy Lowman, KienanBlue, Samie A., Josh Templeton, Daniel Drawer, and DanTheDetermined!</credits>
+				<description>An expansion on vanilla alchemy</description>
+				<version>0.3.8.6.1-release</version>
+				<url>http://minecraft.curseforge.com/projects/extra-alchemy</url>
+				<authors>ZaBi94</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/extraalchemy.cfg</URL>
+				<Path>config/extraalchemy.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4d90e0302f80f3faa98bfd6924c313d2</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-1.12.2-5.0.38.jar</URL>
+			<Size>7101277</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9fa92987a47888271927f334e5dce3ef</MD5>
+			<Meta>
+				<credits>By CrazyPants, with the help of many</credits>
+				<description>Compact conduits, painted things and all sorts of stuff and bling.</description>
+				<version>5.0.38</version>
+				<url>http://enderio.com</url>
+				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/EnderIO.cfg</URL>
+				<Path>config/enderio/EnderIO.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>39F2EA994F6504EB7079A015DB1FC262</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/enderioconduits.cfg</URL>
+				<Path>config/enderio/enderioconduits.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fd813fe162d2da0f20c2bde8760ed41b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/enderiointegrationforestry.cfg</URL>
+				<Path>config/enderio/enderiointegrationforestry.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>db35e26d6a92a4c61bf7fea6ea4ee123</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/enderiomachines.cfg</URL>
+				<Path>config/enderio/enderiomachines.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>538fb8c15cde955ea705799eace8060d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/enderiopowertools.cfg</URL>
+				<Path>config/enderio/enderiopowertools.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0221e71e5da17999d2d21ada2856a4bd</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/recipes/user/user_recipes.xml</URL>
+				<Path>config/enderio/recipes/user/user_recipes.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a59f967360e35cc6390251fcf19fe013</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/recipes/user/sagmill_dupe_recipe_patches.xml</URL>
+				<Path>config/enderio/recipes/user/sagmill_dupe_recipe_patches.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9e48e39a11a3a33ae1c28bf202828739</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/recipes/user/spawner.xml</URL>
+				<Path>config/enderio/recipes/user/spawner.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>debb535caa693480944b523b8d025b6b</MD5>
+			</ConfigFile>
+		</Module>
+	    <Module name="Ender IO Zoo" id="enderiozoo" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-zoo-1.12.2-5.0.38.jar</URL>
+			<Size>449121</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ea614b5e5d58c6a2cefc3f96140f994f</MD5>
+			<Meta>
+				<credits>By CrazyPants, with the help of many</credits>
+				<description>All the creatures that will kill you when you least expect it</description>
+				<version>5.0.38</version>
+				<url>http://enderio.com</url>
+				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, EpicSquid</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/enderiozoo.cfg</URL>
+				<Path>config/enderio/enderiozoo.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3ea9b44ad063e9cd6c3e59e3804f4bb2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/SpawnConfig_Core.xml</URL>
+				<Path>config/enderio/SpawnConfig_Core.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f60ec0e12644553cd5bbf4ddd3a79bd4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/SpawnConfig_User.xml</URL>
+				<Path>config/enderio/SpawnConfig_User.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d5514182cd716802f3761862d58b000e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Familiar Fauna" id="familiarfauna" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FamiliarFauna-1.12.2-1.0.11.jar</URL>
+			<Size>381455</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a3bddaaba80627ff68f7c634c4098941</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds new mobs to enhance Minecraft!</description>
+				<version>1.0.11</version>
+				<url>https://minecraft.curseforge.com/projects/familiar-fauna</url>
+				<authors>Forstride</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/butterfly_biomes.json</URL>
+				<Path>config/familiarfauna/butterfly_biomes.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>cf7f4ba80021bc6757a4bc2d239bfe01</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/config.cfg</URL>
+				<Path>config/familiarfauna/config.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>764400377a118ee55a8b5ef62a2144cb</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/deer_biomes.json</URL>
+				<Path>config/familiarfauna/deer_biomes.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d9981e177c02b108943105fce47d4384</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/dragonfly_biomes.json</URL>
+				<Path>config/familiarfauna/dragonfly_biomes.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6d5196a652ab96d6917b8142b8f35e71</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/pixie_biomes.json</URL>
+				<Path>config/familiarfauna/pixie_biomes.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f7c45a08c7e162404e19e49b78c5cb35</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/snail_biomes.json</URL>
+				<Path>config/familiarfauna/snail_biomes.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>066608e7775a8cbe9423fb6242f7639f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/turkey_biomes.json</URL>
+				<Path>config/familiarfauna/turkey_biomes.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1e5d3d048ef64a5ad2d34f35c6004702</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="FastWorkbench" id="fastbench" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FastWorkbench-1.12.2-1.6.0.jar</URL>
+			<Size>25347</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5cb2db7a23e5c8290f0d57011015f01d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>1 fast boi</description>
+				<version>1.12.2-1.6.0</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/fastbench.cfg</URL>
+				<Path>config/fastbench.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e08e5e7431231f05423d1cb3f8906698</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="FastFurnace" id="fastfurnace" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FastFurnace-1.12.2-1.2.1.jar</URL>
+			<Size>8976</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>55eb247bcc7cd1c81fc2477fa83a6360</MD5>
+			<Meta>
+				<credits></credits>
+				<description>2 fast boi</description>
+				<version>1.12.2-1.2.1</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+		</Module>
+		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.8.0.0.jar</URL>
+			<Size>94939</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>43b5e6fd95b68fc98a281fd7a9755e8f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A bunch of miscellaneous patches for Minecraft.</description>
+				<version>1.12.2-1.8.0.0</version>
+				<url>https://minecraft.curseforge.com/projects/randompatches</url>
+				<authors>TheRandomLabs</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/randompatches.cfg</URL>
+				<Path>config/randompatches.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>132bfa4f58d1f1edc4c69d6b24d1ac0b</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Forestry" id="forestry" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/forestry_1.12.2-5.8.2.372.jar</URL>
+			<Size>5229898</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>013f80b4d3d2e5ba52e05728fc4b8e07</MD5>
+			<Meta>
+				<credits>mistaqur, Binnie, CovertJaguar, MysteriousAges, Nirek, Nedelosk</credits>
+				<description>Trees, bees and more.</description>
+				<version>5.8.2.372</version>
+				<url>http://forestry.sengir.net/</url>
+				<authors>SirSengir, mezz</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/apiculture.cfg</URL>
+				<Path>config/forestry/apiculture.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>762c3b1e8cf4f29d5414191e0ba0de1f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/backpacks.cfg</URL>
+				<Path>config/forestry/backpacks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>13e306085d85a8b0f8d912bb3d2e8c46</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/common.cfg</URL>
+				<Path>config/forestry/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>42c0151d750afd896a79a35c97f371f1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/crates.cfg</URL>
+				<Path>config/forestry/crates.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1cc51219aa7ac70d175cf1e8599a3f8c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/farm.cfg</URL>
+				<Path>config/forestry/farm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d15bfde74806f509ba1c18c1fe7b481e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/fluids.cfg</URL>
+				<Path>config/forestry/fluids.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>48d3db6eed9601d985435d1496ed466f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/gamemodes/EASY.cfg</URL>
+				<Path>config/forestry/gamemodes/EASY.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7e003f4153411373bf9d34c5ae67270e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/gamemodes/HARD.cfg</URL>
+				<Path>config/forestry/gamemodes/HARD.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>900d14cf7f42dfba95acb0b2588c2257</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/gamemodes/NORMAL.cfg</URL>
+				<Path>config/forestry/gamemodes/NORMAL.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8239e36164fe01aff86a30e273c78c98</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/gamemodes/OP.cfg</URL>
+				<Path>config/forestry/gamemodes/OP.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8a621c94354e3d972f2f436ff2c80c86</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/lepidopterology.cfg</URL>
+				<Path>config/forestry/lepidopterology.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f9aaa18989133285a71541ceb4c372b6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/modules.cfg</URL>
+				<Path>config/forestry/modules.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>752841fb3a5e4042dd2c6862482ff0f0</MD5>
+			</ConfigFile>
+		</Module>
+		<!--<Module name="Binnie&apos;s Mods" id="binniecore" depends="" side="BOTH"><URL priority="0">https://dmptr.com/pack_redux/files/mods/binnie-mods-1.12.2-2.5.0.168.jar</URL><Size>5822126</Size><Required>true</Required><ModType>Regular</ModType><MD5>42f1691d2e22ebdd2e35f6bcb4843d35</MD5><Meta><credits>Thanks to Sengir, MysteriousAges, Xizzzy and many others</credits><description>Base mod for Binnie&apos;s Mods, with lots of common code.</description><version>2.5.0.168</version><url>https://minecraft.curseforge.com/projects/binnies-mods</url><authors>Binnie</authors></Meta><ConfigFile><URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/binnie-mods.conf</URL><Path>config/forestry/binnie-mods.conf</Path><NoOverwrite>false</NoOverwrite><MD5>ba6b854de5e34ed99e27896475bdbeba</MD5></ConfigFile><ConfigFile><URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/extratrees/modules.cfg</URL><Path>config/forestry/extratrees/modules.cfg</Path><NoOverwrite>false</NoOverwrite><MD5>d204bfe32886506cae7bbc911cdab835</MD5></ConfigFile></Module>-->
+		<Module name="Tomb Many Graves" id="tombmanygraves" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TombManyGraves-1.12-4.2.0.jar</URL>
+			<Size>150657</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a8cb01e6ff16b4375c9b73c0fcc1c0c2</MD5>
+			<Meta>
+				<credits>Thanks to any and all who have let me look at/utilize their code to better understand the inner working of MC!</credits>
+				<description>A grave mod for the adventurer on the go!</description>
+				<version>1.12-4.2.0</version>
+				<url></url>
+				<authors>M4thG33k, Tiffit</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/tombmanygraves.cfg</URL>
+				<Path>config/tombmanygraves.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2839db4bdf5ab22b59cdece8757662d1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ImmersiveEngineering-0.12-86.jar</URL>
+			<Size>6242473</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3876e9b8ce95ed5bc60b3ca69b8f5df4</MD5>
+			<Meta>
+				<credits>All the great other Git Contributors, and the nerds on IRC!</credits>
+				<description>A tech based mod focused on realism.</description>
+				<version>0.12-86</version>
+				<url>https://github.com/BluSunrize/ImmersiveEngineering</url>
+				<authors>BluSunrize, Damien A.W. Hazard</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/immersiveengineering.cfg</URL>
+				<Path>config/immersiveengineering.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c99c5e6b649b908e05cab30b0c1bd786</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/engineering.zs</URL>
+				<Path>scripts/engineering.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>455f78d754f4bed3feeb9ee6b232d2be</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Immersive Petroleum" id="immersivepetroleum" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/immersivepetroleum-1.12.2-1.1.9.jar</URL>
+			<Size>906018</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>57ba127778e579d10d705f9f8359d2e0</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds oil and oil processing features to Immersive Engineering.</description>
+				<version>1.1.9</version>
+				<url>https://github.com/Flaxbeard/ImmersivePetroleum</url>
+				<authors>Flaxbeard</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/immersivepetroleum.cfg</URL>
+				<Path>config/immersivepetroleum.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>84ac6c4caebe46ac71ec06ae01019525</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Immersive Cables" id="immersivecables" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ImmersiveCables-1.12.2-1.3.2.jar</URL>
+			<Size>205922</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>605ef65c09fa0e2db3233af5cf79bf73</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds IE-style wires and blocks that integrate with other mods</description>
+				<version>1.3.2</version>
+				<url>https://github.com/SanAndreasP/immersivecables</url>
+				<authors>SanAndreasP</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/immersivecables.cfg</URL>
+				<Path>config/immersivecables.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bb5b61b95fc2c625a17a7bf05b30da1c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Born In A Barn" id="borninabarn" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Born+In+A+Barn+V1.8-1.12-1.1.jar</URL>
+			<Size>3642</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>944a413889537655a8c1165d44e2647f</MD5>
+		</Module>
+		<Module name="Iron Chests" id="ironchest" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ironchest-1.12.2-7.0.40.824.jar</URL>
+			<Size>1101965</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dd941ee283cfc5507ed846a1f52e67be</MD5>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/chests.zs</URL>
+				<Path>scripts/chests.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d168052373b85564187b94b98695fdb8</MD5>
+			</ConfigFile>
+			<Meta>
+				<credits>By cpw, based on an original idea by Lishid</credits>
+				<description>New chests with larger sizes, with in-place upgrade items.</description>
+				<version>1.12.2-7.0.40.824</version>
+				<url>http://www.minecraftforum.net/topic/981855-</url>
+				<authors>cpw</authors>
+			</Meta>
+		</Module>
+		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.13.1.225.jar</URL>
+			<Size>584822</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>09cfbc2770e6d141df2f2521b5b99e09</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple recipe and item helper.</description>
+				<version>4.13.1.225</version>
+				<url>https://github.com/mezz/JustEnoughItems</url>
+				<authors>mezz</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/jei/itemBlacklist.cfg</URL>
+				<Path>config/jei/itemBlacklist.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3ae817cfa39d7d3c64f33db0a325e778</MD5>
+			</ConfigFile>
+			<Submodule name="Just Enough Petroleum" id="jei-jep">
+				<URL>https://dmptr.com/pack_redux/files/mods/JustEnoughPetroleum-0.1.jar</URL>
+				<Size>18945</Size>
+				<ModType>Regular</ModType>
+				<MD5>490C5FC3BECFA64F3C25A38105796554</MD5>
+			</Submodule>
+			<Submodule name="JEI Bees" id="jei-bees">
+				<URL>https://dmptr.com/pack_redux/files/mods/jeibees-0.9.0.5-mc1.12.2.jar</URL>
+				<Size>117480</Size>
+				<ModType>Regular</ModType>
+				<MD5>a4fef0a3bb6d401eb236b3fe3e1a4846</MD5>
+				<ConfigFile>
+					<URL>https://dmptr.com/pack_redux/files/config/jeibees.cfg</URL>
+					<Path>config/jeibees.cfg</Path>
+					<NoOverwrite>false</NoOverwrite>
+					<MD5>03E7C4CEB175FA9731BCA1AF02C238D6</MD5>
+				</ConfigFile>
+			</Submodule>
+			<Submodule name="Just Enough Throwing In Fluids" id="jei-jetif">
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/jetif-1.12.2-1.2.0.jar</URL>
+				<Size>18595</Size>
+				<ModType>Regular</ModType>
+				<MD5>5ec05ad97d67f280bd9f1b2ab30ef368</MD5>
+				<Meta>
+					<credits>All those mods that add this kind of crafting for giving me this idea.</credits>
+					<description>JEI addon for throwing stuff in fluids to make other stuff.</description>
+					<version>1.12.2-1.2.0</version>
+					<url></url>
+					<authors>Lykrast</authors>
+				</Meta>
+			</Submodule>
+		</Module>
+		<Module name="Mantle" id="mantle" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mantle-1.12-1.3.3.39.jar</URL>
+			<Size>839004</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ae2a1f5f1b36191acbb07a56a17760de</MD5>
+			<Meta>
+				<credits>mDiyo, Sunstrike</credits>
+				<description>Shared code for Slime Knights mods and others.</description>
+				<version>1.3.3.39</version>
+				<url>https://github.com/SlimeKnights/Mantle</url>
+				<authors>boni, progWML6, Alexbegt</authors>
+			</Meta>
+		</Module>
+		<Module name="Minecraft Forge" id="forge-14.23.5.2768" depends="" side="BOTH">
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Override</ModType>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/splash.properties</URL>
+				<Path>config/splash.properties</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0cad0356fafa40ef9d8d294a09b17a33</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="MCMultiPart" id="MCMultiPart" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/MCMultiPart-2.5.3.jar</URL>
+			<Size>173426</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>47987d111d6f1e48403bc3cbb23f5503</MD5>
+		</Module>
+		<Module name="Morph-o-Tool" id="morphtool" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Morph-o-Tool-1.2-17.jar</URL>
+			<Size>26650</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3ab584b7ff14662295d91308651a0f50</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The wrench to end all wrenches.</description>
+				<version>1.2-17</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/morphtool.cfg</URL>
+				<Path>config/morphtool.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a0139f4c477910788dec1133f4b2a22e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="I Know What Im Doing" id="ikwid" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ikwid-1.0.2.jar</URL>
+			<Size>1989</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>33debbd704840d9bceb170c44f1e3a2d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A tiny (single-class) mod that disables the in-game tutorial for new instances.</description>
+				<version>1.0.2</version>
+				<url></url>
+				<authors>InsomniaKitten</authors>
+			</Meta>
+		</Module>
+		<Module name="Nether Portal Fix" id="netherportalfix" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/NetherPortalFix_1.12.1-5.3.13.jar</URL>
+			<Size>108250</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>C3A2AFF88D5B46DD22A2635F403568EB</MD5>
+			<Meta>
+				<description>Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer.</description>
+				<version>5.3.13</version>
+				<url>https://minecraft.curseforge.com/mc-mods/241160/</url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="Pam's HarvestCraft" id="harvestcraft" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Pams+HarvestCraft+1.12.2z.jar</URL>
+			<Size>4502730</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bcc0399e9de682b489dc7c41753f52dd</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Expanding minecraft&apos;s food system.</description>
+				<version>1.12z</version>
+				<url>http://minecraft.curseforge.com/members/MatrexsVigil/projects</url>
+				<authors>Pamela Collins</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/harvestcraft.cfg</URL>
+				<Path>config/harvestcraft.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>476bd10efddb960035b1558fb981576d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/harvestcraft_fruittree.cfg</URL>
+				<Path>config/harvestcraft_fruittree.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7a05a4a9a5124e9100b58eafa1cf45c6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/harvestcraft.zs</URL>
+				<Path>scripts/harvestcraft.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6d278ac1a9efd370d0a6143d6bb483f6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.66.jar</URL>
+			<Size>424364</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>13f251f1c1d4115c110e64c2de9771c2</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>5.3.0.66</version>
+				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/ftbutilities.cfg</URL>
+				<Path>config/ftbutilities.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>759f811ae1c2edec3cac7b4627f5d976</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.0.68.jar</URL>
+			<Size>881311</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7da776c753908b4263ae994bfb269656</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>5.4.0.68</version>
+				<url>http://minecraft.curseforge.com/projects/ftblib</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/ftblib.cfg</URL>
+				<Path>config/ftblib.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>736a855f49b81226a45ea99e8454eb02</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Quark" id="quark" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-134.jar</URL>
+			<Size>1982914</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4dc86d85a683b4fd3914d478e63aa01b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Small things.</description>
+				<version>r1.5-134</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii, wiiv</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/quark.cfg</URL>
+				<Path>config/quark.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>CB5C14C21136307BF5E75734F531A990</MD5>
+			</ConfigFile>
+			<Submodule name="Quark Oddities" id="quark-oddities">
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/QuarkOddities-1.12.2.jar</URL>
+				<Size>1556</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>5a4e0beef74b0001d85391d0afadfeed</MD5>
+		</Submodule>
+		</Module>
+		<Module name="Redstone Flux" id="redstoneflux" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RedstoneFlux-1.12-2.1.0.6-universal.jar</URL>
+			<Size>36278</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f00530b437c41a189dbf8a85d0ac40b6</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>The Redstone Flux API - the cornerstone of Energy Transfer in modded Minecraft since 1.6.4.</description>
+				<version>2.1.0.6</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="p455w0rdslib" id="pwrdslib" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/p455w0rdslib-1.12-2.0.35.jar</URL>
+			<Size>305890</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ffa0c7640b4eed8f1244e5b037df891f</MD5>
+		</Module>
+		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DankNull-1.12-1.4.43.jar</URL>
+			<Size>311769</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7c9c025a07d5798ba747d54ef632fb46</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds the /dank/null items from p455w0rd&apos;s Things 1.10.2 mod</description>
+				<version>1.12-1.4.43</version>
+				<url></url>
+				<authors>TheRealp455w0rd</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/DankNull.cfg</URL>
+				<Path>config/DankNull.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6629227d9dc6b13b0e1338ff68c3ddd1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Resource Loader" id="resourceloader" depends="" side="BOTH">
+			<URL priority="0">http://dmptr.com/pack/files/mods/ResourceLoader-MC1.12.1-1.5.3.jar</URL>
+			<Size>16612</Size>
+			<ModType>Regular</ModType>
+			<MD5>51141e882f96ce756b9b3d25f2acdf57</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows mod pack creators / users to add their own custom textures to minecrafts resources without making a resource pack.</description>
+				<version>1.5.3</version>
+				<url></url>
+				<authors>lumien</authors>
+			</Meta>
+			<Submodule name="PlayPack Resources" id="playpackresources">
+				<URL priority="0">http://dmptr.com/pack/files/resources-r5.zip</URL>
+				<Size>56875</Size>
+				<Required>true</Required>
+				<ModType inRoot="true">Extract</ModType>
+				<MD5>4193D9294CD0165A09F631859BBFB995</MD5>
+			</Submodule>
+		</Module>
+		<Module name="Rustic" id="rustic" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rustic-1.0.12.jar</URL>
+			<Size>1324821</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>08b5bede6a10966db17d3c88a7a61d47</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A medieval themed Minecraft mod based around decoration, exploration, and agriculture.</description>
+				<version>1.0.12</version>
+				<url>https://github.com/the-realest-stu/Rustic</url>
+				<authors>the-realest-stu</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/rustic.cfg</URL>
+				<Path>config/rustic.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ae96f2e126887bec998dc491f218992f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/rustic.zs</URL>
+				<Path>scripts/rustic.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e4c4c1debbe8e455b7b8d0644fb57fb9</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Rustic Thaumaturgy" id="rusticthaumaturgy" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-2.8.jar</URL>
+			<Size>247442</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cfd528ad65ab4401085b6a97fdb4156a</MD5>
+			<Meta>
+				<credits>MrCrayfish, WolfieWaffle, and TheRealStu</credits>
+				<description>A mod that adds some Thaumcraft compatability to Rustic.</description>
+				<version>2.8</version>
+				<url></url>
+				<authors>Voxel-Friend</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/rusticthaumaturgy.cfg</URL>
+				<Path>config/rusticthaumaturgy.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>42dfb7fc41a654a8dfa177705d18294a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="SwingThroughGrass" id="stg" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/stg-1.12.2-1.2.3.jar</URL>
+			<Size>24024</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b836648006f1451c65d33f7132eec770</MD5>
+			<Meta>
+				<credits>Direwolf20</credits>
+				<description>Don&apos;t let the grass be between you and your prey!</description>
+				<version>1.12.2-1.2.3</version>
+				<url></url>
+				<authors>Exidex</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/stg.cfg</URL>
+				<Path>config/stg.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>677cbeffbd52187d87456bd89961ffa0</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Shadowfacts&apos; Forgelin" id="forgelin" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Forgelin-1.8.2.jar</URL>
+			<Size>5124663</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>59035365f7af35f599d1c4baade64d8b</MD5>
+			<Meta>
+				<credits>Emberwalker, for the original Forgelin</credits>
+				<description>Kotlin helper library for Forge.</description>
+				<version>1.8.2</version>
+				<url>https://github.com/shadowfacts/Forgelin</url>
+				<authors>shadowfacts</authors>
+			</Meta>
+		</Module>
+		<Module name="Storage Drawers" id="storagedrawers" depends="chameleon" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StorageDrawers-1.12.2-5.3.8.jar</URL>
+			<Size>596220</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ab008fc9f41cd9e215b4c8d5d7e5be6e</MD5>
+			<Meta>
+				<credits>By jaquadro</credits>
+				<description>Multi-drawer storage blocks for quick storage and retrieval.</description>
+				<version>1.12.2-5.3.8</version>
+				<url>http://www.jaquadro.com/</url>
+				<authors>jaquadro</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/storagedrawers.cfg</URL>
+				<Path>config/storagedrawers.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d0d65dbf0cb978d7971b445a0e67f48f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="OpenComputers" id="opencomputers" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/OpenComputers-MC1.12.2-1.7.3.146.jar</URL>
+			<Size>15543744</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b1e97791a68d025a1322e40a7ab9614b</MD5>
+			<Meta>
+				<credits>Inspired by a couple of other mods, most notably ComputerCraft.</credits>
+				<description>This mod adds modular computers and robots that can be programmed in Lua.</description>
+				<version>1.7.3.146</version>
+				<url>http://oc.cil.li/</url>
+				<authors>Sangar, Vexatos, payonel, magik6k, Lord Joda, Github Contributors</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/opencomputers/settings.conf</URL>
+				<Path>config/opencomputers/settings.conf</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>64fd8f32c7c6d05b866064aa425c80c0</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thermal Cultivation" id="thermalcultivation" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalCultivation-1.12.2-0.3.1.8-universal.jar</URL>
+			<Size>105988</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4213d621d35ab842e6fc7a097da11df7</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Thermal gets Agrarian - provides options for farming and related activities!</description>
+				<version>0.3.1.8</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalcultivation/client.cfg</URL>
+				<Path>config/cofh/thermalcultivation/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>371f1104b0133f0f84fac48e4cfbe003</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalcultivation/common.cfg</URL>
+				<Path>config/cofh/thermalcultivation/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0b4335caa618dce7e6bb389c8aa496d9</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thermal Dynamics" id="thermaldynamics" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalDynamics-1.12.2-2.5.3.16-universal.jar</URL>
+			<Size>761778</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>bc6bac8d036285d4c4a1281b1809434c</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Thermal gets Dynamic! Adds ducts - blocks for transporting Items, Fluids, Redstone Flux, and even Players!</description>
+				<version>2.5.3.16</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermaldynamics/client.cfg</URL>
+				<Path>config/cofh/thermaldynamics/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>f4ed58e769e6a5010c1fe60704dda391</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermaldynamics/common.cfg</URL>
+				<Path>config/cofh/thermaldynamics/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a4c4d084d5896fc9b801db264d3de781</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermaldynamics/cover_blacklist.json</URL>
+				<Path>config/cofh/thermaldynamics/cover_blacklist.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6b9e9a08d611a74d6e7bae3d71dd4cbf</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thermal Expansion" id="thermalexpansion" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalExpansion-1.12.2-5.5.2.39-universal.jar</URL>
+			<Size>2411466</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e6d7c577bdad3437f78372a829a51bee</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Expanding Minecraft Thermally - provides new options for automation and processing!</description>
+				<version>5.5.2.39</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalexpansion/client.cfg</URL>
+				<Path>config/cofh/thermalexpansion/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>5397d60d8e81f372bef7c2b6c91862cf</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalexpansion/common.cfg</URL>
+				<Path>config/cofh/thermalexpansion/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>D35D43B36D22DFB4AA9493BEB5A7923C</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalexpansion/florbs.cfg</URL>
+				<Path>config/cofh/thermalexpansion/florbs.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1ab1a69915a4eea70ca4483a7f3ef94d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalexpansion/morbs.cfg</URL>
+				<Path>config/cofh/thermalexpansion/morbs.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f1335c38ab41012eb289afe62457e666</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thermal Foundation" id="thermalfoundation" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalFoundation-1.12.2-2.6.1.22-universal.jar</URL>
+			<Size>2304958</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>829163490a6033c0ff833501249a7e63</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>The Foundation of a Thermally enhanced world!</description>
+				<version>2.6.1.22</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalfoundation/client.cfg</URL>
+				<Path>config/cofh/thermalfoundation/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>7db6ae7eb5d98ace432ec773baeb2779</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalfoundation/common.cfg</URL>
+				<Path>config/cofh/thermalfoundation/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7A2ADD013A4D282377BCDF15A0D3F86F</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalfoundation/lexicon-whitelist.cfg</URL>
+				<Path>config/cofh/thermalfoundation/lexicon-whitelist.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c3bf2e3f67025701feec7945b5c0ebf6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thermal Innovation" id="thermalinnovation" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalInnovation-1.12.2-0.3.1.8-universal.jar</URL>
+			<Size>196397</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1f58da5179da1f21496abda8c959e434</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Thermal Technology marches on. Adds Thermal-style tools and equipment!</description>
+				<version>0.3.1.8</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalinnovation/client.cfg</URL>
+				<Path>config/cofh/thermalinnovation/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>371f1104b0133f0f84fac48e4cfbe003</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalinnovation/common.cfg</URL>
+				<Path>config/cofh/thermalinnovation/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>13a7e52190d6d1f07a543cc0a48792e7</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TConstruct-1.12.2-2.11.0.106.jar</URL>
+			<Size>3921062</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a301b39e88a2347eabe07b3d931581a8</MD5>
+			<Meta>
+				<credits>Slime Knights, mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox</credits>
+				<description>A little of this, a little of that, a lot of tinkering, and a lot of tools</description>
+				<version>1.12.2-2.11.0.106</version>
+				<url>https://github.com/SlimeKnights/TinkersConstruct</url>
+				<authors>boni, KnightMiner</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/tconstruct.cfg</URL>
+				<Path>config/tconstruct.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7b6e4a4a0a1692da2a45352b97a880d5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/TinkerModules.cfg</URL>
+				<Path>config/TinkerModules.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d0f79d1bbe0ea97400db4af8729274ce</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/tinkers.zs</URL>
+				<Path>scripts/tinkers.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>EE4D2FAA2A10FCD59EE287C59F896EA2</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Traverse" id="traverse" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Traverse-1.12.2-1.5.4-61.jar</URL>
+			<Size>274605</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>74f9ebc1fd7113242e89d998060794f9</MD5>
+			<Meta>
+				<credits>TheCodedOne for maintaining the mod for a bit, and InsomniaKitten for some assets</credits>
+				<description>Improving the world with fancy new biomes since 2017.</description>
+				<version>1.12.2-1.5.4-61</version>
+				<url>https://github.com/TraverseTeam/Traverse</url>
+				<authors>Prospector</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/traverse/traverse.cfg</URL>
+				<Path>config/traverse/traverse.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>466ddd5d4100d8ab9fec8e724ede7c1d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/traverse.zs</URL>
+				<Path>scripts/traverse.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>968f4b9e3848b8d9af815e2f0bf2a391</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Waddles" id="waddles" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Waddles-1.12.2-0.6.0.jar</URL>
+			<Size>234934</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3ec84aac5bf45959934669bf1c1548a9</MD5>
+			<Meta>
+				<credits>Thanks to Wiiv for making the models!</credits>
+				<description>Waddles adds somewhat realistic penguins that waddle</description>
+				<version>0.6.0</version>
+				<url>https://minecraft.curseforge.com/projects/waddles</url>
+				<authors>Girafi</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/Waddles.cfg</URL>
+				<Path>config/Waddles.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f432c4b2fe4eabadb81ed04841d48dc2</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Twilight Forest" id="twilightforest" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/twilightforest-1.12.2-3.8.689-universal.jar</URL>
+			<Size>7296016</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d9a9e3e5dd851f5cbb50b72aab5e6037</MD5>
+			<Meta>
+				<credits>By Benimatic (Ben Mazur)</credits>
+				<description>An enchanted forest dimension.</description>
+				<version>3.8.689</version>
+				<url>https://minecraft.curseforge.com/projects/the-twilight-forest</url>
+				<authors>Benimatic, AtomicBlom, Drullkus, Killer_Demon, quadraxis, Tamaized, williewillus</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/twilightforest.zs</URL>
+				<Path>scripts/twilightforest.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4B343C2FFC5F2963EFF8BE0F1B0D77F7</MD5>
+			</ConfigFile>
+			<Meta>
+				<description>An enchanted forest dimension.</description>
+				<version>3.8.654</version>
+				<url>https://minecraft.curseforge.com/projects/the-twilight-forest</url>
+				<authors>Benimatic (Ben Mazur)</authors>
+			</Meta>
+		</Module>
+		<Module name="UniDict" id="unidict" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/UniDict-1.12.2-2.9.1.jar</URL>
+			<Size>192334</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6cde1e2d6d8d183da621c4c46ed94a70</MD5>
+			<Meta>
+				<description>a mod about unifying all the things.</description>
+				<version>1.12.2-2.9.1</version>
+				<url>http://minecraft.curseforge.com/projects/unidict</url>
+				<authors>WanionCane</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/unidict/IntegrationModule.cfg</URL>
+				<Path>config/unidict/IntegrationModule.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>12501c1cf1849e912a00a6becce575c5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/unidict/UniDict.cfg</URL>
+				<Path>config/unidict/UniDict.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>55d00dac61716a3a5f8873a30ea98029</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Broken Wings" id="brokenwings" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/brokenwings-1.0.jar</URL>
+			<Size>10118</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>40330e03f913583c577704978e98c621</MD5>
+			<Meta>
+				<description>Disable flight in certain dimensions.</description>
+				<version>1.0</version>
+				<url></url>
+				<authors>quaternary</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/brokenwings.cfg</URL>
+				<Path>config/brokenwings.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fe4208e4fe836416475cde08d1877493</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookiereloaded" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/badwithernocookiereloaded-1.12.2-3.3.16.jar</URL>
+			<Size>11034</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5f6036b67ea0414ded08f495a53788c6</MD5>
+			<Meta>
+				<credits>Life, the universe, and everything!</credits>
+				<description>A simple mod to silence the Wither and Dragon broadcast sounds.</description>
+				<version>1.12.2-3.3.16</version>
+				<url></url>
+				<authors>droidicus, kreezxil</authors>
+			</Meta>
+		</Module>
+		<Module name="WanionLib" id="wanionlib" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WanionLib-1.12.2-1.5.jar</URL>
+			<Size>63189</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f0c6e0afb5383ed0653db531dd12c732</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Shared Code Library Used by (not)all WanionCane mods!</description>
+				<version>1.12.2-1.5</version>
+				<url>http://minecraft.curseforge.com/projects/wanionlib</url>
+				<authors>WanionCane</authors>
+			</Meta>
+		</Module>
+		<Module name="Waystones" id="waystones" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Waystones_1.12.2-4.0.67.jar</URL>
+			<Size>172854</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c0e79051072dcc3aacad71be1f31f7c4</MD5>
+			<Meta>
+				<credits>Developed by BlayTheNinth. Includes item icons by @JoeCreates released under CC-BY-SA 3.0</credits>
+				<description>Teleport back to activated waystones. For Survival, Adventure or Servers.</description>
+				<version>4.0.67</version>
+				<url></url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/Waystones.cfg</URL>
+				<Path>config/Waystones.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dbcfff3d1a373afa557654b5075b6d30</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/waystones.zs</URL>
+				<Path>scripts/waystones.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>372f3447d51f098dab6e033a2c8aaa65</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="VanillaFix" id="vanillafix" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/VanillaFix-1.0.10-98.jar</URL>
+			<Size>1118753</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6d53f338d5a854a3b728e14f5a5e7fe5</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Bug fixes, optimizations, no more crashes, and better crash reports for Minecraft</description>
+				<version>1.0.10-SNAPSHOT</version>
+				<url>https://minecraft.curseforge.com/projects/vanillafix</url>
+				<authors>Runemoro</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">http://dmptr.com/pack/files/config/vanillafix.cfg</URL>
+				<Path>config/vanillafix.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2849fc975ebb371a4b35c4d8aab39f99</MD5>
+			</ConfigFile>
+		</Module>
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2768">forge</Import>
+	</Server>
+</ServerPack>

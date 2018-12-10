@@ -1,0 +1,23 @@
+{
+	"landScheme": "vanilla",
+	"tempScheme": "medium_zones",
+	"rainScheme": "medium_zones",
+	"biomeSize": "medium",
+	"amplitude": 1.0,
+	"generateBopOre": false,
+	"generatePoisonIvy": false,
+	"generateBerryBushes": false,
+	"generateThorns": true,
+	"generateQuicksand": true,
+	"generateLiquidPoison": true,
+	"generateHotSprings": true,
+	"generateNetherHives": true,
+	"generateEndFeatures": true,
+	"mainNoiseScaleX": 80.0,
+	"mainNoiseScaleY": 160.0,
+	"mainNoiseScaleZ": 80.0,
+	"coordinateScale": 684.412,
+	"heightScale": 684.412,
+	"upperLimitScale": 512.0,
+	"lowerLimitScale": 512.0
+}
