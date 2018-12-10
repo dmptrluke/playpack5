@@ -10,7 +10,7 @@
 			<note>A smaller, faster refreshed version of PlayPack.</note>
 			<note title="Latest Changes">???</note>
 		</Meta>
-		<Module name="Old Java Warning" id="oldjava" depends="" side="BOTH">
+		<Module name="Old Java Warning" id="oldjava" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/OldJavaWarning-1.12.2-1.0.6.jar</URL>
 			<Size>6140</Size>
 			<Required>true</Required>
@@ -44,7 +44,7 @@
 				<MD5>3633e1f63c63e44850be36be096c19f1</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Fullscreen Windowed" id="fw" depends="" side="BOTH">
+		<Module name="Fullscreen Windowed" id="fw" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FullscreenWindowed-1.12-1.6.0.jar</URL>
 			<Size>18396</Size>
 			<Required>true</Required>
@@ -227,7 +227,7 @@
 				<MD5>fa6f5224ce68059be075c1c25610c13f</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Client Tweaks" id="clienttweaks" depends="" side="BOTH">
+		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ClientTweaks_1.12.2-3.1.11.jar</URL>
 			<Size>30515</Size>
 			<Required>true</Required>
@@ -247,7 +247,7 @@
 				<MD5>9d69448e581152edf5c318d6887f3c5e</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Dynamic Surroundings" id="dsurround" depends="" side="BOTH">
+		<Module name="Dynamic Surroundings" id="dsurround" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DynamicSurroundings-1.12.2-3.4.10.4.jar</URL>
 			<Size>22364094</Size>
 			<Required isDefault="false">false</Required>
@@ -267,7 +267,7 @@
 				<MD5>24afc25c707cb84c32a4ad6a3ef72c1d</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="LagGoggles [DEV]" id="laggoggles" depends="" side="CLIENT">
+		<Module name="LagGoggles [DEV]" id="laggoggles" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/LagGoggles-FORGE-1.12.2-4.1.jar</URL>
 			<Size>380607</Size>
 			<Required isDefault="false">false</Required>
@@ -311,7 +311,7 @@
 				<note>Debug Tool</note>
 			</Meta>
 		</Module>
-		<Module name="Texture Pack: Sphax PureBDcraft" id="sphax" depends="" side="CLIENT">
+		<Module name="Texture Pack: Sphax PureBDcraft" id="sphax" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/extra/newsphax.zip</URL>
 			<Size>50986209</Size>
 			<Required isDefault="false">false</Required>
@@ -357,7 +357,7 @@
 				<MD5>8B79915DA2261C0408CAA03A4D7B1A1F</MD5>
 			</Submodule>
 		</Module>
-		<Module name="Default Options" id="defaultoptions" depends="" side="BOTH">
+		<Module name="Default Options" id="defaultoptions" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DefaultOptions_1.12.2-9.2.8.jar</URL>
 			<Size>15056</Size>
 			<Required>true</Required>
@@ -396,7 +396,7 @@
 				<version>MASTER</version>
 			</Meta>
 		</Module>
-		<Module name="Connected Textures Mod" id="ctm" depends="" side="BOTH">
+		<Module name="Connected Textures Mod" id="ctm" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CTM-MC1.12.2-0.3.2.18.jar</URL>
 			<Size>192297</Size>
 			<Required isDefault="true">false</Required>
@@ -438,7 +438,7 @@
 				<authors>Jaredlll08</authors>
 			</Meta>
 		</Module>
-		<Module name="Better Advancements" id="betteradvancements" depends="" side="BOTH">
+		<Module name="Better Advancements" id="betteradvancements" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BetterAdvancements-1.12.2-0.0.5.17.jar</URL>
 			<Size>43462</Size>
 			<Required>true</Required>
@@ -1708,7 +1708,7 @@
 				</ConfigFile>
 			</Submodule>
 		</Module>
-		<Module name="Custom Main Menu" id="custommainmenu" depends="" side="BOTH">
+		<Module name="Custom Main Menu" id="custommainmenu" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CustomMainMenu-MC1.12.2-2.0.9.jar</URL>
 			<Size>177791</Size>
 			<Required>true</Required>
