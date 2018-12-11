@@ -4,7 +4,7 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="modded.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="0" 
+	 generateList="true" autoConnect="false" revision="1" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>A smaller, faster refreshed version of PlayPack.</note>
@@ -1588,15 +1588,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Actually Additions" id="actuallyadditions" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ActuallyAdditions-1.12.2-r143.jar</URL>
-			<Size>2905493</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ActuallyAdditions-1.12.2-r144.jar</URL>
+			<Size>2906137</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a9c15c72028c92ef1b358c04258aa1fb</MD5>
+			<MD5>e562116b7cf9e99bbca4c1ed74343980</MD5>
 			<Meta>
 				<credits>Author: Ellpeck; Textures and Models: BootyToast, GlenthorLP, canitzp</credits>
 				<description>Do you want Automation? Wireless Transport? Better Machines? A cup o&apos; Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more!</description>
-				<version>1.12.2-r143</version>
+				<version>1.12.2-r144</version>
 				<url>http://github.com/Ellpeck/ActuallyAdditions</url>
 				<authors>Ellpeck</authors>
 			</Meta>
@@ -2044,15 +2044,15 @@
 			</Meta>
 		</Module>
 		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.8.0.0.jar</URL>
-			<Size>94939</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.9.1.2.jar</URL>
+			<Size>102392</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>43b5e6fd95b68fc98a281fd7a9755e8f</MD5>
+			<MD5>fff966b0e6f36370f94cfbc24d41c6bb</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A bunch of miscellaneous patches for Minecraft.</description>
-				<version>1.12.2-1.8.0.0</version>
+				<version>1.12.2-1.9.1.2</version>
 				<url>https://minecraft.curseforge.com/projects/randompatches</url>
 				<authors>TheRandomLabs</authors>
 			</Meta>
@@ -2171,15 +2171,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ImmersiveEngineering-0.12-86.jar</URL>
-			<Size>6242473</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ImmersiveEngineering-0.12-87.jar</URL>
+			<Size>6515396</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3876e9b8ce95ed5bc60b3ca69b8f5df4</MD5>
+			<MD5>5b7f2c9689dc6be0b3351829995ad220</MD5>
 			<Meta>
 				<credits>All the great other Git Contributors, and the nerds on IRC!</credits>
 				<description>A tech based mod focused on realism.</description>
-				<version>0.12-86</version>
+				<version>0.12-87</version>
 				<url>https://github.com/BluSunrize/ImmersiveEngineering</url>
 				<authors>BluSunrize, Damien A.W. Hazard</authors>
 			</Meta>
@@ -2426,15 +2426,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.66.jar</URL>
-			<Size>424364</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.67.jar</URL>
+			<Size>424362</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>13f251f1c1d4115c110e64c2de9771c2</MD5>
+			<MD5>2e3ed3ffb43119d3dc4eabb73457bcc0</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.3.0.66</version>
+				<version>5.3.0.67</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2446,15 +2446,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.0.68.jar</URL>
-			<Size>881311</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.0.72.jar</URL>
+			<Size>885613</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>7da776c753908b4263ae994bfb269656</MD5>
+			<MD5>79811109456da95bb6119e6dfd71199f</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.4.0.68</version>
+				<version>5.4.0.72</version>
 				<url>http://minecraft.curseforge.com/projects/ftblib</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2466,15 +2466,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-134.jar</URL>
-			<Size>1982914</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-135.jar</URL>
+			<Size>1983355</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>4dc86d85a683b4fd3914d478e63aa01b</MD5>
+			<MD5>2c13ac430dfe546bb36c05efadf61f10</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Small things.</description>
-				<version>r1.5-134</version>
+				<version>r1.5-135</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
