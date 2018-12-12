@@ -1541,7 +1541,7 @@
 				<MD5>17ef98265413cd91782551ec62a9988d</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="IndustrialCraft 2" id="ic2" depends="" side="BOTH">
+		<!--<Module name="IndustrialCraft 2" id="ic2" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/industrialcraft-2-2.8.104-ex112.jar</URL>
 			<Size>8069101</Size>
 			<Required>true</Required>
@@ -1585,6 +1585,88 @@
 				<Path>scripts/mekanism.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>0a2708fe21cfdcf573a92d9ec577d034</MD5>
+			</ConfigFile>
+		</Module>-->
+		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RebornCore-1.12.2-3.11.0.373-universal.jar</URL>
+			<Size>725610</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7d1cf151eac080a78b655fa6a868ed5d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
+				<version>3.11.0.373</version>
+				<url>https://github.com/TechReborn/RebornCore</url>
+				<authors>modmuss50, Gigabit101, Prospector</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/energy_priority.json</URL>
+				<Path>config/teamreborn/energy_priority.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0a25c070abd82ec3ea628bcd75e777b1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Tech Reborn" id="techreborn" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.18.1.863-universal.jar</URL>
+			<Size>2388981</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5ab8607e37f1128a052d6673b5933823</MD5>
+			<Meta>
+				<credits>Thanks to these contributors: TheMattaBase, Mj11jM, Mazdallier, tntrololol, joflashstudios, drcrazy, lclc98, Lordmau5, mezz, Thog, and Dimmerworld</credits>
+				<description>Tech Reborn is a completely standalone tech mod designed by the ideals of GregTech 2 and Industrial Craft 2 pre-experimental. The mod includes tools and machines to gather resources, process materials, and progression throughout the mod. http://www.techreborn.ovh/</description>
+				<version>2.18.1.863</version>
+				<url>https://github.com/TechReborn/TechReborn</url>
+				<authors>modmuss50, Gigabit101, Prospector</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/compat.cfg</URL>
+				<Path>config/teamreborn/techreborn/compat.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0d0271f078fb2469f6a2a78892577300</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/generators.cfg</URL>
+				<Path>config/teamreborn/techreborn/generators.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3dcfdb77c8737045c54f589282169dd9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/items.cfg</URL>
+				<Path>config/teamreborn/techreborn/items.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3d1c5aea3fca9ced2b4c25b3410a4995</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/machines.cfg</URL>
+				<Path>config/teamreborn/techreborn/machines.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4e557880dd3d690372579ce02f8551e3</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/misc.cfg</URL>
+				<Path>config/teamreborn/techreborn/misc.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1834b3cbc922ac94e9b8c8ad1e758449</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/ores.json</URL>
+				<Path>config/teamreborn/techreborn/ores.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ae3b95e1d3596db3571ad94b3c95f410</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/recipes.cfg</URL>
+				<Path>config/teamreborn/techreborn/recipes.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6a335d0df981b5873345ef735fe16861</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/world.cfg</URL>
+				<Path>config/teamreborn/techreborn/world.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6a30f63e791d44000f69676210b8728d</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Actually Additions" id="actuallyadditions" depends="" side="BOTH">
@@ -1693,6 +1775,12 @@
 				<Path>config/BiomeTweaker/scripts/traverse.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>ed85243f531163d694188435ffa5df1c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/meneglin.cfg</URL>
+				<Path>config/BiomeTweaker/scripts/meneglin.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a44037204d85a425b76f77f8d0cb5e75</MD5>
 			</ConfigFile>
 			<Submodule name="BiomeTweakerCore" id="biometweakercore">
 				<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiomeTweakerCore-1.12.2-1.0.39.jar</URL>
