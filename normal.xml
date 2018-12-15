@@ -3,7 +3,7 @@
 <ServerPack version="3.4" 
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="./normal.xml" serverAddress="modded.dmptr.com" version="1.12.2"
+	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="modded.dmptr.com" version="1.12.2"
 	 generateList="true" autoConnect="false" revision="1" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
@@ -87,7 +87,7 @@
 			</Meta>
 		</Module>
 		<Module name="WorldEdit" id="worldedit" depends="" side="BOTH">
-			<URL>./files/mods/worldedit-forge-mc1.12-6.1.8-dist.jar</URL>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/worldedit-forge-mc1.12-6.1.8-dist.jar</URL>
 			<MD5>73ECBB8656A5FD5823852078F0FB7CA7</MD5>
 			<Required isDefault='false'>false</Required>
 			<ModType>Regular</ModType>
@@ -1843,7 +1843,7 @@
 				<authors>lumien</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="10">./files/config/CustomMainMenu/mainmenu.json</URL>
+				<URL priority="10">https://dmptr.com/pack_redux/files/config/CustomMainMenu/mainmenu.json</URL>
 				<Path>config/CustomMainMenu/mainmenu.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>66bc3cf6344abc8aeeefa2242406c83d</MD5>
@@ -2384,12 +2384,12 @@
 				<MD5>3ae817cfa39d7d3c64f33db0a325e778</MD5>
 			</ConfigFile>
 			<Submodule name="JEI Bees" id="jei-bees">
-				<URL>./files/mods/jeibees-0.9.0.5-mc1.12.2.jar</URL>
+				<URL>https://dmptr.com/pack_redux/files/mods/jeibees-0.9.0.5-mc1.12.2.jar</URL>
 				<Size>117480</Size>
 				<ModType>Regular</ModType>
 				<MD5>a4fef0a3bb6d401eb236b3fe3e1a4846</MD5>
 				<ConfigFile>
-					<URL>./files/config/jeibees.cfg</URL>
+					<URL>https://dmptr.com/pack_redux/files/config/jeibees.cfg</URL>
 					<Path>config/jeibees.cfg</Path>
 					<NoOverwrite>false</NoOverwrite>
 					<MD5>03E7C4CEB175FA9731BCA1AF02C238D6</MD5>
