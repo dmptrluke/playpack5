@@ -3,7 +3,7 @@
 <ServerPack version="3.4" 
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="modded.dmptr.com" version="1.12.2"
+	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="./normal.xml" serverAddress="modded.dmptr.com" version="1.12.2"
 	 generateList="true" autoConnect="false" revision="1" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
@@ -44,6 +44,20 @@
 				<MD5>3633e1f63c63e44850be36be096c19f1</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Blur" id="blur" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Blur-1.0.4-14.jar</URL>
+			<Size>16146</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fe6c57af5be36a9ed96f8ff7de61bbd1</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds a blurry background when viewing GUIs</description>
+				<version>1.0.4-14</version>
+				<url>http://tterrag.com</url>
+				<authors>tterrag</authors>
+			</Meta>
+		</Module>
 		<Module name="Fullscreen Windowed" id="fw" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FullscreenWindowed-1.12-1.6.0.jar</URL>
 			<Size>18396</Size>
@@ -73,7 +87,7 @@
 			</Meta>
 		</Module>
 		<Module name="WorldEdit" id="worldedit" depends="" side="BOTH">
-			<URL>https://dmptr.com/pack_redux/files/mods/worldedit-forge-mc1.12-6.1.8-dist.jar</URL>
+			<URL>./files/mods/worldedit-forge-mc1.12-6.1.8-dist.jar</URL>
 			<MD5>73ECBB8656A5FD5823852078F0FB7CA7</MD5>
 			<Required isDefault='false'>false</Required>
 			<ModType>Regular</ModType>
@@ -1297,7 +1311,7 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Computronics" id="computronics" depends="" side="BOTH">
-			<URL priority="0">http://dmptr.com/pack/files/mods/Computronics-1.12.1-1.6.5.jar</URL>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Computronics-1.12.1-1.6.5.jar</URL>
 			<Size>1032851</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1310,7 +1324,7 @@
 				<authors>asiekierka, Techokami, Vexatos</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">http://dmptr.com/pack/files/config/computronics.cfg</URL>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/computronics.cfg</URL>
 				<Path>config/computronics.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d4d6687d550dec4f92d7652d6c7c27cf</MD5>
@@ -1359,7 +1373,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/farmingforblockheads.cfg</URL>
 				<Path>config/farmingforblockheads.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>63d1657e752db2831069c1c4f4aa35ca</MD5>
+				<MD5>a98187cf7fe2df616955966777e68b1a</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Charset Lib" id="charsetlib" depends="" side="BOTH">
@@ -1376,25 +1390,25 @@
 				<authors>asiekierka</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">http://dmptr.com/pack/files/config/charset/charset.cfg</URL>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/charset.cfg</URL>
 				<Path>config/charset/charset.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>39c961767d42ce232d29e3fc62b0c6cb</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">http://dmptr.com/pack/files/config/charset/ids.cfg</URL>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/ids.cfg</URL>
 				<Path>config/charset/ids.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1cbb881da0235409919f6ae60be012d6</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">http://dmptr.com/pack/files/config/charset/module/lib.cfg</URL>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/module/lib.cfg</URL>
 				<Path>config/charset/module/lib.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>78d06b14f083053b76d7dff2933bda23</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">http://dmptr.com/pack/files/config/charset/modules.cfg</URL>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/modules.cfg</URL>
 				<Path>config/charset/modules.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>45144c80b0e810b2aa32ee37bca5bc5a</MD5>
@@ -1408,13 +1422,13 @@
 			<MD5>0b3500d336804df0ef528d90e2337d0b</MD5>
 		</Module>
 		<Module name="SimpleLogic Gates" id="simplelogic_gates" depends="charsetlib" side="BOTH">
-			<URL priority="0">http://dmptr.com/pack/files/mods/SimpleLogic-Gates-0.5.5.0.jar</URL>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/SimpleLogic-Gates-0.5.5.0.jar</URL>
 			<Size>132795</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>E29A2542C53BB82E1246BED326AEA13C</MD5>
 			<ConfigFile>
-				<URL priority="0">http://dmptr.com/pack/files/config/charset/module/simplelogic.gates.cfg</URL>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/module/simplelogic.gates.cfg</URL>
 				<Path>config/charset/module/simplelogic.gates.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>79C1A7886490657F6B570019F967EF33</MD5>
@@ -1428,13 +1442,13 @@
 			</Meta>
 		</Module>
 		<Module name="SimpleLogic Wires" id="simplelogic_wires" depends="charsetlib" side="BOTH">
-			<URL priority="0">http://dmptr.com/pack/files/mods/SimpleLogic-Wires-0.5.5.0.jar</URL>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/SimpleLogic-Wires-0.5.5.0.jar</URL>
 			<Size>40660</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>E32BB92B2A74574FC1EA723B893114C1</MD5>
 			<ConfigFile>
-				<URL priority="0">http://dmptr.com/pack/files/config/charset/module/simplelogic.wires.cfg</URL>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/module/simplelogic.wires.cfg</URL>
 				<Path>config/charset/module/simplelogic.wires.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d4fc254b33e43beb358566e0e98645ec</MD5>
@@ -1480,7 +1494,7 @@
 				<authors>AlgorithmX2</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">http://dmptr.com/pack/files/config/chiselsandbits.cfg</URL>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/chiselsandbits.cfg</URL>
 				<Path>config/chiselsandbits.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>ffbad73260c91b5924eb0c8d4bee21bf</MD5>
@@ -1829,7 +1843,7 @@
 				<authors>lumien</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="10">https://dmptr.com/pack_redux/files/config/CustomMainMenu/mainmenu.json</URL>
+				<URL priority="10">./files/config/CustomMainMenu/mainmenu.json</URL>
 				<Path>config/CustomMainMenu/mainmenu.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>66bc3cf6344abc8aeeefa2242406c83d</MD5>
@@ -2303,26 +2317,6 @@
 				<MD5>455f78d754f4bed3feeb9ee6b232d2be</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Immersive Petroleum" id="immersivepetroleum" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/immersivepetroleum-1.12.2-1.1.9.jar</URL>
-			<Size>906018</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>57ba127778e579d10d705f9f8359d2e0</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Adds oil and oil processing features to Immersive Engineering.</description>
-				<version>1.1.9</version>
-				<url>https://github.com/Flaxbeard/ImmersivePetroleum</url>
-				<authors>Flaxbeard</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/immersivepetroleum.cfg</URL>
-				<Path>config/immersivepetroleum.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>84ac6c4caebe46ac71ec06ae01019525</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Immersive Cables" id="immersivecables" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ImmersiveCables-1.12.2-1.3.2.jar</URL>
 			<Size>205922</Size>
@@ -2389,19 +2383,13 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3ae817cfa39d7d3c64f33db0a325e778</MD5>
 			</ConfigFile>
-			<Submodule name="Just Enough Petroleum" id="jei-jep">
-				<URL>https://dmptr.com/pack_redux/files/mods/JustEnoughPetroleum-0.1.jar</URL>
-				<Size>18945</Size>
-				<ModType>Regular</ModType>
-				<MD5>490C5FC3BECFA64F3C25A38105796554</MD5>
-			</Submodule>
 			<Submodule name="JEI Bees" id="jei-bees">
-				<URL>https://dmptr.com/pack_redux/files/mods/jeibees-0.9.0.5-mc1.12.2.jar</URL>
+				<URL>./files/mods/jeibees-0.9.0.5-mc1.12.2.jar</URL>
 				<Size>117480</Size>
 				<ModType>Regular</ModType>
 				<MD5>a4fef0a3bb6d401eb236b3fe3e1a4846</MD5>
 				<ConfigFile>
-					<URL>https://dmptr.com/pack_redux/files/config/jeibees.cfg</URL>
+					<URL>./files/config/jeibees.cfg</URL>
 					<Path>config/jeibees.cfg</Path>
 					<NoOverwrite>false</NoOverwrite>
 					<MD5>03E7C4CEB175FA9731BCA1AF02C238D6</MD5>
@@ -2594,10 +2582,9 @@
 			<Submodule name="Quark Oddities" id="quark-oddities">
 				<URL priority="0">https://dmptr.com/pack_redux/files/mods/QuarkOddities-1.12.2.jar</URL>
 				<Size>1556</Size>
-				<Required>true</Required>
 				<ModType>Regular</ModType>
-				<MD5>5a4e0beef74b0001d85391d0afadfeed</MD5>
-		</Submodule>
+				<MD5>6e16630baca6837163dbee699ef3cf4b</MD5>
+			</Submodule>
 		</Module>
 		<Module name="Redstone Flux" id="redstoneflux" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RedstoneFlux-1.12-2.1.0.6-universal.jar</URL>
@@ -2641,7 +2628,7 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Resource Loader" id="resourceloader" depends="" side="BOTH">
-			<URL priority="0">http://dmptr.com/pack/files/mods/ResourceLoader-MC1.12.1-1.5.3.jar</URL>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ResourceLoader-MC1.12.1-1.5.3.jar</URL>
 			<Size>16612</Size>
 			<ModType>Regular</ModType>
 			<MD5>51141e882f96ce756b9b3d25f2acdf57</MD5>
@@ -2653,7 +2640,7 @@
 				<authors>lumien</authors>
 			</Meta>
 			<Submodule name="PlayPack Resources" id="playpackresources">
-				<URL priority="0">http://dmptr.com/pack/files/resources-r5.zip</URL>
+				<URL priority="0">https://dmptr.com/pack_redux/files/resources-r5.zip</URL>
 				<Size>56875</Size>
 				<Required>true</Required>
 				<ModType inRoot="true">Extract</ModType>
@@ -2861,7 +2848,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalexpansion/common.cfg</URL>
 				<Path>config/cofh/thermalexpansion/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>D35D43B36D22DFB4AA9493BEB5A7923C</MD5>
+				<MD5>e21d4ff424e6c6c9764b295d241108aa</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalexpansion/florbs.cfg</URL>
@@ -3150,7 +3137,7 @@
 				<authors>Runemoro</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">http://dmptr.com/pack/files/config/vanillafix.cfg</URL>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/vanillafix.cfg</URL>
 				<Path>config/vanillafix.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>2849fc975ebb371a4b35c4d8aab39f99</MD5>
