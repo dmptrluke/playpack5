@@ -187,15 +187,15 @@
 			</Meta>
 		</Module>
 		<Module name="Xaero&apos;s World Map" id="XaeroWorldMap" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/XaerosWorldMap_1.3.2_Forge_1.12.jar</URL>
-			<Size>198632</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/XaerosWorldMap_1.3.3_Forge_1.12.jar</URL>
+			<Size>198874</Size>
 			<Required isDefault="true">false</Required>
 			<ModType>Regular</ModType>
-			<MD5>8136c357d5d03d7d3811a387ccd40bba</MD5>
+			<MD5>5570d55b41dc2fffafd560fbff4a5a85</MD5>
 			<Meta>
 				<credits>Xaero96</credits>
 				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
-				<version>1.3.2</version>
+				<version>1.3.3</version>
 				<url></url>
 				<authors>Xaero96</authors>
 			</Meta>
@@ -2647,6 +2647,27 @@
 				<MD5>4193D9294CD0165A09F631859BBFB995</MD5>
 			</Submodule>
 		</Module>
+		<Module name="Splash Animation" id="splashanimation" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/SplashAnimation-0.2.0.jar</URL>
+			<Size>44945</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a7db44545fada89a1abad2d91cd7338b</MD5>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/splashanimation.cfg</URL>
+				<Path>config/splashanimation.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c6a16ab6c5adac0d757419e852f085b4</MD5>
+			</ConfigFile>
+			<Submodule name="Playpack Animation" id="playpackanimation">
+				<URL priority="0">https://dmptr.com/pack_redux/files/animation-r1.zip</URL>
+				<Size>711975</Size>
+				<Required>true</Required>
+				<ModType inRoot="true">Extract</ModType>
+				<MD5>A905AD3325166BF1C577BFBAFFF075D8</MD5>
+			</Submodule>
+		</Module>
+
 		<Module name="Rustic" id="rustic" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rustic-1.0.12.jar</URL>
 			<Size>1324821</Size>
