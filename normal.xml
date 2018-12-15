@@ -10,20 +10,6 @@
 			<note>A smaller, faster refreshed version of PlayPack.</note>
 			<note title="Latest Changes">???</note>
 		</Meta>
-		<Module name="Old Java Warning" id="oldjava" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/OldJavaWarning-1.12.2-1.0.6.jar</URL>
-			<Size>6140</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>edec6ef95865f9071ec83359b7e095a6</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Warns about old Java..</description>
-				<version>1.0.6</version>
-				<url>http://www.darkhax.net</url>
-				<authors>Darkhax</authors>
-			</Meta>
-		</Module>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
 			<Size>9998</Size>
@@ -86,120 +72,6 @@
 				<authors>ProfMobius, TehNut</authors>
 			</Meta>
 		</Module>
-		<Module name="WorldEdit" id="worldedit" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/worldedit-forge-mc1.12-6.1.8-dist.jar</URL>
-			<MD5>73ECBB8656A5FD5823852078F0FB7CA7</MD5>
-			<Required isDefault='false'>false</Required>
-			<ModType>Regular</ModType>
-			<Meta>
-				<credits></credits>
-				<description>WorldEdit is an easy-to-use in-game world editor for Minecraft, supporting both single player and multiplayer.</description>
-				<version>6.1.8</version>
-				<url>http://wiki.sk89q.com/wiki/WorldEdit</url>
-				<authors>sk89q, wizjany, TomyLobo, kenzierocks</authors>
-			</Meta>
-			<Submodule name="WorldEdit CUI" id="worldeditcuife2">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/WorldEdit+CUI+Forge+Edition+2-2.1.2-mf-1.12-14.21.1.2387.jar</URL>
-				<Size>461792</Size>
-				<MD5>de1eb987ae68dc49b704fcb3edeea4e0</MD5>
-				<ModType>Regular</ModType>
-				<Meta>
-					<credits>Thanks to LoadingByte for maintaining and updating GuiLib. Thnaks to Zyin&apos;s for releasing his code.</credits>
-					<description>WorldEdit CUI Forge Edition 2 is a forge client-side user interface for WorldEdit</description>
-					<version>2.1.2-mf-1.12.2-14.23.0.2487</version>
-					<url>https://minecraft.curseforge.com/projects/worldeditcui-forge-edition-2</url>
-					<authors>Hexosse</authors>
-				</Meta>
-			</Submodule>
-		</Module>
-		<Module name="FoamFix" id="foamfix" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/foamfix-0.10.3-1.12.2.jar</URL>
-			<Size>216000</Size>
-			<Required>true</Required>
-			<ModType jreArgs="-XX:+UseG1GC -Dsun.rmi.dgc.server.gcInterval=2147483646 -XX:+UnlockExperimentalVMOptions -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M">Regular</ModType>
-			<MD5>55b225238af64ead15ef6175d5da0bf9</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
-				<version>@VERSION@</version>
-				<url>http://asie.pl/Projects/Minecraft/Mods/FoamFix</url>
-				<authors>asiekierka</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/foamfix.cfg</URL>
-				<Path>config/foamfix.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b12b88b979d6954f3fe6f51fcd2109e6</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="BetterFPS" id="betterfps" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BetterFps-1.4.8.jar</URL>
-			<Size>155196</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>D36F4D3C0F96E99A9A1AD2E8EEDA1FC4</MD5>
-			<Meta>
-				<credits>Alexandria - original idea</credits>
-				<description>BetterFps is a Minecraft mod that adds a few performance improvements, trying to be compatible with other mods.</description>
-				<version>1.4.8</version>
-				<url>https://minecraft.curseforge.com/projects/betterfps</url>
-				<authors>Guichaguri</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/betterfps.json</URL>
-				<Path>config/betterfps.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>4a5f14d6abb88f393bffef75496fe609</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="Xaero&apos;s Minimap" id="XaeroMinimap" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Xaeros_Minimap_1.15.9_Forge_1.12.jar</URL>
-			<Size>365364</Size>
-			<Required isDefault="true">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>e62db310211f6648314407881fec7182</MD5>
-			<Meta>
-				<credits></credits>
-				<description>The most &quot;vanilla-looking&quot; minimap for Minecraft.</description>
-				<version>1.15.9</version>
-				<url></url>
-				<authors>Xaero96</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/xaerominimap.txt</URL>
-				<Path>config/xaerominimap.txt</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>78e8ccc506fd10d5d559cc27ef5ce742</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="Tails" id="Tails" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Tails-1.12-1.10.0.jar</URL>
-			<Size>269876</Size>
-			<Required isDefault="true">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>2d8523ff0fcfc157292051395da6b78d</MD5>
-			<Meta>
-				<credits></credits>
-				<description>For all your taily needs</description>
-				<version>1.12-1.10.0</version>
-				<url>https://github.com/kihira</url>
-				<authors>Kihira</authors>
-			</Meta>
-		</Module>
-		<Module name="Xaero&apos;s World Map" id="XaeroWorldMap" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/XaerosWorldMap_1.3.3_Forge_1.12.jar</URL>
-			<Size>198874</Size>
-			<Required isDefault="true">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>5570d55b41dc2fffafd560fbff4a5a85</MD5>
-			<Meta>
-				<credits>Xaero96</credits>
-				<description>A self-writing fullscreen map which also works as an add-on to Xaero&apos;s Minimap.</description>
-				<version>1.3.3</version>
-				<url></url>
-				<authors>Xaero96</authors>
-			</Meta>
-		</Module>
 		<Module name="JourneyMap" id="journeymap" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/journeymap-1.12.2-5.5.2%20(2).jar</URL>
 			<Size>1822850</Size>
@@ -220,27 +92,6 @@
 				<authors>techbrew, mysticdrew</authors>
 			</Meta>
 		</Module>
-		<Module name="Better Foliage" id="betterfoliage" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BetterFoliage-MC1.12-2.2.0.jar</URL>
-			<Size>926081</Size>
-			<Required isDefault="false">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>e05a720c5900b9bac4e01179abe8eef6</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Leafier leaves and grassier grass</description>
-				<version>2.2.0</version>
-				<url>https://minecraft.curseforge.com/projects/better-foliage</url>
-				<authors>octarine-noise (code), Meringue (textures)</authors>
-				<note>High Performance Impact</note>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/betterfoliage.cfg</URL>
-				<Path>config/betterfoliage.cfg</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>fa6f5224ce68059be075c1c25610c13f</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ClientTweaks_1.12.2-3.1.11.jar</URL>
 			<Size>30515</Size>
@@ -260,116 +111,6 @@
 				<NoOverwrite>true</NoOverwrite>
 				<MD5>9d69448e581152edf5c318d6887f3c5e</MD5>
 			</ConfigFile>
-		</Module>
-		<Module name="Dynamic Surroundings" id="dsurround" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DynamicSurroundings-1.12.2-3.4.10.4.jar</URL>
-			<Size>22364094</Size>
-			<Required isDefault="false">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>dcb4c3f4a7ec8c6305223e228ca58247</MD5>
-			<Meta>
-				<credits>Wirsbo for BetterRain; MrRube for Aurora Rubealis; Hurricaaane for Presence Footsteps and MAtmos; Mr_okushama for Battle Music; Ezer&apos;Arch for Galacticraft configurations</credits>
-				<description>Adds a variety of sound and visual effects to improve your Minecraft experience</description>
-				<version>1.12.2-3.4.10.4</version>
-				<url>https://github.com/OreCruncher/DynamicSurroundings/wiki</url>
-				<authors>OreCruncher, Abastro</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/dsurround/dsurround.cfg</URL>
-				<Path>config/dsurround/dsurround.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>24afc25c707cb84c32a4ad6a3ef72c1d</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="LagGoggles [DEV]" id="laggoggles" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/LagGoggles-FORGE-1.12.2-4.1.jar</URL>
-			<Size>380607</Size>
-			<Required isDefault="false">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>508E3DA28E01551D9E140EAF033C18AF</MD5>
-			<Meta>
-				<credits></credits>
-				<description>LagGoggles is a profiler where you can see timings in the world, visually. It comes with a custom GUI using a configurable keybind.</description>
-				<version>4.1</version>
-				<note>Debug Tool</note>
-				<url>https://minecraft.curseforge.com/projects/laggoggles</url>
-				<authors>octarine-noise (code), Meringue (textures)</authors>
-			</Meta>
-		</Module>
-		<Module name="Sampler [DEV]" id="Sampler" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/sampler-1.80.jar</URL>
-			<Size>276292</Size>
-			<Required isDefault="false">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>c4d45796a48af17198c64d4528ebb518</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Sampling Performance Profiler.</description>
-				<version>1.80</version>
-				<note>Debug Tool</note>
-				<authors>Player</authors>
-			</Meta>
-		</Module>
-		<Module name="Caliper [DEV]" id="caliper" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Caliper-1.12.2-1.1.34%20(2).jar</URL>
-			<Size>82878</Size>
-			<Required isDefault="false">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>bdb3fd140c0c065103c021419f8d838d</MD5>
-			<Meta>
-				<credits></credits>
-				<description>A collection of tools for testing and developing mods and modpacks.</description>
-				<version>1.1.34</version>
-				<url>https://minecraft.curseforge.com/projects/caliper</url>
-				<authors>Darkhax</authors>
-				<note>Debug Tool</note>
-			</Meta>
-		</Module>
-		<Module name="Texture Pack: Sphax PureBDcraft" id="sphax" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/extra/newsphax.zip</URL>
-			<Size>50986209</Size>
-			<Required isDefault="false">false</Required>
-			<ModType>Regular</ModType>
-			<ModPath>resourcepacks/sphax.zip</ModPath>
-			<MD5>541E0F34E44E42D726CDF032DFE92260</MD5>
-			<Meta>
-				<description>PureBDcraft completely transforms the Minecraft experience and makes it look like a comic. Blocks, creatures, items and UI are revamped in high definition, and are full of details and geeky references.</description>
-				<url>https://bdcraft.net/</url>
-				<version>r1</version>
-			</Meta>
-		</Module>
-		<Module name="Texture Pack: Unity" id="unity" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/extra/unity.zip</URL>
-			<Size>10600328</Size>
-			<Required isDefault="true">false</Required>
-			<ModType>Regular</ModType>
-			<ModPath>resourcepacks/unity.zip</ModPath>
-			<MD5>819BE8167DD2576D18C94FEAB8140AF5</MD5>
-			<Meta>
-				<description>The Unity resource pack follows the traditional Minecraft aesthetics but adds subtle depth and more natural colors.</description>
-				<url>https://minecraft.curseforge.com/projects/unity</url>
-				<version>1.6.4</version>
-			</Meta>
-		</Module>
-		<Module name="Texture Pack: Lithos" id="lithoscore" depends="faithful" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/extra/lithoscore-1.21.zip</URL>
-			<Size>41077494</Size>
-			<Required isDefault="false">false</Required>
-			<ModType>Regular</ModType>
-			<ModPath>resourcepacks/lithoscore.zip</ModPath>
-			<MD5>E8428F426D4A434DE887D9FF98E55017</MD5>
-			<Meta>
-				<description>Faithful, but better! Everything should be instantly recognisable to those familiar with default textures, or with the things in real life.</description>
-				<url>https://minecraft.curseforge.com/projects/lithos-core-32x-1-6-1-11-complete</url>
-				<version>1.21</version>
-			</Meta>
-			<Submodule name="Lithos: Luminous" id="lithosluminous">
-				<URL priority="0">https://dmptr.com/pack_redux/files/extra/lithosluminous.zip</URL>
-				<Size>41077494</Size>
-				<ModType>Regular</ModType>
-				<ModPath>resourcepacks/lithosluminous.zip</ModPath>
-				<MD5>8B79915DA2261C0408CAA03A4D7B1A1F</MD5>
-			</Submodule>
 		</Module>
 		<Module name="Default Options" id="defaultoptions" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DefaultOptions_1.12.2-9.2.8.jar</URL>
@@ -397,19 +138,6 @@
 				<MD5>2dde22a438ff622b0e62297e31b6ca12</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Texture Pack: Faithful 32x" id="faithful" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/extra/faithful.zip</URL>
-			<Size>10600328</Size>
-			<Required isDefault="false">false</Required>
-			<ModType>Regular</ModType>
-			<ModPath>resourcepacks/faithful.zip</ModPath>
-			<MD5>19E379F5A3AF3411D9D888B8A3B5AFE2</MD5>
-			<Meta>
-				<description> It is faithful to the original look of Minecraft but the resolution is higher (64×64 instead of 16×16).</description>
-				<url>http://f32.me/</url>
-				<version>MASTER</version>
-			</Meta>
-		</Module>
 		<Module name="Connected Textures Mod" id="ctm" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CTM-MC1.12.2-0.3.2.18.jar</URL>
 			<Size>192297</Size>
@@ -424,53 +152,6 @@
 				<authors>tterrag, Drullkus, minecreatr</authors>
 				<note>Use this or Optifine, not both.</note>
 			</Meta>
-		</Module>
-		<Module name="OptiFine" id="OptiFine" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/OptiFine_1.12.2_HD_U_E2.jar</URL>
-			<Size>2422035</Size>
-			<Required isDefault="false">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>D5EB6EB63A260738C3AA7E981448451A</MD5>
-			<Meta>
-				<version>1.12.2 HD U E2</version>
-				<description>OptiFine is a Minecraft optimization mod. It allows Minecraft to run faster and look better with many configuration options.</description>
-				<url>https://www.optifine.net/</url>
-				<note>Use this or ConnectedTexturesMod, not both.</note>
-			</Meta>
-		</Module>
-		<Module name="Controlling" id="controlling" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Controlling-3.0.6.jar</URL>
-			<Size>26034</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>0d9a0429c72bc1c06358f1166bdd8c59</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Gives people more control of the key binding screen.</description>
-				<version>3.0.6</version>
-				<url></url>
-				<authors>Jaredlll08</authors>
-			</Meta>
-		</Module>
-		<Module name="Better Advancements" id="betteradvancements" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BetterAdvancements-1.12.2-0.0.5.17.jar</URL>
-			<Size>43462</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>a16be15706357e59ccb196e59d17e33d</MD5>
-			<Meta>
-				<credits></credits>
-				<description>An improvement to the Advancements screen.</description>
-				<version>0.0.5</version>
-				<url>https://github.com/way2muchnoise/BetterAdvancements</url>
-				<authors>way2muchnoise</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/betteradvancements/betteradvancements.cfg</URL>
-				<Path>config/betteradvancements/betteradvancements.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a5db7c231603204ac3c2ae27e6db5fee</MD5>
-			</ConfigFile>
 		</Module>
 		<Module name="ChickenChunks" id="chickenchunks" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ChickenChunks-1.12.2-2.4.1.73-universal.jar</URL>
@@ -2647,27 +2328,6 @@
 				<MD5>4193D9294CD0165A09F631859BBFB995</MD5>
 			</Submodule>
 		</Module>
-		<Module name="Splash Animation" id="splashanimation" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/SplashAnimation-0.2.0.jar</URL>
-			<Size>44945</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>a7db44545fada89a1abad2d91cd7338b</MD5>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/splashanimation.cfg</URL>
-				<Path>config/splashanimation.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c6a16ab6c5adac0d757419e852f085b4</MD5>
-			</ConfigFile>
-			<Submodule name="Playpack Animation" id="playpackanimation">
-				<URL priority="0">https://dmptr.com/pack_redux/files/animation-r1.zip</URL>
-				<Size>711975</Size>
-				<Required>true</Required>
-				<ModType inRoot="true">Extract</ModType>
-				<MD5>A905AD3325166BF1C577BFBAFFF075D8</MD5>
-			</Submodule>
-		</Module>
-
 		<Module name="Rustic" id="rustic" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rustic-1.0.12.jar</URL>
 			<Size>1324821</Size>
@@ -3165,5 +2825,7 @@
 			</ConfigFile>
 		</Module>
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2768">forge</Import>
+		<Import url="https://dmptr.com/modules/basics/module.xml">basics</Import>
+		<Import url="https://dmptr.com/modules/splashanimation/module.xml">splashanimation</Import>
 	</Server>
 </ServerPack>
