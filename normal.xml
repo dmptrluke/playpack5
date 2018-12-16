@@ -258,6 +258,26 @@
 				<MD5>6c02d869e624d7d4a7b2304fd5ccd0e5</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Recurrent Complex" id="reccomplex" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RecurrentComplex-1.4.7.jar</URL>
+			<Size>6928168</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a4033c25cad58e021d0479768665c8b9</MD5>
+			<Meta>
+				<credits>See structurecredits.txt for full default structure list credits.</credits>
+				<description>Adds structures to worldgen, handles exporting and importing structures, and provides build tools.</description>
+				<version>1.4.7</version>
+				<url></url>
+				<authors>Ivorius</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/reccomplex.cfg</URL>
+				<Path>config/reccomplex.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>897d1942f27a70091f802258e917d709</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CyclopsCore-1.12.2-0.11.11.jar</URL>
 			<Size>824126</Size>
