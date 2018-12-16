@@ -258,7 +258,21 @@
 				<MD5>6c02d869e624d7d4a7b2304fd5ccd0e5</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Recurrent Complex" id="reccomplex" depends="" side="BOTH">
+		<Module name="IvToolkit" id="ivtoolkit" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IvToolkit-1.3.3-1.12.jar</URL>
+			<Size>455763</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f1a23cb6eaa682240c0ecdab65e7857f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>This is a framework that I mostly use in my own mods, for shared functionality.</description>
+				<version>1.3.3-1.12</version>
+				<url>http://minecraft.curseforge.com/projects/ivtoolkit</url>
+				<authors>Ivorius</authors>
+			</Meta>
+		</Module>
+		<Module name="Recurrent Complex" id="reccomplex" depends="ivtoolkit" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RecurrentComplex-1.4.7.jar</URL>
 			<Size>6928168</Size>
 			<Required>true</Required>
