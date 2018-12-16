@@ -298,6 +298,26 @@
 				<MD5>078a3c5fdba847b355d8994d0d09ea4a</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Culinary Construct" id="culinaryconstruct" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/culinaryconstruct-1.3.0.jar</URL>
+			<Size>95791</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>45a42cd6565f0fc67d43f4a8c7b26ded</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Make sandwiches out of your favorite food items! And maybe your not so favorite, anything&apos;s possible.</description>
+				<version>1.3.0</version>
+				<url></url>
+				<authors>C4</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/culinaryconstruct.cfg</URL>
+				<Path>config/culinaryconstruct.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bf90f63e70c548ef4759fa52f19df77c</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-0.11.18.jar</URL>
 			<Size>2751117</Size>
