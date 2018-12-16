@@ -921,12 +921,6 @@
 				<MD5>0a91046475638b0c0d2964b035b74b1c</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/04_thermalfoundation_extras.json</URL>
-				<Path>config/cofh/world/04_thermalfoundation_extras.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9b98a868fa71eb646a0f972cedb6770f</MD5>
-			</ConfigFile>
-			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/05_bop_gems.json</URL>
 				<Path>config/cofh/world/05_bop_gems.json</Path>
 				<NoOverwrite>false</NoOverwrite>
