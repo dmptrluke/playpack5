@@ -72,26 +72,6 @@
 				<authors>ProfMobius, TehNut</authors>
 			</Meta>
 		</Module>
-		<Module name="JourneyMap" id="journeymap" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/journeymap-1.12.2-5.5.2%20(2).jar</URL>
-			<Size>1822850</Size>
-			<Required isDefault="false">false</Required>
-			<ModType>Regular</ModType>
-			<MD5>b743562dac1b5334c20ac87b54c0b518</MD5>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/journeymap/config/5.5/journeymap.minimap.config</URL>
-				<Path>journeymap/config/5.5/journeymap.minimap.config</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>356d9570ec23341c336dfd2b81388f7c</MD5>
-			</ConfigFile>
-			<Meta>
-				<credits></credits>
-				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. Alternative to Xaeros map mods.</description>
-				<version>1.12.2-5.5.2</version>
-				<url>http://journeymap.info</url>
-				<authors>techbrew, mysticdrew</authors>
-			</Meta>
-		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ClientTweaks_1.12.2-3.1.11.jar</URL>
 			<Size>30515</Size>
