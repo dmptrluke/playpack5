@@ -154,15 +154,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Akashic Tome" id="akashictome" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AkashicTome-1.2-11.jar</URL>
-			<Size>43825</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AkashicTome-1.2-12.jar</URL>
+			<Size>44663</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>d2dc88aa38024c62ae548df1d661cbcb</MD5>
+			<MD5>b753c7ce93ad8768e3ba3a9f35d16bee</MD5>
 			<Meta>
 				<credits></credits>
 				<description>The book of books.</description>
-				<version>1.2-11</version>
+				<version>1.2-12</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii</authors>
 			</Meta>
@@ -170,7 +170,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/akashictome.cfg</URL>
 				<Path>config/akashictome.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>06bec191c407ecead5a84991385e3afa</MD5>
+				<MD5>8f94beb5a5d823f4a2b85a794be25ac6</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/akashictome.zs</URL>
@@ -2103,15 +2103,15 @@
 			<MD5>47987d111d6f1e48403bc3cbb23f5503</MD5>
 		</Module>
 		<Module name="Morph-o-Tool" id="morphtool" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Morph-o-Tool-1.2-17.jar</URL>
-			<Size>26650</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Morph-o-Tool-1.2-18.jar</URL>
+			<Size>27081</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3ab584b7ff14662295d91308651a0f50</MD5>
+			<MD5>cfbb9316f7aaf83e77a74246a826e7b4</MD5>
 			<Meta>
 				<credits></credits>
 				<description>The wrench to end all wrenches.</description>
-				<version>1.2-17</version>
+				<version>1.2-18</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii</authors>
 			</Meta>
@@ -2119,7 +2119,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/morphtool.cfg</URL>
 				<Path>config/morphtool.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>a0139f4c477910788dec1133f4b2a22e</MD5>
+				<MD5>021ad95a94a2cb6c33e35b70fb249755</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="I Know What Im Doing" id="ikwid" depends="" side="BOTH">
