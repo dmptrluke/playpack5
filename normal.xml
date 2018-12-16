@@ -179,7 +179,7 @@
 				<MD5>28988a67e3c0e206781d2d08ed3f64bc</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="AppleCore" id="AppleCore" depends="" side="BOTH">
+		<Module name="AppleCore" id="applecore" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AppleCore-mc1.12.2-3.1.4.jar</URL>
 			<Size>81946</Size>
 			<Required>true</Required>
@@ -2115,7 +2115,7 @@
 				<MD5>0cad0356fafa40ef9d8d294a09b17a33</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="MCMultiPart" id="MCMultiPart" depends="" side="BOTH">
+		<Module name="MCMultiPart" id="mcmultipart" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/MCMultiPart-2.5.3.jar</URL>
 			<Size>173426</Size>
 			<Required>true</Required>
