@@ -289,7 +289,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/reccomplex.cfg</URL>
 				<Path>config/reccomplex.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>897d1942f27a70091f802258e917d709</MD5>
+				<MD5>fad245a6866bc17b0b8fdbeab0220099</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
@@ -1434,7 +1434,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/actuallyadditions.cfg</URL>
 				<Path>config/actuallyadditions.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d9efb513d72ab5c945fd214ef7eb28f6</MD5>
+				<MD5>ccfad0bde2a7e1fc8ca5e22a522a0db0</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
