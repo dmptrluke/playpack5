@@ -900,7 +900,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/config.cfg</URL>
 				<Path>config/cofh/world/config.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>a19264ea49160c275a436700aea5290d</MD5>
+				<MD5>dffb6dd1e52fbd40c47e45c82295c62b</MD5>
 			</ConfigFile>
 				<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/01_thermalfoundation_ores.json</URL>
