@@ -930,7 +930,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/06_forestry.json</URL>
 				<Path>config/cofh/world/06_forestry.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>59c81833993a294e83f6a292f4c0a0d6</MD5>
+				<MD5>a81cb1fd8fe9043771817d6592841532</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Colytra" id="colytra" depends="" side="BOTH">
