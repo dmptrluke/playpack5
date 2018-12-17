@@ -35,5 +35,6 @@ mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_purple:*>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_blue:*>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_brown:*>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_green:*>);
+mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_lime:*>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_red:*>);
 mods.jei.JEI.removeAndHide(<ironchest:iron_shulker_box_black:*>);

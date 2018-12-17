@@ -2051,7 +2051,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/chests.zs</URL>
 				<Path>scripts/chests.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>8a43eb9e1b37106822ed3d5acf52373b</MD5>
+				<MD5>959a3106574ef36213df3d29d1997b1b</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
