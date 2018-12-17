@@ -1423,26 +1423,6 @@
 				<MD5>6a30f63e791d44000f69676210b8728d</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Actually Additions" id="actuallyadditions" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ActuallyAdditions-1.12.2-r144.jar</URL>
-			<Size>2906137</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>e562116b7cf9e99bbca4c1ed74343980</MD5>
-			<Meta>
-				<credits>Author: Ellpeck; Textures and Models: BootyToast, GlenthorLP, canitzp</credits>
-				<description>Do you want Automation? Wireless Transport? Better Machines? A cup o&apos; Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more!</description>
-				<version>1.12.2-r144</version>
-				<url>http://github.com/Ellpeck/ActuallyAdditions</url>
-				<authors>Ellpeck</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/actuallyadditions.cfg</URL>
-				<Path>config/actuallyadditions.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>ccfad0bde2a7e1fc8ca5e22a522a0db0</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CraftTweaker2-1.12-4.1.13.jar</URL>
 			<Size>1315744</Size>
