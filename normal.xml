@@ -289,7 +289,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/reccomplex.cfg</URL>
 				<Path>config/reccomplex.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>fad245a6866bc17b0b8fdbeab0220099</MD5>
+				<MD5>fdf100bc20162a02ab9abe54c3a55e01</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
@@ -1922,7 +1922,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/common.cfg</URL>
 				<Path>config/forestry/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>42c0151d750afd896a79a35c97f371f1</MD5>
+				<MD5>da41d5599f8911b9a8520f27f96518ee</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/crates.cfg</URL>
