@@ -2042,10 +2042,16 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>cpw</authors>
 			</Meta>
 			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/ironchest.cfg</URL>
+				<Path>config/ironchest.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bb77d8418e99b95e02c2e3bc51eba59f</MD5>
+			</ConfigFile>
+			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/chests.zs</URL>
 				<Path>scripts/chests.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>ecda3e407ad5b9f6e20701ea0c91dfa1</MD5>
+				<MD5>8a43eb9e1b37106822ed3d5acf52373b</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
@@ -2201,7 +2207,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/harvestcraft.zs</URL>
 				<Path>scripts/harvestcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>b490c310307765e1608b0a966fc1d6a5</MD5>
+				<MD5>c26b77986cda9d06673e1dd98e097432</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
