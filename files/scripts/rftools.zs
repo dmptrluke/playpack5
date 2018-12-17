@@ -36,17 +36,17 @@ recipes.remove(<rftools:haste_module>);
 recipes.remove(<rftools:speed_module>);
 recipes.remove(<rftools:regeneration_module>);
 
-recipes.addShaped(<rftools:luck_module>, [[null, <rftools:syringe>.withTag({mobName: "Shulker", level: 10, mobId: "minecraft:shulker"}), null],[<ore:gemRuby>, <ore:plateGold>, <ore:gemRuby>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:glowing_module>, [[null, <rftools:syringe>.withTag({mobName: "Blaze", level: 10, mobId: "minecraft:blaze"}), null],[<ore:gemRuby>, <ore:plateGold>, <ore:gemRuby>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:nightvision_module>, [[null, <rftools:syringe>.withTag({mobName: "Cave Spider", level: 10, mobId: "minecraft:cave_spider"}), null],[<ore:gemRuby>, <ore:plateGold>, <ore:gemRuby>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:waterbreathing_module>, [[null, <rftools:syringe>.withTag({mobName: "Guardian", level: 10, mobId: "minecraft:guardian"}), null],[<ore:gemRuby>, <ore:plateGold>, <ore:gemRuby>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:peaceful_module>, [[null, <rftools:peace_essence>, null],[<ore:gemRuby>, <ore:plateGold>, <ore:gemRuby>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:flight_module>, [[null, <rftools:syringe>.withTag({mobName: "Ghast", level: 10, mobId: "minecraft:ghast"}), null],[<ore:gemRuby>, <ore:plateGold>, <ore:gemRuby>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:featherfalling_module>, [[null, <rftools:syringe>.withTag({mobName: "Chicken", level: 10, mobId: "minecraft:chicken"}), null],[<ore:gemRuby>, <ore:plateGold>, <ore:gemRuby>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:saturation_module>, [[null, <rftools:syringe>.withTag({mobName: "Zombie", level: 10, mobId: "minecraft:zombie"}), null],[<ore:gemRuby>, <ore:plateGold>, <ore:gemRuby>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:haste_module>, [[null, <minecraft:diamond_pickaxe>.withTag({ench: [{lvl: 3 as short, id: 32 as short}]}), null],[<ore:gemRuby>, <ore:plateGold>, <ore:gemRuby>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:speed_module>, [[null, <rftools:syringe>.withTag({mobName: "Horse", level: 10, mobId: "minecraft:horse"}), null],[<ore:gemRuby>, <ore:plateGold>, <ore:gemRuby>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:regeneration_module>, [[null, <rftools:syringe>.withTag({mobName: "Iron Golem", level: 10, mobId: "minecraft:villager_golem"}), null],[<ore:gemRuby>, <ore:plateGold>, <ore:gemRuby>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:luck_module>, [[null, <rftools:syringe>.withTag({mobName: "Shulker", level: 10, mobId: "minecraft:shulker"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:glowing_module>, [[null, <rftools:syringe>.withTag({mobName: "Blaze", level: 10, mobId: "minecraft:blaze"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:nightvision_module>, [[null, <rftools:syringe>.withTag({mobName: "Cave Spider", level: 10, mobId: "minecraft:cave_spider"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:waterbreathing_module>, [[null, <rftools:syringe>.withTag({mobName: "Guardian", level: 10, mobId: "minecraft:guardian"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:peaceful_module>, [[null, <rftools:peace_essence>, null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:flight_module>, [[null, <rftools:syringe>.withTag({mobName: "Ghast", level: 10, mobId: "minecraft:ghast"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:featherfalling_module>, [[null, <rftools:syringe>.withTag({mobName: "Chicken", level: 10, mobId: "minecraft:chicken"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:saturation_module>, [[null, <rftools:syringe>.withTag({mobName: "Zombie", level: 10, mobId: "minecraft:zombie"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:haste_module>, [[null, <minecraft:diamond_pickaxe>.withTag({ench: [{lvl: 3 as short, id: 32 as short}]}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:speed_module>, [[null, <rftools:syringe>.withTag({mobName: "Horse", level: 10, mobId: "minecraft:horse"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:regeneration_module>, [[null, <rftools:syringe>.withTag({mobName: "Iron Golem", level: 10, mobId: "minecraft:villager_golem"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
 
 # more expensive storage modules
 recipes.remove(<rftools:storage_module>);

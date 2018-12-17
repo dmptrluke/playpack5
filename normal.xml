@@ -600,7 +600,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/rftools.zs</URL>
 				<Path>scripts/rftools.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>38a7d0d5333f14d61a7bcef47722b589</MD5>
+				<MD5>09de53f059d13dcba64498ca6b2d3034</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="RFTools Control" id="rftoolscontrol" depends="rftools" side="BOTH">
@@ -2810,13 +2810,13 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/Waystones.cfg</URL>
 				<Path>config/Waystones.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>dbcfff3d1a373afa557654b5075b6d30</MD5>
+				<MD5>f574dd18e1fd2eadf4d53ca8432e93db</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/waystones.zs</URL>
 				<Path>scripts/waystones.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>372f3447d51f098dab6e033a2c8aaa65</MD5>
+				<MD5>d76a0c8f59af8b255dcd1248b107b5a8</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="VanillaFix" id="vanillafix" depends="" side="BOTH">
