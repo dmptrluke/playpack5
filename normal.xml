@@ -533,7 +533,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/earthworks.zs</URL>
 				<Path>scripts/earthworks.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>3a7dc1021d1a63711b40c187328f8c41</MD5>
+				<MD5>e84971b0a424d6cb94b19b753ad3185c</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Building Gadgets" id="buildinggadgets" depends="" side="BOTH">
@@ -1468,12 +1468,6 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1E46A402E03199BC7CA216194A765642</MD5>
 			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/danknull.zs</URL>
-				<Path>scripts/danknull.zs</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>134B73B8BFAE633E1CBF42ED2816F3A6</MD5>
-			</ConfigFile>
 			<Submodule name="ModTweaker" id="modtweaker">
 				<URL priority="0">https://dmptr.com/pack_redux/files/mods/modtweaker-4.0.15.jar</URL>
 				<Size>430351</Size>
@@ -1581,7 +1575,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/enderstorage.zs</URL>
 				<Path>scripts/enderstorage.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>EA7E9B5ACE3EF4A1892958DEFC934719</MD5>
+				<MD5>b877a48764eee4ecb967cb3c2879d423</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="EnderCore" id="endercore" depends="" side="BOTH">
@@ -2067,6 +2061,12 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<url>http://www.minecraftforum.net/topic/981855-</url>
 				<authors>cpw</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/chests.zs</URL>
+				<Path>scripts/chests.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>31adbea43aebe25cf7dcfc99fdb98f12</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.13.1.225.jar</URL>
@@ -2329,6 +2329,12 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<Path>config/DankNull.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6629227d9dc6b13b0e1338ff68c3ddd1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/danknull.zs</URL>
+				<Path>scripts/danknull.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>df541611a94e0c604e97bb38d232ca01</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Resource Loader" id="resourceloader" depends="" side="BOTH">

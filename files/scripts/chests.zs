@@ -1,3 +1,6 @@
+#modloaded ironchest
+print("Initializing chests.zs")
+
 # chests
 mods.jei.JEI.removeAndHide(<ironchest:diamond_obsidian_chest_upgrade>);
 mods.jei.JEI.removeAndHide(<ironchest:gold_diamond_chest_upgrade>);

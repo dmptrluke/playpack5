@@ -1,3 +1,6 @@
+#modloaded danknull
+print("Initializing danknull.zs")
+
 # remove higher-tier /dank/null items
 mods.jei.JEI.removeAndHide(<danknull:dank_null_panel:5>);
 mods.jei.JEI.removeAndHide(<danknull:dank_null_panel:4>);
