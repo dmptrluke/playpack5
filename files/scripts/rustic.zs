@@ -1,3 +1,6 @@
+#modloaded rustic
+print("Initializing rustic.zs");
+
 # remove a few things
 mods.jei.JEI.removeAndHide(<rustic:chandelier>);
 mods.jei.JEI.removeAndHide(<rustic:candle>);

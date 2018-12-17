@@ -2221,7 +2221,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/harvestcraft.zs</URL>
 				<Path>scripts/harvestcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>6d278ac1a9efd370d0a6143d6bb483f6</MD5>
+				<MD5>b490c310307765e1608b0a966fc1d6a5</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
@@ -2380,7 +2380,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/rustic.zs</URL>
 				<Path>scripts/rustic.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>e4c4c1debbe8e455b7b8d0644fb57fb9</MD5>
+				<MD5>575bd7876d507c8fb1b5ba0dcf203bfa</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Rustic Thaumaturgy" id="rusticthaumaturgy" depends="" side="BOTH">

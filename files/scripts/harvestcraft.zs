@@ -1,3 +1,6 @@
+#modloaded harvestcraft thermalexpansion
+print("Initializing harvestcraft.zs");
+
 import mods.thermalexpansion.Pulverizer;
 import mods.jei.JEI;
 
