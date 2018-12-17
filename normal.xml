@@ -176,7 +176,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/akashictome.zs</URL>
 				<Path>scripts/akashictome.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>73226d30d73ea7f9c1c41115e02213aa</MD5>
+				<MD5>3d6d8aff686341f1b3788af384959682</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="AppleCore" id="applecore" depends="" side="BOTH">
@@ -533,7 +533,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/earthworks.zs</URL>
 				<Path>scripts/earthworks.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>e84971b0a424d6cb94b19b753ad3185c</MD5>
+				<MD5>eb906ece816e83dc56570ead0badb8c4</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Building Gadgets" id="buildinggadgets" depends="" side="BOTH">
@@ -594,7 +594,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/rftools.zs</URL>
 				<Path>scripts/rftools.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>a0cefa501e4924637e903637d2009e54</MD5>
+				<MD5>38a7d0d5333f14d61a7bcef47722b589</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="RFTools Control" id="rftoolscontrol" depends="rftools" side="BOTH">
@@ -782,7 +782,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/biomesoplenty.zs</URL>
 				<Path>scripts/biomesoplenty.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d6d8eea4e4c006d2dc693f266e25856e</MD5>
+				<MD5>23eca5b4ac081543cf992eccdc22ac6f</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Bullseye" id="bullseye" depends="" side="BOTH">
@@ -996,7 +996,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/bagstobeds.zs</URL>
 				<Path>scripts/bagstobeds.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>e26cbc84192da70dc06bdf8c58590044</MD5>
+				<MD5>729aba0cdbac0a6d9258539d4bc84d46</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Construct&apos;s Armory" id="conarm" depends="" side="BOTH">
@@ -1302,6 +1302,12 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3e3f7f6922d7ef02d4c7791263a168fb</MD5>
 			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/industrialcraft.zs</URL>
+				<Path>scripts/industrialcraft.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1ea8475103713d57e8a1b7828bfc541e</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mekanism-1.12.2-9.4.13.349%20(3).jar</URL>
@@ -1575,7 +1581,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/enderstorage.zs</URL>
 				<Path>scripts/enderstorage.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>b877a48764eee4ecb967cb3c2879d423</MD5>
+				<MD5>c542b8cf65b203942442ff680a57866d</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="EnderCore" id="endercore" depends="" side="BOTH">
@@ -2053,7 +2059,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/chests.zs</URL>
 				<Path>scripts/chests.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>31adbea43aebe25cf7dcfc99fdb98f12</MD5>
+				<MD5>ecda3e407ad5b9f6e20701ea0c91dfa1</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
@@ -2322,7 +2328,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/danknull.zs</URL>
 				<Path>scripts/danknull.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>df541611a94e0c604e97bb38d232ca01</MD5>
+				<MD5>efc12569a1353cecdb644eb3ef1628f1</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Resource Loader" id="resourceloader" depends="" side="CLIENT">

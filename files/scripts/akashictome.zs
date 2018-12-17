@@ -1,5 +1,5 @@
 #modloaded akashictome initialinventory
-print("Initializing akashictome.zs")
+print("Initializing akashictome.zs");
 
 # define universal manual
 val universal_manual =

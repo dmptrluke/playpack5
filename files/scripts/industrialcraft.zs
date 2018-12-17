@@ -1,3 +1,6 @@
+#modloaded ic2
+print("Initializing industrialcraft.zs");
+
 import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.Compacter;
 

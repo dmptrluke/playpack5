@@ -1,5 +1,5 @@
 #modloaded enderstorage
-print("Initializing enderstorage.zs")
+print("Initializing enderstorage.zs");
 
 recipes.remove(<enderstorage:ender_storage:1>);
 

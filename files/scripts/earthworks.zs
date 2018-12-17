@@ -1,5 +1,5 @@
 #modloaded earthworks biomesoplenty
-print("Initializing earthworks.zs")
+print("Initializing earthworks.zs");
 
 # remove earthworks basic mud recipes
 recipes.removeByRecipeName("earthworks:block_mud_alt");

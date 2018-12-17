@@ -1,5 +1,5 @@
 #modloaded biomesoplenty
-print("Initializing biomesoplenty.zs")
+print("Initializing biomesoplenty.zs");
 
 # fuck weird dirts
 <ore:dirt>.add(<biomesoplenty:dirt:8>); # coarse loamy dirt
