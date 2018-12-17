@@ -1904,7 +1904,13 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/apiculture.cfg</URL>
 				<Path>config/forestry/apiculture.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>762c3b1e8cf4f29d5414191e0ba0de1f</MD5>
+				<MD5>89d740f193d3e40f887036e6e151766b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/arboriculture.cfg</URL>
+				<Path>config/forestry/arboriculture.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ec6a3812c1e305aca1faab09bab186c4</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/backpacks.cfg</URL>
@@ -1916,7 +1922,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/common.cfg</URL>
 				<Path>config/forestry/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>da41d5599f8911b9a8520f27f96518ee</MD5>
+				<MD5>49cd7662b59f580bb5e68ebe434d57dc</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/crates.cfg</URL>
@@ -1928,13 +1934,25 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/farm.cfg</URL>
 				<Path>config/forestry/farm.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d15bfde74806f509ba1c18c1fe7b481e</MD5>
+				<MD5>10e47ec192e91619cc10dba1ed9a4423</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/fluids.cfg</URL>
 				<Path>config/forestry/fluids.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>48d3db6eed9601d985435d1496ed466f</MD5>
+				<MD5>11d25f23212aaf9db75a7936bd71485f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/lepidopterology.cfg</URL>
+				<Path>config/forestry/lepidopterology.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>35167af74194b2781918066afdbdad37</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/modules.cfg</URL>
+				<Path>config/forestry/modules.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0f4399c488be3bf38c9dc2b684fc19cb</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/gamemodes/EASY.cfg</URL>
@@ -1959,18 +1977,6 @@
 				<Path>config/forestry/gamemodes/OP.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>8a621c94354e3d972f2f436ff2c80c86</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/lepidopterology.cfg</URL>
-				<Path>config/forestry/lepidopterology.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f9aaa18989133285a71541ceb4c372b6</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/modules.cfg</URL>
-				<Path>config/forestry/modules.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>752841fb3a5e4042dd2c6862482ff0f0</MD5>
 			</ConfigFile>
 		</Module>
 		<!--<Module name="Binnie&apos;s Mods" id="binniecore" depends="" side="BOTH"><URL priority="0">https://dmptr.com/pack_redux/files/mods/binnie-mods-1.12.2-2.5.0.168.jar</URL><Size>5822126</Size><Required>true</Required><ModType>Regular</ModType><MD5>42f1691d2e22ebdd2e35f6bcb4843d35</MD5><Meta><credits>Thanks to Sengir, MysteriousAges, Xizzzy and many others</credits><description>Base mod for Binnie&apos;s Mods, with lots of common code.</description><version>2.5.0.168</version><url>https://minecraft.curseforge.com/projects/binnies-mods</url><authors>Binnie</authors></Meta><ConfigFile><URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/binnie-mods.conf</URL><Path>config/forestry/binnie-mods.conf</Path><NoOverwrite>false</NoOverwrite><MD5>ba6b854de5e34ed99e27896475bdbeba</MD5></ConfigFile><ConfigFile><URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/extratrees/modules.cfg</URL><Path>config/forestry/extratrees/modules.cfg</Path><NoOverwrite>false</NoOverwrite><MD5>d204bfe32886506cae7bbc911cdab835</MD5></ConfigFile></Module>-->
