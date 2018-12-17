@@ -1631,14 +1631,14 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Outfox" id="outfox" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/outfox-0.1.3-mc1.12.2.jar</URL>
-			<Size>131999</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/outfox-0.1.4-mc1.12.2.jar</URL>
+			<Size>133963</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6275de5752ac7c4c0e59278ddf0bf434</MD5>
+			<MD5>a36a1238abf04b21e1bbb354219f84ab</MD5>
 			<Meta>
 				<description>Adds adorable, tameable Foxes to Minecraft&apos;s forests. Once befriended, they can sniff out any block in the world and lead you to them.</description>
-				<version>0.1.3</version>
+				<version>_DEV_</version>
 				<url></url>
 				<authors>Kais</authors>
 			</Meta>
