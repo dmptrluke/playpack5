@@ -121,7 +121,7 @@
 		<Module name="Connected Textures Mod" id="ctm" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CTM-MC1.12.2-0.3.2.18.jar</URL>
 			<Size>192297</Size>
-			<Required isDefault="true">false</Required>
+			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>ae47db2db3a8210e4647a5145fd30b00</MD5>
 			<Meta>
@@ -290,6 +290,12 @@
 				<Path>config/reccomplex.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>fdf100bc20162a02ab9abe54c3a55e01</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/structures/active/AbandonedWoodTower.rcst</URL>
+				<Path>structures/active/AbandonedWoodTower.rcst</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>813d0422af7ab20528eea0ab048e8c61</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
