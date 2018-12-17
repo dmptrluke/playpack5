@@ -1,4 +1,6 @@
+#modloaded comforts
 print("Initializing bagstobeds.zs")
+
 # add recipes to convert sleeping bags to beds
 recipes.addShaped(<minecraft:bed:0>, [[null, null, null],[null, <comforts:sleeping_bag:0>, null], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 recipes.addShaped(<minecraft:bed:1>, [[null, null, null],[null, <comforts:sleeping_bag:1>, null], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);

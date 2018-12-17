@@ -176,7 +176,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/akashictome.zs</URL>
 				<Path>scripts/akashictome.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>28988a67e3c0e206781d2d08ed3f64bc</MD5>
+				<MD5>73226d30d73ea7f9c1c41115e02213aa</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="AppleCore" id="applecore" depends="" side="BOTH">
@@ -782,7 +782,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/biomesoplenty.zs</URL>
 				<Path>scripts/biomesoplenty.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>b3234953b2a6be1c8bcca056af3f0fc5</MD5>
+				<MD5>d6d8eea4e4c006d2dc693f266e25856e</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Bullseye" id="bullseye" depends="" side="BOTH">
@@ -996,7 +996,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/bagstobeds.zs</URL>
 				<Path>scripts/bagstobeds.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>3556642ecce82b13ee70949d5da419d3</MD5>
+				<MD5>e26cbc84192da70dc06bdf8c58590044</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Construct&apos;s Armory" id="conarm" depends="" side="BOTH">
@@ -2054,21 +2054,16 @@
 			<MD5>944a413889537655a8c1165d44e2647f</MD5>
 		</Module>
 		<Module name="Iron Chests" id="ironchest" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ironchest-1.12.2-7.0.40.824.jar</URL>
-			<Size>1101965</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ironchest-1.12.2-7.0.54.838.jar</URL>
+			<Size>946207</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>dd941ee283cfc5507ed846a1f52e67be</MD5>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/chests.zs</URL>
-				<Path>scripts/chests.zs</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d168052373b85564187b94b98695fdb8</MD5>
-			</ConfigFile>
+			<MD5>019c80fca89a437f86f98bd69402a2e0</MD5>
 			<Meta>
 				<credits>By cpw, based on an original idea by Lishid</credits>
-				<description>New chests with larger sizes, with in-place upgrade items.</description>
-				<version>1.12.2-7.0.40.824</version>
+				<description>New chests with larger sizes, with in-place upgrade items.
+The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest</description>
+				<version>1.12.2-7.0.54.838</version>
 				<url>http://www.minecraftforum.net/topic/981855-</url>
 				<authors>cpw</authors>
 			</Meta>

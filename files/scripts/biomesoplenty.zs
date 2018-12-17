@@ -1,3 +1,6 @@
+#modloaded biomesoplenty
+print("Initializing biomesoplenty.zs")
+
 # fuck weird dirts
 <ore:dirt>.add(<biomesoplenty:dirt:8>); # coarse loamy dirt
 <ore:dirt>.add(<biomesoplenty:dirt:1>); # sandy dirt
@@ -36,12 +39,16 @@ recipes.addShapeless("terrestrial_artifact", <biomesoplenty:terrestrial_artifact
 <ore:blockSapphire>.add(<biomesoplenty:gem_block:6>);
 <ore:blockAmber>.add(<biomesoplenty:gem_block:7>);
 
-# make things useful!
+ # make things useful!
 recipes.addShapeless("flaxtostring", <minecraft:string>, [<ore:plantFlax>, <ore:plantFlax>]);
-recipes.addShapeless("rootsmakebeer", <harvestcraft:rootbeersodaitem>, [<harvestcraft:potitem>, <harvestcraft:bubblywateritem>, <ore:listAllsugar>, <biomesoplenty:plant_1:9>]);
 
-# make rice and barley useful
-<biomesoplenty:plant_1:11>.displayName = "Wild Barley";
-recipes.addShapeless(<harvestcraft:barleyitem>, [<ore:plantBarley>, <ore:plantBarley>, <ore:plantBarley>]);
-recipes.addShapeless(<harvestcraft:riceitem>, [<ore:plantWildrice>, <ore:plantWildrice>, <ore:plantWildrice>]);
+if(loadedMods.contains("harvestcraft")){
+    recipes.addShapeless("rootsmakebeer", <harvestcraft:rootbeersodaitem>, [<harvestcraft:potitem>, <harvestcraft:bubblywateritem>, <ore:listAllsugar>, <biomesoplenty:plant_1:9>]);
+
+    # make rice and barley useful
+    <biomesoplenty:plant_1:11>.displayName = "Wild Barley";
+    recipes.addShapeless(<harvestcraft:barleyitem>, [<ore:plantBarley>, <ore:plantBarley>, <ore:plantBarley>]);
+    recipes.addShapeless(<harvestcraft:riceitem>, [<ore:plantWildrice>, <ore:plantWildrice>, <ore:plantWildrice>]);
+}
+
 
