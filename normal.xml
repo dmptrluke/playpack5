@@ -1904,7 +1904,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/apiculture.cfg</URL>
 				<Path>config/forestry/apiculture.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>89d740f193d3e40f887036e6e151766b</MD5>
+				<MD5>cc98ced75e407b44a85421b8c7ab04d2</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/arboriculture.cfg</URL>
@@ -1922,7 +1922,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/common.cfg</URL>
 				<Path>config/forestry/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>49cd7662b59f580bb5e68ebe434d57dc</MD5>
+				<MD5>e21adc7294b22b6044e68c9e2ed31a54</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/crates.cfg</URL>
@@ -1955,28 +1955,10 @@
 				<MD5>0f4399c488be3bf38c9dc2b684fc19cb</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/gamemodes/EASY.cfg</URL>
-				<Path>config/forestry/gamemodes/EASY.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>7e003f4153411373bf9d34c5ae67270e</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/gamemodes/HARD.cfg</URL>
-				<Path>config/forestry/gamemodes/HARD.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>900d14cf7f42dfba95acb0b2588c2257</MD5>
-			</ConfigFile>
-			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/gamemodes/NORMAL.cfg</URL>
 				<Path>config/forestry/gamemodes/NORMAL.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>8239e36164fe01aff86a30e273c78c98</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/gamemodes/OP.cfg</URL>
-				<Path>config/forestry/gamemodes/OP.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>8a621c94354e3d972f2f436ff2c80c86</MD5>
+				<MD5>b0be49e41baecbff037a66d84a8c3458</MD5>
 			</ConfigFile>
 		</Module>
 		<!--<Module name="Binnie&apos;s Mods" id="binniecore" depends="" side="BOTH"><URL priority="0">https://dmptr.com/pack_redux/files/mods/binnie-mods-1.12.2-2.5.0.168.jar</URL><Size>5822126</Size><Required>true</Required><ModType>Regular</ModType><MD5>42f1691d2e22ebdd2e35f6bcb4843d35</MD5><Meta><credits>Thanks to Sengir, MysteriousAges, Xizzzy and many others</credits><description>Base mod for Binnie&apos;s Mods, with lots of common code.</description><version>2.5.0.168</version><url>https://minecraft.curseforge.com/projects/binnies-mods</url><authors>Binnie</authors></Meta><ConfigFile><URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/binnie-mods.conf</URL><Path>config/forestry/binnie-mods.conf</Path><NoOverwrite>false</NoOverwrite><MD5>ba6b854de5e34ed99e27896475bdbeba</MD5></ConfigFile><ConfigFile><URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/extratrees/modules.cfg</URL><Path>config/forestry/extratrees/modules.cfg</Path><NoOverwrite>false</NoOverwrite><MD5>d204bfe32886506cae7bbc911cdab835</MD5></ConfigFile></Module>-->
@@ -2171,7 +2153,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>021ad95a94a2cb6c33e35b70fb249755</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="I Know What Im Doing" id="ikwid" depends="" side="BOTH">
+		<Module name="I Know What Im Doing" id="ikwid" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ikwid-1.0.2.jar</URL>
 			<Size>1989</Size>
 			<Required>true</Required>
@@ -2343,7 +2325,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>df541611a94e0c604e97bb38d232ca01</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Resource Loader" id="resourceloader" depends="" side="BOTH">
+		<Module name="Resource Loader" id="resourceloader" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ResourceLoader-MC1.12.1-1.5.3.jar</URL>
 			<Size>16612</Size>
 			<ModType>Regular</ModType>
