@@ -36,17 +36,17 @@ recipes.remove(<rftools:haste_module>);
 recipes.remove(<rftools:speed_module>);
 recipes.remove(<rftools:regeneration_module>);
 
-recipes.addShaped(<rftools:luck_module>, [[null, <rftools:syringe>.withTag({mobName: "Shulker", level: 10, mobId: "minecraft:shulker"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:glowing_module>, [[null, <rftools:syringe>.withTag({mobName: "Blaze", level: 10, mobId: "minecraft:blaze"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:nightvision_module>, [[null, <rftools:syringe>.withTag({mobName: "Cave Spider", level: 10, mobId: "minecraft:cave_spider"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:waterbreathing_module>, [[null, <rftools:syringe>.withTag({mobName: "Guardian", level: 10, mobId: "minecraft:guardian"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:peaceful_module>, [[null, <rftools:peace_essence>, null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:flight_module>, [[null, <rftools:syringe>.withTag({mobName: "Ghast", level: 10, mobId: "minecraft:ghast"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:featherfalling_module>, [[null, <rftools:syringe>.withTag({mobName: "Chicken", level: 10, mobId: "minecraft:chicken"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:saturation_module>, [[null, <rftools:syringe>.withTag({mobName: "Zombie", level: 10, mobId: "minecraft:zombie"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:haste_module>, [[null, <minecraft:diamond_pickaxe>.withTag({ench: [{lvl: 3 as short, id: 32 as short}]}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:speed_module>, [[null, <rftools:syringe>.withTag({mobName: "Horse", level: 10, mobId: "minecraft:horse"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
-recipes.addShaped(<rftools:regeneration_module>, [[null, <rftools:syringe>.withTag({mobName: "Iron Golem", level: 10, mobId: "minecraft:villager_golem"}), null],[<gemTanzanite>, <ore:plateGold>, <gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:luck_module>, [[null, <rftools:syringe>.withTag({mobName: "Shulker", level: 10, mobId: "minecraft:shulker"}), null],[<ore:gemTanzanite>, <ore:plateGold>, <ore:gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:glowing_module>, [[null, <rftools:syringe>.withTag({mobName: "Blaze", level: 10, mobId: "minecraft:blaze"}), null],[<ore:gemTanzanite>, <ore:plateGold>, <ore:gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:nightvision_module>, [[null, <rftools:syringe>.withTag({mobName: "Cave Spider", level: 10, mobId: "minecraft:cave_spider"}), null],[<ore:gemTanzanite>, <ore:plateGold>, <ore:gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:waterbreathing_module>, [[null, <rftools:syringe>.withTag({mobName: "Guardian", level: 10, mobId: "minecraft:guardian"}), null],[<ore:gemTanzanite>, <ore:plateGold>, <ore:gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:peaceful_module>, [[null, <rftools:peace_essence>, null],[<ore:gemTanzanite>, <ore:plateGold>, <ore:gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:flight_module>, [[null, <rftools:syringe>.withTag({mobName: "Ghast", level: 10, mobId: "minecraft:ghast"}), null],[<ore:gemTanzanite>, <ore:plateGold>, <ore:gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:featherfalling_module>, [[null, <rftools:syringe>.withTag({mobName: "Chicken", level: 10, mobId: "minecraft:chicken"}), null],[<ore:gemTanzanite>, <ore:plateGold>, <ore:gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:saturation_module>, [[null, <rftools:syringe>.withTag({mobName: "Zombie", level: 10, mobId: "minecraft:zombie"}), null],[<ore:gemTanzanite>, <ore:plateGold>, <ore:gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:haste_module>, [[null, <minecraft:diamond_pickaxe>.withTag({ench: [{lvl: 3 as short, id: 32 as short}]}), null],[<ore:gemTanzanite>, <ore:plateGold>, <ore:gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:speed_module>, [[null, <rftools:syringe>.withTag({mobName: "Horse", level: 10, mobId: "minecraft:horse"}), null],[<ore:gemTanzanite>, <ore:plateGold>, <ore:gemTanzanite>], [null, <minecraft:redstone>, null]]);
+recipes.addShaped(<rftools:regeneration_module>, [[null, <rftools:syringe>.withTag({mobName: "Iron Golem", level: 10, mobId: "minecraft:villager_golem"}), null],[<ore:gemTanzanite>, <ore:plateGold>, <ore:gemTanzanite>], [null, <minecraft:redstone>, null]]);
 
 # more expensive storage modules
 recipes.remove(<rftools:storage_module>);
@@ -71,10 +71,4 @@ if(loadedMods.contains("thermalexpansion")){
     mods.thermalexpansion.RedstoneFurnace.addRecipe(<rftools:dimensional_shard>, <rftools:dimensional_shard_ore:0>, 2000);
     mods.thermalexpansion.RedstoneFurnace.addRecipe(<rftools:dimensional_shard>, <rftools:dimensional_shard_ore:1>, 2000);
     mods.thermalexpansion.RedstoneFurnace.addRecipe(<rftools:dimensional_shard>, <rftools:dimensional_shard_ore:2>, 2000);
-}
-
-if(loadedMods.contains("actuallyadditions")){
-    mods.actuallyadditions.Crusher.addRecipe(<rftools:dimensional_shard> * 3, <rftools:dimensional_shard_ore:0>);
-    mods.actuallyadditions.Crusher.addRecipe(<rftools:dimensional_shard> * 3, <rftools:dimensional_shard_ore:1>);
-    mods.actuallyadditions.Crusher.addRecipe(<rftools:dimensional_shard> * 3, <rftools:dimensional_shard_ore:2>);
 }
