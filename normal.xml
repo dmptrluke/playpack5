@@ -931,7 +931,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/05_bop_gems.json</URL>
 				<Path>config/cofh/world/05_bop_gems.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>4895987a5db1427206de83cd11125bfc</MD5>
+				<MD5>27b603e222dc30bbcd526d6143fc04b1</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/06_forestry.json</URL>
@@ -943,7 +943,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/07_techreborn.json</URL>
 				<Path>config/cofh/world/07_techreborn.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>359380634acc77361d7e3cc2792aafe6</MD5>
+				<MD5>cbdfa9fe8325f9f5fdfcc256201ce91e</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Colytra" id="colytra" depends="" side="BOTH">

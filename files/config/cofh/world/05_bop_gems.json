@@ -168,55 +168,6 @@
 					1
 				]
 			}
-		},
-		"amber": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "biomesoplenty:gem_ore",
-					"metadata": 7
-				},
-				"material": "minecraft:stone",
-				"cluster-size": 2
-			},
-			"cluster-count": {
-				"min": 3,
-				"max": 6
-			},
-			"min-height": 4,
-			"max-height": 32,
-			"retrogen": "true",
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"biomesoplenty:boreal_forest",
-							"biomesoplenty:coniferous_forest",
-							"biomesoplenty:grove",
-							"biomesoplenty:redwood_forest",
-							"biomesoplenty:seasonal_forest",
-							"biomesoplenty:shield",
-							"biomesoplenty:temperate_rainforest",
-							"biomesoplenty:woodland",
-							"traverse:thicket",
-							"minecraft:forest",
-							"minecraft:forest_hills",
-							"minecraft:roofed_forest",
-							"minecraft:birch_forest",
-							"minecraft:birch_forest_hills"
-						]
-					}
-				]
-			},
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
 		}
 	}
 }
