@@ -37,7 +37,7 @@
             "action" : 
             {
                 "type" : "connectToServer",
-                "ip" : "modded.dmptr.com"
+                "ip" : "play.dmptr.com"
             }
         },
 	

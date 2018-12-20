@@ -846,18 +846,6 @@
 				<authors>ChickenBones, covers1624</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/codechicken/supporters.json</URL>
-				<Path>config/codechicken/supporters.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>e3afca7cad44dfe35ccf489d71ec7ad1</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/codechicken/supporters.marker</URL>
-				<Path>config/codechicken/supporters.marker</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>17b093608a8b9dec117bbee9063b0eae</MD5>
-			</ConfigFile>
-			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/codechickenlib.cfg</URL>
 				<Path>config/codechickenlib.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
@@ -944,6 +932,12 @@
 				<Path>config/cofh/world/06_forestry.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a81cb1fd8fe9043771817d6592841532</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/07_techreborn.json</URL>
+				<Path>config/cofh/world/07_techreborn.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>869b01490c1d8cebe367d9c7fd4b63d5</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Colytra" id="colytra" depends="" side="BOTH">
@@ -1545,10 +1539,10 @@
 				<authors>lumien</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="10">https://dmptr.com/pack_redux/files/config/CustomMainMenu/mainmenu.json</URL>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/CustomMainMenu/mainmenu.json</URL>
 				<Path>config/CustomMainMenu/mainmenu.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>66bc3cf6344abc8aeeefa2242406c83d</MD5>
+				<MD5>60ca5416070a5555fffc05afa1b840e7</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
@@ -1867,15 +1861,15 @@
 			</Meta>
 		</Module>
 		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.9.1.2.jar</URL>
-			<Size>102392</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.11.0.0.jar</URL>
+			<Size>101565</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>fff966b0e6f36370f94cfbc24d41c6bb</MD5>
+			<MD5>1b66aaab346e1cb3fb99b9b5e491f77d</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A bunch of miscellaneous patches for Minecraft.</description>
-				<version>1.12.2-1.9.1.2</version>
+				<version>1.12.2-1.11.0.0</version>
 				<url>https://minecraft.curseforge.com/projects/randompatches</url>
 				<authors>TheRandomLabs</authors>
 			</Meta>
@@ -2218,15 +2212,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.67.jar</URL>
-			<Size>424362</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.68.jar</URL>
+			<Size>429912</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2e3ed3ffb43119d3dc4eabb73457bcc0</MD5>
+			<MD5>348af308d333084db88c03e4a71651ba</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.3.0.67</version>
+				<version>5.3.0.68</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2787,15 +2781,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="WanionLib" id="wanionlib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WanionLib-1.12.2-1.5.jar</URL>
-			<Size>63189</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WanionLib-1.12.2-2.1.jar</URL>
+			<Size>125928</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f0c6e0afb5383ed0653db531dd12c732</MD5>
+			<MD5>0f954201f9c6c7699c48ea1ea9f1783b</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Shared Code Library Used by (not)all WanionCane mods!</description>
-				<version>1.12.2-1.5</version>
+				<version>1.12.2-2.1</version>
 				<url>http://minecraft.curseforge.com/projects/wanionlib</url>
 				<authors>WanionCane</authors>
 			</Meta>
