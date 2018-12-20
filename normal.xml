@@ -1548,7 +1548,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/CustomMainMenu/mainmenu.json</URL>
 				<Path>config/CustomMainMenu/mainmenu.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>60ca5416070a5555fffc05afa1b840e7</MD5>
+				<MD5>4c59873798f12d7bb1f428ab4823b1d4</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
@@ -2237,6 +2237,26 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>759f811ae1c2edec3cac7b4627f5d976</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="FTB Quests" id="ftbquests" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.4.0.108.jar</URL>
+			<Size>764029</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e6b935c269a51cd5c856726df562772f</MD5>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/questpacks/normal.nbt</URL>
+				<Path>questpacks/normal.nbt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0127ed637e9d5f05d170e03fdefaf58e</MD5>
+			</ConfigFile>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.4.0.108</version>
+				<url>http://minecraft.curseforge.com/projects/ftb-quests</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+		</Module>
 		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.0.73.jar</URL>
 			<Size>885618</Size>
@@ -2343,11 +2363,11 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>lumien</authors>
 			</Meta>
 			<Submodule name="PlayPack Resources" id="playpackresources">
-				<URL priority="0">https://dmptr.com/pack_redux/files/resources-r5.zip</URL>
-				<Size>56875</Size>
+				<URL priority="0">https://dmptr.com/pack_redux/files/resources-r6.zip</URL>
+				<Size>57210</Size>
 				<Required>true</Required>
 				<ModType inRoot="true">Extract</ModType>
-				<MD5>4193D9294CD0165A09F631859BBFB995</MD5>
+				<MD5>DF6B64EDEF752DD43A2D863CE0FD7E2B</MD5>
 			</Submodule>
 		</Module>
 		<Module name="Rustic" id="rustic" depends="" side="BOTH">

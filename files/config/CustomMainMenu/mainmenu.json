@@ -145,7 +145,6 @@
 		"playpack":
         {
             "text" : "PlayPack Redux",
-            "hoverText" : "�nPlayPack Redux",
             "posX" : 2,
             "posY" : -60,
             "color" : -1,
@@ -179,7 +178,7 @@
             "posY" : 70,
             "color" : -256,
             "alignment" : "top_center",
-            "texts" : "file:minecraft:texts/splashes.txt"
+            "texts" : "file:dmptr:texts/splashes.txt"
         },
         
         "panorama":
