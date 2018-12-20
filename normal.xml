@@ -61,7 +61,7 @@
 		<Module name="Hwyla" id="waila" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Hwyla-1.8.26-B41_1.12.2.jar</URL>
 			<Size>453778</Size>
-			<Required isDefault="true">false</Required>
+			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>bca1c069d9171d331d211d24e8a3b770</MD5>
 			<Meta>
@@ -937,7 +937,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/07_techreborn.json</URL>
 				<Path>config/cofh/world/07_techreborn.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>869b01490c1d8cebe367d9c7fd4b63d5</MD5>
+				<MD5>359380634acc77361d7e3cc2792aafe6</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Colytra" id="colytra" depends="" side="BOTH">
@@ -1409,7 +1409,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/ores.json</URL>
 				<Path>config/teamreborn/techreborn/ores.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>ae3b95e1d3596db3571ad94b3c95f410</MD5>
+				<MD5>2ee7c973282ff50efd61f568f987e6b8</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/recipes.cfg</URL>
@@ -2232,15 +2232,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.0.72.jar</URL>
-			<Size>885613</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.0.73.jar</URL>
+			<Size>885618</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>79811109456da95bb6119e6dfd71199f</MD5>
+			<MD5>c9775ec3eb8e51067c90ea4e16853360</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.4.0.72</version>
+				<version>5.4.0.73</version>
 				<url>http://minecraft.curseforge.com/projects/ftblib</url>
 				<authors>LatvianModder</authors>
 			</Meta>
