@@ -707,6 +707,12 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>9e8144cf1485c0bae7c955d9a8c1dafe</MD5>
 			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/thaumcraft.zs</URL>
+				<Path>scripts/thaumcraft.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d9954e846a286f8abed1a8d8c76209a9</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="ThaumicJEI" id="jei-thaumic" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThaumicJEI-1.12.2-1.5.4-22.jar</URL>
