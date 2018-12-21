@@ -2231,6 +2231,32 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>4b704981088c5144e335290fd8e153ec</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Redstone Arsenal" id="redstonearsenal" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RedstoneArsenal-1.12.2-2.6.1.15-universal.jar</URL>
+			<Size>262918</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>435ccab1f12db187f1f46af32850bc89</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Behold the Redstone (Flux) Revolution - provides Flux-Infused Tools and Armor!</description>
+				<version>2.6.1.15</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/redstonearsenal/client.cfg</URL>
+				<Path>config/cofh/redstonearsenal/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>6a7baf0bd6a269e8e15e83d27a326ea4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/redstonearsenal/common.cfg</URL>
+				<Path>config/cofh/redstonearsenal/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>413d79c67374b123dbc6767188e1cde2</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.68.jar</URL>
 			<Size>429912</Size>
