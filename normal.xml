@@ -119,18 +119,17 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Connected Textures Mod" id="ctm" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CTM-MC1.12.2-0.3.2.18.jar</URL>
-			<Size>192297</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CTM-MC1.12.2-0.3.3.22.jar</URL>
+			<Size>194281</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ae47db2db3a8210e4647a5145fd30b00</MD5>
+			<MD5>086cd9da4b8c50a9e483c7b580a9c4d8</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Allows resource packs to add connected textures, emissive rendering, and much more.</description>
-				<version>0.3.2.18</version>
+				<version>MC1.12.2-0.3.3.22</version>
 				<url>https://minecraft.curseforge.com/projects/ctm</url>
 				<authors>tterrag, Drullkus, minecreatr</authors>
-				<note>Use this or Optifine, not both.</note>
 			</Meta>
 		</Module>
 		<!--<Module name="ChickenChunks" id="chickenchunks" depends="" side="BOTH">
@@ -427,7 +426,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/AppliedEnergistics2/AppliedEnergistics2.cfg</URL>
 				<Path>config/AppliedEnergistics2/AppliedEnergistics2.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>4387d0f6a78c6fb9528c5d30c2bc5f14</MD5>
+				<MD5>0a611da29d3500c72dc2ba251a1472b6</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/AppliedEnergistics2/CustomRecipes.cfg</URL>
@@ -2407,7 +2406,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<Size>61851</Size>
 				<Required>true</Required>
 				<ModType inRoot="true">Extract</ModType>
-				<MD5>D376BEED850ED49342EEC7049ABA048E</MD5>
+				<MD5>D1DB853853C3B61891E042FE65A201E0</MD5>
 			</Submodule>
 		</Module>
 		<Module name="Rustic" id="rustic" depends="" side="BOTH">
