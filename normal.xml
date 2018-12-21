@@ -289,7 +289,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/reccomplex.cfg</URL>
 				<Path>config/reccomplex.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>fdf100bc20162a02ab9abe54c3a55e01</MD5>
+				<MD5>50992326687651967fb4fd9159070d78</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/structures/active/AbandonedWoodTower.rcst</URL>
@@ -315,7 +315,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cyclopscore.cfg</URL>
 				<Path>config/cyclopscore.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>4b3a81c3f9b2b7696e21d198a5420610</MD5>
+				<MD5>c5f54de05ecd0456d5e391fcac61c094</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="CommonCapabilities" id="commoncapabilities" depends="" side="BOTH">
@@ -335,7 +335,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/commoncapabilities.cfg</URL>
 				<Path>config/commoncapabilities.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>078a3c5fdba847b355d8994d0d09ea4a</MD5>
+				<MD5>092a8bbec264d4c74cbf42fcdbfef846</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Culinary Construct" id="culinaryconstruct" depends="" side="BOTH">
@@ -375,7 +375,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/integrateddynamics.cfg</URL>
 				<Path>config/integrateddynamics.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>ec8f666041e347a563fe4d21d1a5bf6e</MD5>
+				<MD5>f6719167a6761fb34011d63db9555b1c</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/integrateddynamicscompat.cfg</URL>
@@ -401,7 +401,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/integratedtunnels.cfg</URL>
 				<Path>config/integratedtunnels.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>db1b2f576c9d01abfac638868feaeb2b</MD5>
+				<MD5>6359235fa4482911499e66a1ec4cf516</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/integratedtunnelscompat.cfg</URL>
@@ -540,7 +540,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/earthworks.cfg</URL>
 				<Path>config/earthworks.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>e8a5ab82127c35caf2d2abd4b63dd209</MD5>
+				<MD5>3f3cc9d042cef9af65e204f4a1be62a2</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/earthworks.zs</URL>
@@ -1345,7 +1345,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/mekanism.zs</URL>
 				<Path>scripts/mekanism.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>0a2708fe21cfdcf573a92d9ec577d034</MD5>
+				<MD5>f8719b2972aaa68674be4f2f1ccac224</MD5>
 			</ConfigFile>
 		</Module>-->
 		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
@@ -1693,7 +1693,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/extraalchemy.cfg</URL>
 				<Path>config/extraalchemy.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>4d90e0302f80f3faa98bfd6924c313d2</MD5>
+				<MD5>5d488e9ac5286d0b241379698d4eed0e</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
@@ -1992,7 +1992,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/tombmanygraves.cfg</URL>
 				<Path>config/tombmanygraves.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>2839db4bdf5ab22b59cdece8757662d1</MD5>
+				<MD5>83392256a6023e9cdb87f62de3e41210</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
@@ -2675,7 +2675,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/tconstruct.cfg</URL>
 				<Path>config/tconstruct.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>7b6e4a4a0a1692da2a45352b97a880d5</MD5>
+				<MD5>b85c2739ed1ba95b624f54cb666fb7a6</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/TinkerModules.cfg</URL>
