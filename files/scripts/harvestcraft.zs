@@ -8,6 +8,18 @@ mods.jei.JEI.removeAndHide(<harvestcraft:grubitem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:queenbeeitem>);
 mods.jei.JEI.removeAndHide(<harvestcraft:royaljellyitem>);
 
+# remove duplicate crops
+mods.jei.JEI.removeAndHide(<harvestcraft:grapeitem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:grapeseeditem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:tomatoitem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:tomatoseeditem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:chilipepperitem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:chilipepperseeditem>);
+
+mods.jei.JEI.removeAndHide(<harvestcraft:oliveitem>);
+mods.jei.JEI.removeAndHide(<harvestcraft:olive_sapling>);
+mods.jei.JEI.removeAndHide(<harvestcraft:pamolive>);
+
 # add forestry wax pressing
 recipes.addShapeless(<harvestcraft:beeswaxitem>, [<forestry:beeswax>]);
 

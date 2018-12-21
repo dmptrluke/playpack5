@@ -2216,7 +2216,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/harvestcraft.cfg</URL>
 				<Path>config/harvestcraft.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>476bd10efddb960035b1558fb981576d</MD5>
+				<MD5>4b0294a04fe8ba4479bc66daebc78564</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/harvestcraft_fruittree.cfg</URL>
@@ -2228,7 +2228,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/harvestcraft.zs</URL>
 				<Path>scripts/harvestcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>c26b77986cda9d06673e1dd98e097432</MD5>
+				<MD5>4b704981088c5144e335290fd8e153ec</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
