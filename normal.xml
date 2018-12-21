@@ -133,7 +133,7 @@
 				<note>Use this or Optifine, not both.</note>
 			</Meta>
 		</Module>
-		<Module name="ChickenChunks" id="chickenchunks" depends="" side="BOTH">
+		<!--<Module name="ChickenChunks" id="chickenchunks" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ChickenChunks-1.12.2-2.4.1.73-universal.jar</URL>
 			<Size>134368</Size>
 			<Required>true</Required>
@@ -152,7 +152,7 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>9e83ddacb08e4735ffc46089485646af</MD5>
 			</ConfigFile>
-		</Module>
+		</Module>-->
 		<Module name="Akashic Tome" id="akashictome" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AkashicTome-1.2-12.jar</URL>
 			<Size>44663</Size>
@@ -2377,11 +2377,11 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>lumien</authors>
 			</Meta>
 			<Submodule name="PlayPack Resources" id="playpackresources">
-				<URL priority="0">https://dmptr.com/pack_redux/files/resources-r6.zip</URL>
-				<Size>57210</Size>
+				<URL priority="0">https://dmptr.com/pack_redux/files/resources-r7.zip</URL>
+				<Size>61851</Size>
 				<Required>true</Required>
 				<ModType inRoot="true">Extract</ModType>
-				<MD5>DF6B64EDEF752DD43A2D863CE0FD7E2B</MD5>
+				<MD5>D376BEED850ED49342EEC7049ABA048E</MD5>
 			</Submodule>
 		</Module>
 		<Module name="Rustic" id="rustic" depends="" side="BOTH">
