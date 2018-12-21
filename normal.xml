@@ -1897,7 +1897,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/randompatches.cfg</URL>
 				<Path>config/randompatches.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>132bfa4f58d1f1edc4c69d6b24d1ac0b</MD5>
+				<MD5>dc4a225fc94be29b511dccc959daba83</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
@@ -2308,7 +2308,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/quark.cfg</URL>
 				<Path>config/quark.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>CB5C14C21136307BF5E75734F531A990</MD5>
+				<MD5>e7a8b18bc6d4bdd6bdb1013f8565266b</MD5>
 			</ConfigFile>
 			<Submodule name="Quark Oddities" id="quark-oddities">
 				<URL priority="0">https://dmptr.com/pack_redux/files/mods/QuarkOddities-1.12.2.jar</URL>
