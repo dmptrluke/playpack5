@@ -737,7 +737,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/thaumicjei_itemstack_aspects.json</URL>
 				<Path>config/thaumicjei_itemstack_aspects.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>7ecd186a731860ad72c8ff5d58407bd3</MD5>
+				<MD5>d74b3a71f15a8786e05521b771cbc747</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thaumic Periphery" id="thaumicperiphery" depends="" side="BOTH">
