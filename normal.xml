@@ -288,7 +288,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/reccomplex.cfg</URL>
 				<Path>config/reccomplex.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>b73b192c56c0c5cea9337c267a7eca13</MD5>
+				<MD5>5d29bbcea6272b45374148f5092f6b55</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/structures/active/AbandonedWoodTower.rcst</URL>
@@ -1880,15 +1880,15 @@
 			</Meta>
 		</Module>
 		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.11.0.0.jar</URL>
-			<Size>101565</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.11.0.1.jar</URL>
+			<Size>101561</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1b66aaab346e1cb3fb99b9b5e491f77d</MD5>
+			<MD5>f05c3e164015ed41c28f2fcb5d18cf5f</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A bunch of miscellaneous patches for Minecraft.</description>
-				<version>1.12.2-1.11.0.0</version>
+				<version>1.12.2-1.11.0.1</version>
 				<url>https://minecraft.curseforge.com/projects/randompatches</url>
 				<authors>TheRandomLabs</authors>
 			</Meta>
