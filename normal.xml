@@ -1275,26 +1275,6 @@
 				<authors>BlayTheNinth</authors>
 			</Meta>
 		</Module>
-		<Module name="Dimensional Doors" id="dimdoors" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DimensionalDoors-3.0.9-287%20(1).jar</URL>
-			<Size>7714476</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>fcc5854114dd4d8edc58a1f71d641ea9</MD5>
-			<Meta>
-				<credits>Created by StevenRS11, Coded by StevenRS11 and SenseiKiwi, Logo and Testing by Jaitsu, Recent updates by Zixiken and Waterpicker</credits>
-				<description>Bend and twist reality itself, creating pocket dimensions, rifts, and much more</description>
-				<version>3.0.9</version>
-				<url>https://github.com/DimensionalDevelopment/DimDoors</url>
-				<authors>StevenRS11, SenseiKiwi, Zixiken, WaterPicker, Robijnvogel, ZombieHDGaming, Runemoro</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/dimdoors.cfg</URL>
-				<Path>config/dimdoors.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>17ef98265413cd91782551ec62a9988d</MD5>
-			</ConfigFile>
-		</Module>
 		<!--<Module name="IndustrialCraft 2" id="ic2" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/industrialcraft-2-2.8.104-ex112.jar</URL>
 			<Size>8069101</Size>
@@ -1900,15 +1880,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/forestry_1.12.2-5.8.2.372.jar</URL>
-			<Size>5229898</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/forestry_1.12.2-5.8.2.378.jar</URL>
+			<Size>5231522</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>013f80b4d3d2e5ba52e05728fc4b8e07</MD5>
+			<MD5>ccd5f3ebf4216caf65d96304c9343000</MD5>
 			<Meta>
 				<credits>mistaqur, Binnie, CovertJaguar, MysteriousAges, Nirek, Nedelosk</credits>
 				<description>Trees, bees and more.</description>
-				<version>5.8.2.372</version>
+				<version>5.8.2.378</version>
 				<url>http://forestry.sengir.net/</url>
 				<authors>SirSengir, mezz</authors>
 			</Meta>
