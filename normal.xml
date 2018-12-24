@@ -442,15 +442,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Wireless Crafting Terminal 2" id="wct" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WirelessCraftingTerminal-1.12.2-3.11.84.jar</URL>
-			<Size>242066</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WirelessCraftingTerminal-1.12.2-3.11.86.jar</URL>
+			<Size>242591</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9708f01571ea5fd7093cb922a6043455</MD5>
+			<MD5>f667f5882a3adc8ccf885784cecabf47</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Adds a wireless version of the AE2 crafting terminal</description>
-				<version>1.12.2-3.11.84</version>
+				<version>1.12.2-3.11.86</version>
 				<url></url>
 				<authors>TheRealp455w0rd</authors>
 			</Meta>
@@ -461,11 +461,11 @@
 				<MD5>3f2ccd83f811caf2d12eb087fa5b576f</MD5>
 			</ConfigFile>
 			<Submodule name="AE2 Wireless Terminals (AE2WTLib)" id="ae2wtlib" depends="" side="BOTH">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/AE2WTLib-1.12.2-1.0.3.jar</URL>
-				<Size>163985</Size>
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/AE2WTLib-1.12.2-1.0.5.jar</URL>
+				<Size>163501</Size>
 				<Required>true</Required>
 				<ModType>Regular</ModType>
-				<MD5>b4e9c55768dec3bc9b56dbc8b088f701</MD5>
+				<MD5>3840c49266e698daa8e2f949512011b8</MD5>
 			</Submodule>
 		</Module>
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
@@ -1012,15 +1012,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Construct&apos;s Armory" id="conarm" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/conarm-1.12.2-1.2.0.2.jar</URL>
-			<Size>847811</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/conarm-1.12.2-1.2.1.jar</URL>
+			<Size>864145</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>18cda2289e47f4f75c93f6ba418f234c</MD5>
+			<MD5>c931c9b62fbb01213885477465c5e565</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A Tinkers&apos; Construct add-on for those looking to enter the world of armor</description>
-				<version>1.12.2-1.2.0.2</version>
+				<version>1.12.2-1.2.1</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
@@ -2055,15 +2055,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.13.1.225.jar</URL>
-			<Size>584822</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.14.3.240.jar</URL>
+			<Size>620410</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>09cfbc2770e6d141df2f2521b5b99e09</MD5>
+			<MD5>977c27489af623f39743196478301472</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Simple recipe and item helper.</description>
-				<version>4.13.1.225</version>
+				<version>4.14.3.240</version>
 				<url>https://github.com/mezz/JustEnoughItems</url>
 				<authors>mezz</authors>
 			</Meta>
@@ -2337,11 +2337,11 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="p455w0rdslib" id="pwrdslib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/p455w0rdslib-1.12-2.0.35.jar</URL>
-			<Size>305890</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/p455w0rdslib-1.12.2-2.0.36.jar</URL>
+			<Size>305888</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ffa0c7640b4eed8f1244e5b037df891f</MD5>
+			<MD5>0af5bef734c55f30cc5eba9065abe09d</MD5>
 		</Module>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DankNull-1.12-1.4.43.jar</URL>
