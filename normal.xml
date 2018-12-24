@@ -410,15 +410,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/appliedenergistics2-rv6-stable-4.jar</URL>
-			<Size>4057137</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/appliedenergistics2-rv6-stable-5.jar</URL>
+			<Size>4062053</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5df58707322cbc69d7295375efc57cc4</MD5>
+			<MD5>2765e8ac02d83330182f186fea2059cb</MD5>
 			<Meta>
 				<credits>AlgorithmX2</credits>
 				<description>A Mod about Matter, Energy and using them to conquer the world..</description>
-				<version>rv6-stable-3</version>
+				<version>rv6-stable-5</version>
 				<url>http://ae2.ae-mod.info</url>
 				<authors>AlgorithmX2</authors>
 			</Meta>
@@ -2369,6 +2369,25 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>efc12569a1353cecdb644eb3ef1628f1</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Consecration" id="consecration" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/consecration-1.12.2-0.0.14.jar</URL>
+			<Size>138146</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>578727062adc576dfc8b60538bb17b5b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Makes the undead more resilient except when attacked by fire or holy damage</description>
+				<version>1.12.2-0.0.14</version>
+				<url></url>
+				<authors>C4</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/consecration.cfg</URL>
+				<Path>config/consecration.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6526dd09f32bb7d018f94331b67d6354</MD5>
+			</ConfigFile>
 		<Module name="Resource Loader" id="resourceloader" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ResourceLoader-MC1.12.1-1.5.3.jar</URL>
 			<Size>16612</Size>
