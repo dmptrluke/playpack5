@@ -519,7 +519,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/initialinventory.zs</URL>
 				<Path>scripts/initialinventory.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>f4a760f4548d83311884fe578a3992db</MD5>
+				<MD5>52cff06a8c80ed2896344d8b138c1bf0</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Earthworks" id="earthworks" depends="" side="BOTH">
