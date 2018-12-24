@@ -519,7 +519,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/initialinventory.zs</URL>
 				<Path>scripts/initialinventory.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>7cd0dbdc1d049782c494197fd99467a1</MD5>
+				<MD5>f4a760f4548d83311884fe578a3992db</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Earthworks" id="earthworks" depends="" side="BOTH">
@@ -2388,6 +2388,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6526dd09f32bb7d018f94331b67d6354</MD5>
 			</ConfigFile>
+		</Module>
 		<Module name="Resource Loader" id="resourceloader" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ResourceLoader-MC1.12.1-1.5.3.jar</URL>
 			<Size>16612</Size>
