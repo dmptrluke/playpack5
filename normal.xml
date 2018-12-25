@@ -2386,7 +2386,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/consecration.cfg</URL>
 				<Path>config/consecration.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>6526dd09f32bb7d018f94331b67d6354</MD5>
+				<MD5>4eef820ef539c391e9cb5fe9d70aefb6</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Resource Loader" id="resourceloader" depends="" side="CLIENT">
