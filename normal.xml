@@ -2000,26 +2000,6 @@
 				<MD5>455f78d754f4bed3feeb9ee6b232d2be</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Immersive Cables" id="immersivecables" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ImmersiveCables-1.12.2-1.3.2.jar</URL>
-			<Size>205922</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>605ef65c09fa0e2db3233af5cf79bf73</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Adds IE-style wires and blocks that integrate with other mods</description>
-				<version>1.3.2</version>
-				<url>https://github.com/SanAndreasP/immersivecables</url>
-				<authors>SanAndreasP</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/immersivecables.cfg</URL>
-				<Path>config/immersivecables.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>bb5b61b95fc2c625a17a7bf05b30da1c</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Born In A Barn" id="borninabarn" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Born+In+A+Barn+V1.8-1.12-1.1.jar</URL>
 			<Size>3642</Size>
