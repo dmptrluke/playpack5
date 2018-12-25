@@ -1676,15 +1676,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-1.12.2-5.0.38.jar</URL>
-			<Size>7101277</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-1.12.2-5.0.39.jar</URL>
+			<Size>7106613</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9fa92987a47888271927f334e5dce3ef</MD5>
+			<MD5>5f713093547f087b2596fb34bddc75e0</MD5>
 			<Meta>
 				<credits>By CrazyPants, with the help of many</credits>
 				<description>Compact conduits, painted things and all sorts of stuff and bling.</description>
-				<version>5.0.38</version>
+				<version>5.0.39</version>
 				<url>http://enderio.com</url>
 				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</authors>
 			</Meta>
@@ -1738,15 +1738,15 @@
 			</ConfigFile>
 		</Module>
 	    <Module name="Ender IO Zoo" id="enderiozoo" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-zoo-1.12.2-5.0.38.jar</URL>
-			<Size>449121</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-zoo-1.12.2-5.0.39.jar</URL>
+			<Size>456220</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ea614b5e5d58c6a2cefc3f96140f994f</MD5>
+			<MD5>d5949cc4e93b86d81ce8285e22430859</MD5>
 			<Meta>
 				<credits>By CrazyPants, with the help of many</credits>
 				<description>All the creatures that will kill you when you least expect it</description>
-				<version>5.0.38</version>
+				<version>5.0.39</version>
 				<url>http://enderio.com</url>
 				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, EpicSquid</authors>
 			</Meta>
