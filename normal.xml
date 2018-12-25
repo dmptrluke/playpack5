@@ -1975,15 +1975,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ImmersiveEngineering-0.12-87.jar</URL>
-			<Size>6515396</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ImmersiveEngineering-0.12-88.jar</URL>
+			<Size>6516615</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5b7f2c9689dc6be0b3351829995ad220</MD5>
+			<MD5>5d14de6cbef810e1e4154d87f0dfc305</MD5>
 			<Meta>
 				<credits>All the great other Git Contributors, and the nerds on IRC!</credits>
 				<description>A tech based mod focused on realism.</description>
-				<version>0.12-87</version>
+				<version>0.12-88</version>
 				<url>https://github.com/BluSunrize/ImmersiveEngineering</url>
 				<authors>BluSunrize, Damien A.W. Hazard</authors>
 			</Meta>
