@@ -290,12 +290,12 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>5d29bbcea6272b45374148f5092f6b55</MD5>
 			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/structures/active/AbandonedWoodTower.rcst</URL>
-				<Path>structures/active/AbandonedWoodTower.rcst</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>813d0422af7ab20528eea0ab048e8c61</MD5>
-			</ConfigFile>
+			<Submodule name="PlayPack Structures" id="playpackstructures">
+				<URL priority="0">https://dmptr.com/pack_redux/files/structures.zip</URL>
+				<Size>21544</Size>
+				<ModType inRoot="true">Extract</ModType>
+				<MD5>2b61c4eeb64ee228f3ca729b6b3d306b</MD5>
+			</Submodule>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CyclopsCore-1.12.2-0.11.11.jar</URL>
