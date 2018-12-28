@@ -12,6 +12,23 @@
     <dimensionExclude name="Dungeon"/>
   </entry>
 
+  <entry id="EpicSquid" mobName="enderiozoo:epicsquid" creatureType="WATER_CREATURE" rate="1" minGroupSize="1" maxGroupSize="1" remove="true">
+    <biomeFilter type="any" />
+    <dimensionExclude/>
+    <dimensionInclude name="overworld"/>
+    <dimensionInclude name="the_nether"/>
+  </entry>
+
+  <entry id="FallenKnight" mobName="enderiozoo:fallenknight" rate="15" minGroupSize="1" maxGroupSize="4">
+    <biomeFilter type="any">
+      <biome type="PLAINS" />
+      <biome type="NETHER" exclude="true" />
+      <biome type="END" exclude="true" />
+    </biomeFilter>
+    <dimensionExclude name="twilight_forest"/><!-- sic! TF uses its id for human readable name, too -->
+  </entry>
+
+
 <!-- Enabling this section will stop all slime spawns
   <entry id="Slime" mobName="minecraft:slime" creatureType="MONSTER" rate="80" remove="true">
     <biomeFilter type="any">

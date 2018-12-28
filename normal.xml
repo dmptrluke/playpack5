@@ -338,15 +338,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Culinary Construct" id="culinaryconstruct" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/culinaryconstruct-1.3.0.jar</URL>
-			<Size>95791</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/culinaryconstruct-1.3.0.1.jar</URL>
+			<Size>96126</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>45a42cd6565f0fc67d43f4a8c7b26ded</MD5>
+			<MD5>34c844db53db8c9a6e9d52903cb5cc26</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Make sandwiches out of your favorite food items! And maybe your not so favorite, anything&apos;s possible.</description>
-				<version>1.3.0</version>
+				<version>1.3.0.1</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
@@ -469,15 +469,15 @@
 			</Submodule>
 		</Module>
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AutoRegLib-1.3-22.jar</URL>
-			<Size>101313</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AutoRegLib-1.3-24.jar</URL>
+			<Size>101437</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5c22dcd50bb0843c8244c1be87b360b6</MD5>
+			<MD5>4a297c475f3fd341b41db6b6f6026b0e</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Automatically item, block, and model registration for mods.</description>
-				<version>1.3-22</version>
+				<version>1.3-24</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii</authors>
 			</Meta>
@@ -1012,15 +1012,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Construct&apos;s Armory" id="conarm" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/conarm-1.12.2-1.2.1.jar</URL>
-			<Size>864145</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/conarm-1.12.2-1.2.1.1.jar</URL>
+			<Size>864218</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>c931c9b62fbb01213885477465c5e565</MD5>
+			<MD5>251376a434a7917a791315856b86d7eb</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A Tinkers&apos; Construct add-on for those looking to enter the world of armor</description>
-				<version>1.12.2-1.2.1</version>
+				<version>1.12.2-1.2.1.1</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
@@ -1754,7 +1754,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/enderiozoo.cfg</URL>
 				<Path>config/enderio/enderiozoo.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>3ea9b44ad063e9cd6c3e59e3804f4bb2</MD5>
+				<MD5>c10b53d62e7915043c17f67fdf2216b5</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/SpawnConfig_Core.xml</URL>
@@ -1766,7 +1766,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/SpawnConfig_User.xml</URL>
 				<Path>config/enderio/SpawnConfig_User.xml</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d5514182cd716802f3761862d58b000e</MD5>
+				<MD5>9bcbbecd89a8df0a8bb814cec233d233</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Familiar Fauna" id="familiarfauna" depends="" side="BOTH">
@@ -2035,15 +2035,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.14.3.240.jar</URL>
-			<Size>620410</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.14.3.242.jar</URL>
+			<Size>620682</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>977c27489af623f39743196478301472</MD5>
+			<MD5>ae6d0e6e873ef6c20f41097dc7fee8c6</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Simple recipe and item helper.</description>
-				<version>4.14.3.240</version>
+				<version>4.14.3.242</version>
 				<url>https://github.com/mezz/JustEnoughItems</url>
 				<authors>mezz</authors>
 			</Meta>
@@ -2277,15 +2277,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-135.jar</URL>
-			<Size>1983355</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-137.jar</URL>
+			<Size>1990606</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2c13ac430dfe546bb36c05efadf61f10</MD5>
+			<MD5>398ad95cbf1ba1e47a9dc89a3a360c46</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Small things.</description>
-				<version>r1.5-135</version>
+				<version>r1.5-137</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
@@ -2366,7 +2366,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/consecration.cfg</URL>
 				<Path>config/consecration.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>4eef820ef539c391e9cb5fe9d70aefb6</MD5>
+				<MD5>63ef9e544e9b07f3aee7a1621d45e47d</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Resource Loader" id="resourceloader" depends="" side="CLIENT">
@@ -2768,14 +2768,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="UniDict" id="unidict" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/UniDict-1.12.2-2.9.1.jar</URL>
-			<Size>192334</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/UniDict-1.12.2-2.9.2.jar</URL>
+			<Size>192476</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6cde1e2d6d8d183da621c4c46ed94a70</MD5>
+			<MD5>b1ba004241d86a3e1280c8911c2b4ff2</MD5>
 			<Meta>
 				<description>a mod about unifying all the things.</description>
-				<version>1.12.2-2.9.1</version>
+				<version>1.12.2-2.9.2</version>
 				<url>http://minecraft.curseforge.com/projects/unidict</url>
 				<authors>WanionCane</authors>
 			</Meta>
