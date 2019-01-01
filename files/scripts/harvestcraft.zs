@@ -40,3 +40,14 @@ mods.thermalexpansion.Pulverizer.addRecipe(<harvestcraft:groundduckitem> * 2, <h
 mods.thermalexpansion.Pulverizer.addRecipe(<harvestcraft:groundmuttonitem> * 2, <minecraft:mutton>, 1500);
 mods.thermalexpansion.Pulverizer.addRecipe(<harvestcraft:groundvenisonitem> * 2, <familiarfauna:venison_raw>, 1500);
 mods.thermalexpansion.Pulverizer.addRecipe(<harvestcraft:groundvenisonitem> * 2, <harvestcraft:venisonrawitem>, 1500);
+
+# add harvestcraft recipes for earthworks thatch
+recipes.addShapedMirrored("dmptr_thatchrye", <earthworks:block_thatch>,
+ [[<harvestcraft:ryeitem>,<harvestcraft:ryeitem>,null],
+  [<harvestcraft:ryeitem>,<harvestcraft:ryeitem>,null],
+  [null,null,null]]);
+
+recipes.addShapedMirrored("dmptr_thatchbarley", <earthworks:block_thatch>,
+ [[<harvestcraft:barleyitem>,<harvestcraft:barleyitem>,null],
+  [<harvestcraft:barleyitem>,<harvestcraft:barleyitem>,null],
+  [null,null,null]]);

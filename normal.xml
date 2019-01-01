@@ -440,6 +440,12 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>31ea7a44c5b309cc50305177f53f6099</MD5>
 			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/appliedenergistics2.zs</URL>
+				<Path>scripts/appliedenergistics2.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c59652775947d6146649b4291bc8559d</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Wireless Crafting Terminal 2" id="wct" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WirelessCraftingTerminal-1.12.2-3.11.88.jar</URL>
@@ -1198,6 +1204,12 @@
 				<Path>config/chisel.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>84e8096827dbfdb4f1994a85a77177d5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/chisel.zs</URL>
+				<Path>scripts/chisel.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>353874e760cc0dfe328d3269d163b109</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Chisels &amp; Bits" id="chiselsandbits" depends="" side="BOTH">
@@ -2214,7 +2226,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/harvestcraft.zs</URL>
 				<Path>scripts/harvestcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>4b704981088c5144e335290fd8e153ec</MD5>
+				<MD5>8caa85c16129cb53a0b77208cd97fea1</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Redstone Arsenal" id="redstonearsenal" depends="" side="BOTH">
