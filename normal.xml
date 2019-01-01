@@ -338,15 +338,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Culinary Construct" id="culinaryconstruct" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/culinaryconstruct-1.3.0.1.jar</URL>
-			<Size>96126</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/culinaryconstruct-1.3.1.jar</URL>
+			<Size>96701</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>34c844db53db8c9a6e9d52903cb5cc26</MD5>
+			<MD5>f47e5ade53c6998ea3b84e4b8950208e</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Make sandwiches out of your favorite food items! And maybe your not so favorite, anything&apos;s possible.</description>
-				<version>1.3.0.1</version>
+				<version>1.3.1</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
@@ -442,15 +442,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Wireless Crafting Terminal 2" id="wct" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WirelessCraftingTerminal-1.12.2-3.11.86.jar</URL>
-			<Size>242591</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WirelessCraftingTerminal-1.12.2-3.11.88.jar</URL>
+			<Size>243080</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f667f5882a3adc8ccf885784cecabf47</MD5>
+			<MD5>df5027ff9ec271702f6298f14b93db88</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Adds a wireless version of the AE2 crafting terminal</description>
-				<version>1.12.2-3.11.86</version>
+				<version>1.12.2-3.11.88</version>
 				<url></url>
 				<authors>TheRealp455w0rd</authors>
 			</Meta>
@@ -461,11 +461,10 @@
 				<MD5>3f2ccd83f811caf2d12eb087fa5b576f</MD5>
 			</ConfigFile>
 			<Submodule name="AE2 Wireless Terminals (AE2WTLib)" id="ae2wtlib" depends="" side="BOTH">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/AE2WTLib-1.12.2-1.0.5.jar</URL>
-				<Size>163501</Size>
-				<Required>true</Required>
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/AE2WTLib-1.12.2-1.0.6.jar</URL>
+				<Size>165113</Size>
 				<ModType>Regular</ModType>
-				<MD5>3840c49266e698daa8e2f949512011b8</MD5>
+				<MD5>71312cf271fce761a4ef5ac43e78c000</MD5>
 			</Submodule>
 		</Module>
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
@@ -519,7 +518,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/initialinventory.zs</URL>
 				<Path>scripts/initialinventory.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>52cff06a8c80ed2896344d8b138c1bf0</MD5>
+				<MD5>f4a760f4548d83311884fe578a3992db</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Earthworks" id="earthworks" depends="" side="BOTH">
@@ -760,11 +759,11 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiomesOPlenty-1.12.2-7.0.1.2422-universal.jar</URL>
-			<Size>4691629</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiomesOPlenty-1.12.2-7.0.1.2424-universal.jar</URL>
+			<Size>4691799</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a4ed13ca03653f6fec92de0ce24b684e</MD5>
+			<MD5>367bf38884fc3ef8acc6d296e16507bf</MD5>
 			<Meta>
 				<credits>Tim Rurkowski, gamax92, GridMonkey, and many more</credits>
 				<description>Adds over 50 new biomes, blocks, and more!</description>
@@ -782,7 +781,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/biomesoplenty/world.json</URL>
 				<Path>config/biomesoplenty/world.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>9BF047A24696D188ACC75C02DBC3E327</MD5>
+				<MD5>2db5dca6297ec710a556336eca42ca9b</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/biomesoplenty/gameplay.cfg</URL>
@@ -942,7 +941,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/07_techreborn.json</URL>
 				<Path>config/cofh/world/07_techreborn.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>03e33dc344d85058fb5d138a49175351</MD5>
+				<MD5>9e0f0568646c2ac5e2937fc517106957</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Colytra" id="colytra" depends="" side="BOTH">
@@ -1300,6 +1299,34 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1ea8475103713d57e8a1b7828bfc541e</MD5>
 			</ConfigFile>
+		</Module>-->
+		<Module name="SonarCore" id="sonarcore" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/sonarcore-1.12.2-5.0.19-20.jar</URL>
+			<Size>1160618</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>02c6264bdfa66c5895aed1d739109420</MD5>
+			<Meta>
+				<credits>Created by Ollie Lansdell</credits>
+				<description>Sonar&apos;s Modding Framework</description>
+				<version>1.12.2-5.0.19-20</version>
+				<url></url>
+				<authors>Ollie Lansdell</authors>
+			</Meta>
+		</Module>
+		<Module name="Flux Networks" id="fluxnetworks" depends="sonarcore" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/fluxnetworks-1.12.2-3.0.19-21.jar</URL>
+			<Size>609733</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e870cf29234f47225501f124a021cf53</MD5>
+			<Meta>
+				<credits>Created by Ollie Lansdell</credits>
+				<description>Create Wireless Energy Networks</description>
+				<version>1.12.2-3.0.19-21</version>
+				<url></url>
+				<authors>Ollie Lansdell</authors>
+			</Meta>
 		</Module>
 		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mekanism-1.12.2-9.4.13.349%20(3).jar</URL>
@@ -1326,7 +1353,7 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f8719b2972aaa68674be4f2f1ccac224</MD5>
 			</ConfigFile>
-		</Module>-->
+		</Module>
 		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RebornCore-1.12.2-3.12.1.385-universal.jar</URL>
 			<Size>722966</Size>
@@ -1860,15 +1887,15 @@
 			</Meta>
 		</Module>
 		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.11.0.1.jar</URL>
-			<Size>101561</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.11.0.2.jar</URL>
+			<Size>101625</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f05c3e164015ed41c28f2fcb5d18cf5f</MD5>
+			<MD5>34051c6f24a871a496a79cdf56751214</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A bunch of miscellaneous patches for Minecraft.</description>
-				<version>1.12.2-1.11.0.1</version>
+				<version>1.12.2-1.11.0.2</version>
 				<url>https://minecraft.curseforge.com/projects/randompatches</url>
 				<authors>TheRandomLabs</authors>
 			</Meta>
@@ -1880,15 +1907,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/forestry_1.12.2-5.8.2.378.jar</URL>
-			<Size>5231522</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/forestry_1.12.2-5.8.2.380.jar</URL>
+			<Size>5231581</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ccd5f3ebf4216caf65d96304c9343000</MD5>
+			<MD5>a796498276198f15795059bc411dba30</MD5>
 			<Meta>
 				<credits>mistaqur, Binnie, CovertJaguar, MysteriousAges, Nirek, Nedelosk</credits>
 				<description>Trees, bees and more.</description>
-				<version>5.8.2.378</version>
+				<version>5.8.2.380</version>
 				<url>http://forestry.sengir.net/</url>
 				<authors>SirSengir, mezz</authors>
 			</Meta>
@@ -2237,21 +2264,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Quests" id="ftbquests" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.4.0.108.jar</URL>
-			<Size>764029</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.4.0.109.jar</URL>
+			<Size>764119</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e6b935c269a51cd5c856726df562772f</MD5>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/questpacks/normal.nbt</URL>
-				<Path>questpacks/normal.nbt</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>0a441504bdd314ca0e10812c29d0104d</MD5>
-			</ConfigFile>
+			<MD5>9a4bf15c63e6ebbb0a76f028ae4d5633</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>1.4.0.108</version>
+				<version>1.4.0.109</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-quests</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2349,7 +2370,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>efc12569a1353cecdb644eb3ef1628f1</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Consecration" id="consecration" depends="" side="BOTH">
+		<!--<Module name="Consecration" id="consecration" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/consecration-1.12.2-0.0.14.jar</URL>
 			<Size>138146</Size>
 			<Required>true</Required>
@@ -2366,9 +2387,9 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/consecration.cfg</URL>
 				<Path>config/consecration.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>63ef9e544e9b07f3aee7a1621d45e47d</MD5>
+				<MD5>6797e095e162ac0353574be05bbbf07f</MD5>
 			</ConfigFile>
-		</Module>
+		</Module>-->
 		<Module name="Resource Loader" id="resourceloader" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ResourceLoader-MC1.12.1-1.5.3.jar</URL>
 			<Size>16612</Size>
@@ -2789,7 +2810,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/unidict/UniDict.cfg</URL>
 				<Path>config/unidict/UniDict.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>55d00dac61716a3a5f8873a30ea98029</MD5>
+				<MD5>d418bc094d12aed06ca6cd9d3504dcbf</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Broken Wings" id="brokenwings" depends="" side="BOTH">
