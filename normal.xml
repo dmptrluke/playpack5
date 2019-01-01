@@ -1345,13 +1345,13 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/mekanism.cfg</URL>
 				<Path>config/mekanism.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>2df2b00f72c36db7d9f49659d05e592e</MD5>
+				<MD5>4fa120d8ac377708e16d64c2270414f9</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/mekanism.zs</URL>
 				<Path>scripts/mekanism.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>f8719b2972aaa68674be4f2f1ccac224</MD5>
+				<MD5>f640193a1aeb5462e93304c26e951c45</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
