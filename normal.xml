@@ -7,8 +7,7 @@
 	 generateList="true" autoConnect="false" revision="1" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
-			<note>A smaller, faster refreshed version of PlayPack.</note>
-			<note title="Latest Changes">???</note>
+			<note>PlayPack is a simple, fast, kitchen-sink technomagical mod pack designed for the DMPTR modded server. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -29,34 +28,6 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3633e1f63c63e44850be36be096c19f1</MD5>
 			</ConfigFile>
-		</Module>
-		<!--<Module name="Blur" id="blur" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Blur-1.0.4-14.jar</URL>
-			<Size>16146</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>fe6c57af5be36a9ed96f8ff7de61bbd1</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Adds a blurry background when viewing GUIs</description>
-				<version>1.0.4-14</version>
-				<url>http://tterrag.com</url>
-				<authors>tterrag</authors>
-			</Meta>
-		</Module>-->
-		<Module name="Fullscreen Windowed" id="fw" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FullscreenWindowed-1.12-1.6.0.jar</URL>
-			<Size>18396</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>c7679200bdf1f6cb71361555407a4c7f</MD5>
-			<Meta>
-				<credits>To all the documentation out there, Thank You. Credits to MrWhalerus for 1.12 update</credits>
-				<description>Activates fullscreen windowed mode for Minecraft</description>
-				<version>1.6.0</version>
-				<url>https://github.com/hancin/Fullscreen-Windowed-Minecraft</url>
-				<authors>Hancin</authors>
-			</Meta>
 		</Module>
 		<Module name="Hwyla" id="waila" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Hwyla-1.8.26-B41_1.12.2.jar</URL>
@@ -1209,7 +1180,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/chisel.zs</URL>
 				<Path>scripts/chisel.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>52ef7ee67d84636b48e4791c303c50f0</MD5>
+				<MD5>d005a0e69f8d8592b3cdbe6a5755881f</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Chisels &amp; Bits" id="chiselsandbits" depends="" side="BOTH">
@@ -2332,7 +2303,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/quark.cfg</URL>
 				<Path>config/quark.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>e7a8b18bc6d4bdd6bdb1013f8565266b</MD5>
+				<MD5>953affa7432f5db553296f333580a6cb</MD5>
 			</ConfigFile>
 			<Submodule name="Quark Oddities" id="quark-oddities">
 				<URL priority="0">https://dmptr.com/pack_redux/files/mods/QuarkOddities-1.12.2.jar</URL>
