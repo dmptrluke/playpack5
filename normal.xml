@@ -1451,7 +1451,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/techreborn.zs</URL>
 				<Path>scripts/techreborn.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>c4328e50f1a0592d54c929f982fef31d</MD5>
+				<MD5>f915933f757717fa38700633a86e9fc6</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
@@ -1471,7 +1471,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/unification.zs</URL>
 				<Path>scripts/unification.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>dadddb4945ed7c49b5baec296291d9cb</MD5>
+				<MD5>3ab1a1d101deebbad974af7163930703</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/forestry_fluids.zs</URL>
