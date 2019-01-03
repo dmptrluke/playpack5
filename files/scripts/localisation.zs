@@ -64,3 +64,6 @@
 <harvestcraft:vegemiteitem>.displayName = "Marmite";
 <harvestcraft:vegemiteontoastitem>.displayName = "Marmite on Toast";
 <harvestcraft:grilledcheesevegemitetoastitem>.displayName = "Grilled Cheese Marmite Toast";
+
+# eh
+<simplevoidworld:portal>.displayName = "Void Teleposer";

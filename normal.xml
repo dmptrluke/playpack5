@@ -259,7 +259,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/reccomplex.cfg</URL>
 				<Path>config/reccomplex.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>5d29bbcea6272b45374148f5092f6b55</MD5>
+				<MD5>be17fc2894ae3827c66ae0bb35856ea4</MD5>
 			</ConfigFile>
 			<Submodule name="PlayPack Structures" id="playpackstructures">
 				<URL priority="0">https://dmptr.com/pack_redux/files/structures.zip</URL>
@@ -1015,15 +1015,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Construct&apos;s Armory" id="conarm" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/conarm-1.12.2-1.2.1.1.jar</URL>
-			<Size>864218</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/conarm-1.12.2-1.2.2.jar</URL>
+			<Size>864718</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>251376a434a7917a791315856b86d7eb</MD5>
+			<MD5>7e38cb549f9ef40a0b51e608f13f5ce9</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A Tinkers&apos; Construct add-on for those looking to enter the world of armor</description>
-				<version>1.12.2-1.2.1.1</version>
+				<version>1.12.2-1.2.2</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
@@ -1493,7 +1493,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/localisation.zs</URL>
 				<Path>scripts/localisation.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>1E46A402E03199BC7CA216194A765642</MD5>
+				<MD5>6bbd9e0b6f98147e1a172a0d3483187e</MD5>
 			</ConfigFile>
 			<Submodule name="ModTweaker" id="modtweaker">
 				<URL priority="0">https://dmptr.com/pack_redux/files/mods/modtweaker-4.0.15.jar</URL>
