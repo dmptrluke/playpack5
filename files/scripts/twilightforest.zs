@@ -1,4 +1,6 @@
-# oredict twilight forest meats
+#modloaded twilightforest
+print("Initializing twilightforest.zs");
+
 <ore:foodVenisonraw>.add(<twilightforest:raw_venison>);
 <ore:listAllvenisonraw>.add(<twilightforest:raw_venison>);
 <ore:listAllmeatraw>.add(<twilightforest:raw_venison>);

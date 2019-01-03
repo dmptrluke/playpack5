@@ -4,10 +4,10 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1" 
+	 generateList="true" autoConnect="false" revision="1.0.0" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
-			<note>PlayPack is a simple, fast, kitchen-sink technomagical mod pack designed for the DMPTR modded server. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
+			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -735,6 +735,33 @@
 				<MD5>bade88f78a4a397af1c6b7f0518de491</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Fertilization" id="fertilization" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Fertilization_1.12.2-1.0.4.jar</URL>
+			<Size>33153</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>be8b0e0b7ab56c1de3aefa30609ce51d</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>Adds additional variants of bone meal for all your fertilization needs.</description>
+				<version>1.0.4</version>
+				<url></url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="Simple Void World" id="simplevoidworld" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Simple-Void-World-1.12-1.2.0.9-universal.jar</URL>
+			<Size>19865</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>204a394109dbb01d6166b4a19d86c0a6</MD5>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/simplevoidworld.cfg</URL>
+				<Path>config/simplevoidworld.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>93096c1d1f67fbf7c9994de6334cb63d</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiomesOPlenty-1.12.2-7.0.1.2424-universal.jar</URL>
 			<Size>4691799</Size>
@@ -1451,6 +1478,12 @@
 				<MD5>A54D50811065199DBE55CDA05C6AB670</MD5>
 			</ConfigFile>
 			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/twilightforest.zs</URL>
+				<Path>scripts/twilightforest.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a229e1aea44a0377ef2b014caa956518</MD5>
+			</ConfigFile>
+			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/thermal.zs</URL>
 				<Path>scripts/thermal.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
@@ -1488,6 +1521,12 @@
 				<url></url>
 				<authors>lumien</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/quickleafdecay.cfg</URL>
+				<Path>config/quickleafdecay.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fae94b35184e7d71787f7ebc0f841b2a</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="BiomeTweaker" id="biometweaker" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiomeTweaker-1.12.2-3.2.354.jar</URL>
@@ -1782,7 +1821,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/SpawnConfig_User.xml</URL>
 				<Path>config/enderio/SpawnConfig_User.xml</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>9bcbbecd89a8df0a8bb814cec233d233</MD5>
+				<MD5>8984a0450fedd58aa15994acd8106e09</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Familiar Fauna" id="familiarfauna" depends="" side="BOTH">
@@ -2751,7 +2790,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>f432c4b2fe4eabadb81ed04841d48dc2</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Twilight Forest" id="twilightforest" depends="" side="BOTH">
+		<!--<Module name="Twilight Forest" id="twilightforest" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/twilightforest-1.12.2-3.8.689-universal.jar</URL>
 			<Size>7296016</Size>
 			<Required>true</Required>
@@ -2764,19 +2803,13 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<url>https://minecraft.curseforge.com/projects/the-twilight-forest</url>
 				<authors>Benimatic, AtomicBlom, Drullkus, Killer_Demon, quadraxis, Tamaized, williewillus</authors>
 			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/twilightforest.zs</URL>
-				<Path>scripts/twilightforest.zs</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>4B343C2FFC5F2963EFF8BE0F1B0D77F7</MD5>
-			</ConfigFile>
 			<Meta>
 				<description>An enchanted forest dimension.</description>
 				<version>3.8.654</version>
 				<url>https://minecraft.curseforge.com/projects/the-twilight-forest</url>
 				<authors>Benimatic (Ben Mazur)</authors>
 			</Meta>
-		</Module>
+		</Module>-->
 		<Module name="UniDict" id="unidict" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/UniDict-1.12.2-2.9.2.jar</URL>
 			<Size>192476</Size>
@@ -2800,25 +2833,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<Path>config/unidict/UniDict.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d418bc094d12aed06ca6cd9d3504dcbf</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="Broken Wings" id="brokenwings" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/brokenwings-1.0.jar</URL>
-			<Size>10118</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>40330e03f913583c577704978e98c621</MD5>
-			<Meta>
-				<description>Disable flight in certain dimensions.</description>
-				<version>1.0</version>
-				<url></url>
-				<authors>quaternary</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/brokenwings.cfg</URL>
-				<Path>config/brokenwings.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>fe4208e4fe836416475cde08d1877493</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookiereloaded" depends="" side="BOTH">

@@ -19,7 +19,7 @@
     <dimensionInclude name="the_nether"/>
   </entry>
 
-  <entry id="FallenKnight" mobName="enderiozoo:fallenknight" rate="15" minGroupSize="1" maxGroupSize="4">
+  <entry id="FallenKnight" mobName="enderiozoo:fallenknight" rate="15" minGroupSize="1" maxGroupSize="2">
     <biomeFilter type="any">
       <biome type="PLAINS" />
       <biome type="NETHER" exclude="true" />
