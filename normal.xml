@@ -945,7 +945,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/07_techreborn.json</URL>
 				<Path>config/cofh/world/07_techreborn.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>9e0f0568646c2ac5e2937fc517106957</MD5>
+				<MD5>b64a7c7963b3e9f280db8427aebd6c1a</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Colytra" id="colytra" depends="" side="BOTH">
@@ -1034,7 +1034,7 @@
 				<MD5>934EAAFFCF7B61EC960FCC6F133A00E2</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Computronics" id="computronics" depends="" side="BOTH">
+		<!--<Module name="Computronics" id="computronics" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Computronics-1.12.1-1.6.5.jar</URL>
 			<Size>1032851</Size>
 			<Required>true</Required>
@@ -1053,7 +1053,7 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d4d6687d550dec4f92d7652d6c7c27cf</MD5>
 			</ConfigFile>
-		</Module>
+		</Module>-->
 		<Module name="Cooking for Blockheads" id="cookingforblockheads" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CookingForBlockheads_1.12.2-6.4.65.jar</URL>
 			<Size>584467</Size>
@@ -1365,15 +1365,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RebornCore-1.12.2-3.12.1.385-universal.jar</URL>
-			<Size>722966</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RebornCore-1.12.2-3.13.0.400-universal.jar</URL>
+			<Size>733576</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5151fefea1711ecf1a94a7449378e632</MD5>
+			<MD5>ce793e5db7837d69e7f7e4e0b3574327</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
-				<version>3.12.1.385</version>
+				<version>3.13.0.400</version>
 				<url>https://github.com/TechReborn/RebornCore</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
@@ -1385,15 +1385,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Tech Reborn" id="techreborn" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.19.1.877-universal.jar</URL>
-			<Size>2393338</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.20.0.888-universal.jar</URL>
+			<Size>2391377</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>287025448df637f85e6af6e5ee3f6d05</MD5>
+			<MD5>570d52947c05366821014c1b2577903a</MD5>
 			<Meta>
 				<credits>Thanks to these contributors: TheMattaBase, Mj11jM, Mazdallier, tntrololol, joflashstudios, drcrazy, lclc98, Lordmau5, mezz, Thog, and Dimmerworld</credits>
 				<description>Tech Reborn is a completely standalone tech mod designed by the ideals of GregTech 2 and Industrial Craft 2 pre-experimental. The mod includes tools and machines to gather resources, process materials, and progression throughout the mod. http://www.techreborn.ovh/</description>
-				<version>2.19.1.877</version>
+				<version>2.20.0.888</version>
 				<url>https://github.com/TechReborn/TechReborn</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
@@ -2832,7 +2832,27 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/unidict/UniDict.cfg</URL>
 				<Path>config/unidict/UniDict.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d418bc094d12aed06ca6cd9d3504dcbf</MD5>
+				<MD5>a63459cdf57584dc3428a8e9610fc3db</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="WrapUp" id="wrapup" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WrapUp-1.12-1.1.3.jar</URL>
+			<Size>25417</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d6e426631f7d9eb1f86ef0523870811a</MD5>
+		</Module>
+		<Module name="JAOPCA" id="jaopca" depends="wrapup" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/JAOPCA-1.12.2-2.2.8.100.jar</URL>
+			<Size>476507</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8451800539e2fd9147440a7f50ff57b1</MD5>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/JAOPCA.cfg</URL>
+				<Path>config/JAOPCA.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e6e22c3a35e834aea70aae9803c04bfb</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookiereloaded" depends="" side="BOTH">
