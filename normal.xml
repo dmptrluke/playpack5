@@ -945,7 +945,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/07_techreborn.json</URL>
 				<Path>config/cofh/world/07_techreborn.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>b64a7c7963b3e9f280db8427aebd6c1a</MD5>
+				<MD5>7ca0739f1523d989cd728e6e085dc8af</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Colytra" id="colytra" depends="" side="BOTH">
@@ -1385,15 +1385,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Tech Reborn" id="techreborn" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.20.0.888-universal.jar</URL>
-			<Size>2391377</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.20.1.889-universal.jar</URL>
+			<Size>2394966</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>570d52947c05366821014c1b2577903a</MD5>
+			<MD5>0090ac775530e9e6a93bb69b63f67416</MD5>
 			<Meta>
 				<credits>Thanks to these contributors: TheMattaBase, Mj11jM, Mazdallier, tntrololol, joflashstudios, drcrazy, lclc98, Lordmau5, mezz, Thog, and Dimmerworld</credits>
 				<description>Tech Reborn is a completely standalone tech mod designed by the ideals of GregTech 2 and Industrial Craft 2 pre-experimental. The mod includes tools and machines to gather resources, process materials, and progression throughout the mod. http://www.techreborn.ovh/</description>
-				<version>2.20.0.888</version>
+				<version>2.20.1.889</version>
 				<url>https://github.com/TechReborn/TechReborn</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
