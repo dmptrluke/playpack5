@@ -1339,34 +1339,6 @@
 				<authors>Ollie Lansdell</authors>
 			</Meta>
 		</Module>-->
-		<Module name="LunatriusCore" id="lunatriuscore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/LunatriusCore-1.12.2-1.2.0.42-universal.jar</URL>
-			<Size>76753</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>0dae43ef5376822db0399ad254207aa3</MD5>
-			<Meta>
-				<credits></credits>
-				<description>A collection of utilities for Lunatrius&apos; mods.</description>
-				<version>1.2.0.42</version>
-				<url>http://mc.lunatri.us/</url>
-				<authors>Lunatrius</authors>
-			</Meta>
-		</Module>
-		<Module name="Schematica" id="schematica" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Schematica-1.12.2-1.8.0.169-universal.jar</URL>
-			<Size>336150</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>c779a8cd4fd0e99572385a529b790c73</MD5>
-			<Meta>
-				<credits>AbrarSyed, AtomicBlom, UltraMoogleMan</credits>
-				<description>Import and export Minecraft schematic files in Minecraft!</description>
-				<version>1.8.0.169</version>
-				<url>http://mc.lunatri.us/</url>
-				<authors>Lunatrius</authors>
-			</Meta>
-		</Module>
 		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mekanism-1.12.2-9.4.13.349%20(3).jar</URL>
 			<Size>16020358</Size>
