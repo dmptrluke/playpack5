@@ -4,10 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.0.0" 
+	 generateList="true" autoConnect="false" revision="1.0.1" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
+			<note title="Latest Changes">Update a few mods, fix grindstone recipes, fix thatch recipes.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -415,7 +416,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/appliedenergistics2.zs</URL>
 				<Path>scripts/appliedenergistics2.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>c59652775947d6146649b4291bc8559d</MD5>
+				<MD5>6d7a303d6945b8de1acddcc0c681fab5</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Wireless Crafting Terminal 2" id="wct" depends="" side="BOTH">
@@ -1310,7 +1311,7 @@
 				<MD5>1ea8475103713d57e8a1b7828bfc541e</MD5>
 			</ConfigFile>
 		</Module>-->
-		<Module name="SonarCore" id="sonarcore" depends="" side="BOTH">
+		<!--<Module name="SonarCore" id="sonarcore" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/sonarcore-1.12.2-5.0.19-20.jar</URL>
 			<Size>1160618</Size>
 			<Required>true</Required>
@@ -1336,6 +1337,34 @@
 				<version>1.12.2-3.0.19-21</version>
 				<url></url>
 				<authors>Ollie Lansdell</authors>
+			</Meta>
+		</Module>-->
+		<Module name="LunatriusCore" id="lunatriuscore" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/LunatriusCore-1.12.2-1.2.0.42-universal.jar</URL>
+			<Size>76753</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0dae43ef5376822db0399ad254207aa3</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A collection of utilities for Lunatrius&apos; mods.</description>
+				<version>1.2.0.42</version>
+				<url>http://mc.lunatri.us/</url>
+				<authors>Lunatrius</authors>
+			</Meta>
+		</Module>
+		<Module name="Schematica" id="schematica" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Schematica-1.12.2-1.8.0.169-universal.jar</URL>
+			<Size>336150</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c779a8cd4fd0e99572385a529b790c73</MD5>
+			<Meta>
+				<credits>AbrarSyed, AtomicBlom, UltraMoogleMan</credits>
+				<description>Import and export Minecraft schematic files in Minecraft!</description>
+				<version>1.8.0.169</version>
+				<url>http://mc.lunatri.us/</url>
+				<authors>Lunatrius</authors>
 			</Meta>
 		</Module>
 		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
@@ -2090,15 +2119,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.14.3.242.jar</URL>
-			<Size>620682</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.14.3.246.jar</URL>
+			<Size>623022</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ae6d0e6e873ef6c20f41097dc7fee8c6</MD5>
+			<MD5>95bece45e9bd9312e1c652b60d478ff1</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Simple recipe and item helper.</description>
-				<version>4.14.3.242</version>
+				<version>4.14.3.246</version>
 				<url>https://github.com/mezz/JustEnoughItems</url>
 				<authors>mezz</authors>
 			</Meta>
@@ -2242,7 +2271,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/harvestcraft.zs</URL>
 				<Path>scripts/harvestcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>8caa85c16129cb53a0b77208cd97fea1</MD5>
+				<MD5>6d530176721d6addfa54256580e423e4</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Redstone Arsenal" id="redstonearsenal" depends="" side="BOTH">
@@ -2326,15 +2355,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-138.jar</URL>
-			<Size>1995640</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-139.jar</URL>
+			<Size>1998487</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6c7ca70a20d75e5a19ad0ba0c1251e9e</MD5>
+			<MD5>399af7cc757a23bcd34a353c74d39729</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Small things.</description>
-				<version>r1.5-138</version>
+				<version>r1.5-139</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
