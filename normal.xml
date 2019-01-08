@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.0.1" 
+	 generateList="true" autoConnect="false" revision="1.0.3" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update a few mods, fix grindstone recipes, fix thatch recipes.</note>
+			<note title="Latest Changes">Update Tinkers, FTB. Add Just Enough Energistics. Add Tinkers Complement.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -326,7 +326,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/culinaryconstruct.cfg</URL>
 				<Path>config/culinaryconstruct.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>bf90f63e70c548ef4759fa52f19df77c</MD5>
+				<MD5>c41ece45f1c9a003b6f68486ddff7b5e</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
@@ -2134,6 +2134,19 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 					<authors>Lykrast</authors>
 				</Meta>
 			</Submodule>
+			<Submodule name="Just Enough Energistics" id="jee" side="CLIENT">
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/JustEnoughEnergistics-1.12.2-1.0.0.jar</URL>
+				<Size>22045</Size>
+				<ModType>Regular</ModType>
+				<MD5>7813503050a99e8968a64f8b32a7356c</MD5>
+				<Meta>
+					<credits></credits>
+					<description>Adds a JEI Recipe Transfer Handler to AE2&apos;s Pattern Terminal</description>
+					<version>1.12.2-1.0.0</version>
+					<url></url>
+					<authors>TheRealp455w0rd</authors>
+				</Meta>
+			</Submodule>
 		</Module>
 		<Module name="Mantle" id="mantle" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mantle-1.12-1.3.3.39.jar</URL>
@@ -2273,15 +2286,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.68.jar</URL>
-			<Size>429912</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.69.jar</URL>
+			<Size>430829</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>348af308d333084db88c03e4a71651ba</MD5>
+			<MD5>2099697806f4811c7b76199944661733</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.3.0.68</version>
+				<version>5.3.0.69</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2714,15 +2727,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TConstruct-1.12.2-2.11.0.106.jar</URL>
-			<Size>3921062</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TConstruct-1.12.2-2.12.0.113.jar</URL>
+			<Size>3945706</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a301b39e88a2347eabe07b3d931581a8</MD5>
+			<MD5>42c7a52020916ffd8ccaffc2261840d5</MD5>
 			<Meta>
 				<credits>Slime Knights, mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox</credits>
 				<description>A little of this, a little of that, a lot of tinkering, and a lot of tools</description>
-				<version>1.12.2-2.11.0.106</version>
+				<version>1.12.2-2.12.0.113</version>
 				<url>https://github.com/SlimeKnights/TinkersConstruct</url>
 				<authors>boni, KnightMiner</authors>
 			</Meta>
@@ -2744,6 +2757,20 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>EE4D2FAA2A10FCD59EE287C59F896EA2</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Tinkers&apos; Complement" id="tcomplement" depends="tconstruct" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TinkersComplement-1.12.2-0.3.0.jar</URL>
+			<Size>225726</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>feaa2890bf7c78f226e081e36362d5d3</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Addon for Tinkers Construct adding various features to complement those from Tinkers</description>
+				<version>1.12.2-0.3.0</version>
+				<url>https://minecraft.curseforge.com/projects/tinkers-complement</url>
+				<authors>KnightMiner</authors>
+			</Meta>
 		</Module>
 		<Module name="Traverse" id="traverse" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Traverse-1.12.2-1.5.4-61.jar</URL>
