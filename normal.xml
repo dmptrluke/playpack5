@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.0.3" 
+	 generateList="true" autoConnect="false" revision="1.0.4" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update Tinkers, FTB. Add Just Enough Energistics. Add Tinkers Complement.</note>
+			<note title="Latest Changes">Fix a crash, update textures.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -2134,15 +2134,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 					<authors>Lykrast</authors>
 				</Meta>
 			</Submodule>
-			<Submodule name="Just Enough Energistics" id="jee" side="CLIENT">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/JustEnoughEnergistics-1.12.2-1.0.0.jar</URL>
-				<Size>22045</Size>
+			<Submodule name="Just Enough Energistics" id="jei-jee">
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/JustEnoughEnergistics-1.12.2-1.0.2.jar</URL>
+				<Size>19070</Size>
 				<ModType>Regular</ModType>
-				<MD5>7813503050a99e8968a64f8b32a7356c</MD5>
+				<MD5>51249526799203d2843df8ed9d6af11d</MD5>
 				<Meta>
 					<credits></credits>
 					<description>Adds a JEI Recipe Transfer Handler to AE2&apos;s Pattern Terminal</description>
-					<version>1.12.2-1.0.0</version>
+					<version>1.12.2-1.0.2</version>
 					<url></url>
 					<authors>TheRealp455w0rd</authors>
 				</Meta>
@@ -2445,11 +2445,11 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>lumien</authors>
 			</Meta>
 			<Submodule name="PlayPack Resources" id="playpackresources">
-				<URL priority="0">https://dmptr.com/pack_redux/files/resources-r7.zip</URL>
-				<Size>61851</Size>
+				<URL priority="0">https://dmptr.com/pack_redux/files/resources-r8.zip</URL>
+				<Size>63113</Size>
 				<Required>true</Required>
 				<ModType inRoot="true">Extract</ModType>
-				<MD5>D1DB853853C3B61891E042FE65A201E0</MD5>
+				<MD5>36F4C51E0C3B0D9041F698F5B3DD3210</MD5>
 			</Submodule>
 		</Module>
 		<Module name="Rustic" id="rustic" depends="" side="BOTH">
