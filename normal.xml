@@ -1075,6 +1075,20 @@
 				<MD5>4e3df95267484efa952e12149c92ec34</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Item Filters" id="itemfilters" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ItemFilters-1.0.1.4.jar</URL>
+			<Size>71521</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>219e29ac014a9ae7caef1c9bbf7367bf</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.0.1.4</version>
+				<url>http://minecraft.curseforge.com/projects/item-filters</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+		</Module>
 		<Module name="Farming for Blockheads" id="farmingforblockheads" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FarmingForBlockheads_1.12.2-3.1.26.jar</URL>
 			<Size>242247</Size>
