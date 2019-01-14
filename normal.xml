@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.0.4" 
+	 generateList="true" autoConnect="false" revision="1.0.5" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Fix a crash, update textures.</note>
+			<note title="Latest Changes">Update a whole bunch of mods.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -1056,15 +1056,15 @@
 			</ConfigFile>
 		</Module>-->
 		<Module name="Cooking for Blockheads" id="cookingforblockheads" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CookingForBlockheads_1.12.2-6.4.65.jar</URL>
-			<Size>584467</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CookingForBlockheads_1.12.2-6.4.69.jar</URL>
+			<Size>586812</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>dfe4a46ba6daf56434a080edf5b1554f</MD5>
+			<MD5>f53121423ac9056e59a726dd3acc62ac</MD5>
 			<Meta>
 				<credits>BlayTheNinth</credits>
 				<description>Adds a cooking book and multiblock kitchens that only shows recipes you can make with what you currently have in your inventory.</description>
-				<version>6.4.65</version>
+				<version>6.4.69</version>
 				<url></url>
 				<authors>BlayTheNinth</authors>
 			</Meta>
@@ -1366,15 +1366,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RebornCore-1.12.2-3.13.0.400-universal.jar</URL>
-			<Size>733576</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RebornCore-1.12.2-3.13.1.402-universal.jar</URL>
+			<Size>733793</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ce793e5db7837d69e7f7e4e0b3574327</MD5>
+			<MD5>0eef34d83e11f6428e22b6b3631311c0</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
-				<version>3.13.0.400</version>
+				<version>3.13.1.402</version>
 				<url>https://github.com/TechReborn/RebornCore</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
@@ -2091,15 +2091,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.14.3.246.jar</URL>
-			<Size>623022</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.14.4.253.jar</URL>
+			<Size>636542</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>95bece45e9bd9312e1c652b60d478ff1</MD5>
+			<MD5>1b86ad5b6566a28063a60ec38087b86b</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Simple recipe and item helper.</description>
-				<version>4.14.3.246</version>
+				<version>4.14.4.253</version>
 				<url>https://github.com/mezz/JustEnoughItems</url>
 				<authors>mezz</authors>
 			</Meta>
@@ -2122,27 +2122,27 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				</ConfigFile>
 			</Submodule>
 			<Submodule name="Just Enough Throwing In Fluids" id="jei-jetif">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/jetif-1.12.2-1.2.0.jar</URL>
-				<Size>18595</Size>
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/jetif-1.12.2-1.3.0.jar</URL>
+				<Size>20178</Size>
 				<ModType>Regular</ModType>
-				<MD5>5ec05ad97d67f280bd9f1b2ab30ef368</MD5>
+				<MD5>60c185386941dd99b15ca1524978a04c</MD5>
 				<Meta>
 					<credits>All those mods that add this kind of crafting for giving me this idea.</credits>
 					<description>JEI addon for throwing stuff in fluids to make other stuff.</description>
-					<version>1.12.2-1.2.0</version>
+					<version>1.12.2-1.3.0</version>
 					<url></url>
 					<authors>Lykrast</authors>
 				</Meta>
 			</Submodule>
 			<Submodule name="Just Enough Energistics" id="jei-jee">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/JustEnoughEnergistics-1.12.2-1.0.2.jar</URL>
-				<Size>19070</Size>
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/JustEnoughEnergistics-1.12.2-1.0.3.jar</URL>
+				<Size>19259</Size>
 				<ModType>Regular</ModType>
-				<MD5>51249526799203d2843df8ed9d6af11d</MD5>
+				<MD5>ea9c2fe8618bef6e26a45afa0ed78b36</MD5>
 				<Meta>
 					<credits></credits>
 					<description>Adds a JEI Recipe Transfer Handler to AE2&apos;s Pattern Terminal</description>
-					<version>1.12.2-1.0.2</version>
+					<version>1.12.2-1.0.3</version>
 					<url></url>
 					<authors>TheRealp455w0rd</authors>
 				</Meta>
@@ -2181,15 +2181,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<MD5>47987d111d6f1e48403bc3cbb23f5503</MD5>
 		</Module>
 		<Module name="Morph-o-Tool" id="morphtool" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Morph-o-Tool-1.2-18.jar</URL>
-			<Size>27081</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Morph-o-Tool-1.2-21.jar</URL>
+			<Size>30619</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>cfbb9316f7aaf83e77a74246a826e7b4</MD5>
+			<MD5>a56d6a54721acef7fa4863d4efd20638</MD5>
 			<Meta>
 				<credits></credits>
 				<description>The wrench to end all wrenches.</description>
-				<version>1.2-18</version>
+				<version>1.2-21</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii</authors>
 			</Meta>
@@ -2286,15 +2286,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.69.jar</URL>
-			<Size>430829</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.73.jar</URL>
+			<Size>432151</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2099697806f4811c7b76199944661733</MD5>
+			<MD5>3a011cacebe28c27dc53164cecef27c4</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.3.0.69</version>
+				<version>5.3.0.73</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2306,29 +2306,29 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Quests" id="ftbquests" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.4.0.109.jar</URL>
-			<Size>764119</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.4.1.115.jar</URL>
+			<Size>775991</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9a4bf15c63e6ebbb0a76f028ae4d5633</MD5>
+			<MD5>5976e32050bdf770722b8cbd9936a4d9</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>1.4.0.109</version>
+				<version>1.4.1.115</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-quests</url>
 				<authors>LatvianModder</authors>
 			</Meta>
 		</Module>
 		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.0.73.jar</URL>
-			<Size>885618</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.1.76.jar</URL>
+			<Size>878072</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>c9775ec3eb8e51067c90ea4e16853360</MD5>
+			<MD5>7e9190e51ede7c493c3faf173c383109</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.4.0.73</version>
+				<version>5.4.1.76</version>
 				<url>http://minecraft.curseforge.com/projects/ftblib</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2340,15 +2340,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-139.jar</URL>
-			<Size>1998487</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-144.jar</URL>
+			<Size>2054886</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>399af7cc757a23bcd34a353c74d39729</MD5>
+			<MD5>fb1c8eb8ea0325a87124d997b2489640</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Small things.</description>
-				<version>r1.5-139</version>
+				<version>r1.5-144</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
@@ -2387,15 +2387,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<MD5>0af5bef734c55f30cc5eba9065abe09d</MD5>
 		</Module>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DankNull-1.12-1.4.43.jar</URL>
-			<Size>311769</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DankNull-1.12-1.4.46.jar</URL>
+			<Size>312081</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>7c9c025a07d5798ba747d54ef632fb46</MD5>
+			<MD5>1e0621587893cc65965bab3c2a573a78</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Adds the /dank/null items from p455w0rd&apos;s Things 1.10.2 mod</description>
-				<version>1.12-1.4.43</version>
+				<version>1.12-1.4.46</version>
 				<url></url>
 				<authors>TheRealp455w0rd</authors>
 			</Meta>
@@ -2479,15 +2479,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Rustic Thaumaturgy" id="rusticthaumaturgy" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-2.8.jar</URL>
-			<Size>247442</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-3.0.jar</URL>
+			<Size>397881</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>cfd528ad65ab4401085b6a97fdb4156a</MD5>
+			<MD5>09a1b45bf5339576700528548ebd77ac</MD5>
 			<Meta>
 				<credits>MrCrayfish, WolfieWaffle, and TheRealStu</credits>
 				<description>A mod that adds some Thaumcraft compatability to Rustic.</description>
-				<version>2.8</version>
+				<version>3.0</version>
 				<url></url>
 				<authors>Voxel-Friend</authors>
 			</Meta>
