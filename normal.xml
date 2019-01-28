@@ -4,7 +4,7 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.0.5" 
+	 generateList="true" autoConnect="false" revision="1.0.6" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
@@ -190,15 +190,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Bookshelf" id="bookshelf" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Bookshelf-1.12.2-2.3.569.jar</URL>
-			<Size>243489</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Bookshelf-1.12.2-2.3.573.jar</URL>
+			<Size>240391</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>03044c8c184e066a6c7db4b797da75de</MD5>
+			<MD5>170b12484c3ed508d459a4f767391d9e</MD5>
 			<Meta>
 				<credits>ChickenBones, CyanideX, iLexiconn, SanAndreasP, VikeStep, jaredlll08</credits>
 				<description>Bookshelf is a core/library mod, which adds new features and tools into the game for other content creators to work with. The primary focus of this project is to make use of the combined strength of the modded community to create wonderful tools that everyone can use.</description>
-				<version>2.3.569</version>
+				<version>2.3.573</version>
 				<url>http://minecraft.curseforge.com/projects/bookshelf</url>
 				<authors>darkhax, lclc98</authors>
 			</Meta>
@@ -210,15 +210,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Dark Utilities" id="darkutils" depends="bookshelf" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DarkUtils-1.12.2-1.8.219.jar</URL>
-			<Size>418931</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DarkUtils-1.12.2-1.8.223.jar</URL>
+			<Size>419245</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0ef94d4c3f1e7fb963fb20f098d5c218</MD5>
+			<MD5>c8cc088a1f2188ed6bf805ca6eb7e6da</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A mod that adds a bunch of new utilities to the game.</description>
-				<version>1.8.219</version>
+				<version>1.8.223</version>
 				<url>http://www.darkhax.net</url>
 				<authors>Darkhax</authors>
 			</Meta>
@@ -270,15 +270,15 @@
 			</Submodule>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CyclopsCore-1.12.2-0.11.11.jar</URL>
-			<Size>824126</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CyclopsCore-1.12.2-1.0.2.jar</URL>
+			<Size>976941</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>235d8729f67c86c64093a7c18de2d255</MD5>
+			<MD5>7ac6e6a51459f7345592e5e24a36dd5d</MD5>
 			<Meta>
 				<credits>kroeserr, _EeB_</credits>
 				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
-				<version>1.12.2-0.11.11</version>
+				<version>1.12.2-1.0.2</version>
 				<url>https://minecraft.curseforge.com/projects/cyclops-core</url>
 				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
 			</Meta>
@@ -290,15 +290,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CommonCapabilities" id="commoncapabilities" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CommonCapabilities-1.12-1.4.0.jar</URL>
-			<Size>77016</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CommonCapabilities-1.12.2-2.0.0.jar</URL>
+			<Size>209305</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8d99dc5e5df88b6be61a3d12a15e9e36</MD5>
+			<MD5>62d5bd474e2bdf3e995d187f3d946e8f</MD5>
 			<Meta>
 				<credits>kroeserr</credits>
 				<description>Forge Capabilities that can be shared by multiple mods</description>
-				<version>1.12-1.4.0</version>
+				<version>1.12.2-2.0.0</version>
 				<url>https://github.com/CyclopsMC/CommonCapabilities</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -330,15 +330,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-0.11.18.jar</URL>
-			<Size>2751117</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-1.0.2.jar</URL>
+			<Size>2995347</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>fb146fc7ccd9cf06cea61530cc914d7b</MD5>
+			<MD5>e02e860985883494b2b7d8cd843b1a2a</MD5>
 			<Meta>
 				<credits>kroeserr, Yulife (textures)</credits>
 				<description>Take full and automated control of your appliances.</description>
-				<version>1.12.2-0.11.18</version>
+				<version>1.12.2-1.0.2</version>
 				<url>https://minecraft.curseforge.com/projects/integrated-dynamics</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -356,15 +356,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Tunnels" id="integratedtunnels" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTunnels-1.12.2-1.5.6.jar</URL>
-			<Size>1711609</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTunnels-1.12.2-1.6.2.jar</URL>
+			<Size>1750177</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0369afe05f401860fdc2391129835b4a</MD5>
+			<MD5>d55e3ef7092bb0e17791f666b392c1d0</MD5>
 			<Meta>
 				<credits>rubensworks (aka kroeserr)</credits>
 				<description>Transfer other stuff over Integrated Dynamics networks</description>
-				<version>1.12.2-1.5.6</version>
+				<version>1.12.2-1.6.2</version>
 				<url>https://github.com/CyclopsMC/IntegratedTunnels</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -950,16 +950,16 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Colytra" id="colytra" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/colytra-1.12.2-1.1.0.jar</URL>
-			<Size>82913</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/colytra-1.12.2-1.1.0.3.jar</URL>
+			<Size>82680</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>491fe2133ec64357a74f6d7440289a81</MD5>
+			<MD5>30f15b5d3cf09a932708404577908598</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Allows attachment of elytras to chestplates and includes an elytra bauble for Baubles</description>
-				<version>1.12.2-1.1.0</version>
-				<url>https://minecraft.curseforge.com/projects/colytra</url>
+				<version>1.12.2-1.1.0.3</version>
+				<url></url>
 				<authors>C4</authors>
 			</Meta>
 			<ConfigFile>
@@ -1074,20 +1074,6 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>4e3df95267484efa952e12149c92ec34</MD5>
 			</ConfigFile>
-		</Module>
-		<Module name="Item Filters" id="itemfilters" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ItemFilters-1.0.1.4.jar</URL>
-			<Size>71521</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>219e29ac014a9ae7caef1c9bbf7367bf</MD5>
-			<Meta>
-				<credits></credits>
-				<description></description>
-				<version>1.0.1.4</version>
-				<url>http://minecraft.curseforge.com/projects/item-filters</url>
-				<authors>LatvianModder</authors>
-			</Meta>
 		</Module>
 		<Module name="Farming for Blockheads" id="farmingforblockheads" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FarmingForBlockheads_1.12.2-3.1.26.jar</URL>
@@ -1226,15 +1212,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Chisels &amp; Bits" id="chiselsandbits" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/chiselsandbits-14.29.jar</URL>
-			<Size>730497</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/chiselsandbits-14.30.jar</URL>
+			<Size>730687</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>08229bd6802b8a85039d5caa82637d1f</MD5>
+			<MD5>4683a0252fbcccf10034b3dc9ebee90f</MD5>
 			<Meta>
 				<credits>AlgorithmX2</credits>
 				<description>a mod about Sculpting, Decorating and Aesthetics</description>
-				<version>14.29</version>
+				<version>14.30</version>
 				<url>http://minecraft.curseforge.com/projects/chisels-bits</url>
 				<authors>AlgorithmX2</authors>
 			</Meta>
@@ -1380,15 +1366,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RebornCore-1.12.2-3.13.1.402-universal.jar</URL>
-			<Size>733793</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RebornCore-1.12.2-3.13.2.411-universal.jar</URL>
+			<Size>734528</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0eef34d83e11f6428e22b6b3631311c0</MD5>
+			<MD5>06f19115c7adfaf540cbb03e2738f313</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
-				<version>3.13.1.402</version>
+				<version>3.13.2.411</version>
 				<url>https://github.com/TechReborn/RebornCore</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
@@ -1400,15 +1386,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Tech Reborn" id="techreborn" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.20.1.889-universal.jar</URL>
-			<Size>2394966</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.20.5.909-universal.jar</URL>
+			<Size>2407018</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0090ac775530e9e6a93bb69b63f67416</MD5>
+			<MD5>6824d08f1045fc6ddc3daf09070df980</MD5>
 			<Meta>
 				<credits>Thanks to these contributors: TheMattaBase, Mj11jM, Mazdallier, tntrololol, joflashstudios, drcrazy, lclc98, Lordmau5, mezz, Thog, and Dimmerworld</credits>
 				<description>Tech Reborn is a completely standalone tech mod designed by the ideals of GregTech 2 and Industrial Craft 2 pre-experimental. The mod includes tools and machines to gather resources, process materials, and progression throughout the mod. http://www.techreborn.ovh/</description>
-				<version>2.20.1.889</version>
+				<version>2.20.5.909</version>
 				<url>https://github.com/TechReborn/TechReborn</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
@@ -1468,15 +1454,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CraftTweaker2-1.12-4.1.13.jar</URL>
-			<Size>1315744</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CraftTweaker2-1.12-4.1.14.jar</URL>
+			<Size>1327552</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3ef4307be8af3a278c5556b4622ebe4f</MD5>
+			<MD5>6d9ad88722a6a779255afcd725762218</MD5>
 			<Meta>
 				<credits>Created By StanHebben and Jaredlll08</credits>
 				<description>Customize your minecraft experience!</description>
-				<version>1.12-4.1.13</version>
+				<version>1.12-4.1.14</version>
 				<url>http://minetweaker3.powerofbytes.com</url>
 				<authors>StanHebben, Jaredlll08</authors>
 			</Meta>
@@ -1930,15 +1916,15 @@
 			</Meta>
 		</Module>
 		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.11.0.2.jar</URL>
-			<Size>101625</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.12.1.0.jar</URL>
+			<Size>104832</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>34051c6f24a871a496a79cdf56751214</MD5>
+			<MD5>081397f453b400d56959164ac746c1ea</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A bunch of miscellaneous patches for Minecraft.</description>
-				<version>1.12.2-1.11.0.2</version>
+				<version>1.12.2-1.12.1.0</version>
 				<url>https://minecraft.curseforge.com/projects/randompatches</url>
 				<authors>TheRandomLabs</authors>
 			</Meta>
@@ -1950,15 +1936,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/forestry_1.12.2-5.8.2.380.jar</URL>
-			<Size>5231581</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/forestry_1.12.2-5.8.2.382.jar</URL>
+			<Size>5233288</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a796498276198f15795059bc411dba30</MD5>
+			<MD5>a0a49278b7cfa29e421b39d8ddd99f12</MD5>
 			<Meta>
 				<credits>mistaqur, Binnie, CovertJaguar, MysteriousAges, Nirek, Nedelosk</credits>
 				<description>Trees, bees and more.</description>
-				<version>5.8.2.380</version>
+				<version>5.8.2.382</version>
 				<url>http://forestry.sengir.net/</url>
 				<authors>SirSengir, mezz</authors>
 			</Meta>
@@ -2078,16 +2064,16 @@
 			<MD5>944a413889537655a8c1165d44e2647f</MD5>
 		</Module>
 		<Module name="Iron Chests" id="ironchest" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ironchest-1.12.2-7.0.54.838.jar</URL>
-			<Size>946207</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ironchest-1.12.2-7.0.56.840.jar</URL>
+			<Size>947723</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>019c80fca89a437f86f98bd69402a2e0</MD5>
+			<MD5>79b2c1c1fd20a4870abfc73657fccf5c</MD5>
 			<Meta>
 				<credits>By cpw, based on an original idea by Lishid</credits>
 				<description>New chests with larger sizes, with in-place upgrade items.
 The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest</description>
-				<version>1.12.2-7.0.54.838</version>
+				<version>1.12.2-7.0.56.840</version>
 				<url>http://www.minecraftforum.net/topic/981855-</url>
 				<authors>cpw</authors>
 			</Meta>
@@ -2105,15 +2091,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.14.4.253.jar</URL>
-			<Size>636542</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.14.4.264.jar</URL>
+			<Size>645452</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1b86ad5b6566a28063a60ec38087b86b</MD5>
+			<MD5>bad98301331272d4a5e6b71284914695</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Simple recipe and item helper.</description>
-				<version>4.14.4.253</version>
+				<version>4.14.4.264</version>
 				<url>https://github.com/mezz/JustEnoughItems</url>
 				<authors>mezz</authors>
 			</Meta>
@@ -2149,14 +2135,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				</Meta>
 			</Submodule>
 			<Submodule name="Just Enough Energistics" id="jei-jee">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/JustEnoughEnergistics-1.12.2-1.0.3.jar</URL>
-				<Size>19259</Size>
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/JustEnoughEnergistics-1.12.2-1.0.6.jar</URL>
+				<Size>19347</Size>
 				<ModType>Regular</ModType>
-				<MD5>ea9c2fe8618bef6e26a45afa0ed78b36</MD5>
+				<MD5>721b76c9f63d80bdd92719bac710f299</MD5>
 				<Meta>
 					<credits></credits>
 					<description>Adds a JEI Recipe Transfer Handler to AE2&apos;s Pattern Terminal</description>
-					<version>1.12.2-1.0.3</version>
+					<version>1.12.2-1.0.6</version>
 					<url></url>
 					<authors>TheRealp455w0rd</authors>
 				</Meta>
@@ -2300,15 +2286,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.73.jar</URL>
-			<Size>432151</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.69.jar</URL>
+			<Size>430829</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3a011cacebe28c27dc53164cecef27c4</MD5>
+			<MD5>2099697806f4811c7b76199944661733</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.3.0.73</version>
+				<version>5.3.0.69</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2320,29 +2306,29 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Quests" id="ftbquests" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.4.1.115.jar</URL>
-			<Size>775991</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.4.0.109.jar</URL>
+			<Size>764119</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5976e32050bdf770722b8cbd9936a4d9</MD5>
+			<MD5>9a4bf15c63e6ebbb0a76f028ae4d5633</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>1.4.1.115</version>
+				<version>1.4.0.109</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-quests</url>
 				<authors>LatvianModder</authors>
 			</Meta>
 		</Module>
 		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.1.76.jar</URL>
-			<Size>878072</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.0.73.jar</URL>
+			<Size>885618</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>7e9190e51ede7c493c3faf173c383109</MD5>
+			<MD5>c9775ec3eb8e51067c90ea4e16853360</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.4.1.76</version>
+				<version>5.4.0.73</version>
 				<url>http://minecraft.curseforge.com/projects/ftblib</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2354,15 +2340,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-144.jar</URL>
-			<Size>2054886</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-145.jar</URL>
+			<Size>2054899</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>fb1c8eb8ea0325a87124d997b2489640</MD5>
+			<MD5>661e12f63b8e3e367e67323031599eb9</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Small things.</description>
-				<version>r1.5-144</version>
+				<version>r1.5-145</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
@@ -2493,15 +2479,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Rustic Thaumaturgy" id="rusticthaumaturgy" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-3.0.jar</URL>
-			<Size>397881</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-3.3.jar</URL>
+			<Size>396829</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>09a1b45bf5339576700528548ebd77ac</MD5>
+			<MD5>9c4e7bfdd3507aaade41a77a17942300</MD5>
 			<Meta>
 				<credits>MrCrayfish, WolfieWaffle, and TheRealStu</credits>
 				<description>A mod that adds some Thaumcraft compatability to Rustic.</description>
-				<version>3.0</version>
+				<version>3.3</version>
 				<url></url>
 				<authors>Voxel-Friend</authors>
 			</Meta>
@@ -2741,15 +2727,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TConstruct-1.12.2-2.12.0.113.jar</URL>
-			<Size>3945706</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TConstruct-1.12.2-2.12.0.115.jar</URL>
+			<Size>3945715</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>42c7a52020916ffd8ccaffc2261840d5</MD5>
+			<MD5>436e05cbda8a1da6822a41a5420e68a4</MD5>
 			<Meta>
 				<credits>Slime Knights, mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox</credits>
 				<description>A little of this, a little of that, a lot of tinkering, and a lot of tools</description>
-				<version>1.12.2-2.12.0.113</version>
+				<version>1.12.2-2.12.0.115</version>
 				<url>https://github.com/SlimeKnights/TinkersConstruct</url>
 				<authors>boni, KnightMiner</authors>
 			</Meta>
