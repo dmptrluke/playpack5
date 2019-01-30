@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.0.6" 
+	 generateList="true" autoConnect="false" revision="1.0.7" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update a whole bunch of mods.</note>
+			<note title="Latest Changes">Update a few more mods.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -1497,10 +1497,10 @@
 				<MD5>6bbd9e0b6f98147e1a172a0d3483187e</MD5>
 			</ConfigFile>
 			<Submodule name="ModTweaker" id="modtweaker">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/modtweaker-4.0.15.jar</URL>
-				<Size>430351</Size>
+				<URL priority="0">https://dmptr.com/pack_redux/files/mods/modtweaker-4.0.16.jar</URL>
+				<Size>433948</Size>
 				<ModType>Regular</ModType>
-				<MD5>077962eca1a41f0d116e72153b996d2e</MD5>
+				<MD5>c6068f289820a544737b6cb3a98be8af</MD5>
 			</Submodule>
 			<Submodule name="MTLib" id="mtlib">
 				<URL priority="0">https://dmptr.com/pack_redux/files/mods/MTLib-3.0.5.jar</URL>
@@ -1732,15 +1732,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-1.12.2-5.0.39.jar</URL>
-			<Size>7106613</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-1.12.2-5.0.40.jar</URL>
+			<Size>7221919</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5f713093547f087b2596fb34bddc75e0</MD5>
+			<MD5>0d53e1ada83fbc44d9463e73cc0d3f9d</MD5>
 			<Meta>
 				<credits>By CrazyPants, with the help of many</credits>
 				<description>Compact conduits, painted things and all sorts of stuff and bling.</description>
-				<version>5.0.39</version>
+				<version>5.0.40</version>
 				<url>http://enderio.com</url>
 				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</authors>
 			</Meta>
@@ -1794,15 +1794,15 @@
 			</ConfigFile>
 		</Module>
 	    <Module name="Ender IO Zoo" id="enderiozoo" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-zoo-1.12.2-5.0.39.jar</URL>
-			<Size>456220</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-zoo-1.12.2-5.0.40.jar</URL>
+			<Size>456893</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>d5949cc4e93b86d81ce8285e22430859</MD5>
+			<MD5>6b5d05a635f19db60fead0fabdceafd6</MD5>
 			<Meta>
 				<credits>By CrazyPants, with the help of many</credits>
 				<description>All the creatures that will kill you when you least expect it</description>
-				<version>5.0.39</version>
+				<version>5.0.40</version>
 				<url>http://enderio.com</url>
 				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, EpicSquid</authors>
 			</Meta>
@@ -2356,7 +2356,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/quark.cfg</URL>
 				<Path>config/quark.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>953affa7432f5db553296f333580a6cb</MD5>
+				<MD5>8ac017319d6da275df477fe8aad93b4f</MD5>
 			</ConfigFile>
 			<Submodule name="Quark Oddities" id="quark-oddities">
 				<URL priority="0">https://dmptr.com/pack_redux/files/mods/QuarkOddities-1.12.2.jar</URL>
