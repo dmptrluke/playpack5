@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.0.7" 
+	 generateList="true" autoConnect="false" revision="1.0.8" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update a few more mods.</note>
+			<note title="Latest Changes">Update mods, again, as usual.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -190,15 +190,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Bookshelf" id="bookshelf" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Bookshelf-1.12.2-2.3.573.jar</URL>
-			<Size>240391</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Bookshelf-1.12.2-2.3.574.jar</URL>
+			<Size>240642</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>170b12484c3ed508d459a4f767391d9e</MD5>
+			<MD5>3147dbbeb12330d8d74cacdf85981c72</MD5>
 			<Meta>
 				<credits>ChickenBones, CyanideX, iLexiconn, SanAndreasP, VikeStep, jaredlll08</credits>
 				<description>Bookshelf is a core/library mod, which adds new features and tools into the game for other content creators to work with. The primary focus of this project is to make use of the combined strength of the modded community to create wonderful tools that everyone can use.</description>
-				<version>2.3.573</version>
+				<version>2.3.574</version>
 				<url>http://minecraft.curseforge.com/projects/bookshelf</url>
 				<authors>darkhax, lclc98</authors>
 			</Meta>
@@ -330,15 +330,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-1.0.2.jar</URL>
-			<Size>2995347</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-1.0.3.jar</URL>
+			<Size>2996324</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e02e860985883494b2b7d8cd843b1a2a</MD5>
+			<MD5>631125db2995baa6ae2b7d08136b1a2a</MD5>
 			<Meta>
 				<credits>kroeserr, Yulife (textures)</credits>
 				<description>Take full and automated control of your appliances.</description>
-				<version>1.12.2-1.0.2</version>
+				<version>1.12.2-1.0.3</version>
 				<url>https://minecraft.curseforge.com/projects/integrated-dynamics</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -354,6 +354,20 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>09e71113e18d6dac364d3d7b13d0dd79</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Integrated Terminals" id="integratedterminals" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTerminals-1.12.2-1.0.1.jar</URL>
+			<Size>568490</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1f9761c2a8e29db552ff3277b70e5b33</MD5>
+			<Meta>
+				<credits>rubensworks (aka kroeserr)</credits>
+				<description>Terminals for managing and overviewing Integrated Dynamics networks</description>
+				<version>1.12.2-1.0.1</version>
+				<url>https://github.com/CyclopsMC/IntegratedTerminals</url>
+				<authors>rubensworks (aka kroeserr)</authors>
+			</Meta>
 		</Module>
 		<Module name="Integrated Tunnels" id="integratedtunnels" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTunnels-1.12.2-1.6.2.jar</URL>
@@ -1366,15 +1380,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RebornCore-1.12.2-3.13.2.411-universal.jar</URL>
-			<Size>734528</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RebornCore-1.12.2-3.13.3.416-universal.jar</URL>
+			<Size>734613</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>06f19115c7adfaf540cbb03e2738f313</MD5>
+			<MD5>93d87a4583300f4f340234b21dad02d1</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
-				<version>3.13.2.411</version>
+				<version>3.13.3.416</version>
 				<url>https://github.com/TechReborn/RebornCore</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
@@ -1386,15 +1400,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Tech Reborn" id="techreborn" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.20.5.909-universal.jar</URL>
-			<Size>2407018</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.20.6.914-universal.jar</URL>
+			<Size>2407799</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6824d08f1045fc6ddc3daf09070df980</MD5>
+			<MD5>57d31a988cb30598463aa2ebe312d52c</MD5>
 			<Meta>
 				<credits>Thanks to these contributors: TheMattaBase, Mj11jM, Mazdallier, tntrololol, joflashstudios, drcrazy, lclc98, Lordmau5, mezz, Thog, and Dimmerworld</credits>
 				<description>Tech Reborn is a completely standalone tech mod designed by the ideals of GregTech 2 and Industrial Craft 2 pre-experimental. The mod includes tools and machines to gather resources, process materials, and progression throughout the mod. http://www.techreborn.ovh/</description>
-				<version>2.20.5.909</version>
+				<version>2.20.6.914</version>
 				<url>https://github.com/TechReborn/TechReborn</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
@@ -1627,15 +1641,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="EnderCore" id="endercore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderCore-1.12.2-0.5.43.jar</URL>
-			<Size>619322</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderCore-1.12.2-0.5.45.jar</URL>
+			<Size>620324</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1ede234a49239cdea92632b568ffe4be</MD5>
+			<MD5>e5bfa9c93cd8d8b03f6b726cbe0138df</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Library mod used by EnderIO, EnderZoo, and others</description>
-				<version>1.12.2-0.5.43</version>
+				<version>1.12.2-0.5.45</version>
 				<url>http://enderio.com</url>
 				<authors>tterrag, CrazyPants, HenryLoenwind</authors>
 			</Meta>
@@ -2479,15 +2493,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Rustic Thaumaturgy" id="rusticthaumaturgy" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-3.3.jar</URL>
-			<Size>396829</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-4.0.jar</URL>
+			<Size>596716</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9c4e7bfdd3507aaade41a77a17942300</MD5>
+			<MD5>085b7d3d1223dcdf754a3cedad376895</MD5>
 			<Meta>
 				<credits>MrCrayfish, WolfieWaffle, and TheRealStu</credits>
 				<description>A mod that adds some Thaumcraft compatability to Rustic.</description>
-				<version>3.3</version>
+				<version>4.0</version>
 				<url></url>
 				<authors>Voxel-Friend</authors>
 			</Meta>
