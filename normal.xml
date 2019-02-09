@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.0.8" 
+	 generateList="true" autoConnect="false" revision="1.1" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update mods, again, as usual.</note>
+			<note title="Latest Changes">Update mods and tweak a few config files.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -270,15 +270,15 @@
 			</Submodule>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CyclopsCore-1.12.2-1.0.2.jar</URL>
-			<Size>976941</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CyclopsCore-1.12.2-1.0.3.jar</URL>
+			<Size>977088</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>7ac6e6a51459f7345592e5e24a36dd5d</MD5>
+			<MD5>2b7850655fb4ee675f2682e3b5dc82fe</MD5>
 			<Meta>
 				<credits>kroeserr, _EeB_</credits>
 				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
-				<version>1.12.2-1.0.2</version>
+				<version>1.12.2-1.0.3</version>
 				<url>https://minecraft.curseforge.com/projects/cyclops-core</url>
 				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
 			</Meta>
@@ -290,15 +290,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CommonCapabilities" id="commoncapabilities" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CommonCapabilities-1.12.2-2.0.0.jar</URL>
-			<Size>209305</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CommonCapabilities-1.12.2-2.0.2.jar</URL>
+			<Size>209571</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>62d5bd474e2bdf3e995d187f3d946e8f</MD5>
+			<MD5>91a15eb92a0929f20196d5dd3f2443cc</MD5>
 			<Meta>
 				<credits>kroeserr</credits>
 				<description>Forge Capabilities that can be shared by multiple mods</description>
-				<version>1.12.2-2.0.0</version>
+				<version>1.12.2-2.0.2</version>
 				<url>https://github.com/CyclopsMC/CommonCapabilities</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -310,15 +310,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Culinary Construct" id="culinaryconstruct" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/culinaryconstruct-1.3.1.jar</URL>
-			<Size>96701</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/culinaryconstruct-1.3.2.jar</URL>
+			<Size>99445</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f47e5ade53c6998ea3b84e4b8950208e</MD5>
+			<MD5>117cce9bae08fe9f582decd6ad9d1347</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Make sandwiches out of your favorite food items! And maybe your not so favorite, anything&apos;s possible.</description>
-				<version>1.3.1</version>
+				<version>1.3.2</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
@@ -330,15 +330,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-1.0.3.jar</URL>
-			<Size>2996324</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-1.0.4.jar</URL>
+			<Size>2997089</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>631125db2995baa6ae2b7d08136b1a2a</MD5>
+			<MD5>fa64a2039b1ad10c35d47b79d4c6db4e</MD5>
 			<Meta>
 				<credits>kroeserr, Yulife (textures)</credits>
 				<description>Take full and automated control of your appliances.</description>
-				<version>1.12.2-1.0.3</version>
+				<version>1.12.2-1.0.4</version>
 				<url>https://minecraft.curseforge.com/projects/integrated-dynamics</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -356,18 +356,30 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Terminals" id="integratedterminals" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTerminals-1.12.2-1.0.1.jar</URL>
-			<Size>568490</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTerminals-1.12.2-1.0.2.jar</URL>
+			<Size>567682</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1f9761c2a8e29db552ff3277b70e5b33</MD5>
+			<MD5>9bc7c3e0eed02681889bafe724a2b29c</MD5>
 			<Meta>
 				<credits>rubensworks (aka kroeserr)</credits>
 				<description>Terminals for managing and overviewing Integrated Dynamics networks</description>
-				<version>1.12.2-1.0.1</version>
+				<version>1.12.2-1.0.2</version>
 				<url>https://github.com/CyclopsMC/IntegratedTerminals</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/integratedterminals.cfg</URL>
+				<Path>config/integratedterminals.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0558041367bc951cc944be5dc240a527</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/integratedterminalscompat.cfg</URL>
+				<Path>config/integratedterminalscompat.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8ea5a2c1df3652c36a15e1ee73ea8207</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Integrated Tunnels" id="integratedtunnels" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTunnels-1.12.2-1.6.2.jar</URL>
@@ -876,15 +888,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CoFHCore-1.12.2-4.6.1.22-universal.jar</URL>
-			<Size>844143</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CoFHCore-1.12.2-4.6.2.25-universal.jar</URL>
+			<Size>844166</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>dd6593a086ba969dd3eaeae281f669ff</MD5>
+			<MD5>cb72877f5ef51cf09582e035f62bcb57</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
-				<version>4.6.1.22</version>
+				<version>4.6.2.25</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -1400,15 +1412,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Tech Reborn" id="techreborn" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.20.6.914-universal.jar</URL>
-			<Size>2407799</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.20.10.926-universal.jar</URL>
+			<Size>2410376</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>57d31a988cb30598463aa2ebe312d52c</MD5>
+			<MD5>3d5b65be80c65e6c0bd1bf3479c4c1b9</MD5>
 			<Meta>
 				<credits>Thanks to these contributors: TheMattaBase, Mj11jM, Mazdallier, tntrololol, joflashstudios, drcrazy, lclc98, Lordmau5, mezz, Thog, and Dimmerworld</credits>
 				<description>Tech Reborn is a completely standalone tech mod designed by the ideals of GregTech 2 and Industrial Craft 2 pre-experimental. The mod includes tools and machines to gather resources, process materials, and progression throughout the mod. http://www.techreborn.ovh/</description>
-				<version>2.20.6.914</version>
+				<version>2.20.10.926</version>
 				<url>https://github.com/TechReborn/TechReborn</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
@@ -1422,7 +1434,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/generators.cfg</URL>
 				<Path>config/teamreborn/techreborn/generators.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>3dcfdb77c8737045c54f589282169dd9</MD5>
+				<MD5>b28b93cba954ed0ec108178c232f5872</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/items.cfg</URL>
@@ -2078,16 +2090,16 @@
 			<MD5>944a413889537655a8c1165d44e2647f</MD5>
 		</Module>
 		<Module name="Iron Chests" id="ironchest" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ironchest-1.12.2-7.0.56.840.jar</URL>
-			<Size>947723</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ironchest-1.12.2-7.0.59.842.jar</URL>
+			<Size>952833</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>79b2c1c1fd20a4870abfc73657fccf5c</MD5>
+			<MD5>6c30ff1e706cc56bd2d6605ac804d46a</MD5>
 			<Meta>
 				<credits>By cpw, based on an original idea by Lishid</credits>
 				<description>New chests with larger sizes, with in-place upgrade items.
 The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest</description>
-				<version>1.12.2-7.0.56.840</version>
+				<version>1.12.2-7.0.59.842</version>
 				<url>http://www.minecraftforum.net/topic/981855-</url>
 				<authors>cpw</authors>
 			</Meta>
@@ -2274,15 +2286,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Redstone Arsenal" id="redstonearsenal" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RedstoneArsenal-1.12.2-2.6.1.15-universal.jar</URL>
-			<Size>262918</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RedstoneArsenal-1.12.2-2.6.2.17-universal.jar</URL>
+			<Size>262970</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>435ccab1f12db187f1f46af32850bc89</MD5>
+			<MD5>8ab72c7bcdd937f25b8265233fc56b5f</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Behold the Redstone (Flux) Revolution - provides Flux-Infused Tools and Armor!</description>
-				<version>2.6.1.15</version>
+				<version>2.6.2.17</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -2466,16 +2478,30 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>36F4C51E0C3B0D9041F698F5B3DD3210</MD5>
 			</Submodule>
 		</Module>
-		<Module name="Rustic" id="rustic" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rustic-1.0.12.jar</URL>
-			<Size>1324821</Size>
+		<Module name="Ding" id="ding" depends="" side="CLIENT">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Ding-1.12.1-1.0.1.jar</URL>
+			<Size>4711</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>08b5bede6a10966db17d3c88a7a61d47</MD5>
+			<MD5>5b15173c1a4d3a48afa382857a1c0faa</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Plays a sound once the client has loaded to the main menu or loaded the world</description>
+				<version>1.12.1-1.0.1</version>
+				<url>http://ichun.me/mods/ding/</url>
+				<authors>iChun</authors>
+			</Meta>
+		</Module>
+		<Module name="Rustic" id="rustic" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rustic-1.1.0.jar</URL>
+			<Size>1335906</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>06fc80e3f9ab85e988ccd725a3ab74af</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A medieval themed Minecraft mod based around decoration, exploration, and agriculture.</description>
-				<version>1.0.12</version>
+				<version>1.1.0</version>
 				<url>https://github.com/the-realest-stu/Rustic</url>
 				<authors>the-realest-stu</authors>
 			</Meta>
@@ -2483,25 +2509,25 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/rustic.cfg</URL>
 				<Path>config/rustic.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>ae96f2e126887bec998dc491f218992f</MD5>
+				<MD5>65da359cba0b3c6d74cba9146d051aea</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/rustic.zs</URL>
 				<Path>scripts/rustic.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>575bd7876d507c8fb1b5ba0dcf203bfa</MD5>
+				<MD5>d026fba16de32ddbf65187eb785cfdb8</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Rustic Thaumaturgy" id="rusticthaumaturgy" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-4.0.jar</URL>
-			<Size>596716</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-4.1.jar</URL>
+			<Size>594111</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>085b7d3d1223dcdf754a3cedad376895</MD5>
+			<MD5>85830b8801bdfdf1b13fa6db9695d43e</MD5>
 			<Meta>
 				<credits>MrCrayfish, WolfieWaffle, and TheRealStu</credits>
 				<description>A mod that adds some Thaumcraft compatability to Rustic.</description>
-				<version>4.0</version>
+				<version>4.1</version>
 				<url></url>
 				<authors>Voxel-Friend</authors>
 			</Meta>
@@ -2567,15 +2593,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="OpenComputers" id="opencomputers" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/OpenComputers-MC1.12.2-1.7.3.146.jar</URL>
-			<Size>15543744</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/OpenComputers-MC1.12.2-1.7.4.153.jar</URL>
+			<Size>15545293</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>b1e97791a68d025a1322e40a7ab9614b</MD5>
+			<MD5>67cfc01cfaeed3bf5ce0d568bf371e3b</MD5>
 			<Meta>
 				<credits>Inspired by a couple of other mods, most notably ComputerCraft.</credits>
 				<description>This mod adds modular computers and robots that can be programmed in Lua.</description>
-				<version>1.7.3.146</version>
+				<version>1.7.4.153</version>
 				<url>http://oc.cil.li/</url>
 				<authors>Sangar, Vexatos, payonel, magik6k, Lord Joda, Github Contributors</authors>
 			</Meta>
@@ -2587,15 +2613,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Cultivation" id="thermalcultivation" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalCultivation-1.12.2-0.3.1.8-universal.jar</URL>
-			<Size>105988</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalCultivation-1.12.2-0.3.2.11-universal.jar</URL>
+			<Size>106846</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>4213d621d35ab842e6fc7a097da11df7</MD5>
+			<MD5>73ab821d2bb16f28879d033f6021ca59</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Thermal gets Agrarian - provides options for farming and related activities!</description>
-				<version>0.3.1.8</version>
+				<version>0.3.2.11</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -2613,15 +2639,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Dynamics" id="thermaldynamics" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalDynamics-1.12.2-2.5.3.16-universal.jar</URL>
-			<Size>761778</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalDynamics-1.12.2-2.5.4.18-universal.jar</URL>
+			<Size>761920</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>bc6bac8d036285d4c4a1281b1809434c</MD5>
+			<MD5>793f1584e11de86146409de72ef80c26</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Thermal gets Dynamic! Adds ducts - blocks for transporting Items, Fluids, Redstone Flux, and even Players!</description>
-				<version>2.5.3.16</version>
+				<version>2.5.4.18</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -2645,15 +2671,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Expansion" id="thermalexpansion" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalExpansion-1.12.2-5.5.2.39-universal.jar</URL>
-			<Size>2411466</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalExpansion-1.12.2-5.5.3.41-universal.jar</URL>
+			<Size>2415692</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e6d7c577bdad3437f78372a829a51bee</MD5>
+			<MD5>3007785edb021cedf51610119066d23a</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Expanding Minecraft Thermally - provides new options for automation and processing!</description>
-				<version>5.5.2.39</version>
+				<version>5.5.3.41</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -2683,15 +2709,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Foundation" id="thermalfoundation" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalFoundation-1.12.2-2.6.1.22-universal.jar</URL>
-			<Size>2304958</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalFoundation-1.12.2-2.6.2.26-universal.jar</URL>
+			<Size>2305489</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>829163490a6033c0ff833501249a7e63</MD5>
+			<MD5>ceb3a8950a7ab555a0f3617bbc375673</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>The Foundation of a Thermally enhanced world!</description>
-				<version>2.6.1.22</version>
+				<version>2.6.2.26</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -2715,15 +2741,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Innovation" id="thermalinnovation" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalInnovation-1.12.2-0.3.1.8-universal.jar</URL>
-			<Size>196397</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalInnovation-1.12.2-0.3.2.11-universal.jar</URL>
+			<Size>197603</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1f58da5179da1f21496abda8c959e434</MD5>
+			<MD5>c3c7de2b3ac5cfa8f32b52499cce9f43</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Thermal Technology marches on. Adds Thermal-style tools and equipment!</description>
-				<version>0.3.1.8</version>
+				<version>0.3.2.11</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
