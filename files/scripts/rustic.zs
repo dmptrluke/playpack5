@@ -2,7 +2,7 @@
 print("Initializing rustic.zs");
 
 
-# remove the third bee system from the server 
+# remove the third bece system from the server 
 mods.jei.JEI.removeAndHide(<rustic:bee>);
 mods.jei.JEI.removeAndHide(<rustic:beehive>);
 mods.jei.JEI.removeAndHide(<rustic:apiary>);

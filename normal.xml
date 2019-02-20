@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.1" 
+	 generateList="true" autoConnect="false" revision="1.2.1" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update mods and tweak a few config files.</note>
+			<note title="Latest Changes">Just update a lot of mods.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -270,15 +270,15 @@
 			</Submodule>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CyclopsCore-1.12.2-1.0.3.jar</URL>
-			<Size>977088</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CyclopsCore-1.12.2-1.0.4.jar</URL>
+			<Size>977316</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2b7850655fb4ee675f2682e3b5dc82fe</MD5>
+			<MD5>7d1bd53ca982da5452168714a88d9c81</MD5>
 			<Meta>
 				<credits>kroeserr, _EeB_</credits>
 				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
-				<version>1.12.2-1.0.3</version>
+				<version>1.12.2-1.0.4</version>
 				<url>https://minecraft.curseforge.com/projects/cyclops-core</url>
 				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
 			</Meta>
@@ -290,15 +290,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CommonCapabilities" id="commoncapabilities" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CommonCapabilities-1.12.2-2.0.2.jar</URL>
-			<Size>209571</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CommonCapabilities-1.12.2-2.0.3.jar</URL>
+			<Size>209672</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>91a15eb92a0929f20196d5dd3f2443cc</MD5>
+			<MD5>b989f597d468cb44b1112cada478fb4d</MD5>
 			<Meta>
 				<credits>kroeserr</credits>
 				<description>Forge Capabilities that can be shared by multiple mods</description>
-				<version>1.12.2-2.0.2</version>
+				<version>1.12.2-2.0.3</version>
 				<url>https://github.com/CyclopsMC/CommonCapabilities</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -308,6 +308,34 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>092a8bbec264d4c74cbf42fcdbfef846</MD5>
 			</ConfigFile>
+		</Module>
+        <Module name="Pretty Beaches" id="prettybeaches" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/PrettyBeaches_1.12.2-1.0.4.jar</URL>
+			<Size>9256</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6b97b044dbe5dc9ed96ed55b1cd24e9d</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>Adjusts water physics when digging sand near water to prevent ugly.</description>
+				<version>1.0.4</version>
+				<url></url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+        <Module name="Punt Animal" id="sbmpuntanimal" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/SBM-Punt-Animal-1.12.2-1.0.0b20190202141059.jar</URL>
+			<Size>3845</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0563b730df894d14a8555e0ee13f1ba7</MD5>
+			<Meta>
+				<credits>LotuxPunk: Developer, DarkCow: Owner, BuiltBrokenModding: Commission Giver</credits>
+				<description>Push animals without causing damage</description>
+				<version>1.12.2-1.0.0b20190202141059</version>
+				<url></url>
+				<authors>LotuxPunk</authors>
+			</Meta>
 		</Module>
 		<Module name="Culinary Construct" id="culinaryconstruct" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/culinaryconstruct-1.3.2.jar</URL>
@@ -330,15 +358,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-1.0.4.jar</URL>
-			<Size>2997089</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-1.0.6.jar</URL>
+			<Size>2997054</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>fa64a2039b1ad10c35d47b79d4c6db4e</MD5>
+			<MD5>2d58c8efc6062c087308ea6d15c19453</MD5>
 			<Meta>
 				<credits>kroeserr, Yulife (textures)</credits>
 				<description>Take full and automated control of your appliances.</description>
-				<version>1.12.2-1.0.4</version>
+				<version>1.12.2-1.0.6</version>
 				<url>https://minecraft.curseforge.com/projects/integrated-dynamics</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -356,15 +384,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Terminals" id="integratedterminals" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTerminals-1.12.2-1.0.2.jar</URL>
-			<Size>567682</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTerminals-1.12.2-1.0.3.jar</URL>
+			<Size>569795</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9bc7c3e0eed02681889bafe724a2b29c</MD5>
+			<MD5>1ca2f602b76df94709257cae9eae8b60</MD5>
 			<Meta>
 				<credits>rubensworks (aka kroeserr)</credits>
 				<description>Terminals for managing and overviewing Integrated Dynamics networks</description>
-				<version>1.12.2-1.0.2</version>
+				<version>1.12.2-1.0.3</version>
 				<url>https://github.com/CyclopsMC/IntegratedTerminals</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -382,15 +410,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Tunnels" id="integratedtunnels" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTunnels-1.12.2-1.6.2.jar</URL>
-			<Size>1750177</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTunnels-1.12.2-1.6.6.jar</URL>
+			<Size>485063</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>d55e3ef7092bb0e17791f666b392c1d0</MD5>
+			<MD5>f4df053261b46c230c55844624e5c055</MD5>
 			<Meta>
 				<credits>rubensworks (aka kroeserr)</credits>
 				<description>Transfer other stuff over Integrated Dynamics networks</description>
-				<version>1.12.2-1.6.2</version>
+				<version>1.12.2-1.6.6</version>
 				<url>https://github.com/CyclopsMC/IntegratedTunnels</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -472,15 +500,15 @@
 			</Submodule>
 		</Module>
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AutoRegLib-1.3-24.jar</URL>
-			<Size>101437</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AutoRegLib-1.3-26.jar</URL>
+			<Size>105356</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>4a297c475f3fd341b41db6b6f6026b0e</MD5>
+			<MD5>a10a61ade624b1095b27568ba64edab4</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Automatically item, block, and model registration for mods.</description>
-				<version>1.3-24</version>
+				<version>1.3-26</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii</authors>
 			</Meta>
@@ -552,15 +580,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Building Gadgets" id="buildinggadgets" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BuildingGadgets-2.4.6.jar</URL>
-			<Size>409072</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BuildingGadgets-2.6.4.jar</URL>
+			<Size>551218</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5e9c087875ab1e98ec9ee7510066d91b</MD5>
+			<MD5>aa0fd028b19cdc89db361f3dd15ebfc9</MD5>
 			<Meta>
 				<credits>The Forge and FML guys, McJty, Vazkii, CPW, and Pahimar for helping me learn java/forge modding.  Rorax for the textures!</credits>
 				<description>Adds some gadgets to help you build!</description>
-				<version>2.4.6</version>
+				<version>2.6.4</version>
 				<url>https://minecraft.curseforge.com/projects/building-gadgets</url>
 				<authors>Direwolf20</authors>
 			</Meta>
@@ -572,30 +600,29 @@
 			</ConfigFile>
 		</Module>
 		<Module name="McJtyLib" id="mcjtylib_ng" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/mcjtylib-1.12-3.0.7.jar</URL>
-			<Size>492317</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/mcjtylib-1.12-3.1.1.jar</URL>
+			<Size>493473</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3f664ff28bce2f3146a4573a00ed24b9</MD5>
+			<MD5>0b153a029d2aa3d760ccc07749c8879c</MD5>
 			<Meta>
 				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
 				<description>McJtyLib library for RFTools, Deep Resonance, ...</description>
-				<version>1.12-3.0.7</version>
+				<version>1.12-3.1.1</version>
 				<url></url>
 				<authors>McJty</authors>
 			</Meta>
 		</Module>
-
 		<Module name="RFTools" id="rftools" depends="mcjtylib_ng" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rftools-1.12-7.59.jar</URL>
-			<Size>2892808</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rftools-1.12-7.61.jar</URL>
+			<Size>2901691</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0ab1f3987a55a0c1745310c7de75caa1</MD5>
+			<MD5>2b18579cab884e967ff99de428abbc3b</MD5>
 			<Meta>
 				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
 				<description>RedFlux tools</description>
-				<version>1.12-7.59</version>
+				<version>1.12-7.61</version>
 				<url></url>
 				<authors>McJty</authors>
 			</Meta>
@@ -1392,15 +1419,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RebornCore-1.12.2-3.13.3.416-universal.jar</URL>
-			<Size>734613</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RebornCore-1.12.2-3.13.4.419-universal.jar</URL>
+			<Size>735142</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>93d87a4583300f4f340234b21dad02d1</MD5>
+			<MD5>c8a74d01460873892ccf2a3c2c225944</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
-				<version>3.13.3.416</version>
+				<version>3.13.4.419</version>
 				<url>https://github.com/TechReborn/RebornCore</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
@@ -1412,15 +1439,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Tech Reborn" id="techreborn" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.20.10.926-universal.jar</URL>
-			<Size>2410376</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.20.12.937-universal.jar</URL>
+			<Size>2415552</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3d5b65be80c65e6c0bd1bf3479c4c1b9</MD5>
+			<MD5>d531cff22da37723ec4347d6388501dd</MD5>
 			<Meta>
 				<credits>Thanks to these contributors: TheMattaBase, Mj11jM, Mazdallier, tntrololol, joflashstudios, drcrazy, lclc98, Lordmau5, mezz, Thog, and Dimmerworld</credits>
 				<description>Tech Reborn is a completely standalone tech mod designed by the ideals of GregTech 2 and Industrial Craft 2 pre-experimental. The mod includes tools and machines to gather resources, process materials, and progression throughout the mod. http://www.techreborn.ovh/</description>
-				<version>2.20.10.926</version>
+				<version>2.20.12.937</version>
 				<url>https://github.com/TechReborn/TechReborn</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
@@ -1434,7 +1461,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/generators.cfg</URL>
 				<Path>config/teamreborn/techreborn/generators.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>b28b93cba954ed0ec108178c232f5872</MD5>
+				<MD5>ba34aed7fd0cfa81625a005abeffa028</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/items.cfg</URL>
@@ -1908,15 +1935,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="FastWorkbench" id="fastbench" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FastWorkbench-1.12.2-1.6.0.jar</URL>
-			<Size>25347</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FastWorkbench-1.12.2-1.6.1.jar</URL>
+			<Size>25532</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5cb2db7a23e5c8290f0d57011015f01d</MD5>
+			<MD5>87a684cc584e6c04105a5e34c7cfaac7</MD5>
 			<Meta>
 				<credits></credits>
 				<description>1 fast boi</description>
-				<version>1.12.2-1.6.0</version>
+				<version>1.12.2-1.6.1</version>
 				<url></url>
 				<authors>Shadows_of_Fire</authors>
 			</Meta>
@@ -2057,15 +2084,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ImmersiveEngineering-0.12-88.jar</URL>
-			<Size>6516615</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ImmersiveEngineering-0.12-89.jar</URL>
+			<Size>6542920</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5d14de6cbef810e1e4154d87f0dfc305</MD5>
+			<MD5>b79a17d68e023e2cab3fcb99fff19f9a</MD5>
 			<Meta>
 				<credits>All the great other Git Contributors, and the nerds on IRC!</credits>
 				<description>A tech based mod focused on realism.</description>
-				<version>0.12-88</version>
+				<version>0.12-89</version>
 				<url>https://github.com/BluSunrize/ImmersiveEngineering</url>
 				<authors>BluSunrize, Damien A.W. Hazard</authors>
 			</Meta>
@@ -2174,16 +2201,36 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				</Meta>
 			</Submodule>
 		</Module>
-		<Module name="Mantle" id="mantle" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mantle-1.12-1.3.3.39.jar</URL>
-			<Size>839004</Size>
+		<Module name="Just Enough Calculation" id="jecalculation" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/JustEnoughCalculation-1.12.2-3.1.1.jar</URL>
+			<Size>288873</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ae2a1f5f1b36191acbb07a56a17760de</MD5>
+			<MD5>a5f65de71cb384be4083a0af3419762c</MD5>
+			<Meta>
+				<credits>Thanks to the MCP, Forge and FML guys; along with sesess, Pahimar, MrCrayfish and BedrockMiner for their tutorial.</credits>
+				<description>A simple mod to help you with recipe calculation.</description>
+				<version>1.12.2-3.1.1</version>
+				<url>https://github.com/Towdium/JustEnoughCalculation</url>
+				<authors>Towdium</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/localisation.zs</URL>
+				<Path>scripts/localisation.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6bbd9e0b6f98147e1a172a0d3483187e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Mantle" id="mantle" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mantle-1.12-1.3.3.42.jar</URL>
+			<Size>838980</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5e412302ca8f26c9d49003f06d5cffbe</MD5>
 			<Meta>
 				<credits>mDiyo, Sunstrike</credits>
 				<description>Shared code for Slime Knights mods and others.</description>
-				<version>1.3.3.39</version>
+				<version>1.3.3.42</version>
 				<url>https://github.com/SlimeKnights/Mantle</url>
 				<authors>boni, progWML6, Alexbegt</authors>
 			</Meta>
@@ -2366,15 +2413,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-145.jar</URL>
-			<Size>2054899</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-146.jar</URL>
+			<Size>2055235</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>661e12f63b8e3e367e67323031599eb9</MD5>
+			<MD5>a80d3750ef3b5d8d2e65e7cf8214ee08</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Small things.</description>
-				<version>r1.5-145</version>
+				<version>r1.5-146</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
