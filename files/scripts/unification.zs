@@ -147,7 +147,6 @@ buildHammerRecipe(<thermalfoundation:material:324>, <ore:ingotAluminum>);
 recipes.addShapeless("sheet_aluminum", <thermalfoundation:material:324>, [<ore:blockSheetmetalAluminum>]);
 buildHammerRecipe(<thermalfoundation:material:353>, <ore:ingotElectrum>);
 recipes.addShapeless("sheet_electrum", <thermalfoundation:material:353>, [<ore:blockSheetmetalElectrum>]);
-buildHammerRecipe(<redstonearsenal:material:128>, <ore:ingotElectrumFlux>);
 buildHammerRecipe(<thermalfoundation:material:356>, <ore:ingotConstantan>);
 recipes.addShapeless("sheet_constantan", <thermalfoundation:material:356>, [<ore:blockSheetmetalConstantan>]);
 buildHammerRecipe(<thermalfoundation:material:357>, <ore:ingotSignalum>);

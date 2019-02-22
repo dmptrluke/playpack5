@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.2.1" 
+	 generateList="true" autoConnect="false" revision="1.3" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Just update a lot of mods.</note>
+			<note title="Latest Changes">Fix Tech Reborn balance, fix forestry, fix building gadgets, update RT</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -596,7 +596,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/BuildingGadgets.cfg</URL>
 				<Path>config/BuildingGadgets.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>0e5d3580218fce0e80f805b8b93e1f58</MD5>
+				<MD5>5aec1829b1f5b2805fead07d95ca84d7</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="McJtyLib" id="mcjtylib_ng" depends="" side="BOTH">
@@ -1503,7 +1503,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/techreborn.zs</URL>
 				<Path>scripts/techreborn.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>f915933f757717fa38700633a86e9fc6</MD5>
+				<MD5>1f79b56cd4be64891b85456e7fa16617</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
@@ -1523,7 +1523,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/unification.zs</URL>
 				<Path>scripts/unification.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>3ab1a1d101deebbad974af7163930703</MD5>
+				<MD5>a0f8581cd4c9fad783109c2dba3d904c</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/forestry_fluids.zs</URL>
@@ -1989,18 +1989,18 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/forestry_1.12.2-5.8.2.382.jar</URL>
-			<Size>5233288</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/forestry_1.12.2-5.8.2.383.jar</URL>
+			<Size>5233829</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a0a49278b7cfa29e421b39d8ddd99f12</MD5>
+			<MD5>9815c86ed72fc4e8041b1e0d50fe649d</MD5>
 			<Meta>
 				<credits>mistaqur, Binnie, CovertJaguar, MysteriousAges, Nirek, Nedelosk</credits>
 				<description>Trees, bees and more.</description>
-				<version>5.8.2.382</version>
+				<version>5.8.2.383</version>
 				<url>http://forestry.sengir.net/</url>
 				<authors>SirSengir, mezz</authors>
-			</Meta>
+			</Meta> 
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/apiculture.cfg</URL>
 				<Path>config/forestry/apiculture.cfg</Path>
@@ -2201,26 +2201,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				</Meta>
 			</Submodule>
 		</Module>
-		<Module name="Just Enough Calculation" id="jecalculation" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/JustEnoughCalculation-1.12.2-3.1.1.jar</URL>
-			<Size>288873</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>a5f65de71cb384be4083a0af3419762c</MD5>
-			<Meta>
-				<credits>Thanks to the MCP, Forge and FML guys; along with sesess, Pahimar, MrCrayfish and BedrockMiner for their tutorial.</credits>
-				<description>A simple mod to help you with recipe calculation.</description>
-				<version>1.12.2-3.1.1</version>
-				<url>https://github.com/Towdium/JustEnoughCalculation</url>
-				<authors>Towdium</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/localisation.zs</URL>
-				<Path>scripts/localisation.zs</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6bbd9e0b6f98147e1a172a0d3483187e</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Mantle" id="mantle" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mantle-1.12-1.3.3.42.jar</URL>
 			<Size>838980</Size>
@@ -2330,32 +2310,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<Path>scripts/harvestcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6d530176721d6addfa54256580e423e4</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="Redstone Arsenal" id="redstonearsenal" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RedstoneArsenal-1.12.2-2.6.2.17-universal.jar</URL>
-			<Size>262970</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>8ab72c7bcdd937f25b8265233fc56b5f</MD5>
-			<Meta>
-				<credits>Team CoFH</credits>
-				<description>Behold the Redstone (Flux) Revolution - provides Flux-Infused Tools and Armor!</description>
-				<version>2.6.2.17</version>
-				<url>http://www.teamcofh.com</url>
-				<authors>Team CoFH</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/redstonearsenal/client.cfg</URL>
-				<Path>config/cofh/redstonearsenal/client.cfg</Path>
-				<NoOverwrite>true</NoOverwrite>
-				<MD5>6a7baf0bd6a269e8e15e83d27a326ea4</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/redstonearsenal/common.cfg</URL>
-				<Path>config/cofh/redstonearsenal/common.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>413d79c67374b123dbc6767188e1cde2</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
@@ -2947,7 +2901,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/unidict/UniDict.cfg</URL>
 				<Path>config/unidict/UniDict.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>a63459cdf57584dc3428a8e9610fc3db</MD5>
+				<MD5>06e5759667566cd98f7d6562aef774ce</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="WrapUp" id="wrapup" depends="" side="BOTH">
