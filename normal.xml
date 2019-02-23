@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.3" 
+	 generateList="true" autoConnect="false" revision="1.3.1" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Fix Tech Reborn balance, fix forestry, fix building gadgets, update RT</note>
+			<note title="Latest Changes">Update Forge, FTB mods.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -580,23 +580,23 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Building Gadgets" id="buildinggadgets" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BuildingGadgets-2.6.4.jar</URL>
-			<Size>551218</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BuildingGadgets-2.6.5.jar</URL>
+			<Size>553852</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>aa0fd028b19cdc89db361f3dd15ebfc9</MD5>
+			<MD5>6a68329afb1c69f17f5e682b44fbfd2d</MD5>
 			<Meta>
 				<credits>The Forge and FML guys, McJty, Vazkii, CPW, and Pahimar for helping me learn java/forge modding.  Rorax for the textures!</credits>
 				<description>Adds some gadgets to help you build!</description>
-				<version>2.6.4</version>
+				<version>2.6.5</version>
 				<url>https://minecraft.curseforge.com/projects/building-gadgets</url>
 				<authors>Direwolf20</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/BuildingGadgets.cfg</URL>
-				<Path>config/BuildingGadgets.cfg</Path>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/Building%20Gadgets.cfg</URL>
+				<Path>config/Building Gadgets.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>5aec1829b1f5b2805fead07d95ca84d7</MD5>
+				<MD5>acf43bb133233499241c4e9e54d1fbf0</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="McJtyLib" id="mcjtylib_ng" depends="" side="BOTH">
@@ -697,12 +697,6 @@
 				<Path>config/bibliocraft.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1f4776b06c7b5783bacf2329ee9964a4</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/fmlModState.properties</URL>
-				<Path>config/fmlModState.properties</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6985163fab8617c5f708f297cf300069</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
@@ -1043,15 +1037,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Comforts" id="comforts" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/comforts-1.12.2-1.3.1.jar</URL>
-			<Size>175313</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/comforts-1.12.2-1.4.1.1.jar</URL>
+			<Size>166169</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>da8374e636717a0c8acb637bb7333585</MD5>
+			<MD5>1ebd817471565d581af366ec7cd44a98</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Adds sleeping bags and hammocks for portability and daytime napping without setting a new spawn. Comes in 16 different colors!</description>
-				<version>1.12.2-1.3.1</version>
+				<version>1.12.2-1.4.1.1</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
@@ -1503,7 +1497,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/techreborn.zs</URL>
 				<Path>scripts/techreborn.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>1f79b56cd4be64891b85456e7fa16617</MD5>
+				<MD5>75ac0ebcc2a7c263ee79eaff5c56cbc9</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
@@ -2215,7 +2209,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>boni, progWML6, Alexbegt</authors>
 			</Meta>
 		</Module>
-		<Module name="Minecraft Forge" id="forge-14.23.5.2768" depends="" side="BOTH">
+		<Module name="Minecraft Forge" id="forge-14.23.5.2814" depends="" side="BOTH">
 			<Size>100000</Size>
 			<Required>true</Required>
 			<ModType>Override</ModType>
@@ -2313,15 +2307,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.69.jar</URL>
-			<Size>430829</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.83.jar</URL>
+			<Size>404123</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2099697806f4811c7b76199944661733</MD5>
+			<MD5>f24fb64c5e3ae22167062104c36dac3c</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.3.0.69</version>
+				<version>5.3.0.83</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2332,30 +2326,44 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>759f811ae1c2edec3cac7b4627f5d976</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="FTB Quests" id="ftbquests" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.4.0.109.jar</URL>
-			<Size>764119</Size>
+        <Module name="Item Filters" id="itemfilters" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ItemFilters-1.0.1.8.jar</URL>
+			<Size>74938</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9a4bf15c63e6ebbb0a76f028ae4d5633</MD5>
+			<MD5>15b50143dbada90f0d9e452cc8e318b3</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>1.4.0.109</version>
+				<version>1.0.1.8</version>
+				<url>http://minecraft.curseforge.com/projects/item-filters</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+		</Module>
+		<Module name="FTB Quests" id="ftbquests" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.5.0.131.jar</URL>
+			<Size>822898</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>49d4618ea4163bf5631cb18f9aeba3c8</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.5.0.131</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-quests</url>
 				<authors>LatvianModder</authors>
 			</Meta>
 		</Module>
-		<Module name="FTBLib" id="ftblib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.0.73.jar</URL>
-			<Size>885618</Size>
+		<Module name="FTB Library" id="ftblib" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.1.84.jar</URL>
+			<Size>879945</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>c9775ec3eb8e51067c90ea4e16853360</MD5>
+			<MD5>3a6999bb0ac89ec5a670785baf685b29</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.4.0.73</version>
+				<version>5.4.1.84</version>
 				<url>http://minecraft.curseforge.com/projects/ftblib</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2998,7 +3006,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>2849fc975ebb371a4b35c4d8aab39f99</MD5>
 			</ConfigFile>
 		</Module>
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2768">forge</Import>
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2814">forge</Import>
 		<Import url="https://dmptr.com/modules/basics/module.xml">basics</Import>
 		<Import url="https://dmptr.com/modules/splashanimation/module.xml">splashanimation</Import>
 	</Server>
