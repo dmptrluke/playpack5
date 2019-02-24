@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.3.1" 
+	 generateList="true" autoConnect="false" revision="1.3.2" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update Forge, FTB mods.</note>
+			<note title="Latest Changes">Update Applecore.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -151,13 +151,13 @@
 			</ConfigFile>
 		</Module>
 		<Module name="AppleCore" id="applecore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AppleCore-mc1.12.2-3.1.4.jar</URL>
-			<Size>81946</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AppleCore-mc1.12.2-3.1.5.jar</URL>
+			<Size>81945</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>94CE127BF0586F0335AA3B4191A2D9D6</MD5>
+			<MD5>de172e709f1d6c18d8c4217c98a693f8</MD5>
 			<Meta>
-				<version>3.1.4</version>
+				<version>3.1.5</version>
 				<url>https://minecraft.curseforge.com/projects/applecore</url>
 				<description>An API for modifying the food and hunger mechanics of Minecraft.</description>
 				<authors>squeek</authors>
