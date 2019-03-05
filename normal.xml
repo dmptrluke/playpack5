@@ -1532,12 +1532,6 @@
 				<MD5>a229e1aea44a0377ef2b014caa956518</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/thermal.zs</URL>
-				<Path>scripts/thermal.zs</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
-			</ConfigFile>
-			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/localisation.zs</URL>
 				<Path>scripts/localisation.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
@@ -2528,15 +2522,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Rustic Thaumaturgy" id="rusticthaumaturgy" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-4.1.jar</URL>
-			<Size>594111</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-4.2.jar</URL>
+			<Size>596211</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>85830b8801bdfdf1b13fa6db9695d43e</MD5>
+			<MD5>d6e27e30c1961c530094b6f3e0a228bd</MD5>
 			<Meta>
 				<credits>MrCrayfish, WolfieWaffle, and TheRealStu</credits>
 				<description>A mod that adds some Thaumcraft compatability to Rustic.</description>
-				<version>4.1</version>
+				<version>4.2</version>
 				<url></url>
 				<authors>Voxel-Friend</authors>
 			</Meta>
