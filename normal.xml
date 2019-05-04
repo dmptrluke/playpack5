@@ -151,13 +151,13 @@
 			</ConfigFile>
 		</Module>
 		<Module name="AppleCore" id="applecore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AppleCore-mc1.12.2-3.1.5.jar</URL>
-			<Size>81945</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AppleCore-mc1.12.2-3.2.0.jar</URL>
+			<Size>88308</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>de172e709f1d6c18d8c4217c98a693f8</MD5>
+			<MD5>1cbb68f6f8e55dbbe525dd8d90f86d1f</MD5>
 			<Meta>
-				<version>3.1.5</version>
+				<version>3.2.0</version>
 				<url>https://minecraft.curseforge.com/projects/applecore</url>
 				<description>An API for modifying the food and hunger mechanics of Minecraft.</description>
 				<authors>squeek</authors>
@@ -210,15 +210,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Dark Utilities" id="darkutils" depends="bookshelf" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DarkUtils-1.12.2-1.8.223.jar</URL>
-			<Size>419245</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DarkUtils-1.12.2-1.8.226.jar</URL>
+			<Size>419723</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>c8cc088a1f2188ed6bf805ca6eb7e6da</MD5>
+			<MD5>8a0016dad9624727d72bd757b384a455</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A mod that adds a bunch of new utilities to the game.</description>
-				<version>1.8.223</version>
+				<version>1.8.226</version>
 				<url>http://www.darkhax.net</url>
 				<authors>Darkhax</authors>
 			</Meta>
@@ -1316,6 +1316,26 @@
 				<Path>config/naturescompass.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>ddc2d917a4983077f060a2912ee17939</MD5>
+			</ConfigFile>
+		</Module>
+        <Module name="Charm" id="charm" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Charm-1.12.2-1.0.0.jar</URL>
+			<Size>2225742</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>90e9c19069875066d80eb4ba14009154</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Smaller things.</description>
+				<version>1.12.2-1.0.0</version>
+				<url>https://minecraft.curseforge.com/projects/charm</url>
+				<authors>svenhjol</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/charm.cfg</URL>
+				<Path>config/charm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ff731bced49be55787e861019f3d94c6</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
@@ -3000,7 +3020,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>2849fc975ebb371a4b35c4d8aab39f99</MD5>
 			</ConfigFile>
 		</Module>
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2814">forge</Import>
+		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2836">forge</Import>
 		<Import url="https://dmptr.com/modules/basics/module.xml">basics</Import>
 		<Import url="https://dmptr.com/modules/splashanimation/module.xml">splashanimation</Import>
 	</Server>
