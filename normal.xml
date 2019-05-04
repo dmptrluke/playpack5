@@ -3,12 +3,12 @@
 <ServerPack version="3.4" 
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="playpack_redux" abstract="false" name="PlayPack 4 Redux" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.3.2" 
+	<Server id="playpack_redux" abstract="false" name="PlayPack 4.5" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
+	 generateList="true" autoConnect="false" revision="1.3.5" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update Applecore.</note>
+			<note title="Latest Changes">Update part 1.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -500,15 +500,15 @@
 			</Submodule>
 		</Module>
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AutoRegLib-1.3-26.jar</URL>
-			<Size>105356</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AutoRegLib-1.3-28.jar</URL>
+			<Size>105468</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a10a61ade624b1095b27568ba64edab4</MD5>
+			<MD5>42c42c487123e4515d78007601907e27</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Automatically item, block, and model registration for mods.</description>
-				<version>1.3-26</version>
+				<version>1.3-28</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii</authors>
 			</Meta>
@@ -580,15 +580,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Building Gadgets" id="buildinggadgets" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BuildingGadgets-2.6.5.jar</URL>
-			<Size>553852</Size>
+            <URL priority="0">https://dmptr.com/pack_redux/files/mods/BuildingGadgets-2.6.6.jar</URL>
+			<Size>568080</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6a68329afb1c69f17f5e682b44fbfd2d</MD5>
+			<MD5>46d479f4fb2ec77b2fd2dd6ea10dad31</MD5>
 			<Meta>
 				<credits>The Forge and FML guys, McJty, Vazkii, CPW, and Pahimar for helping me learn java/forge modding.  Rorax for the textures!</credits>
 				<description>Adds some gadgets to help you build!</description>
-				<version>2.6.5</version>
+				<version>2.6.6</version>
 				<url>https://minecraft.curseforge.com/projects/building-gadgets</url>
 				<authors>Direwolf20</authors>
 			</Meta>
@@ -811,11 +811,11 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiomesOPlenty-1.12.2-7.0.1.2424-universal.jar</URL>
-			<Size>4691799</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiomesOPlenty-1.12.2-7.0.1.2438-universal.jar</URL>
+			<Size>4696365</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>367bf38884fc3ef8acc6d296e16507bf</MD5>
+			<MD5>261049aa17fee75ab17ff9ff941874d2</MD5>
 			<Meta>
 				<credits>Tim Rurkowski, gamax92, GridMonkey, and many more</credits>
 				<description>Adds over 50 new biomes, blocks, and more!</description>
@@ -1387,15 +1387,15 @@
 			</Meta>
 		</Module>-->
 		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mekanism-1.12.2-9.4.13.349%20(3).jar</URL>
-			<Size>16020358</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/MekanismDz-1.12.2-9.4.18.jar</URL>
+			<Size>16000743</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>bf6d861193adb5d51f9eabe072bcd840</MD5>
+			<MD5>be983dd9c2d3b97b6f0450d57e911fc8</MD5>
 			<Meta>
 				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
 				<description>Energy, Armor, Tools, Weapons, Machines, Magic.</description>
-				<version>1.12.2-9.4.13.349</version>
+				<version>1.12.2-9.4.18</version>
 				<url></url>
 				<authors>aidancbrady</authors>
 			</Meta>
@@ -1455,7 +1455,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/generators.cfg</URL>
 				<Path>config/teamreborn/techreborn/generators.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>ba34aed7fd0cfa81625a005abeffa028</MD5>
+				<MD5>02d2aa0dbada95d51e16129bcdef58a4</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/items.cfg</URL>
@@ -1957,15 +1957,15 @@
 			</Meta>
 		</Module>
 		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.12.1.0.jar</URL>
-			<Size>104832</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.15.0.3.jar</URL>
+			<Size>172129</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>081397f453b400d56959164ac746c1ea</MD5>
+			<MD5>96059e07f848bc8db3461aed2f85c430</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A bunch of miscellaneous patches for Minecraft.</description>
-				<version>1.12.2-1.12.1.0</version>
+				<version>1.12.2-1.15.0.3</version>
 				<url>https://minecraft.curseforge.com/projects/randompatches</url>
 				<authors>TheRandomLabs</authors>
 			</Meta>
@@ -1973,7 +1973,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/randompatches.cfg</URL>
 				<Path>config/randompatches.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>dc4a225fc94be29b511dccc959daba83</MD5>
+				<MD5>246a6f2297c1ad1c02c06373eba54a1c</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
@@ -2132,15 +2132,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.14.4.264.jar</URL>
-			<Size>645452</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.15.0.268.jar</URL>
+			<Size>647239</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>bad98301331272d4a5e6b71284914695</MD5>
+			<MD5>02f985065e7a2fdd17196b3030a067a4</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Simple recipe and item helper.</description>
-				<version>4.14.4.264</version>
+				<version>4.15.0.268</version>
 				<url>https://github.com/mezz/JustEnoughItems</url>
 				<authors>mezz</authors>
 			</Meta>
@@ -2301,15 +2301,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.3.0.83.jar</URL>
-			<Size>404123</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.4.0.84.jar</URL>
+			<Size>404433</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f24fb64c5e3ae22167062104c36dac3c</MD5>
+			<MD5>6ef080285fb187287d131a38ef26155c</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.3.0.83</version>
+				<version>5.4.0.84</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2335,29 +2335,29 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="FTB Quests" id="ftbquests" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.5.0.131.jar</URL>
-			<Size>822898</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.5.1.133.jar</URL>
+			<Size>840127</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>49d4618ea4163bf5631cb18f9aeba3c8</MD5>
+			<MD5>cb9575dd5ab50935ac573ed52bd03566</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>1.5.0.131</version>
+				<version>1.5.1.133</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-quests</url>
 				<authors>LatvianModder</authors>
 			</Meta>
 		</Module>
 		<Module name="FTB Library" id="ftblib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.1.84.jar</URL>
-			<Size>879945</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.1.86.jar</URL>
+			<Size>880362</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3a6999bb0ac89ec5a670785baf685b29</MD5>
+			<MD5>e51960d66f77ba92429a60fb7366c5e5</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.4.1.84</version>
+				<version>5.4.1.86</version>
 				<url>http://minecraft.curseforge.com/projects/ftblib</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2369,15 +2369,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-146.jar</URL>
-			<Size>2055235</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-149.jar</URL>
+			<Size>2231969</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a80d3750ef3b5d8d2e65e7cf8214ee08</MD5>
+			<MD5>6dbbcc5f18449810532b32f352909808</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Small things.</description>
-				<version>r1.5-146</version>
+				<version>r1.5-149</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
@@ -2522,15 +2522,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Rustic Thaumaturgy" id="rusticthaumaturgy" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-4.2.jar</URL>
-			<Size>596211</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-4.3.jar</URL>
+			<Size>596203</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>d6e27e30c1961c530094b6f3e0a228bd</MD5>
+			<MD5>69058149f7dde232e616dff0c9cea313</MD5>
 			<Meta>
 				<credits>MrCrayfish, WolfieWaffle, and TheRealStu</credits>
 				<description>A mod that adds some Thaumcraft compatability to Rustic.</description>
-				<version>4.2</version>
+				<version>4.3</version>
 				<url></url>
 				<authors>Voxel-Friend</authors>
 			</Meta>
@@ -2538,7 +2538,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/rusticthaumaturgy.cfg</URL>
 				<Path>config/rusticthaumaturgy.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>42dfb7fc41a654a8dfa177705d18294a</MD5>
+				<MD5>0cd679a5f16cbc4e7df46770c28278c5</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="SwingThroughGrass" id="stg" depends="" side="BOTH">
