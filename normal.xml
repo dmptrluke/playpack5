@@ -303,40 +303,6 @@
 				<authors>BlayTheNinth</authors>
 			</Meta>
 		</Module>
-        <Module name="Punt Animal" id="sbmpuntanimal" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/SBM-Punt-Animal-1.12.2-1.0.0b20190202141059.jar</URL>
-			<Size>3845</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>0563b730df894d14a8555e0ee13f1ba7</MD5>
-			<Meta>
-				<credits>LotuxPunk: Developer, DarkCow: Owner, BuiltBrokenModding: Commission Giver</credits>
-				<description>Push animals without causing damage</description>
-				<version>1.12.2-1.0.0b20190202141059</version>
-				<url></url>
-				<authors>LotuxPunk</authors>
-			</Meta>
-		</Module>
-		<Module name="Culinary Construct" id="culinaryconstruct" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/culinaryconstruct-1.3.2.jar</URL>
-			<Size>99445</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>117cce9bae08fe9f582decd6ad9d1347</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Make sandwiches out of your favorite food items! And maybe your not so favorite, anything&apos;s possible.</description>
-				<version>1.3.2</version>
-				<url></url>
-				<authors>C4</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/culinaryconstruct.cfg</URL>
-				<Path>config/culinaryconstruct.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c41ece45f1c9a003b6f68486ddff7b5e</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-1.0.6.jar</URL>
 			<Size>2997054</Size>
@@ -764,15 +730,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Fertilization" id="fertilization" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Fertilization_1.12.2-1.0.4.jar</URL>
-			<Size>33153</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Fertilization_1.12.2-1.0.7.jar</URL>
+			<Size>33600</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>be8b0e0b7ab56c1de3aefa30609ce51d</MD5>
+			<MD5>f8ad5e115de65a190e9b230acf5b3301</MD5>
 			<Meta>
 				<credits>BlayTheNinth</credits>
 				<description>Adds additional variants of bone meal for all your fertilization needs.</description>
-				<version>1.0.4</version>
+				<version>1.0.7</version>
 				<url></url>
 				<authors>BlayTheNinth</authors>
 			</Meta>
@@ -976,16 +942,44 @@
 				<MD5>7ca0739f1523d989cd728e6e085dc8af</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Colytra" id="colytra" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/colytra-1.12.2-1.1.0.3.jar</URL>
-			<Size>82680</Size>
+        <Module name="Cherished Worlds" id="cherishedworlds" depends="" side="CLIENT">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/cherishedworlds-1.12.2-1.0.jar</URL>
+			<Size>32283</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>30f15b5d3cf09a932708404577908598</MD5>
+			<MD5>b676d6d9f6901380d6f946fe522e8d51</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Pin/favorite/bookmark certain worlds, which will always show at the top and cannot be deleted.</description>
+				<version>1.12.2-1.0</version>
+				<url></url>
+				<authors>C4</authors>
+			</Meta>
+		</Module>
+        <Module name="Combustive Fishing" id="combustfish" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/combustfish-1.12.2-1.0.3.3.jar</URL>
+			<Size>62978</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>41424b5cd1b9b3e8abe9a4e9ce930d20</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Have you ever wanted to try fishing in lava? Now you can!</description>
+				<version>1.12.2-1.0.3.3</version>
+				<url></url>
+				<authors>C4</authors>
+			</Meta>
+		</Module>
+		<Module name="Colytra" id="colytra" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/colytra-1.12.2-1.2.0.jar</URL>
+			<Size>86659</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4acd4d3c2a273f8a362b78e348827058</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Allows attachment of elytras to chestplates and includes an elytra bauble for Baubles</description>
-				<version>1.12.2-1.1.0.3</version>
+				<version>1.12.2-1.2.0</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
@@ -1083,15 +1077,15 @@
 			</ConfigFile>
 		</Module>-->
 		<Module name="Cooking for Blockheads" id="cookingforblockheads" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CookingForBlockheads_1.12.2-6.4.69.jar</URL>
-			<Size>586812</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CookingForBlockheads_1.12.2-6.4.70.jar</URL>
+			<Size>589828</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f53121423ac9056e59a726dd3acc62ac</MD5>
+			<MD5>942d63804263b04516eb49ddba125e59</MD5>
 			<Meta>
 				<credits>BlayTheNinth</credits>
 				<description>Adds a cooking book and multiblock kitchens that only shows recipes you can make with what you currently have in your inventory.</description>
-				<version>6.4.69</version>
+				<version>6.4.70</version>
 				<url></url>
 				<authors>BlayTheNinth</authors>
 			</Meta>
@@ -1259,15 +1253,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Cosmetic Armor Reworked" id="cosmeticarmorreworked" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CosmeticArmorReworked-1.12.2-v3.jar</URL>
-			<Size>73942</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CosmeticArmorReworked-1.12.2-v4a.jar</URL>
+			<Size>70745</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>750404735b8e6a87e9a918aafab9b095</MD5>
+			<MD5>354e19dfed4d68bc6abff1072147962e</MD5>
 			<Meta>
-				<credits>dmillerw - original author; azanor - some code learned from baubles; izuminya - button icon; Deph0 and sblectric for their support when I&apos;m absent</credits>
+				<credits>dmillerw - original author; azanor - some code learned from baubles; izuminya - button icon; Deph0 and sblectric for their support when i&apos;m absent</credits>
 				<description>This mod allows you to wear two sets of armor, one for display, one for function. You can also hide armor for your skin. For PVP, you can stop the mod from functioning on your client side.</description>
-				<version>1.12.2-v3</version>
+				<version>1.12.2-v4a</version>
 				<url>https://github.com/zlainsama/cosmeticarmorreworked</url>
 				<authors>zlainsama</authors>
 			</Meta>
@@ -1668,15 +1662,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="EnderCore" id="endercore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderCore-1.12.2-0.5.45.jar</URL>
-			<Size>620324</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderCore-1.12.2-0.5.57.jar</URL>
+			<Size>638350</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e5bfa9c93cd8d8b03f6b726cbe0138df</MD5>
+			<MD5>359cc98f8d86c2e43f3b0cbb0758a796</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Library mod used by EnderIO, EnderZoo, and others</description>
-				<version>1.12.2-0.5.45</version>
+				<version>1.12.2-0.5.57</version>
 				<url>http://enderio.com</url>
 				<authors>tterrag, CrazyPants, HenryLoenwind</authors>
 			</Meta>
@@ -1773,15 +1767,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-1.12.2-5.0.40.jar</URL>
-			<Size>7221919</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-1.12.2-5.0.43.jar</URL>
+			<Size>7288125</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0d53e1ada83fbc44d9463e73cc0d3f9d</MD5>
+			<MD5>a08e6e9c81135fa77ac1df1f2f98c594</MD5>
 			<Meta>
 				<credits>By CrazyPants, with the help of many</credits>
 				<description>Compact conduits, painted things and all sorts of stuff and bling.</description>
-				<version>5.0.40</version>
+				<version>5.0.43</version>
 				<url>http://enderio.com</url>
 				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</authors>
 			</Meta>
@@ -1832,38 +1826,6 @@
 				<Path>config/enderio/recipes/user/spawner.xml</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>debb535caa693480944b523b8d025b6b</MD5>
-			</ConfigFile>
-		</Module>
-	    <Module name="Ender IO Zoo" id="enderiozoo" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-zoo-1.12.2-5.0.40.jar</URL>
-			<Size>456893</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>6b5d05a635f19db60fead0fabdceafd6</MD5>
-			<Meta>
-				<credits>By CrazyPants, with the help of many</credits>
-				<description>All the creatures that will kill you when you least expect it</description>
-				<version>5.0.40</version>
-				<url>http://enderio.com</url>
-				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, EpicSquid</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/enderiozoo.cfg</URL>
-				<Path>config/enderio/enderiozoo.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c10b53d62e7915043c17f67fdf2216b5</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/SpawnConfig_Core.xml</URL>
-				<Path>config/enderio/SpawnConfig_Core.xml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f60ec0e12644553cd5bbf4ddd3a79bd4</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/SpawnConfig_User.xml</URL>
-				<Path>config/enderio/SpawnConfig_User.xml</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>8984a0450fedd58aa15994acd8106e09</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Familiar Fauna" id="familiarfauna" depends="" side="BOTH">
@@ -1923,15 +1885,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="FastWorkbench" id="fastbench" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FastWorkbench-1.12.2-1.6.1.jar</URL>
-			<Size>25532</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FastWorkbench-1.12.2-1.7.0.jar</URL>
+			<Size>26289</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>87a684cc584e6c04105a5e34c7cfaac7</MD5>
+			<MD5>a34b6a3e65e2b6d7de53b360c8320192</MD5>
 			<Meta>
 				<credits></credits>
 				<description>1 fast boi</description>
-				<version>1.12.2-1.6.1</version>
+				<version>1.12.2-1.7.0</version>
 				<url></url>
 				<authors>Shadows_of_Fire</authors>
 			</Meta>
@@ -1943,15 +1905,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="FastFurnace" id="fastfurnace" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FastFurnace-1.12.2-1.2.1.jar</URL>
-			<Size>8976</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FastFurnace-1.12.2-1.3.1.jar</URL>
+			<Size>10035</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>55eb247bcc7cd1c81fc2477fa83a6360</MD5>
+			<MD5>b84cc8a587dbd35fef2dbc3e0b9435aa</MD5>
 			<Meta>
 				<credits></credits>
 				<description>2 fast boi</description>
-				<version>1.12.2-1.2.1</version>
+				<version>1.12.2-1.3.1</version>
 				<url></url>
 				<authors>Shadows_of_Fire</authors>
 			</Meta>
@@ -2802,15 +2764,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Tinkers&apos; Complement" id="tcomplement" depends="tconstruct" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TinkersComplement-1.12.2-0.3.0.jar</URL>
-			<Size>225726</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TinkersComplement-1.12.2-0.3.2.jar</URL>
+			<Size>232998</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>feaa2890bf7c78f226e081e36362d5d3</MD5>
+			<MD5>b1b99076fe3ec5c214f1775b254ebae6</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Addon for Tinkers Construct adding various features to complement those from Tinkers</description>
-				<version>1.12.2-0.3.0</version>
+				<version>1.12.2-0.3.2</version>
 				<url>https://minecraft.curseforge.com/projects/tinkers-complement</url>
 				<authors>KnightMiner</authors>
 			</Meta>
