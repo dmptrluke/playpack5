@@ -224,15 +224,15 @@
 			</Meta>
 		</Module>
 		<Module name="Recurrent Complex" id="reccomplex" depends="ivtoolkit" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RecurrentComplex-1.4.7.jar</URL>
-			<Size>6928168</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RecurrentComplex-1.4.8.2.jar</URL>
+			<Size>7076645</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a4033c25cad58e021d0479768665c8b9</MD5>
+			<MD5>821b38ba97b03eb79d64db797db67dac</MD5>
 			<Meta>
 				<credits>See structurecredits.txt for full default structure list credits.</credits>
 				<description>Adds structures to worldgen, handles exporting and importing structures, and provides build tools.</description>
-				<version>1.4.7</version>
+				<version>1.4.8.2</version>
 				<url></url>
 				<authors>Ivorius</authors>
 			</Meta>
@@ -240,7 +240,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/reccomplex.cfg</URL>
 				<Path>config/reccomplex.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>be17fc2894ae3827c66ae0bb35856ea4</MD5>
+				<MD5>7c45d08cef5224950c490baa0fd2913e</MD5>
 			</ConfigFile>
 			<Submodule name="PlayPack Structures" id="playpackstructures">
 				<URL priority="0">https://dmptr.com/pack_redux/files/structures.zip</URL>
@@ -606,15 +606,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Fairy Lights" id="fairylights" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/fairylights-2.1.4-1.12.2.jar</URL>
-			<Size>1149509</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/fairylights-2.1.6-1.12.2.jar</URL>
+			<Size>1149732</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2be3aac2426c54e9da3b2e3fde94c69b</MD5>
+			<MD5>ade7cf6967d8fe9c2534c0635f63efe3</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Adds fairy lights and other decorations to Minecraft</description>
-				<version>2.1.4</version>
+				<version>2.1.6</version>
 				<url>https://bit.ly/FairyLightsMod</url>
 				<authors>pau101</authors>
 			</Meta>
@@ -1309,7 +1309,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/charm.cfg</URL>
 				<Path>config/charm.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>ff731bced49be55787e861019f3d94c6</MD5>
+				<MD5>68aa0fb930c943d5a769ee95118f5d54</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
