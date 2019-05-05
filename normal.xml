@@ -3,12 +3,12 @@
 <ServerPack version="3.4" 
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="playpack_redux" abstract="false" name="PlayPack 4.5" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
+	<Server id="playpack_redux" abstract="false" name="PlayPack 5" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
 	 generateList="true" autoConnect="false" revision="1.3.5" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
-			<note>PlayPack 4 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update part 1.</note>
+			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
+			<note title="Latest Changes">Rename to PlayPack 5</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -104,26 +104,6 @@
 				<authors>tterrag, Drullkus, minecreatr</authors>
 			</Meta>
 		</Module>
-		<!--<Module name="ChickenChunks" id="chickenchunks" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ChickenChunks-1.12.2-2.4.1.73-universal.jar</URL>
-			<Size>134368</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>c930adfeaa59c7d846b440e11a101d97</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Advanced chunkloading management</description>
-				<version>2.4.1.73</version>
-				<url>http://www.minecraftforum.net/topic/909223</url>
-				<authors>ChickenBones</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/ChickenChunks.cfg</URL>
-				<Path>config/ChickenChunks.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>9e83ddacb08e4735ffc46089485646af</MD5>
-			</ConfigFile>
-		</Module>-->
 		<Module name="Akashic Tome" id="akashictome" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AkashicTome-1.2-12.jar</URL>
 			<Size>44663</Size>
@@ -1521,15 +1501,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CraftTweaker2-1.12-4.1.14.jar</URL>
-			<Size>1327552</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CraftTweaker2-1.12-4.1.17.jar</URL>
+			<Size>1360499</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6d9ad88722a6a779255afcd725762218</MD5>
+			<MD5>1387bd1da3aa297b9d56b9c263a8798f</MD5>
 			<Meta>
 				<credits>Created By StanHebben and Jaredlll08</credits>
 				<description>Customize your minecraft experience!</description>
-				<version>1.12-4.1.14</version>
+				<version>1.12-4.1.17</version>
 				<url>http://minetweaker3.powerofbytes.com</url>
 				<authors>StanHebben, Jaredlll08</authors>
 			</Meta>
@@ -1558,16 +1538,16 @@
 				<MD5>6bbd9e0b6f98147e1a172a0d3483187e</MD5>
 			</ConfigFile>
 			<Submodule name="ModTweaker" id="modtweaker">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/modtweaker-4.0.16.jar</URL>
-				<Size>433948</Size>
-				<ModType>Regular</ModType>
-				<MD5>c6068f289820a544737b6cb3a98be8af</MD5>
+                <URL priority="0">https://dmptr.com/pack_redux/files/mods/modtweaker-4.0.17.jar</URL>
+                <Size>447874</Size>
+                <ModType>Regular</ModType>
+                <MD5>e1737d87f3506f7913dea5462395cbda</MD5>
 			</Submodule>
 			<Submodule name="MTLib" id="mtlib">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/MTLib-3.0.5.jar</URL>
-				<Size>30005</Size>
-				<ModType>Regular</ModType>
-				<MD5>B8830961B5984565F3ED652D928E7115</MD5>
+                <URL priority="0">https://dmptr.com/pack_redux/files/mods/MTLib-3.0.6.jar</URL>
+                <Size>30002</Size>
+                <ModType>Regular</ModType>
+                <MD5>b46748362c046d70b821121331246aa5</MD5>
 			</Submodule>
 		</Module>
 		<Module name="Quick Leaf Decay" id="quickleafdecay" depends="" side="BOTH">
@@ -1658,7 +1638,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/CustomMainMenu/mainmenu.json</URL>
 				<Path>config/CustomMainMenu/mainmenu.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>4c59873798f12d7bb1f428ab4823b1d4</MD5>
+				<MD5>005ff51282e0036da4618119726196be</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
@@ -1993,7 +1973,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/randompatches.cfg</URL>
 				<Path>config/randompatches.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>246a6f2297c1ad1c02c06373eba54a1c</MD5>
+				<MD5>538307bab166db1a8f99c415ddd334f6</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
@@ -2210,15 +2190,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Submodule>
 		</Module>
 		<Module name="Mantle" id="mantle" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mantle-1.12-1.3.3.42.jar</URL>
-			<Size>838980</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mantle-1.12-1.3.3.49.jar</URL>
+			<Size>841425</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5e412302ca8f26c9d49003f06d5cffbe</MD5>
+			<MD5>eb4d8475a6e6169e521febba64e792d4</MD5>
 			<Meta>
 				<credits>mDiyo, Sunstrike</credits>
 				<description>Shared code for Slime Knights mods and others.</description>
-				<version>1.3.3.42</version>
+				<version>1.3.3.49</version>
 				<url>https://github.com/SlimeKnights/Mantle</url>
 				<authors>boni, progWML6, Alexbegt</authors>
 			</Meta>
@@ -2289,15 +2269,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Pam's HarvestCraft" id="harvestcraft" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Pams+HarvestCraft+1.12.2z.jar</URL>
-			<Size>4502730</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Pams+HarvestCraft+1.12.2zc+The+7mm+Kidney+Stone+Update.jar</URL>
+			<Size>4883845</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>bcc0399e9de682b489dc7c41753f52dd</MD5>
+			<MD5>fa6f9e95a35e78edb10363147718b6be</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Expanding minecraft&apos;s food system.</description>
-				<version>1.12z</version>
+				<version>1.12a</version>
 				<url>http://minecraft.curseforge.com/members/MatrexsVigil/projects</url>
 				<authors>Pamela Collins</authors>
 			</Meta>
@@ -2790,15 +2770,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TConstruct-1.12.2-2.12.0.115.jar</URL>
-			<Size>3945715</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TConstruct-1.12.2-2.12.0.135.jar</URL>
+			<Size>3997455</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>436e05cbda8a1da6822a41a5420e68a4</MD5>
+			<MD5>7f983680e4040cc1d70ea5c6fe1819aa</MD5>
 			<Meta>
 				<credits>Slime Knights, mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox</credits>
 				<description>A little of this, a little of that, a lot of tinkering, and a lot of tools</description>
-				<version>1.12.2-2.12.0.115</version>
+				<version>1.12.2-2.12.0.135</version>
 				<url>https://github.com/SlimeKnights/TinkersConstruct</url>
 				<authors>boni, KnightMiner</authors>
 			</Meta>
