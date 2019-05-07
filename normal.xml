@@ -44,6 +44,26 @@
 				<authors>ProfMobius, TehNut</authors>
 			</Meta>
 		</Module>
+        <Module name="Project: Vibrant Journeys" id="pvj" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ProjectVibrantJourneys-1.12.2-1.6.3.jar</URL>
+			<Size>1778356</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>916cab186de32fa662c7e26431ad2676</MD5>
+			<Meta>
+				<credits>Notch hehe</credits>
+				<description>A mod that adds new things that spice up your game. Aimed at decorating the world while not being intrusive on gameplay.</description>
+				<version>1.6.3</version>
+				<url></url>
+				<authors>jt9</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/projectvibrantjourneys.cfg</URL>
+				<Path>config/projectvibrantjourneys.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6ea4eed0f1f8e452e9f546a6289057e5</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ClientTweaks_1.12.2-3.1.11.jar</URL>
 			<Size>30515</Size>
@@ -1588,6 +1608,12 @@
 				<Path>config/BiomeTweaker/scripts/traverse.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>ed85243f531163d694188435ffa5df1c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/pvj.cfg</URL>
+				<Path>config/BiomeTweaker/scripts/pvj.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>38bad48a4c843b06e034621dfc131043</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/meneglin.cfg</URL>
