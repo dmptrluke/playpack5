@@ -223,32 +223,6 @@
 				<authors>Ivorius</authors>
 			</Meta>
 		</Module>
-		<Module name="Recurrent Complex" id="reccomplex" depends="ivtoolkit" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RecurrentComplex-1.4.8.2.jar</URL>
-			<Size>7076645</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>821b38ba97b03eb79d64db797db67dac</MD5>
-			<Meta>
-				<credits>See structurecredits.txt for full default structure list credits.</credits>
-				<description>Adds structures to worldgen, handles exporting and importing structures, and provides build tools.</description>
-				<version>1.4.8.2</version>
-				<url></url>
-				<authors>Ivorius</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/reccomplex.cfg</URL>
-				<Path>config/reccomplex.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>7c45d08cef5224950c490baa0fd2913e</MD5>
-			</ConfigFile>
-			<Submodule name="PlayPack Structures" id="playpackstructures">
-				<URL priority="0">https://dmptr.com/pack_redux/files/structures.zip</URL>
-				<Size>21544</Size>
-				<ModType inRoot="true">Extract</ModType>
-				<MD5>2b61c4eeb64ee228f3ca729b6b3d306b</MD5>
-			</Submodule>
-		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CyclopsCore-1.12.2-1.0.4.jar</URL>
 			<Size>977316</Size>
@@ -546,29 +520,29 @@
 			</ConfigFile>
 		</Module>
 		<Module name="McJtyLib" id="mcjtylib_ng" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/mcjtylib-1.12-3.1.1.jar</URL>
-			<Size>493473</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/mcjtylib-1.12-3.5.1.jar</URL>
+			<Size>543237</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0b153a029d2aa3d760ccc07749c8879c</MD5>
+			<MD5>33ef659b85da25a531ed27a8ccafe44d</MD5>
 			<Meta>
 				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
 				<description>McJtyLib library for RFTools, Deep Resonance, ...</description>
-				<version>1.12-3.1.1</version>
+				<version>1.12-3.5.1</version>
 				<url></url>
 				<authors>McJty</authors>
 			</Meta>
 		</Module>
 		<Module name="RFTools" id="rftools" depends="mcjtylib_ng" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rftools-1.12-7.61.jar</URL>
-			<Size>2901691</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rftools-1.12-7.71.jar</URL>
+			<Size>2895608</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2b18579cab884e967ff99de428abbc3b</MD5>
+			<MD5>ef83816ac55bb6df097e390213f72652</MD5>
 			<Meta>
 				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
 				<description>RedFlux tools</description>
-				<version>1.12-7.61</version>
+				<version>1.12-7.71</version>
 				<url></url>
 				<authors>McJty</authors>
 			</Meta>
@@ -586,15 +560,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="RFTools Control" id="rftoolscontrol" depends="rftools" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rftoolsctrl-1.12-1.9.2.jar</URL>
-			<Size>590793</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rftoolsctrl-1.12-2.0.2.jar</URL>
+			<Size>600728</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>810041dd9105cabd095b9886da38ee50</MD5>
+			<MD5>640e2b3241acde04684bd904829959ad</MD5>
 			<Meta>
 				<credits></credits>
 				<description>RFTools Control Addon</description>
-				<version>1.12-1.9.2</version>
+				<version>1.12-2.0.2</version>
 				<url></url>
 				<authors>McJty</authors>
 			</Meta>
@@ -603,6 +577,26 @@
 				<Path>config/rftools/control.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>c907650bbadcac65c086d53ce6657bb4</MD5>
+			</ConfigFile>
+		</Module>
+        <Module name="Glassential" id="glassential" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/glassential-1.12.2-1.1.0.jar</URL>
+			<Size>34280</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8231838639622a690c6a37089358e19f</MD5>
+			<Meta>
+				<credits>Extra Utilities 2 for the inspiration, MayusYT for the name, Wouter for the awesome logo.</credits>
+				<description>Various glasses for all your decorative needs.</description>
+				<version>1.12.2-1.1.0</version>
+				<url></url>
+				<authors>Lykrast</authors>
+			</Meta>
+            <ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/glassential.cfg</URL>
+				<Path>config/glassential.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>40d5ca34e1053c7ca484e2725d2b6d93</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Fairy Lights" id="fairylights" depends="" side="BOTH">
@@ -1037,15 +1031,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Construct&apos;s Armory" id="conarm" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/conarm-1.12.2-1.2.2.jar</URL>
-			<Size>864718</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/conarm-1.12.2-1.2.3.4.jar</URL>
+			<Size>869316</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>7e38cb549f9ef40a0b51e608f13f5ce9</MD5>
+			<MD5>a211667983e19e4de79aad8f132d8993</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A Tinkers&apos; Construct add-on for those looking to enter the world of armor</description>
-				<version>1.12.2-1.2.2</version>
+				<version>1.12.2-1.2.3.4</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
@@ -1123,11 +1117,11 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Charset Lib" id="charsetlib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Charset-Lib-0.5.5.6.jar</URL>
-			<Size>1123473</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Charset-Lib-0.5.5.7.jar</URL>
+			<Size>1124675</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>48c2d5a556650ad7e04d69f016412a65</MD5>
+			<MD5>6ca24090a8c9051881694a05be4902f0</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Arrange Your Experience</description>
@@ -1161,18 +1155,18 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Charset Crafting" id="charsetcrafting" depends="charsetlib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Charset-Crafting-0.5.5.0.jar</URL>
-			<Size>112491</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Charset-Crafting-0.5.5.7.jar</URL>
+			<Size>113639</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0b3500d336804df0ef528d90e2337d0b</MD5>
+			<MD5>f8688d831d271079075c6f695c63f605</MD5>
 		</Module>
 		<Module name="SimpleLogic Gates" id="simplelogic_gates" depends="charsetlib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/SimpleLogic-Gates-0.5.5.0.jar</URL>
-			<Size>132795</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/SimpleLogic-Gates-0.5.5.7.jar</URL>
+			<Size>133234</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>E29A2542C53BB82E1246BED326AEA13C</MD5>
+			<MD5>7af01b153ca3135d6a36a2fa8c7eb1b6</MD5>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/module/simplelogic.gates.cfg</URL>
 				<Path>config/charset/module/simplelogic.gates.cfg</Path>
@@ -1188,11 +1182,11 @@
 			</Meta>
 		</Module>
 		<Module name="SimpleLogic Wires" id="simplelogic_wires" depends="charsetlib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/SimpleLogic-Wires-0.5.5.0.jar</URL>
-			<Size>40660</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/SimpleLogic-Wires-0.5.5.7.jar</URL>
+			<Size>40662</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>E32BB92B2A74574FC1EA723B893114C1</MD5>
+			<MD5>94f3473d60e1456325dd3cb3abb58780</MD5>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/module/simplelogic.wires.cfg</URL>
 				<Path>config/charset/module/simplelogic.wires.cfg</Path>
@@ -1233,15 +1227,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Chisels &amp; Bits" id="chiselsandbits" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/chiselsandbits-14.30.jar</URL>
-			<Size>730687</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/chiselsandbits-14.32.jar</URL>
+			<Size>736218</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>4683a0252fbcccf10034b3dc9ebee90f</MD5>
+			<MD5>89a35d91c9d3fc5c9477873b459ffeeb</MD5>
 			<Meta>
 				<credits>AlgorithmX2</credits>
 				<description>a mod about Sculpting, Decorating and Aesthetics</description>
-				<version>14.30</version>
+				<version>14.32</version>
 				<url>http://minecraft.curseforge.com/projects/chisels-bits</url>
 				<authors>AlgorithmX2</authors>
 			</Meta>
@@ -1381,15 +1375,15 @@
 			</Meta>
 		</Module>-->
 		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/MekanismDz-1.12.2-9.4.18.jar</URL>
-			<Size>16000743</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mekanism-1.12.2-9.7.4.375.jar</URL>
+			<Size>7921690</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>be983dd9c2d3b97b6f0450d57e911fc8</MD5>
+			<MD5>8ba28800a7b27124125c5f62d8a1ba7d</MD5>
 			<Meta>
 				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
 				<description>Energy, Armor, Tools, Weapons, Machines, Magic.</description>
-				<version>1.12.2-9.4.18</version>
+				<version>1.12.2-9.7.4.375</version>
 				<url></url>
 				<authors>aidancbrady</authors>
 			</Meta>
@@ -1736,7 +1730,7 @@
 				<credits>Damien A.W. &quot;Hazard&quot; (original IE art), &quot;Slanesh&quot; (stone door sound)</credits>
 				<description>Adds doors, trapdoors, and fence gates for Immersive Engineering.</description>
 				<version>0.8.0</version>
-				<url></url>
+				<url>https://minecraft.curseforge.com/projects/engineers-doors</url>
 				<authors>Nihiltres</authors>
 			</Meta>
 			<ConfigFile>
@@ -1939,18 +1933,18 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/forestry_1.12.2-5.8.2.383.jar</URL>
-			<Size>5233829</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/forestry_1.12.2-5.8.2.387.jar</URL>
+			<Size>5232265</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9815c86ed72fc4e8041b1e0d50fe649d</MD5>
+			<MD5>367a01e7ff21262fa3dfc71e8fbd7332</MD5>
 			<Meta>
 				<credits>mistaqur, Binnie, CovertJaguar, MysteriousAges, Nirek, Nedelosk</credits>
 				<description>Trees, bees and more.</description>
-				<version>5.8.2.383</version>
+				<version>5.8.2.387</version>
 				<url>http://forestry.sengir.net/</url>
 				<authors>SirSengir, mezz</authors>
-			</Meta> 
+			</Meta>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/apiculture.cfg</URL>
 				<Path>config/forestry/apiculture.cfg</Path>
@@ -2125,17 +2119,17 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				</ConfigFile>
 			</Submodule>
 			<Submodule name="Just Enough Throwing In Fluids" id="jei-jetif">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/jetif-1.12.2-1.3.0.jar</URL>
-				<Size>20178</Size>
-				<ModType>Regular</ModType>
-				<MD5>60c185386941dd99b15ca1524978a04c</MD5>
-				<Meta>
-					<credits>All those mods that add this kind of crafting for giving me this idea.</credits>
-					<description>JEI addon for throwing stuff in fluids to make other stuff.</description>
-					<version>1.12.2-1.3.0</version>
-					<url></url>
-					<authors>Lykrast</authors>
-				</Meta>
+                <URL priority="0">https://dmptr.com/pack_redux/files/mods/jetif-1.12.2-1.4.1.jar</URL>
+                <Size>25469</Size>
+                <ModType>Regular</ModType>
+                <MD5>97b057017466388ca72e723ddfd29db6</MD5>
+                <Meta>
+                    <credits>All those mods that add this kind of crafting for giving me this idea.</credits>
+                    <description>JEI addon for throwing stuff in fluids to make other stuff.</description>
+                    <version>1.12.2-1.4.1</version>
+                    <url></url>
+                    <authors>Lykrast</authors>
+                </Meta>
 			</Submodule>
 			<Submodule name="Just Enough Energistics" id="jei-jee">
 				<URL priority="0">https://dmptr.com/pack_redux/files/mods/JustEnoughEnergistics-1.12.2-1.0.6.jar</URL>
@@ -2164,17 +2158,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<url>https://github.com/SlimeKnights/Mantle</url>
 				<authors>boni, progWML6, Alexbegt</authors>
 			</Meta>
-		</Module>
-		<Module name="Minecraft Forge" id="forge-14.23.5.2814" depends="" side="BOTH">
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Override</ModType>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/splash.properties</URL>
-				<Path>config/splash.properties</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>0cad0356fafa40ef9d8d294a09b17a33</MD5>
-			</ConfigFile>
 		</Module>
 		<Module name="MCMultiPart" id="mcmultipart" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/MCMultiPart-2.5.3.jar</URL>
@@ -2263,15 +2246,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.4.0.84.jar</URL>
-			<Size>404433</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.4.0.96.jar</URL>
+			<Size>422864</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6ef080285fb187287d131a38ef26155c</MD5>
+			<MD5>aa6230163d711febc5b3e4e5bb97edac</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.4.0.84</version>
+				<version>5.4.0.96</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2283,43 +2266,43 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
         <Module name="Item Filters" id="itemfilters" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ItemFilters-1.0.1.8.jar</URL>
-			<Size>74938</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ItemFilters-1.0.3.12.jar</URL>
+			<Size>78422</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>15b50143dbada90f0d9e452cc8e318b3</MD5>
+			<MD5>9d15a21d3f89354c9611f81215b66eb1</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>1.0.1.8</version>
+				<version>1.0.3.12</version>
 				<url>http://minecraft.curseforge.com/projects/item-filters</url>
 				<authors>LatvianModder</authors>
 			</Meta>
 		</Module>
 		<Module name="FTB Quests" id="ftbquests" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.5.1.133.jar</URL>
-			<Size>840127</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.5.2.151.jar</URL>
+			<Size>863136</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>cb9575dd5ab50935ac573ed52bd03566</MD5>
+			<MD5>d6b0581099c1800ff81cea73ced6d9e5</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>1.5.1.133</version>
+				<version>1.5.2.151</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-quests</url>
 				<authors>LatvianModder</authors>
 			</Meta>
 		</Module>
 		<Module name="FTB Library" id="ftblib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.1.86.jar</URL>
-			<Size>880362</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.1.99.jar</URL>
+			<Size>885574</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e51960d66f77ba92429a60fb7366c5e5</MD5>
+			<MD5>1bef55289ad005c2e4b085058083f687</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.4.1.86</version>
+				<version>5.4.1.99</version>
 				<url>http://minecraft.curseforge.com/projects/ftblib</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2371,11 +2354,11 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="p455w0rdslib" id="pwrdslib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/p455w0rdslib-1.12.2-2.0.36.jar</URL>
-			<Size>305888</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/p455w0rdslib-1.12.2-2.1.44.jar</URL>
+			<Size>321326</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0af5bef734c55f30cc5eba9065abe09d</MD5>
+			<MD5>0825306f9ef61099703d797596b84ef3</MD5>
 		</Module>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DankNull-1.12-1.4.46.jar</URL>
@@ -2484,15 +2467,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Rustic Thaumaturgy" id="rusticthaumaturgy" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-4.3.jar</URL>
-			<Size>596203</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-4.4a.jar</URL>
+			<Size>601126</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>69058149f7dde232e616dff0c9cea313</MD5>
+			<MD5>ee1458470256cc278b2c64679aec2503</MD5>
 			<Meta>
 				<credits>MrCrayfish, WolfieWaffle, and TheRealStu</credits>
 				<description>A mod that adds some Thaumcraft compatability to Rustic.</description>
-				<version>4.3</version>
+				<version>4.4a</version>
 				<url></url>
 				<authors>Voxel-Friend</authors>
 			</Meta>
@@ -2876,11 +2859,11 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<MD5>d6e426631f7d9eb1f86ef0523870811a</MD5>
 		</Module>
 		<Module name="JAOPCA" id="jaopca" depends="wrapup" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/JAOPCA-1.12.2-2.2.8.100.jar</URL>
-			<Size>476507</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/JAOPCA-1.12.2-2.2.8.101.jar</URL>
+			<Size>475344</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8451800539e2fd9147440a7f50ff57b1</MD5>
+			<MD5>6d98989e27b03093778bd1f053992297</MD5>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/JAOPCA.cfg</URL>
 				<Path>config/JAOPCA.cfg</Path>
@@ -2903,15 +2886,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="WanionLib" id="wanionlib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WanionLib-1.12.2-2.1.jar</URL>
-			<Size>125928</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WanionLib-1.12.2-2.2.jar</URL>
+			<Size>129188</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0f954201f9c6c7699c48ea1ea9f1783b</MD5>
+			<MD5>da46d9a391cb6ac4d3bd453db2158e58</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Shared Code Library Used by (not)all WanionCane mods!</description>
-				<version>1.12.2-2.1</version>
+				<version>1.12.2-2.2</version>
 				<url>http://minecraft.curseforge.com/projects/wanionlib</url>
 				<authors>WanionCane</authors>
 			</Meta>
@@ -2943,11 +2926,11 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="VanillaFix" id="vanillafix" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/VanillaFix-1.0.10-98.jar</URL>
-			<Size>1118753</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/VanillaFix-1.0.10-99.jar</URL>
+			<Size>1117860</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6d53f338d5a854a3b728e14f5a5e7fe5</MD5>
+			<MD5>eb05714c798a94f52ddd8617857052ab</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Bug fixes, optimizations, no more crashes, and better crash reports for Minecraft</description>
@@ -2963,6 +2946,16 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2836">forge</Import>
+        <Module name="Minecraft Forge" id="forge-14.23.5.2836" depends="" side="BOTH">
+			<Required>true</Required>
+			<ModType>Override</ModType>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/splash.properties</URL>
+				<Path>config/splash.properties</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0cad0356fafa40ef9d8d294a09b17a33</MD5>
+			</ConfigFile>
+		</Module>
 		<Import url="https://dmptr.com/modules/basics/module.xml">basics</Import>
 		<Import url="https://dmptr.com/modules/splashanimation/module.xml">splashanimation</Import>
 	</Server>
