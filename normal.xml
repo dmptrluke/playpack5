@@ -51,7 +51,6 @@
 			<ModType>Regular</ModType>
 			<MD5>916cab186de32fa662c7e26431ad2676</MD5>
 			<Meta>
-				<credits>Notch hehe</credits>
 				<description>A mod that adds new things that spice up your game. Aimed at decorating the world while not being intrusive on gameplay.</description>
 				<version>1.6.3</version>
 				<url></url>
@@ -61,7 +60,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/projectvibrantjourneys.cfg</URL>
 				<Path>config/projectvibrantjourneys.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>6ea4eed0f1f8e452e9f546a6289057e5</MD5>
+				<MD5>0ca6335b9a3ad3202a2a1c694512e468</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
@@ -1613,7 +1612,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/pvj.cfg</URL>
 				<Path>config/BiomeTweaker/scripts/pvj.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>38bad48a4c843b06e034621dfc131043</MD5>
+				<MD5>444b08ddf8ad1a8d35c151bb8474929a</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/meneglin.cfg</URL>
@@ -2356,7 +2355,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/quark.cfg</URL>
 				<Path>config/quark.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>8ac017319d6da275df477fe8aad93b4f</MD5>
+				<MD5>aa28393f1afa1e4e6ebf464fb556f069</MD5>
 			</ConfigFile>
 			<Submodule name="Quark Oddities" id="quark-oddities">
 				<URL priority="0">https://dmptr.com/pack_redux/files/mods/QuarkOddities-1.12.2.jar</URL>
