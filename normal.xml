@@ -60,7 +60,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/projectvibrantjourneys.cfg</URL>
 				<Path>config/projectvibrantjourneys.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>0ca6335b9a3ad3202a2a1c694512e468</MD5>
+				<MD5>dcc8d9a03526e56f0d6315e26e07d9cd</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
@@ -539,15 +539,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="McJtyLib" id="mcjtylib_ng" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/mcjtylib-1.12-3.5.1.jar</URL>
-			<Size>543237</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/mcjtylib-1.12-3.5.2.jar</URL>
+			<Size>543094</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>33ef659b85da25a531ed27a8ccafe44d</MD5>
+			<MD5>8dbced0cd0d2be8c99fd4ed9f2f15d40</MD5>
 			<Meta>
 				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
 				<description>McJtyLib library for RFTools, Deep Resonance, ...</description>
-				<version>1.12-3.5.1</version>
+				<version>1.12-3.5.2</version>
 				<url></url>
 				<authors>McJty</authors>
 			</Meta>
@@ -1786,15 +1786,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-1.12.2-5.0.43.jar</URL>
-			<Size>7288125</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-1.12.2-5.0.44.jar</URL>
+			<Size>7319402</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a08e6e9c81135fa77ac1df1f2f98c594</MD5>
+			<MD5>2ecb643959ed9121245d8d3fb7bc51b3</MD5>
 			<Meta>
 				<credits>By CrazyPants, with the help of many</credits>
 				<description>Compact conduits, painted things and all sorts of stuff and bling.</description>
-				<version>5.0.43</version>
+				<version>5.0.44</version>
 				<url>http://enderio.com</url>
 				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</authors>
 			</Meta>
@@ -1904,15 +1904,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="FastWorkbench" id="fastbench" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FastWorkbench-1.12.2-1.7.0.jar</URL>
-			<Size>26289</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FastWorkbench-1.12.2-1.7.1.jar</URL>
+			<Size>26307</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a34b6a3e65e2b6d7de53b360c8320192</MD5>
+			<MD5>df23059495598b0bd5a6d915c988d0e2</MD5>
 			<Meta>
 				<credits></credits>
 				<description>1 fast boi</description>
-				<version>1.12.2-1.7.0</version>
+				<version>1.12.2-1.7.1</version>
 				<url></url>
 				<authors>Shadows_of_Fire</authors>
 			</Meta>
@@ -2355,7 +2355,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/quark.cfg</URL>
 				<Path>config/quark.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>aa28393f1afa1e4e6ebf464fb556f069</MD5>
+				<MD5>e7cf7db9e84a23b196f53906faa2fb4a</MD5>
 			</ConfigFile>
 			<Submodule name="Quark Oddities" id="quark-oddities">
 				<URL priority="0">https://dmptr.com/pack_redux/files/mods/QuarkOddities-1.12.2.jar</URL>
