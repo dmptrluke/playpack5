@@ -60,7 +60,7 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/projectvibrantjourneys.cfg</URL>
 				<Path>config/projectvibrantjourneys.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>dcc8d9a03526e56f0d6315e26e07d9cd</MD5>
+				<MD5>af29342996c00f82ca95c28210839df8</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
@@ -243,15 +243,15 @@
 			</Meta>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CyclopsCore-1.12.2-1.0.4.jar</URL>
-			<Size>977316</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CyclopsCore-1.12.2-1.2.0.jar</URL>
+			<Size>1037728</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>7d1bd53ca982da5452168714a88d9c81</MD5>
+			<MD5>1a02892020e69b8fae72cc18d776eaa1</MD5>
 			<Meta>
 				<credits>kroeserr, _EeB_</credits>
 				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
-				<version>1.12.2-1.0.4</version>
+				<version>1.12.2-1.2.0</version>
 				<url>https://minecraft.curseforge.com/projects/cyclops-core</url>
 				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
 			</Meta>
@@ -263,15 +263,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CommonCapabilities" id="commoncapabilities" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CommonCapabilities-1.12.2-2.0.3.jar</URL>
-			<Size>209672</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CommonCapabilities-1.12.2-2.2.1.jar</URL>
+			<Size>355886</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>b989f597d468cb44b1112cada478fb4d</MD5>
+			<MD5>5e9c30d73782e8eb768c3b5fd5e3d070</MD5>
 			<Meta>
 				<credits>kroeserr</credits>
 				<description>Forge Capabilities that can be shared by multiple mods</description>
-				<version>1.12.2-2.0.3</version>
+				<version>1.12.2-2.2.1</version>
 				<url>https://github.com/CyclopsMC/CommonCapabilities</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -297,15 +297,15 @@
 			</Meta>
 		</Module>
 		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-1.0.6.jar</URL>
-			<Size>2997054</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-1.0.11.jar</URL>
+			<Size>3001673</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2d58c8efc6062c087308ea6d15c19453</MD5>
+			<MD5>e0cd3392b7b15d5ddacdc8574d6a748a</MD5>
 			<Meta>
 				<credits>kroeserr, Yulife (textures)</credits>
 				<description>Take full and automated control of your appliances.</description>
-				<version>1.12.2-1.0.6</version>
+				<version>1.12.2-1.0.11</version>
 				<url>https://minecraft.curseforge.com/projects/integrated-dynamics</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -323,15 +323,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Terminals" id="integratedterminals" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTerminals-1.12.2-1.0.3.jar</URL>
-			<Size>569795</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTerminals-1.12.2-1.0.6.jar</URL>
+			<Size>569844</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1ca2f602b76df94709257cae9eae8b60</MD5>
+			<MD5>d2618ee538305a10aa47ff1cb190b43b</MD5>
 			<Meta>
 				<credits>rubensworks (aka kroeserr)</credits>
 				<description>Terminals for managing and overviewing Integrated Dynamics networks</description>
-				<version>1.12.2-1.0.3</version>
+				<version>1.12.2-1.0.6</version>
 				<url>https://github.com/CyclopsMC/IntegratedTerminals</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -349,15 +349,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Tunnels" id="integratedtunnels" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTunnels-1.12.2-1.6.6.jar</URL>
-			<Size>485063</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTunnels-1.12.2-1.6.8.jar</URL>
+			<Size>450101</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f4df053261b46c230c55844624e5c055</MD5>
+			<MD5>2bcc5f8c5fe1753020ff618da38018fa</MD5>
 			<Meta>
 				<credits>rubensworks (aka kroeserr)</credits>
 				<description>Transfer other stuff over Integrated Dynamics networks</description>
-				<version>1.12.2-1.6.6</version>
+				<version>1.12.2-1.6.8</version>
 				<url>https://github.com/CyclopsMC/IntegratedTunnels</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -372,6 +372,66 @@
 				<Path>config/integratedtunnelscompat.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6bbd6660b6fcad1513e90b0bf896d16e</MD5>
+			</ConfigFile>
+		</Module>
+        <Module name="Tesla Core Lib" id="teslacorelib" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/tesla-core-lib-1.12.2-1.0.15.jar</URL>
+			<Size>1140374</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b0214b0a90243374c6bd89a023f2b26e</MD5>
+			<Meta>
+				<credits>The Forge, FML guys and my wife.</credits>
+				<description>Just the most awesome lib mod out there!</description>
+				<version>1.12.2-1.0.15</version>
+				<url></url>
+				<authors>Face_of_Cat</authors>
+			</Meta>
+            <ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/teslacorelib.cfg</URL>
+				<Path>config/teslacorelib.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c15cf6bd0dbf7648e59e0e7932522596</MD5>
+			</ConfigFile>
+		</Module>
+        <Module name="Industrial Foregoing" id="industrialforegoing" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/industrialforegoing-1.12.2-1.12.12-236.jar</URL>
+			<Size>1600649</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7726b3d8b19dd88142db381a6d25c47a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A small reinvention of Minefactory Reloaded.</description>
+				<version>1.12.12</version>
+				<url>https://minecraft.curseforge.com/projects/industrial-foregoing</url>
+				<authors>Buuz135</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/industrialforegoing.cfg</URL>
+				<Path>config/industrialforegoing.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>96ad754eee88d1639e62eb0c31b1ff53</MD5>
+			</ConfigFile>
+		</Module>
+        <Module name="Integration Foregoing" id="integrationforegoing" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegrationForegoing-1.12.2-1.9.jar</URL>
+			<Size>172247</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4b2cbad2243b62fc15a712f9159f3bc5</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An addon mod for Industrial Foregoing!</description>
+				<version>1.12.2-1.9</version>
+				<url>https://github.com/JackyyTV/IntegrationForegoing</url>
+				<authors>Jackyy, Buuz135</authors>
+			</Meta>
+            <ConfigFile>
+				<URL priority="0">https://dmptr.com/pack_redux/files/config/IntegrationForegoing.cfg</URL>
+				<Path>config/IntegrationForegoing.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>88bfbb6e011a2d2ed251752de94f98c6</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
@@ -1306,15 +1366,15 @@
 			</ConfigFile>
 		</Module>
         <Module name="Charm" id="charm" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Charm-1.12.2-1.0.0.jar</URL>
-			<Size>2225742</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Charm-1.12.2-1.0.1.jar</URL>
+			<Size>2227965</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>90e9c19069875066d80eb4ba14009154</MD5>
+			<MD5>516826812d9611dcc3522ff06c236f6e</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Smaller things.</description>
-				<version>1.12.2-1.0.0</version>
+				<version>1.12.2-1.0.1</version>
 				<url>https://minecraft.curseforge.com/projects/charm</url>
 				<authors>svenhjol</authors>
 			</Meta>
@@ -1606,13 +1666,13 @@
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/traverse.cfg</URL>
 				<Path>config/BiomeTweaker/scripts/traverse.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>ed85243f531163d694188435ffa5df1c</MD5>
+				<MD5>2cef39501046817042a146de67d9f2a1</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/pvj.cfg</URL>
 				<Path>config/BiomeTweaker/scripts/pvj.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>444b08ddf8ad1a8d35c151bb8474929a</MD5>
+				<MD5>607a3a3d2bf14b2a6862729ba4b7ad7c</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/meneglin.cfg</URL>
@@ -2339,15 +2399,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-149.jar</URL>
-			<Size>2231969</Size>
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-150.jar</URL>
+			<Size>2247323</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6dbbcc5f18449810532b32f352909808</MD5>
+			<MD5>9667374fce37af1e9a8b5692b9871f8b</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Small things.</description>
-				<version>r1.5-149</version>
+				<version>r1.5-150</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
@@ -2385,52 +2445,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<ModType>Regular</ModType>
 			<MD5>0825306f9ef61099703d797596b84ef3</MD5>
 		</Module>
-		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DankNull-1.12-1.4.46.jar</URL>
-			<Size>312081</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>1e0621587893cc65965bab3c2a573a78</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Adds the /dank/null items from p455w0rd&apos;s Things 1.10.2 mod</description>
-				<version>1.12-1.4.46</version>
-				<url></url>
-				<authors>TheRealp455w0rd</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/DankNull.cfg</URL>
-				<Path>config/DankNull.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6629227d9dc6b13b0e1338ff68c3ddd1</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/danknull.zs</URL>
-				<Path>scripts/danknull.zs</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>efc12569a1353cecdb644eb3ef1628f1</MD5>
-			</ConfigFile>
-		</Module>
-		<!--<Module name="Consecration" id="consecration" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/consecration-1.12.2-0.0.14.jar</URL>
-			<Size>138146</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>578727062adc576dfc8b60538bb17b5b</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Makes the undead more resilient except when attacked by fire or holy damage</description>
-				<version>1.12.2-0.0.14</version>
-				<url></url>
-				<authors>C4</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/consecration.cfg</URL>
-				<Path>config/consecration.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6797e095e162ac0353574be05bbbf07f</MD5>
-			</ConfigFile>
-		</Module>-->
 		<Module name="Resource Loader" id="resourceloader" depends="" side="CLIENT">
 			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ResourceLoader-MC1.12.1-1.5.3.jar</URL>
 			<Size>16612</Size>
@@ -2785,16 +2799,16 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>KnightMiner</authors>
 			</Meta>
 		</Module>
-		<Module name="Traverse" id="traverse" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Traverse-1.12.2-1.5.4-61.jar</URL>
-			<Size>274605</Size>
+        <Module name="Traverse" id="traverse" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Traverse-1.12.2-1.6.0-69.jar</URL>
+			<Size>270133</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>74f9ebc1fd7113242e89d998060794f9</MD5>
+			<MD5>3cc748cd333cab2e5f8132a89cd40b48</MD5>
 			<Meta>
 				<credits>TheCodedOne for maintaining the mod for a bit, and InsomniaKitten for some assets</credits>
 				<description>Improving the world with fancy new biomes since 2017.</description>
-				<version>1.12.2-1.5.4-61</version>
+				<version>1.12.2-1.6.0-69</version>
 				<url>https://github.com/TraverseTeam/Traverse</url>
 				<authors>Prospector</authors>
 			</Meta>
@@ -2802,7 +2816,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://dmptr.com/pack_redux/files/config/traverse/traverse.cfg</URL>
 				<Path>config/traverse/traverse.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>466ddd5d4100d8ab9fec8e724ede7c1d</MD5>
+				<MD5>7169b7e935c1bde40a33020b0f8e8d44</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/traverse.zs</URL>
