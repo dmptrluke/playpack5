@@ -3,7 +3,7 @@
 <ServerPack version="3.4" 
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
-	<Server id="playpack_redux" abstract="false" name="PlayPack 5" newsUrl="https://dmptr.com/pack_redux/normal.xml" serverAddress="play.dmptr.com" version="1.12.2"
+	<Server id="playpack_redux" abstract="false" name="PlayPack 5" newsUrl="https://dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
 	 generateList="true" autoConnect="false" revision="1.3.5" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://dmptr.com/launcher/cell.png">
 		<Meta>
@@ -11,7 +11,7 @@
 			<note title="Latest Changes">Rename to PlayPack 5</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
 			<Size>9998</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -24,14 +24,14 @@
 				<authors>Darkhax</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/sasit.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/sasit.cfg</URL>
 				<Path>config/sasit.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3633e1f63c63e44850be36be096c19f1</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Hwyla" id="waila" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Hwyla-1.8.26-B41_1.12.2.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Hwyla-1.8.26-B41_1.12.2.jar</URL>
 			<Size>453778</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -45,7 +45,7 @@
 			</Meta>
 		</Module>
         <Module name="Project: Vibrant Journeys" id="pvj" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ProjectVibrantJourneys-1.12.2-1.6.3.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/ProjectVibrantJourneys-1.12.2-1.6.3.jar</URL>
 			<Size>1778356</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -57,14 +57,14 @@
 				<authors>jt9</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/projectvibrantjourneys.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/projectvibrantjourneys.cfg</URL>
 				<Path>config/projectvibrantjourneys.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>af29342996c00f82ca95c28210839df8</MD5>
+				<MD5>73783cc67ce76403078e28709bb987ba</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ClientTweaks_1.12.2-3.1.11.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/ClientTweaks_1.12.2-3.1.11.jar</URL>
 			<Size>30515</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -77,14 +77,14 @@
 				<authors>BlayTheNinth</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/clienttweaks.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/clienttweaks.cfg</URL>
 				<Path>config/clienttweaks.cfg</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5>9d69448e581152edf5c318d6887f3c5e</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Default Options" id="defaultoptions" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DefaultOptions_1.12.2-9.2.8.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/DefaultOptions_1.12.2-9.2.8.jar</URL>
 			<Size>15056</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -97,20 +97,20 @@
 				<authors>BlayTheNinth</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/defaultoptions/keybindings.txt</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/defaultoptions/keybindings.txt</URL>
 				<Path>config/defaultoptions/keybindings.txt</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>18d50409993f57eceb5455d3bd91521d</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/defaultoptions/options.txt</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/defaultoptions/options.txt</URL>
 				<Path>config/defaultoptions/options.txt</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>2dde22a438ff622b0e62297e31b6ca12</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Connected Textures Mod" id="ctm" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CTM-MC1.12.2-0.3.3.22.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CTM-MC1.12.2-0.3.3.22.jar</URL>
 			<Size>194281</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -124,7 +124,7 @@
 			</Meta>
 		</Module>
 		<Module name="Akashic Tome" id="akashictome" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AkashicTome-1.2-12.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/AkashicTome-1.2-12.jar</URL>
 			<Size>44663</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -137,20 +137,20 @@
 				<authors>Vazkii</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/akashictome.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/akashictome.cfg</URL>
 				<Path>config/akashictome.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>8f94beb5a5d823f4a2b85a794be25ac6</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/akashictome.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/akashictome.zs</URL>
 				<Path>scripts/akashictome.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d1d33df11bfa666f2cc9bc0e926ba3ce</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="AppleCore" id="applecore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AppleCore-mc1.12.2-3.2.0.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/AppleCore-mc1.12.2-3.2.0.jar</URL>
 			<Size>88308</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -162,14 +162,14 @@
 				<authors>squeek</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forge.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/forge.cfg</URL>
 				<Path>config/forge.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>13b8b721186781dac92a279d4cdf99e2</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AppleSkin-mc1.12-1.0.9.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/AppleSkin-mc1.12-1.0.9.jar</URL>
 			<Size>32317</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -182,14 +182,14 @@
 				<authors>squeek</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/appleskin.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/appleskin.cfg</URL>
 				<Path>config/appleskin.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>5985c69d22b2f08443f7179dcd227f68</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Bookshelf" id="bookshelf" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Bookshelf-1.12.2-2.3.574.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Bookshelf-1.12.2-2.3.574.jar</URL>
 			<Size>240642</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -202,14 +202,14 @@
 				<authors>darkhax, lclc98</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/bookshelf.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/bookshelf.cfg</URL>
 				<Path>config/bookshelf.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>bc1cd7c38b3bd60afeac4b8c7c5388ca</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Dark Utilities" id="darkutils" depends="bookshelf" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/DarkUtils-1.12.2-1.8.226.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/DarkUtils-1.12.2-1.8.226.jar</URL>
 			<Size>419723</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -222,14 +222,14 @@
 				<authors>Darkhax</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/darkutils.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/darkutils.cfg</URL>
 				<Path>config/darkutils.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6c02d869e624d7d4a7b2304fd5ccd0e5</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="IvToolkit" id="ivtoolkit" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IvToolkit-1.3.3-1.12.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/IvToolkit-1.3.3-1.12.jar</URL>
 			<Size>455763</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -243,7 +243,7 @@
 			</Meta>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CyclopsCore-1.12.2-1.2.0.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CyclopsCore-1.12.2-1.2.0.jar</URL>
 			<Size>1037728</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -256,14 +256,14 @@
 				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cyclopscore.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cyclopscore.cfg</URL>
 				<Path>config/cyclopscore.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>c5f54de05ecd0456d5e391fcac61c094</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="CommonCapabilities" id="commoncapabilities" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CommonCapabilities-1.12.2-2.2.1.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CommonCapabilities-1.12.2-2.2.1.jar</URL>
 			<Size>355886</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -276,14 +276,14 @@
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/commoncapabilities.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/commoncapabilities.cfg</URL>
 				<Path>config/commoncapabilities.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>092a8bbec264d4c74cbf42fcdbfef846</MD5>
 			</ConfigFile>
 		</Module>
         <Module name="Pretty Beaches" id="prettybeaches" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/PrettyBeaches_1.12.2-1.0.4.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/PrettyBeaches_1.12.2-1.0.4.jar</URL>
 			<Size>9256</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -297,7 +297,7 @@
 			</Meta>
 		</Module>
 		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedDynamics-1.12.2-1.0.11.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/IntegratedDynamics-1.12.2-1.0.11.jar</URL>
 			<Size>3001673</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -310,20 +310,20 @@
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/integrateddynamics.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/integrateddynamics.cfg</URL>
 				<Path>config/integrateddynamics.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f6719167a6761fb34011d63db9555b1c</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/integrateddynamicscompat.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/integrateddynamicscompat.cfg</URL>
 				<Path>config/integrateddynamicscompat.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>09e71113e18d6dac364d3d7b13d0dd79</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Terminals" id="integratedterminals" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTerminals-1.12.2-1.0.6.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/IntegratedTerminals-1.12.2-1.0.6.jar</URL>
 			<Size>569844</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -336,20 +336,20 @@
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/integratedterminals.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/integratedterminals.cfg</URL>
 				<Path>config/integratedterminals.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>0558041367bc951cc944be5dc240a527</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/integratedterminalscompat.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/integratedterminalscompat.cfg</URL>
 				<Path>config/integratedterminalscompat.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>8ea5a2c1df3652c36a15e1ee73ea8207</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Tunnels" id="integratedtunnels" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegratedTunnels-1.12.2-1.6.8.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/IntegratedTunnels-1.12.2-1.6.8.jar</URL>
 			<Size>450101</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -362,20 +362,20 @@
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/integratedtunnels.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/integratedtunnels.cfg</URL>
 				<Path>config/integratedtunnels.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6359235fa4482911499e66a1ec4cf516</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/integratedtunnelscompat.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/integratedtunnelscompat.cfg</URL>
 				<Path>config/integratedtunnelscompat.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6bbd6660b6fcad1513e90b0bf896d16e</MD5>
 			</ConfigFile>
 		</Module>
         <Module name="Tesla Core Lib" id="teslacorelib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/tesla-core-lib-1.12.2-1.0.15.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/tesla-core-lib-1.12.2-1.0.15.jar</URL>
 			<Size>1140374</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -388,14 +388,14 @@
 				<authors>Face_of_Cat</authors>
 			</Meta>
             <ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/teslacorelib.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/teslacorelib.cfg</URL>
 				<Path>config/teslacorelib.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>c15cf6bd0dbf7648e59e0e7932522596</MD5>
 			</ConfigFile>
 		</Module>
         <Module name="Industrial Foregoing" id="industrialforegoing" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/industrialforegoing-1.12.2-1.12.12-236.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/industrialforegoing-1.12.2-1.12.12-236.jar</URL>
 			<Size>1600649</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -408,14 +408,14 @@
 				<authors>Buuz135</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/industrialforegoing.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/industrialforegoing.cfg</URL>
 				<Path>config/industrialforegoing.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>96ad754eee88d1639e62eb0c31b1ff53</MD5>
 			</ConfigFile>
 		</Module>
         <Module name="Integration Foregoing" id="integrationforegoing" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/IntegrationForegoing-1.12.2-1.9.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/IntegrationForegoing-1.12.2-1.9.jar</URL>
 			<Size>172247</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -428,14 +428,14 @@
 				<authors>Jackyy, Buuz135</authors>
 			</Meta>
             <ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/IntegrationForegoing.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/IntegrationForegoing.cfg</URL>
 				<Path>config/IntegrationForegoing.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>88bfbb6e011a2d2ed251752de94f98c6</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/appliedenergistics2-rv6-stable-6.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/appliedenergistics2-rv6-stable-6.jar</URL>
 			<Size>4062132</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -448,32 +448,32 @@
 				<authors>AlgorithmX2</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/AppliedEnergistics2/AppliedEnergistics2.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/AppliedEnergistics2/AppliedEnergistics2.cfg</URL>
 				<Path>config/AppliedEnergistics2/AppliedEnergistics2.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>0a611da29d3500c72dc2ba251a1472b6</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/AppliedEnergistics2/CustomRecipes.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/AppliedEnergistics2/CustomRecipes.cfg</URL>
 				<Path>config/AppliedEnergistics2/CustomRecipes.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>c7a7947cc94ec312f683d6ca7213319e</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/AppliedEnergistics2/Facades.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/AppliedEnergistics2/Facades.cfg</URL>
 				<Path>config/AppliedEnergistics2/Facades.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>31ea7a44c5b309cc50305177f53f6099</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/appliedenergistics2.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/appliedenergistics2.zs</URL>
 				<Path>scripts/appliedenergistics2.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6d7a303d6945b8de1acddcc0c681fab5</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Wireless Crafting Terminal 2" id="wct" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WirelessCraftingTerminal-1.12.2-3.11.88.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/WirelessCraftingTerminal-1.12.2-3.11.88.jar</URL>
 			<Size>243080</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -486,20 +486,20 @@
 				<authors>TheRealp455w0rd</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/WirelessCraftingTerminal.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/WirelessCraftingTerminal.cfg</URL>
 				<Path>config/WirelessCraftingTerminal.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3f2ccd83f811caf2d12eb087fa5b576f</MD5>
 			</ConfigFile>
 			<Submodule name="AE2 Wireless Terminals (AE2WTLib)" id="ae2wtlib" depends="" side="BOTH">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/AE2WTLib-1.12.2-1.0.6.jar</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/mods/AE2WTLib-1.12.2-1.0.6.jar</URL>
 				<Size>165113</Size>
 				<ModType>Regular</ModType>
 				<MD5>71312cf271fce761a4ef5ac43e78c000</MD5>
 			</Submodule>
 		</Module>
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/AutoRegLib-1.3-28.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/AutoRegLib-1.3-28.jar</URL>
 			<Size>105468</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -513,7 +513,7 @@
 			</Meta>
 		</Module>
 		<Module name="Baubles" id="baubles" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Baubles-1.12-1.5.2.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Baubles-1.12-1.5.2.jar</URL>
 			<Size>108450</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -526,14 +526,14 @@
 				<authors>Azanor</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/baubles.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/baubles.cfg</URL>
 				<Path>config/baubles.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>2686fb61e4e9948ba0ed545122c01b43</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Initial Inventory" id="initialinventory" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/InitialInventory-3.0.0.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/InitialInventory-3.0.0.jar</URL>
 			<Size>7863</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -546,14 +546,14 @@
 				<authors></authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/initialinventory.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/initialinventory.zs</URL>
 				<Path>scripts/initialinventory.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f4a760f4548d83311884fe578a3992db</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Earthworks" id="earthworks" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Earthworks-1.12-1.3.6.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Earthworks-1.12-1.3.6.jar</URL>
 			<Size>705301</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -566,20 +566,20 @@
 				<authors>Alsender</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/earthworks.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/earthworks.cfg</URL>
 				<Path>config/earthworks.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3f3cc9d042cef9af65e204f4a1be62a2</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/earthworks.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/earthworks.zs</URL>
 				<Path>scripts/earthworks.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>eb906ece816e83dc56570ead0badb8c4</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Building Gadgets" id="buildinggadgets" depends="" side="BOTH">
-            <URL priority="0">https://dmptr.com/pack_redux/files/mods/BuildingGadgets-2.6.6.jar</URL>
+            <URL priority="0">https://dmptr.com/playpack_5/files/mods/BuildingGadgets-2.6.6.jar</URL>
 			<Size>568080</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -592,14 +592,14 @@
 				<authors>Direwolf20</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/Building%20Gadgets.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/Building%20Gadgets.cfg</URL>
 				<Path>config/Building Gadgets.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>acf43bb133233499241c4e9e54d1fbf0</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="McJtyLib" id="mcjtylib_ng" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/mcjtylib-1.12-3.5.2.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/mcjtylib-1.12-3.5.2.jar</URL>
 			<Size>543094</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -613,7 +613,7 @@
 			</Meta>
 		</Module>
 		<Module name="RFTools" id="rftools" depends="mcjtylib_ng" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rftools-1.12-7.71.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/rftools-1.12-7.71.jar</URL>
 			<Size>2895608</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -626,20 +626,20 @@
 				<authors>McJty</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/rftools/rftools.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/rftools/rftools.cfg</URL>
 				<Path>config/rftools/rftools.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>44a9f7e89247b86c27b30c1cc98fb20e</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/rftools.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/rftools.zs</URL>
 				<Path>scripts/rftools.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>8da9ecba9d1c33ab2d71843fa640b2f7</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="RFTools Control" id="rftoolscontrol" depends="rftools" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rftoolsctrl-1.12-2.0.2.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/rftoolsctrl-1.12-2.0.2.jar</URL>
 			<Size>600728</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -652,14 +652,14 @@
 				<authors>McJty</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/rftools/control.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/rftools/control.cfg</URL>
 				<Path>config/rftools/control.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>c907650bbadcac65c086d53ce6657bb4</MD5>
 			</ConfigFile>
 		</Module>
         <Module name="Glassential" id="glassential" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/glassential-1.12.2-1.1.0.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/glassential-1.12.2-1.1.0.jar</URL>
 			<Size>34280</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -672,14 +672,14 @@
 				<authors>Lykrast</authors>
 			</Meta>
             <ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/glassential.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/glassential.cfg</URL>
 				<Path>config/glassential.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>40d5ca34e1053c7ca484e2725d2b6d93</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Fairy Lights" id="fairylights" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/fairylights-2.1.6-1.12.2.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/fairylights-2.1.6-1.12.2.jar</URL>
 			<Size>1149732</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -692,14 +692,14 @@
 				<authors>pau101</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/fairylights.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/fairylights.cfg</URL>
 				<Path>config/fairylights.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>924438e38169042d4cdf384e0a05122b</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="BiblioCraft" id="bibliocraft" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiblioCraft[v2.4.5][MC1.12.2].jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/BiblioCraft[v2.4.5][MC1.12.2].jar</URL>
 			<Size>5122856</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -712,14 +712,14 @@
 				<authors>Joseph &apos;Nuchaz&apos; Sinclair</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/bibliocraft.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/bibliocraft.cfg</URL>
 				<Path>config/bibliocraft.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1f4776b06c7b5783bacf2329ee9964a4</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Thaumcraft-1.12.2-6.1.BETA26.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Thaumcraft-1.12.2-6.1.BETA26.jar</URL>
 			<Size>11360786</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -732,32 +732,32 @@
 				<authors>Azanor</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/thaumcraft_graphics.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/thaumcraft_graphics.cfg</URL>
 				<Path>config/thaumcraft_graphics.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>5202c3b3e0bda3582dce883493a01da5</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/thaumcraft_misc.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/thaumcraft_misc.cfg</URL>
 				<Path>config/thaumcraft_misc.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>18000790abd5af1021d360bc3e9251f1</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/thaumcraft_world.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/thaumcraft_world.cfg</URL>
 				<Path>config/thaumcraft_world.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>9e8144cf1485c0bae7c955d9a8c1dafe</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/thaumcraft.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/thaumcraft.zs</URL>
 				<Path>scripts/thaumcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d9954e846a286f8abed1a8d8c76209a9</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="ThaumicJEI" id="jei-thaumic" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThaumicJEI-1.12.2-1.5.4-22.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/ThaumicJEI-1.12.2-1.5.4-22.jar</URL>
 			<Size>55358</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -770,20 +770,20 @@
 				<authors>Buuz135</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/thaumicjei.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/thaumicjei.cfg</URL>
 				<Path>config/thaumicjei.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>bab229c56f1102bde640a87867c54632</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/thaumicjei_itemstack_aspects.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/thaumicjei_itemstack_aspects.json</URL>
 				<Path>config/thaumicjei_itemstack_aspects.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d74b3a71f15a8786e05521b771cbc747</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thaumic Periphery" id="thaumicperiphery" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/thaumicperiphery-0.3.0.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/thaumicperiphery-0.3.0.jar</URL>
 			<Size>285370</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -796,14 +796,14 @@
 				<authors>mangoose</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/thaumic_periphery.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/thaumic_periphery.cfg</URL>
 				<Path>config/thaumic_periphery.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>bade88f78a4a397af1c6b7f0518de491</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Fertilization" id="fertilization" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Fertilization_1.12.2-1.0.7.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Fertilization_1.12.2-1.0.7.jar</URL>
 			<Size>33600</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -817,20 +817,20 @@
 			</Meta>
 		</Module>
 		<Module name="Simple Void World" id="simplevoidworld" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Simple-Void-World-1.12-1.2.0.9-universal.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Simple-Void-World-1.12-1.2.0.9-universal.jar</URL>
 			<Size>19865</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>204a394109dbb01d6166b4a19d86c0a6</MD5>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/simplevoidworld.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/simplevoidworld.cfg</URL>
 				<Path>config/simplevoidworld.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>93096c1d1f67fbf7c9994de6334cb63d</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiomesOPlenty-1.12.2-7.0.1.2438-universal.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/BiomesOPlenty-1.12.2-7.0.1.2438-universal.jar</URL>
 			<Size>4696365</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -843,38 +843,38 @@
 				<authors>Adubbz, Amnet, Cheeserolls, Forstride, ted80</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/biomesoplenty/biome_ids.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/biomesoplenty/biome_ids.json</URL>
 				<Path>config/biomesoplenty/biome_ids.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>7bcf66f0c04d17ad731952b3661269cc</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/biomesoplenty/world.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/biomesoplenty/world.json</URL>
 				<Path>config/biomesoplenty/world.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>2db5dca6297ec710a556336eca42ca9b</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/biomesoplenty/gameplay.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/biomesoplenty/gameplay.cfg</URL>
 				<Path>config/biomesoplenty/gameplay.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3b208b049aa5572878d916339b4e9f37</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/biomesoplenty/misc.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/biomesoplenty/misc.cfg</URL>
 				<Path>config/biomesoplenty/misc.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>e4396dc6c4528017b339f85bb8c087a9</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/biomesoplenty.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/biomesoplenty.zs</URL>
 				<Path>scripts/biomesoplenty.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>23eca5b4ac081543cf992eccdc22ac6f</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Bullseye" id="bullseye" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Bullseye-1.12.2-3.0.7.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Bullseye-1.12.2-3.0.7.jar</URL>
 			<Size>137850</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -887,14 +887,14 @@
 				<authors>Forstride</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/bullseye/config.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/bullseye/config.cfg</URL>
 				<Path>config/bullseye/config.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>bb0f0f9e2709a6abcb12d4f0503a9187</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Chameleon" id="chameleon" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Chameleon-1.12-4.1.3.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Chameleon-1.12-4.1.3.jar</URL>
 			<Size>96859</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -908,7 +908,7 @@
 			</Meta>
 		</Module>
 		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CodeChickenLib-1.12.2-3.2.2.353-universal.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CodeChickenLib-1.12.2-3.2.2.353-universal.jar</URL>
 			<Size>700785</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -921,14 +921,14 @@
 				<authors>ChickenBones, covers1624</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/codechickenlib.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/codechickenlib.cfg</URL>
 				<Path>config/codechickenlib.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f3071b6d4e637cd963d4ae278a1815b2</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CoFHCore-1.12.2-4.6.2.25-universal.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CoFHCore-1.12.2-4.6.2.25-universal.jar</URL>
 			<Size>844166</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -941,26 +941,26 @@
 				<authors>Team CoFH</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/core/client.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/core/client.cfg</URL>
 				<Path>config/cofh/core/client.cfg</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5>cf39e7ff1313f93bf745ec02c8cba1e6</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/core/common.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/core/common.cfg</URL>
 				<Path>config/cofh/core/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d9c36136d6b446a80e35c33d689b9086</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/core/friends.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/core/friends.cfg</URL>
 				<Path>config/cofh/core/friends.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="CoFH World" id="cofhworld" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CoFHWorld-1.12.2-1.3.0.6-universal.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CoFHWorld-1.12.2-1.3.0.6-universal.jar</URL>
 			<Size>531831</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -973,50 +973,44 @@
 				<authors>Team CoFH</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/config.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/world/config.cfg</URL>
 				<Path>config/cofh/world/config.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>dffb6dd1e52fbd40c47e45c82295c62b</MD5>
 			</ConfigFile>
 				<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/01_thermalfoundation_ores.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/world/01_thermalfoundation_ores.json</URL>
 				<Path>config/cofh/world/01_thermalfoundation_ores.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>98fa70dfa17e94f27e09dd2008c41bec</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/02_thermalfoundation_oil.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/world/02_thermalfoundation_oil.json</URL>
 				<Path>config/cofh/world/02_thermalfoundation_oil.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>e36e1a8ca244b86a60ebfea7c4eac4e2</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/03_thermalfoundation_clathrates.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/world/03_thermalfoundation_clathrates.json</URL>
 				<Path>config/cofh/world/03_thermalfoundation_clathrates.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>0a91046475638b0c0d2964b035b74b1c</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/05_bop_gems.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/world/05_bop_gems.json</URL>
 				<Path>config/cofh/world/05_bop_gems.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>27b603e222dc30bbcd526d6143fc04b1</MD5>
+				<MD5>cd4054ab9eb0c4f5302c5e1847177fa4</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/06_forestry.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/world/06_forestry.json</URL>
 				<Path>config/cofh/world/06_forestry.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a81cb1fd8fe9043771817d6592841532</MD5>
 			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/world/07_techreborn.json</URL>
-				<Path>config/cofh/world/07_techreborn.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>7ca0739f1523d989cd728e6e085dc8af</MD5>
-			</ConfigFile>
 		</Module>
         <Module name="Cherished Worlds" id="cherishedworlds" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/cherishedworlds-1.12.2-1.0.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/cherishedworlds-1.12.2-1.0.jar</URL>
 			<Size>32283</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1030,7 +1024,7 @@
 			</Meta>
 		</Module>
         <Module name="Combustive Fishing" id="combustfish" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/combustfish-1.12.2-1.0.3.3.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/combustfish-1.12.2-1.0.3.3.jar</URL>
 			<Size>62978</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1044,7 +1038,7 @@
 			</Meta>
 		</Module>
 		<Module name="Colytra" id="colytra" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/colytra-1.12.2-1.2.0.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/colytra-1.12.2-1.2.0.jar</URL>
 			<Size>86659</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1057,14 +1051,14 @@
 				<authors>C4</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/colytra.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/colytra.cfg</URL>
 				<Path>config/colytra.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>445f5be640d363b7c855179541732d8c</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Ranged Pumps" id="rangedpumps" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rangedpumps-0.5.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/rangedpumps-0.5.jar</URL>
 			<Size>21519</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1077,14 +1071,14 @@
 				<authors>Ranged Pumps contributors</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/rangedpumps.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/rangedpumps.cfg</URL>
 				<Path>config/rangedpumps.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>58d397519b922fab5ac3ec4498331a4e</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Comforts" id="comforts" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/comforts-1.12.2-1.4.1.1.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/comforts-1.12.2-1.4.1.1.jar</URL>
 			<Size>166169</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1097,20 +1091,20 @@
 				<authors>C4</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/comforts.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/comforts.cfg</URL>
 				<Path>config/comforts.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>64359730f9ea745ec599e1c8df2d4eb9</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/bagstobeds.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/bagstobeds.zs</URL>
 				<Path>scripts/bagstobeds.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>729aba0cdbac0a6d9258539d4bc84d46</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Construct&apos;s Armory" id="conarm" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/conarm-1.12.2-1.2.3.4.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/conarm-1.12.2-1.2.3.4.jar</URL>
 			<Size>869316</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1123,14 +1117,14 @@
 				<authors>C4</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/conarm.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/conarm.cfg</URL>
 				<Path>config/conarm.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>934EAAFFCF7B61EC960FCC6F133A00E2</MD5>
 			</ConfigFile>
 		</Module>
 		<!--<Module name="Computronics" id="computronics" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Computronics-1.12.1-1.6.5.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Computronics-1.12.1-1.6.5.jar</URL>
 			<Size>1032851</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1143,14 +1137,14 @@
 				<authors>asiekierka, Techokami, Vexatos</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/computronics.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/computronics.cfg</URL>
 				<Path>config/computronics.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d4d6687d550dec4f92d7652d6c7c27cf</MD5>
 			</ConfigFile>
 		</Module>-->
 		<Module name="Cooking for Blockheads" id="cookingforblockheads" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CookingForBlockheads_1.12.2-6.4.70.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CookingForBlockheads_1.12.2-6.4.70.jar</URL>
 			<Size>589828</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1163,14 +1157,14 @@
 				<authors>BlayTheNinth</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cookingforblockheads.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cookingforblockheads.cfg</URL>
 				<Path>config/cookingforblockheads.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>4e3df95267484efa952e12149c92ec34</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Farming for Blockheads" id="farmingforblockheads" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FarmingForBlockheads_1.12.2-3.1.26.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/FarmingForBlockheads_1.12.2-3.1.26.jar</URL>
 			<Size>242247</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1183,20 +1177,20 @@
 				<authors>BlayTheNinth</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/FarmingForBlockheads/Market.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/FarmingForBlockheads/Market.json</URL>
 				<Path>config/FarmingForBlockheads/Market.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>28b2ae29e9a8f9c462683383b0f9056d</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/farmingforblockheads.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/farmingforblockheads.cfg</URL>
 				<Path>config/farmingforblockheads.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a98187cf7fe2df616955966777e68b1a</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Charset Lib" id="charsetlib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Charset-Lib-0.5.5.7.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Charset-Lib-0.5.5.7.jar</URL>
 			<Size>1124675</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1209,45 +1203,45 @@
 				<authors>asiekierka</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/charset.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/charset/charset.cfg</URL>
 				<Path>config/charset/charset.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>39c961767d42ce232d29e3fc62b0c6cb</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/ids.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/charset/ids.cfg</URL>
 				<Path>config/charset/ids.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1cbb881da0235409919f6ae60be012d6</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/module/lib.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/charset/module/lib.cfg</URL>
 				<Path>config/charset/module/lib.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>78d06b14f083053b76d7dff2933bda23</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/modules.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/charset/modules.cfg</URL>
 				<Path>config/charset/modules.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>45144c80b0e810b2aa32ee37bca5bc5a</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Charset Crafting" id="charsetcrafting" depends="charsetlib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Charset-Crafting-0.5.5.7.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Charset-Crafting-0.5.5.7.jar</URL>
 			<Size>113639</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>f8688d831d271079075c6f695c63f605</MD5>
 		</Module>
 		<Module name="SimpleLogic Gates" id="simplelogic_gates" depends="charsetlib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/SimpleLogic-Gates-0.5.5.7.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/SimpleLogic-Gates-0.5.5.7.jar</URL>
 			<Size>133234</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>7af01b153ca3135d6a36a2fa8c7eb1b6</MD5>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/module/simplelogic.gates.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/charset/module/simplelogic.gates.cfg</URL>
 				<Path>config/charset/module/simplelogic.gates.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>79C1A7886490657F6B570019F967EF33</MD5>
@@ -1261,13 +1255,13 @@
 			</Meta>
 		</Module>
 		<Module name="SimpleLogic Wires" id="simplelogic_wires" depends="charsetlib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/SimpleLogic-Wires-0.5.5.7.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/SimpleLogic-Wires-0.5.5.7.jar</URL>
 			<Size>40662</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>94f3473d60e1456325dd3cb3abb58780</MD5>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/charset/module/simplelogic.wires.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/charset/module/simplelogic.wires.cfg</URL>
 				<Path>config/charset/module/simplelogic.wires.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d4fc254b33e43beb358566e0e98645ec</MD5>
@@ -1281,7 +1275,7 @@
 			</Meta>
 		</Module>
 		<Module name="Chisel" id="chisel" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Chisel-MC1.12.2-0.2.1.35.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Chisel-MC1.12.2-0.2.1.35.jar</URL>
 			<Size>4310011</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1293,20 +1287,20 @@
 				<authors>tterrag, Drullkus, minecreatr</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/chisel.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/chisel.cfg</URL>
 				<Path>config/chisel.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3af375b97ed5f79961c196b067be33ac</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/chisel.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/chisel.zs</URL>
 				<Path>scripts/chisel.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d005a0e69f8d8592b3cdbe6a5755881f</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Chisels &amp; Bits" id="chiselsandbits" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/chiselsandbits-14.32.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/chiselsandbits-14.32.jar</URL>
 			<Size>736218</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1319,14 +1313,14 @@
 				<authors>AlgorithmX2</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/chiselsandbits.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/chiselsandbits.cfg</URL>
 				<Path>config/chiselsandbits.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>ffbad73260c91b5924eb0c8d4bee21bf</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Cosmetic Armor Reworked" id="cosmeticarmorreworked" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CosmeticArmorReworked-1.12.2-v4a.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CosmeticArmorReworked-1.12.2-v4a.jar</URL>
 			<Size>70745</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1339,14 +1333,14 @@
 				<authors>zlainsama</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cosmeticarmorreworked.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cosmeticarmorreworked.cfg</URL>
 				<Path>config/cosmeticarmorreworked.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>0417df75fa34368ad47909bfc03bf90e</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Nature&apos;s Compass" id="naturescompass" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/NaturesCompass-1.12.2-1.5.1.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/NaturesCompass-1.12.2-1.5.1.jar</URL>
 			<Size>180209</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1359,14 +1353,14 @@
 				<authors>ChaosTheDude</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/naturescompass.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/naturescompass.cfg</URL>
 				<Path>config/naturescompass.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>ddc2d917a4983077f060a2912ee17939</MD5>
 			</ConfigFile>
 		</Module>
         <Module name="Charm" id="charm" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Charm-1.12.2-1.0.1.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Charm-1.12.2-1.0.1.jar</URL>
 			<Size>2227965</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1379,14 +1373,14 @@
 				<authors>svenhjol</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/charm.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/charm.cfg</URL>
 				<Path>config/charm.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>68aa0fb930c943d5a769ee95118f5d54</MD5>
+				<MD5>bfa50fb4eeb7bc6af7fbc31de992a7d2</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CraftingTweaks_1.12.2-8.1.9.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CraftingTweaks_1.12.2-8.1.9.jar</URL>
 			<Size>97854</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1400,7 +1394,7 @@
 			</Meta>
 		</Module>
 		<!--<Module name="IndustrialCraft 2" id="ic2" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/industrialcraft-2-2.8.104-ex112.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/industrialcraft-2-2.8.104-ex112.jar</URL>
 			<Size>8069101</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1413,20 +1407,20 @@
 				<authors>Alblaka, Player, RichardG, Thunderdark, GregoriusT, alexthesax, Drashian, Elementalist, Feanturi, Lurch1985, SirusKing, tahu44, Aroma1997, estebes, Chocohead</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/IC2.ini</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/IC2.ini</URL>
 				<Path>config/IC2.ini</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3e3f7f6922d7ef02d4c7791263a168fb</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/industrialcraft.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/industrialcraft.zs</URL>
 				<Path>scripts/industrialcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1ea8475103713d57e8a1b7828bfc541e</MD5>
 			</ConfigFile>
 		</Module>-->
 		<!--<Module name="SonarCore" id="sonarcore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/sonarcore-1.12.2-5.0.19-20.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/sonarcore-1.12.2-5.0.19-20.jar</URL>
 			<Size>1160618</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1440,7 +1434,7 @@
 			</Meta>
 		</Module>
 		<Module name="Flux Networks" id="fluxnetworks" depends="sonarcore" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/fluxnetworks-1.12.2-3.0.19-21.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/fluxnetworks-1.12.2-3.0.19-21.jar</URL>
 			<Size>609733</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1454,7 +1448,7 @@
 			</Meta>
 		</Module>-->
 		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mekanism-1.12.2-9.7.4.375.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Mekanism-1.12.2-9.7.4.375.jar</URL>
 			<Size>7921690</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1467,20 +1461,20 @@
 				<authors>aidancbrady</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/mekanism.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/mekanism.cfg</URL>
 				<Path>config/mekanism.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>4fa120d8ac377708e16d64c2270414f9</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/mekanism.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/mekanism.zs</URL>
 				<Path>scripts/mekanism.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f640193a1aeb5462e93304c26e951c45</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RebornCore-1.12.2-3.13.4.419-universal.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/RebornCore-1.12.2-3.13.4.419-universal.jar</URL>
 			<Size>735142</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1493,82 +1487,14 @@
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/energy_priority.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/teamreborn/energy_priority.json</URL>
 				<Path>config/teamreborn/energy_priority.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>0a25c070abd82ec3ea628bcd75e777b1</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Tech Reborn" id="techreborn" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TechReborn-1.12.2-2.20.12.937-universal.jar</URL>
-			<Size>2415552</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>d531cff22da37723ec4347d6388501dd</MD5>
-			<Meta>
-				<credits>Thanks to these contributors: TheMattaBase, Mj11jM, Mazdallier, tntrololol, joflashstudios, drcrazy, lclc98, Lordmau5, mezz, Thog, and Dimmerworld</credits>
-				<description>Tech Reborn is a completely standalone tech mod designed by the ideals of GregTech 2 and Industrial Craft 2 pre-experimental. The mod includes tools and machines to gather resources, process materials, and progression throughout the mod. http://www.techreborn.ovh/</description>
-				<version>2.20.12.937</version>
-				<url>https://github.com/TechReborn/TechReborn</url>
-				<authors>modmuss50, Gigabit101, Prospector</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/compat.cfg</URL>
-				<Path>config/teamreborn/techreborn/compat.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>0d0271f078fb2469f6a2a78892577300</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/generators.cfg</URL>
-				<Path>config/teamreborn/techreborn/generators.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>02d2aa0dbada95d51e16129bcdef58a4</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/items.cfg</URL>
-				<Path>config/teamreborn/techreborn/items.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>3d1c5aea3fca9ced2b4c25b3410a4995</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/machines.cfg</URL>
-				<Path>config/teamreborn/techreborn/machines.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>4e557880dd3d690372579ce02f8551e3</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/misc.cfg</URL>
-				<Path>config/teamreborn/techreborn/misc.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>1834b3cbc922ac94e9b8c8ad1e758449</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/ores.json</URL>
-				<Path>config/teamreborn/techreborn/ores.json</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>ea6d2da2cd51f5f6bf9bea66e392dd3d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/recipes.cfg</URL>
-				<Path>config/teamreborn/techreborn/recipes.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6a335d0df981b5873345ef735fe16861</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/teamreborn/techreborn/world.cfg</URL>
-				<Path>config/teamreborn/techreborn/world.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6a30f63e791d44000f69676210b8728d</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/techreborn.zs</URL>
-				<Path>scripts/techreborn.zs</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>75ac0ebcc2a7c263ee79eaff5c56cbc9</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CraftTweaker2-1.12-4.1.17.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CraftTweaker2-1.12-4.1.17.jar</URL>
 			<Size>1360499</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1581,44 +1507,44 @@
 				<authors>StanHebben, Jaredlll08</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/unification.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/unification.zs</URL>
 				<Path>scripts/unification.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a0f8581cd4c9fad783109c2dba3d904c</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/forestry_fluids.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/forestry_fluids.zs</URL>
 				<Path>scripts/forestry_fluids.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>A54D50811065199DBE55CDA05C6AB670</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/twilightforest.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/twilightforest.zs</URL>
 				<Path>scripts/twilightforest.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a229e1aea44a0377ef2b014caa956518</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/localisation.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/localisation.zs</URL>
 				<Path>scripts/localisation.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6bbd9e0b6f98147e1a172a0d3483187e</MD5>
 			</ConfigFile>
 			<Submodule name="ModTweaker" id="modtweaker">
-                <URL priority="0">https://dmptr.com/pack_redux/files/mods/modtweaker-4.0.17.jar</URL>
+                <URL priority="0">https://dmptr.com/playpack_5/files/mods/modtweaker-4.0.17.jar</URL>
                 <Size>447874</Size>
                 <ModType>Regular</ModType>
                 <MD5>e1737d87f3506f7913dea5462395cbda</MD5>
 			</Submodule>
 			<Submodule name="MTLib" id="mtlib">
-                <URL priority="0">https://dmptr.com/pack_redux/files/mods/MTLib-3.0.6.jar</URL>
+                <URL priority="0">https://dmptr.com/playpack_5/files/mods/MTLib-3.0.6.jar</URL>
                 <Size>30002</Size>
                 <ModType>Regular</ModType>
                 <MD5>b46748362c046d70b821121331246aa5</MD5>
 			</Submodule>
 		</Module>
 		<Module name="Quick Leaf Decay" id="quickleafdecay" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/QuickLeafDecay-MC1.12.1-1.2.4.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/QuickLeafDecay-MC1.12.1-1.2.4.jar</URL>
 			<Size>7074</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1631,14 +1557,14 @@
 				<authors>lumien</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/quickleafdecay.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/quickleafdecay.cfg</URL>
 				<Path>config/quickleafdecay.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>fae94b35184e7d71787f7ebc0f841b2a</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="BiomeTweaker" id="biometweaker" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiomeTweaker-1.12.2-3.2.354.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/BiomeTweaker-1.12.2-3.2.354.jar</URL>
 			<Size>570149</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1651,43 +1577,43 @@
 				<authors>superckl</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/BiomeTweaker.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/BiomeTweaker/BiomeTweaker.cfg</URL>
 				<Path>config/BiomeTweaker/BiomeTweaker.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>40300d58b1f3360a6b077d58faaf8661</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/colours.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/BiomeTweaker/scripts/colours.cfg</URL>
 				<Path>config/BiomeTweaker/scripts/colours.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1a8bba2a4ff81c46a93c7b7659b1cad9</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/traverse.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/BiomeTweaker/scripts/traverse.cfg</URL>
 				<Path>config/BiomeTweaker/scripts/traverse.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>8d9a74a7298dd88564e50afc8d1ad9c2</MD5>
+				<MD5>70b979aabdf44666b17857ebd64b1588</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/pvj.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/BiomeTweaker/scripts/pvj.cfg</URL>
 				<Path>config/BiomeTweaker/scripts/pvj.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>607a3a3d2bf14b2a6862729ba4b7ad7c</MD5>
+				<MD5>fdf2863eccb7682d749af978262b7e1b</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweaker/scripts/meneglin.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/BiomeTweaker/scripts/meneglin.cfg</URL>
 				<Path>config/BiomeTweaker/scripts/meneglin.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a44037204d85a425b76f77f8d0cb5e75</MD5>
 			</ConfigFile>
 			<Submodule name="BiomeTweakerCore" id="biometweakercore">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/BiomeTweakerCore-1.12.2-1.0.39.jar</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/mods/BiomeTweakerCore-1.12.2-1.0.39.jar</URL>
 				<Size>45137</Size>
 				<Required>true</Required>
 				<ModType>Regular</ModType>
 				<MD5>b79eb875292bb76eec12b19fd2a692b1</MD5>
 				<ConfigFile>
-					<URL priority="0">https://dmptr.com/pack_redux/files/config/BiomeTweakerCore/BiomeTweakerCore.cfg</URL>
+					<URL priority="0">https://dmptr.com/playpack_5/files/config/BiomeTweakerCore/BiomeTweakerCore.cfg</URL>
 					<Path>config/BiomeTweakerCore/BiomeTweakerCore.cfg</Path>
 					<NoOverwrite>false</NoOverwrite>
 					<MD5>a33ee8b9e3de3d2a968c9af1aa60e7ca</MD5>
@@ -1695,7 +1621,7 @@
 			</Submodule>
 		</Module>
 		<Module name="Custom Main Menu" id="custommainmenu" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/CustomMainMenu-MC1.12.2-2.0.9.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CustomMainMenu-MC1.12.2-2.0.9.jar</URL>
 			<Size>177791</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1708,14 +1634,14 @@
 				<authors>lumien</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/CustomMainMenu/mainmenu.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/CustomMainMenu/mainmenu.json</URL>
 				<Path>config/CustomMainMenu/mainmenu.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>005ff51282e0036da4618119726196be</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderStorage-1.12.2-2.4.5.135-universal%20(1).jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/EnderStorage-1.12.2-2.4.5.135-universal%20(1).jar</URL>
 			<Size>223227</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1728,20 +1654,20 @@
 				<authors>ChickenBones, covers1624</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderstorage.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/enderstorage.cfg</URL>
 				<Path>config/enderstorage.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>4b0b0830477318af570aba5ebed71ebd</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/enderstorage.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/enderstorage.zs</URL>
 				<Path>scripts/enderstorage.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>c542b8cf65b203942442ff680a57866d</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="EnderCore" id="endercore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderCore-1.12.2-0.5.57.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/EnderCore-1.12.2-0.5.57.jar</URL>
 			<Size>638350</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1754,20 +1680,20 @@
 				<authors>tterrag, CrazyPants, HenryLoenwind</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/endercore/cropconfig.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/endercore/cropconfig.json</URL>
 				<Path>config/endercore/cropconfig.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>4d5fe6b6e730947d24068daa34d50a1c</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/endercore/endercore.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/endercore/endercore.cfg</URL>
 				<Path>config/endercore/endercore.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>64f6aadaaf7458b1b4b6571da26948cf</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Exchangers" id="exchangers" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Exchangers-1.12.2-2.8.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Exchangers-1.12.2-2.8.jar</URL>
 			<Size>281052</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1780,14 +1706,14 @@
 				<authors>Jackyy, Turkey2349</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/Exchangers.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/Exchangers.cfg</URL>
 				<Path>config/Exchangers.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6ffb869e19ee598d24defc2fa1bdeac3</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Outfox" id="outfox" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/outfox-0.1.4-mc1.12.2.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/outfox-0.1.4-mc1.12.2.jar</URL>
 			<Size>133963</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1799,14 +1725,14 @@
 				<authors>Kais</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/outfox.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/outfox.cfg</URL>
 				<Path>config/outfox.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>7181c425898452f5aaec411144fa14c4</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Engineer's Doors" id="engineersdoors" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/engineers_doors-1.12.2-0.8.0.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/engineers_doors-1.12.2-0.8.0.jar</URL>
 			<Size>121107</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1819,14 +1745,14 @@
 				<authors>Nihiltres</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/engineersdoors.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/engineersdoors.cfg</URL>
 				<Path>config/engineersdoors.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>b454ee84498d520ffa304e5301f2bc2f</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Extra Alchemy" id="extraalchemy" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/extraalchemy-0.3.8.6.1-release.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/extraalchemy-0.3.8.6.1-release.jar</URL>
 			<Size>210138</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1839,14 +1765,14 @@
 				<authors>ZaBi94</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/extraalchemy.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/extraalchemy.cfg</URL>
 				<Path>config/extraalchemy.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>5d488e9ac5286d0b241379698d4eed0e</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/EnderIO-1.12.2-5.0.44.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/EnderIO-1.12.2-5.0.44.jar</URL>
 			<Size>7319402</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1859,56 +1785,56 @@
 				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/EnderIO.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/enderio/EnderIO.cfg</URL>
 				<Path>config/enderio/EnderIO.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>dbc33a14f6a027323e640c34d5e8d848</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/enderioconduits.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/enderio/enderioconduits.cfg</URL>
 				<Path>config/enderio/enderioconduits.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>fd813fe162d2da0f20c2bde8760ed41b</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/enderiointegrationforestry.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/enderio/enderiointegrationforestry.cfg</URL>
 				<Path>config/enderio/enderiointegrationforestry.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>db35e26d6a92a4c61bf7fea6ea4ee123</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/enderiomachines.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/enderio/enderiomachines.cfg</URL>
 				<Path>config/enderio/enderiomachines.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>538fb8c15cde955ea705799eace8060d</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/enderiopowertools.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/enderio/enderiopowertools.cfg</URL>
 				<Path>config/enderio/enderiopowertools.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>0221e71e5da17999d2d21ada2856a4bd</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/recipes/user/user_recipes.xml</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/enderio/recipes/user/user_recipes.xml</URL>
 				<Path>config/enderio/recipes/user/user_recipes.xml</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a59f967360e35cc6390251fcf19fe013</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/recipes/user/sagmill_dupe_recipe_patches.xml</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/enderio/recipes/user/sagmill_dupe_recipe_patches.xml</URL>
 				<Path>config/enderio/recipes/user/sagmill_dupe_recipe_patches.xml</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>9e48e39a11a3a33ae1c28bf202828739</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/enderio/recipes/user/spawner.xml</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/enderio/recipes/user/spawner.xml</URL>
 				<Path>config/enderio/recipes/user/spawner.xml</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>debb535caa693480944b523b8d025b6b</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Familiar Fauna" id="familiarfauna" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FamiliarFauna-1.12.2-1.0.11.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/FamiliarFauna-1.12.2-1.0.11.jar</URL>
 			<Size>381455</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1921,50 +1847,50 @@
 				<authors>Forstride</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/butterfly_biomes.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/familiarfauna/butterfly_biomes.json</URL>
 				<Path>config/familiarfauna/butterfly_biomes.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>cf7f4ba80021bc6757a4bc2d239bfe01</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/config.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/familiarfauna/config.cfg</URL>
 				<Path>config/familiarfauna/config.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>764400377a118ee55a8b5ef62a2144cb</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/deer_biomes.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/familiarfauna/deer_biomes.json</URL>
 				<Path>config/familiarfauna/deer_biomes.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d9981e177c02b108943105fce47d4384</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/dragonfly_biomes.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/familiarfauna/dragonfly_biomes.json</URL>
 				<Path>config/familiarfauna/dragonfly_biomes.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6d5196a652ab96d6917b8142b8f35e71</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/pixie_biomes.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/familiarfauna/pixie_biomes.json</URL>
 				<Path>config/familiarfauna/pixie_biomes.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f7c45a08c7e162404e19e49b78c5cb35</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/snail_biomes.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/familiarfauna/snail_biomes.json</URL>
 				<Path>config/familiarfauna/snail_biomes.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>066608e7775a8cbe9423fb6242f7639f</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/familiarfauna/turkey_biomes.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/familiarfauna/turkey_biomes.json</URL>
 				<Path>config/familiarfauna/turkey_biomes.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1e5d3d048ef64a5ad2d34f35c6004702</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FastWorkbench" id="fastbench" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FastWorkbench-1.12.2-1.7.1.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/FastWorkbench-1.12.2-1.7.1.jar</URL>
 			<Size>26307</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1977,14 +1903,14 @@
 				<authors>Shadows_of_Fire</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/fastbench.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/fastbench.cfg</URL>
 				<Path>config/fastbench.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>e08e5e7431231f05423d1cb3f8906698</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FastFurnace" id="fastfurnace" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FastFurnace-1.12.2-1.3.1.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/FastFurnace-1.12.2-1.3.1.jar</URL>
 			<Size>10035</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1998,7 +1924,7 @@
 			</Meta>
 		</Module>
 		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/randompatches-1.12.2-1.15.0.3.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/randompatches-1.12.2-1.15.0.3.jar</URL>
 			<Size>172129</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2011,14 +1937,14 @@
 				<authors>TheRandomLabs</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/randompatches.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/randompatches.cfg</URL>
 				<Path>config/randompatches.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>538307bab166db1a8f99c415ddd334f6</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/forestry_1.12.2-5.8.2.387.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/forestry_1.12.2-5.8.2.387.jar</URL>
 			<Size>5232265</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2031,69 +1957,69 @@
 				<authors>SirSengir, mezz</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/apiculture.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/forestry/apiculture.cfg</URL>
 				<Path>config/forestry/apiculture.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>cc98ced75e407b44a85421b8c7ab04d2</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/arboriculture.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/forestry/arboriculture.cfg</URL>
 				<Path>config/forestry/arboriculture.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>ec6a3812c1e305aca1faab09bab186c4</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/backpacks.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/forestry/backpacks.cfg</URL>
 				<Path>config/forestry/backpacks.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>13e306085d85a8b0f8d912bb3d2e8c46</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/common.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/forestry/common.cfg</URL>
 				<Path>config/forestry/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>e21adc7294b22b6044e68c9e2ed31a54</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/crates.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/forestry/crates.cfg</URL>
 				<Path>config/forestry/crates.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1cc51219aa7ac70d175cf1e8599a3f8c</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/farm.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/forestry/farm.cfg</URL>
 				<Path>config/forestry/farm.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>10e47ec192e91619cc10dba1ed9a4423</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/fluids.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/forestry/fluids.cfg</URL>
 				<Path>config/forestry/fluids.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>11d25f23212aaf9db75a7936bd71485f</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/lepidopterology.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/forestry/lepidopterology.cfg</URL>
 				<Path>config/forestry/lepidopterology.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>35167af74194b2781918066afdbdad37</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/modules.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/forestry/modules.cfg</URL>
 				<Path>config/forestry/modules.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>0f4399c488be3bf38c9dc2b684fc19cb</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/gamemodes/NORMAL.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/forestry/gamemodes/NORMAL.cfg</URL>
 				<Path>config/forestry/gamemodes/NORMAL.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>b0be49e41baecbff037a66d84a8c3458</MD5>
 			</ConfigFile>
 		</Module>
-		<!--<Module name="Binnie&apos;s Mods" id="binniecore" depends="" side="BOTH"><URL priority="0">https://dmptr.com/pack_redux/files/mods/binnie-mods-1.12.2-2.5.0.168.jar</URL><Size>5822126</Size><Required>true</Required><ModType>Regular</ModType><MD5>42f1691d2e22ebdd2e35f6bcb4843d35</MD5><Meta><credits>Thanks to Sengir, MysteriousAges, Xizzzy and many others</credits><description>Base mod for Binnie&apos;s Mods, with lots of common code.</description><version>2.5.0.168</version><url>https://minecraft.curseforge.com/projects/binnies-mods</url><authors>Binnie</authors></Meta><ConfigFile><URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/binnie-mods.conf</URL><Path>config/forestry/binnie-mods.conf</Path><NoOverwrite>false</NoOverwrite><MD5>ba6b854de5e34ed99e27896475bdbeba</MD5></ConfigFile><ConfigFile><URL priority="0">https://dmptr.com/pack_redux/files/config/forestry/extratrees/modules.cfg</URL><Path>config/forestry/extratrees/modules.cfg</Path><NoOverwrite>false</NoOverwrite><MD5>d204bfe32886506cae7bbc911cdab835</MD5></ConfigFile></Module>-->
+		<!--<Module name="Binnie&apos;s Mods" id="binniecore" depends="" side="BOTH"><URL priority="0">https://dmptr.com/playpack_5/files/mods/binnie-mods-1.12.2-2.5.0.168.jar</URL><Size>5822126</Size><Required>true</Required><ModType>Regular</ModType><MD5>42f1691d2e22ebdd2e35f6bcb4843d35</MD5><Meta><credits>Thanks to Sengir, MysteriousAges, Xizzzy and many others</credits><description>Base mod for Binnie&apos;s Mods, with lots of common code.</description><version>2.5.0.168</version><url>https://minecraft.curseforge.com/projects/binnies-mods</url><authors>Binnie</authors></Meta><ConfigFile><URL priority="0">https://dmptr.com/playpack_5/files/config/forestry/binnie-mods.conf</URL><Path>config/forestry/binnie-mods.conf</Path><NoOverwrite>false</NoOverwrite><MD5>ba6b854de5e34ed99e27896475bdbeba</MD5></ConfigFile><ConfigFile><URL priority="0">https://dmptr.com/playpack_5/files/config/forestry/extratrees/modules.cfg</URL><Path>config/forestry/extratrees/modules.cfg</Path><NoOverwrite>false</NoOverwrite><MD5>d204bfe32886506cae7bbc911cdab835</MD5></ConfigFile></Module>-->
 		<Module name="Tomb Many Graves" id="tombmanygraves" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TombManyGraves-1.12-4.2.0.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/TombManyGraves-1.12-4.2.0.jar</URL>
 			<Size>150657</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2106,14 +2032,14 @@
 				<authors>M4thG33k, Tiffit</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/tombmanygraves.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/tombmanygraves.cfg</URL>
 				<Path>config/tombmanygraves.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>83392256a6023e9cdb87f62de3e41210</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ImmersiveEngineering-0.12-89.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/ImmersiveEngineering-0.12-89.jar</URL>
 			<Size>6542920</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2126,27 +2052,27 @@
 				<authors>BluSunrize, Damien A.W. Hazard</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/immersiveengineering.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/immersiveengineering.cfg</URL>
 				<Path>config/immersiveengineering.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>c99c5e6b649b908e05cab30b0c1bd786</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/engineering.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/engineering.zs</URL>
 				<Path>scripts/engineering.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>455f78d754f4bed3feeb9ee6b232d2be</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Born In A Barn" id="borninabarn" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Born+In+A+Barn+V1.8-1.12-1.1.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Born+In+A+Barn+V1.8-1.12-1.1.jar</URL>
 			<Size>3642</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>944a413889537655a8c1165d44e2647f</MD5>
 		</Module>
 		<Module name="Iron Chests" id="ironchest" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ironchest-1.12.2-7.0.59.842.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/ironchest-1.12.2-7.0.59.842.jar</URL>
 			<Size>952833</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2160,20 +2086,20 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>cpw</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/ironchest.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/ironchest.cfg</URL>
 				<Path>config/ironchest.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>bb77d8418e99b95e02c2e3bc51eba59f</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/chests.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/chests.zs</URL>
 				<Path>scripts/chests.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>959a3106574ef36213df3d29d1997b1b</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/jei_1.12.2-4.15.0.268.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/jei_1.12.2-4.15.0.268.jar</URL>
 			<Size>647239</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2186,25 +2112,25 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>mezz</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/jei/itemBlacklist.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/jei/itemBlacklist.cfg</URL>
 				<Path>config/jei/itemBlacklist.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3ae817cfa39d7d3c64f33db0a325e778</MD5>
 			</ConfigFile>
 			<Submodule name="JEI Bees" id="jei-bees">
-				<URL>https://dmptr.com/pack_redux/files/mods/jeibees-0.9.0.5-mc1.12.2.jar</URL>
+				<URL>https://dmptr.com/playpack_5/files/mods/jeibees-0.9.0.5-mc1.12.2.jar</URL>
 				<Size>117480</Size>
 				<ModType>Regular</ModType>
 				<MD5>a4fef0a3bb6d401eb236b3fe3e1a4846</MD5>
 				<ConfigFile>
-					<URL>https://dmptr.com/pack_redux/files/config/jeibees.cfg</URL>
+					<URL>https://dmptr.com/playpack_5/files/config/jeibees.cfg</URL>
 					<Path>config/jeibees.cfg</Path>
 					<NoOverwrite>false</NoOverwrite>
 					<MD5>03E7C4CEB175FA9731BCA1AF02C238D6</MD5>
 				</ConfigFile>
 			</Submodule>
 			<Submodule name="Just Enough Throwing In Fluids" id="jei-jetif">
-                <URL priority="0">https://dmptr.com/pack_redux/files/mods/jetif-1.12.2-1.4.1.jar</URL>
+                <URL priority="0">https://dmptr.com/playpack_5/files/mods/jetif-1.12.2-1.4.1.jar</URL>
                 <Size>25469</Size>
                 <ModType>Regular</ModType>
                 <MD5>97b057017466388ca72e723ddfd29db6</MD5>
@@ -2217,7 +2143,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
                 </Meta>
 			</Submodule>
 			<Submodule name="Just Enough Energistics" id="jei-jee">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/JustEnoughEnergistics-1.12.2-1.0.6.jar</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/mods/JustEnoughEnergistics-1.12.2-1.0.6.jar</URL>
 				<Size>19347</Size>
 				<ModType>Regular</ModType>
 				<MD5>721b76c9f63d80bdd92719bac710f299</MD5>
@@ -2231,7 +2157,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Submodule>
 		</Module>
 		<Module name="Mantle" id="mantle" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Mantle-1.12-1.3.3.49.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Mantle-1.12-1.3.3.49.jar</URL>
 			<Size>841425</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2245,14 +2171,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="MCMultiPart" id="mcmultipart" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/MCMultiPart-2.5.3.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/MCMultiPart-2.5.3.jar</URL>
 			<Size>173426</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>47987d111d6f1e48403bc3cbb23f5503</MD5>
 		</Module>
 		<Module name="Morph-o-Tool" id="morphtool" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Morph-o-Tool-1.2-21.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Morph-o-Tool-1.2-21.jar</URL>
 			<Size>30619</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2265,28 +2191,48 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Vazkii</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/morphtool.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/morphtool.cfg</URL>
 				<Path>config/morphtool.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>021ad95a94a2cb6c33e35b70fb249755</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="I Know What Im Doing" id="ikwid" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ikwid-1.0.2.jar</URL>
-			<Size>1989</Size>
+        <Module name="Placebo" id="placebo" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Placebo-1.12.2-1.6.0.jar</URL>
+			<Size>76902</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>33debbd704840d9bceb170c44f1e3a2d</MD5>
+			<MD5>a9ecfa296b2b1203ed5a68ed6c01833a</MD5>
 			<Meta>
 				<credits></credits>
-				<description>A tiny (single-class) mod that disables the in-game tutorial for new instances.</description>
-				<version>1.0.2</version>
+				<description>1 library boi</description>
+				<version>1.12.2-1.6.0</version>
 				<url></url>
-				<authors>InsomniaKitten</authors>
+				<authors>Shadows_of_Fire</authors>
 			</Meta>
 		</Module>
+		<Module name="Toast Control" id="toastcontrol" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Toast+Control-1.12.2-1.8.1.jar</URL>
+			<Size>21668</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e431fec0248132e5c4d03ad70bd4dc6b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Control what toasts are enabled, because some of them are useless.</description>
+				<version>1.12.2-1.8.1</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+            <ConfigFile>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/toastcontrol.cfg</URL>
+				<Path>config/toastcontrol.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>81c36d6f52a9daa07012feee47c2ab72</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Nether Portal Fix" id="netherportalfix" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/NetherPortalFix_1.12.1-5.3.13.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/NetherPortalFix_1.12.1-5.3.13.jar</URL>
 			<Size>108250</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2299,7 +2245,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Pam's HarvestCraft" id="harvestcraft" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Pams+HarvestCraft+1.12.2zc+The+7mm+Kidney+Stone+Update.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Pams+HarvestCraft+1.12.2zc+The+7mm+Kidney+Stone+Update.jar</URL>
 			<Size>4883845</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2312,26 +2258,26 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Pamela Collins</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/harvestcraft.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/harvestcraft.cfg</URL>
 				<Path>config/harvestcraft.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>4b0294a04fe8ba4479bc66daebc78564</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/harvestcraft_fruittree.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/harvestcraft_fruittree.cfg</URL>
 				<Path>config/harvestcraft_fruittree.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>7a05a4a9a5124e9100b58eafa1cf45c6</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/harvestcraft.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/harvestcraft.zs</URL>
 				<Path>scripts/harvestcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6d530176721d6addfa54256580e423e4</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBUtilities-5.4.0.96.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/FTBUtilities-5.4.0.96.jar</URL>
 			<Size>422864</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2344,14 +2290,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>LatvianModder</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/ftbutilities.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/ftbutilities.cfg</URL>
 				<Path>config/ftbutilities.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>759f811ae1c2edec3cac7b4627f5d976</MD5>
 			</ConfigFile>
 		</Module>
         <Module name="Item Filters" id="itemfilters" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ItemFilters-1.0.3.12.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/ItemFilters-1.0.3.12.jar</URL>
 			<Size>78422</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2365,7 +2311,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="FTB Quests" id="ftbquests" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBQuests-1.5.2.151.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/FTBQuests-1.5.2.151.jar</URL>
 			<Size>863136</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2379,7 +2325,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="FTB Library" id="ftblib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/FTBLib-5.4.1.99.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/FTBLib-5.4.1.99.jar</URL>
 			<Size>885574</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2392,14 +2338,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>LatvianModder</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/ftblib.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/ftblib.cfg</URL>
 				<Path>config/ftblib.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>736a855f49b81226a45ea99e8454eb02</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Quark-r1.5-150.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Quark-r1.5-150.jar</URL>
 			<Size>2247323</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2412,20 +2358,20 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/quark.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/quark.cfg</URL>
 				<Path>config/quark.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>e7cf7db9e84a23b196f53906faa2fb4a</MD5>
 			</ConfigFile>
 			<Submodule name="Quark Oddities" id="quark-oddities">
-				<URL priority="0">https://dmptr.com/pack_redux/files/mods/QuarkOddities-1.12.2.jar</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/mods/QuarkOddities-1.12.2.jar</URL>
 				<Size>1556</Size>
 				<ModType>Regular</ModType>
 				<MD5>6e16630baca6837163dbee699ef3cf4b</MD5>
 			</Submodule>
 		</Module>
 		<Module name="Redstone Flux" id="redstoneflux" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/RedstoneFlux-1.12-2.1.0.6-universal.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/RedstoneFlux-1.12-2.1.0.6-universal.jar</URL>
 			<Size>36278</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2439,14 +2385,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="p455w0rdslib" id="pwrdslib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/p455w0rdslib-1.12.2-2.1.44.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/p455w0rdslib-1.12.2-2.1.44.jar</URL>
 			<Size>321326</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>0825306f9ef61099703d797596b84ef3</MD5>
 		</Module>
 		<Module name="Resource Loader" id="resourceloader" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ResourceLoader-MC1.12.1-1.5.3.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/ResourceLoader-MC1.12.1-1.5.3.jar</URL>
 			<Size>16612</Size>
 			<ModType>Regular</ModType>
 			<MD5>51141e882f96ce756b9b3d25f2acdf57</MD5>
@@ -2458,7 +2404,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>lumien</authors>
 			</Meta>
 			<Submodule name="PlayPack Resources" id="playpackresources">
-				<URL priority="0">https://dmptr.com/pack_redux/files/resources-r8.zip</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/resources-r8.zip</URL>
 				<Size>63113</Size>
 				<Required>true</Required>
 				<ModType inRoot="true">Extract</ModType>
@@ -2466,7 +2412,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Submodule>
 		</Module>
 		<Module name="Ding" id="ding" depends="" side="CLIENT">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Ding-1.12.1-1.0.1.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Ding-1.12.1-1.0.1.jar</URL>
 			<Size>4711</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2480,7 +2426,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Rustic" id="rustic" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/rustic-1.1.0.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/rustic-1.1.0.jar</URL>
 			<Size>1335906</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2493,20 +2439,20 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>the-realest-stu</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/rustic.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/rustic.cfg</URL>
 				<Path>config/rustic.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>65da359cba0b3c6d74cba9146d051aea</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/rustic.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/rustic.zs</URL>
 				<Path>scripts/rustic.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d026fba16de32ddbf65187eb785cfdb8</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Rustic Thaumaturgy" id="rusticthaumaturgy" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Rustic+Thaumaturgy-4.4a.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Rustic+Thaumaturgy-4.4a.jar</URL>
 			<Size>601126</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2519,14 +2465,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Voxel-Friend</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/rusticthaumaturgy.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/rusticthaumaturgy.cfg</URL>
 				<Path>config/rusticthaumaturgy.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>0cd679a5f16cbc4e7df46770c28278c5</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="SwingThroughGrass" id="stg" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/stg-1.12.2-1.2.3.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/stg-1.12.2-1.2.3.jar</URL>
 			<Size>24024</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2539,14 +2485,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Exidex</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/stg.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/stg.cfg</URL>
 				<Path>config/stg.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>677cbeffbd52187d87456bd89961ffa0</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Shadowfacts&apos; Forgelin" id="forgelin" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Forgelin-1.8.2.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Forgelin-1.8.2.jar</URL>
 			<Size>5124663</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2560,7 +2506,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Storage Drawers" id="storagedrawers" depends="chameleon" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/StorageDrawers-1.12.2-5.3.8.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/StorageDrawers-1.12.2-5.3.8.jar</URL>
 			<Size>596220</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2573,14 +2519,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>jaquadro</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/storagedrawers.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/storagedrawers.cfg</URL>
 				<Path>config/storagedrawers.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d0d65dbf0cb978d7971b445a0e67f48f</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="OpenComputers" id="opencomputers" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/OpenComputers-MC1.12.2-1.7.4.153.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/OpenComputers-MC1.12.2-1.7.4.153.jar</URL>
 			<Size>15545293</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2593,14 +2539,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Sangar, Vexatos, payonel, magik6k, Lord Joda, Github Contributors</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/opencomputers/settings.conf</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/opencomputers/settings.conf</URL>
 				<Path>config/opencomputers/settings.conf</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>64fd8f32c7c6d05b866064aa425c80c0</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Cultivation" id="thermalcultivation" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalCultivation-1.12.2-0.3.2.11-universal.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/ThermalCultivation-1.12.2-0.3.2.11-universal.jar</URL>
 			<Size>106846</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2613,20 +2559,20 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Team CoFH</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalcultivation/client.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermalcultivation/client.cfg</URL>
 				<Path>config/cofh/thermalcultivation/client.cfg</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5>371f1104b0133f0f84fac48e4cfbe003</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalcultivation/common.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermalcultivation/common.cfg</URL>
 				<Path>config/cofh/thermalcultivation/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>0b4335caa618dce7e6bb389c8aa496d9</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Dynamics" id="thermaldynamics" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalDynamics-1.12.2-2.5.4.18-universal.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/ThermalDynamics-1.12.2-2.5.4.18-universal.jar</URL>
 			<Size>761920</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2639,26 +2585,26 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Team CoFH</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermaldynamics/client.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermaldynamics/client.cfg</URL>
 				<Path>config/cofh/thermaldynamics/client.cfg</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5>f4ed58e769e6a5010c1fe60704dda391</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermaldynamics/common.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermaldynamics/common.cfg</URL>
 				<Path>config/cofh/thermaldynamics/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a4c4d084d5896fc9b801db264d3de781</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermaldynamics/cover_blacklist.json</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermaldynamics/cover_blacklist.json</URL>
 				<Path>config/cofh/thermaldynamics/cover_blacklist.json</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>6b9e9a08d611a74d6e7bae3d71dd4cbf</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Expansion" id="thermalexpansion" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalExpansion-1.12.2-5.5.3.41-universal.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/ThermalExpansion-1.12.2-5.5.3.41-universal.jar</URL>
 			<Size>2415692</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2671,32 +2617,32 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Team CoFH</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalexpansion/client.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermalexpansion/client.cfg</URL>
 				<Path>config/cofh/thermalexpansion/client.cfg</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5>5397d60d8e81f372bef7c2b6c91862cf</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalexpansion/common.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermalexpansion/common.cfg</URL>
 				<Path>config/cofh/thermalexpansion/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>e21d4ff424e6c6c9764b295d241108aa</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalexpansion/florbs.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermalexpansion/florbs.cfg</URL>
 				<Path>config/cofh/thermalexpansion/florbs.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1ab1a69915a4eea70ca4483a7f3ef94d</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalexpansion/morbs.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermalexpansion/morbs.cfg</URL>
 				<Path>config/cofh/thermalexpansion/morbs.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f1335c38ab41012eb289afe62457e666</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Foundation" id="thermalfoundation" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalFoundation-1.12.2-2.6.2.26-universal.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/ThermalFoundation-1.12.2-2.6.2.26-universal.jar</URL>
 			<Size>2305489</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2709,26 +2655,26 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Team CoFH</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalfoundation/client.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermalfoundation/client.cfg</URL>
 				<Path>config/cofh/thermalfoundation/client.cfg</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5>7db6ae7eb5d98ace432ec773baeb2779</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalfoundation/common.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermalfoundation/common.cfg</URL>
 				<Path>config/cofh/thermalfoundation/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>7A2ADD013A4D282377BCDF15A0D3F86F</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalfoundation/lexicon-whitelist.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermalfoundation/lexicon-whitelist.cfg</URL>
 				<Path>config/cofh/thermalfoundation/lexicon-whitelist.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>c3bf2e3f67025701feec7945b5c0ebf6</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Innovation" id="thermalinnovation" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/ThermalInnovation-1.12.2-0.3.2.11-universal.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/ThermalInnovation-1.12.2-0.3.2.11-universal.jar</URL>
 			<Size>197603</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2741,20 +2687,20 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Team CoFH</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalinnovation/client.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermalinnovation/client.cfg</URL>
 				<Path>config/cofh/thermalinnovation/client.cfg</Path>
 				<NoOverwrite>true</NoOverwrite>
 				<MD5>371f1104b0133f0f84fac48e4cfbe003</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/cofh/thermalinnovation/common.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/thermalinnovation/common.cfg</URL>
 				<Path>config/cofh/thermalinnovation/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>13a7e52190d6d1f07a543cc0a48792e7</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TConstruct-1.12.2-2.12.0.135.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/TConstruct-1.12.2-2.12.0.135.jar</URL>
 			<Size>3997455</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2767,26 +2713,26 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>boni, KnightMiner</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/tconstruct.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/tconstruct.cfg</URL>
 				<Path>config/tconstruct.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>b85c2739ed1ba95b624f54cb666fb7a6</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/TinkerModules.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/TinkerModules.cfg</URL>
 				<Path>config/TinkerModules.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d0f79d1bbe0ea97400db4af8729274ce</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/tinkers.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/tinkers.zs</URL>
 				<Path>scripts/tinkers.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>EE4D2FAA2A10FCD59EE287C59F896EA2</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Tinkers&apos; Complement" id="tcomplement" depends="tconstruct" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/TinkersComplement-1.12.2-0.3.2.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/TinkersComplement-1.12.2-0.3.2.jar</URL>
 			<Size>232998</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2800,7 +2746,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
         <Module name="Traverse" id="traverse" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Traverse-1.12.2-1.6.0-69.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Traverse-1.12.2-1.6.0-69.jar</URL>
 			<Size>270133</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2813,20 +2759,20 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Prospector</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/traverse/traverse.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/traverse/traverse.cfg</URL>
 				<Path>config/traverse/traverse.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>7169b7e935c1bde40a33020b0f8e8d44</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/traverse.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/traverse.zs</URL>
 				<Path>scripts/traverse.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>968f4b9e3848b8d9af815e2f0bf2a391</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Waddles" id="waddles" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Waddles-1.12.2-0.6.0.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Waddles-1.12.2-0.6.0.jar</URL>
 			<Size>234934</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2839,14 +2785,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Girafi</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/Waddles.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/Waddles.cfg</URL>
 				<Path>config/Waddles.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f432c4b2fe4eabadb81ed04841d48dc2</MD5>
 			</ConfigFile>
 		</Module>
-		<!--<Module name="Twilight Forest" id="twilightforest" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/twilightforest-1.12.2-3.8.689-universal.jar</URL>
+		<Module name="Twilight Forest" id="twilightforest" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/twilightforest-1.12.2-3.8.689-universal.jar</URL>
 			<Size>7296016</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2864,9 +2810,9 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<url>https://minecraft.curseforge.com/projects/the-twilight-forest</url>
 				<authors>Benimatic (Ben Mazur)</authors>
 			</Meta>
-		</Module>-->
+		</Module>
 		<Module name="UniDict" id="unidict" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/UniDict-1.12.2-2.9.2.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/UniDict-1.12.2-2.9.2.jar</URL>
 			<Size>192476</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2878,40 +2824,40 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>WanionCane</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/unidict/IntegrationModule.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/unidict/IntegrationModule.cfg</URL>
 				<Path>config/unidict/IntegrationModule.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>12501c1cf1849e912a00a6becce575c5</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/unidict/UniDict.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/unidict/UniDict.cfg</URL>
 				<Path>config/unidict/UniDict.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>06e5759667566cd98f7d6562aef774ce</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="WrapUp" id="wrapup" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WrapUp-1.12-1.1.3.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/WrapUp-1.12-1.1.3.jar</URL>
 			<Size>25417</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>d6e426631f7d9eb1f86ef0523870811a</MD5>
 		</Module>
 		<Module name="JAOPCA" id="jaopca" depends="wrapup" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/JAOPCA-1.12.2-2.2.8.101.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/JAOPCA-1.12.2-2.2.8.101.jar</URL>
 			<Size>475344</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>6d98989e27b03093778bd1f053992297</MD5>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/JAOPCA.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/JAOPCA.cfg</URL>
 				<Path>config/JAOPCA.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>e6e22c3a35e834aea70aae9803c04bfb</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookiereloaded" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/badwithernocookiereloaded-1.12.2-3.3.16.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/badwithernocookiereloaded-1.12.2-3.3.16.jar</URL>
 			<Size>11034</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2925,7 +2871,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="WanionLib" id="wanionlib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/WanionLib-1.12.2-2.2.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/WanionLib-1.12.2-2.2.jar</URL>
 			<Size>129188</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2939,7 +2885,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Waystones" id="waystones" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/Waystones_1.12.2-4.0.67.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Waystones_1.12.2-4.0.67.jar</URL>
 			<Size>172854</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2952,20 +2898,20 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>BlayTheNinth</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/Waystones.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/Waystones.cfg</URL>
 				<Path>config/Waystones.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f574dd18e1fd2eadf4d53ca8432e93db</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/scripts/waystones.zs</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/scripts/waystones.zs</URL>
 				<Path>scripts/waystones.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d76a0c8f59af8b255dcd1248b107b5a8</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="VanillaFix" id="vanillafix" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/pack_redux/files/mods/VanillaFix-1.0.10-99.jar</URL>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/VanillaFix-1.0.10-99.jar</URL>
 			<Size>1117860</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -2978,7 +2924,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>Runemoro</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/vanillafix.cfg</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/vanillafix.cfg</URL>
 				<Path>config/vanillafix.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>2849fc975ebb371a4b35c4d8aab39f99</MD5>
@@ -2989,13 +2935,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<Required>true</Required>
 			<ModType>Override</ModType>
 			<ConfigFile>
-				<URL priority="0">https://dmptr.com/pack_redux/files/config/splash.properties</URL>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/splash.properties</URL>
 				<Path>config/splash.properties</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>0cad0356fafa40ef9d8d294a09b17a33</MD5>
 			</ConfigFile>
 		</Module>
-		<Import url="https://dmptr.com/modules/basics/module.xml">basics</Import>
-		<Import url="https://dmptr.com/modules/splashanimation/module.xml">splashanimation</Import>
+		<Import url="https://dmptr.com/modules/1.12/basics/module.xml">basics_1.12</Import>
+		<Import url="https://dmptr.com/modules/1.12/splashanimation/module.xml">splashanimation_1.12</Import>
+        <Import url="https://dmptr.com/modules/1.12/texturepacks/module.xml">texturepacks_1.12</Import>
 	</Server>
 </ServerPack>
