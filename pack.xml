@@ -60,7 +60,7 @@
 				<URL priority="0">https://dmptr.com/playpack_5/files/config/projectvibrantjourneys.cfg</URL>
 				<Path>config/projectvibrantjourneys.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>73783cc67ce76403078e28709bb987ba</MD5>
+				<MD5>dad1552fc5cd88b89d46c8a7f30f0e93</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
@@ -411,7 +411,7 @@
 				<URL priority="0">https://dmptr.com/playpack_5/files/config/industrialforegoing.cfg</URL>
 				<Path>config/industrialforegoing.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>96ad754eee88d1639e62eb0c31b1ff53</MD5>
+				<MD5>8593f9e5b3fef8384fc6b8cb5f4b75ee</MD5>
 			</ConfigFile>
 		</Module>
         <Module name="Integration Foregoing" id="integrationforegoing" depends="" side="BOTH">
@@ -499,15 +499,15 @@
 			</Submodule>
 		</Module>
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/playpack_5/files/mods/AutoRegLib-1.3-28.jar</URL>
-			<Size>105468</Size>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/AutoRegLib-1.3-29.jar</URL>
+			<Size>105520</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>42c42c487123e4515d78007601907e27</MD5>
+			<MD5>9f3515bb4a166188c10acaf05d2832a8</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Automatically item, block, and model registration for mods.</description>
-				<version>1.3-28</version>
+				<version>1.3-29</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii</authors>
 			</Meta>
@@ -829,12 +829,38 @@
 				<MD5>93096c1d1f67fbf7c9994de6334cb63d</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/playpack_5/files/mods/BiomesOPlenty-1.12.2-7.0.1.2438-universal.jar</URL>
-			<Size>4696365</Size>
+        <Module name="Hunting Dimension" id="huntingdim" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/HuntingDimension-1.12.2-1.0.38.jar</URL>
+			<Size>102648</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>261049aa17fee75ab17ff9ff941874d2</MD5>
+			<MD5>222d35a8e1b59336b5c9cc11017d6dc9</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A dimension with lots of mobs! Watch out!!!</description>
+				<version>1.0.38</version>
+				<url>http://www.darkhax.net</url>
+				<authors>Darkhax</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/huntingdim/huntingdim.cfg</URL>
+				<Path>config/huntingdim/huntingdim.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f628acbc5811f4e735885e7a1dc30af6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/huntingdim/world_generator_settings.json</URL>
+				<Path>config/huntingdim/world_generator_settings.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>35eedba7e252667cc96e8e818e06dcae</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/BiomesOPlenty-1.12.2-7.0.1.2439-universal.jar</URL>
+			<Size>4696290</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5045685c0b7c23362a54a080588d4de2</MD5>
 			<Meta>
 				<credits>Tim Rurkowski, gamax92, GridMonkey, and many more</credits>
 				<description>Adds over 50 new biomes, blocks, and more!</description>
@@ -982,7 +1008,7 @@
 				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/world/01_thermalfoundation_ores.json</URL>
 				<Path>config/cofh/world/01_thermalfoundation_ores.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>98fa70dfa17e94f27e09dd2008c41bec</MD5>
+				<MD5>d969bc3fd3778a95b72a7d772ba2d3e0</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/world/02_thermalfoundation_oil.json</URL>
@@ -1006,7 +1032,7 @@
 				<URL priority="0">https://dmptr.com/playpack_5/files/config/cofh/world/06_forestry.json</URL>
 				<Path>config/cofh/world/06_forestry.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>a81cb1fd8fe9043771817d6592841532</MD5>
+				<MD5>7fb74d560a0c64b7975a1c4b589424ec</MD5>
 			</ConfigFile>
 		</Module>
         <Module name="Cherished Worlds" id="cherishedworlds" depends="" side="CLIENT">
@@ -2345,15 +2371,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Quark-r1.5-150.jar</URL>
-			<Size>2247323</Size>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Quark-r1.5-152.jar</URL>
+			<Size>2252081</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9667374fce37af1e9a8b5692b9871f8b</MD5>
+			<MD5>13a44cf232d9956a62dd9e08c86134c3</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Small things.</description>
-				<version>r1.5-150</version>
+				<version>r1.5-152</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
@@ -2404,11 +2430,11 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>lumien</authors>
 			</Meta>
 			<Submodule name="PlayPack Resources" id="playpackresources">
-				<URL priority="0">https://dmptr.com/playpack_5/files/resources-r8.zip</URL>
-				<Size>63113</Size>
+				<URL priority="0">https://dmptr.com/playpack_5/files/resources.zip</URL>
+				<Size>78076</Size>
 				<Required>true</Required>
 				<ModType inRoot="true">Extract</ModType>
-				<MD5>36F4C51E0C3B0D9041F698F5B3DD3210</MD5>
+				<MD5>F8D3C4B32400479E4152CA951EB05C5C</MD5>
 			</Submodule>
 		</Module>
 		<Module name="Ding" id="ding" depends="" side="CLIENT">
@@ -2699,6 +2725,26 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>13a7e52190d6d1f07a543cc0a48792e7</MD5>
 			</ConfigFile>
 		</Module>
+        <Module name="Natural Nether Portals" id="naturalnetherportals" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/naturalnetherportals-1.2.0-mc1.12.x.jar</URL>
+			<Size>21049</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4e2c8cb172606eaf2690ec9bfe855871</MD5>
+			<Meta>
+				<credits>The Forge and Minecraft forum for help :P</credits>
+				<description>Makes (broken) Nether Portals spawn randomly in the nether and the overworld</description>
+				<version>1.2.0-mc1.12.x</version>
+				<url>https://minecraft.curseforge.com/projects/natural-nether-portals</url>
+				<authors>Insane96MCP</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/naturalnetherportals.cfg</URL>
+				<Path>config/naturalnetherportals.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>50075aa3a47d34a5187bc7b4a390b18d</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/playpack_5/files/mods/TConstruct-1.12.2-2.12.0.135.jar</URL>
 			<Size>3997455</Size>
@@ -2744,6 +2790,18 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<url>https://minecraft.curseforge.com/projects/tinkers-complement</url>
 				<authors>KnightMiner</authors>
 			</Meta>
+            <ConfigFile>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/tcomplement.cfg</URL>
+				<Path>config/tcomplement.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b9e81c077568f5549ad57637a9b63d19</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/TComplementModules.cfg</URL>
+				<Path>config/TComplementModules.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c96f3994f0c848168b7f37e95cc198c0</MD5>
+			</ConfigFile>
 		</Module>
         <Module name="Traverse" id="traverse" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Traverse-1.12.2-1.6.0-69.jar</URL>
