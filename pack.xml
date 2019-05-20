@@ -2183,15 +2183,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Submodule>
 		</Module>
 		<Module name="Mantle" id="mantle" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Mantle-1.12-1.3.3.49.jar</URL>
-			<Size>841425</Size>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Mantle-1.12-1.3.3.55.jar</URL>
+			<Size>843486</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>eb4d8475a6e6169e521febba64e792d4</MD5>
+			<MD5>1026f5f8d3c4997831decd9023ca65a6</MD5>
 			<Meta>
 				<credits>mDiyo, Sunstrike</credits>
 				<description>Shared code for Slime Knights mods and others.</description>
-				<version>1.3.3.49</version>
+				<version>1.3.3.55</version>
 				<url>https://github.com/SlimeKnights/Mantle</url>
 				<authors>boni, progWML6, Alexbegt</authors>
 			</Meta>
@@ -2745,6 +2745,26 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>50075aa3a47d34a5187bc7b4a390b18d</MD5>
 			</ConfigFile>
 		</Module>
+        <Module name="Progressive Bosses" id="progressivebosses" depends="" side="BOTH">
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/ProgressiveBosses-1.4.2-mc1.12.x.jar</URL>
+			<Size>56188</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d95492dcd1026ee1873b797bd171699e</MD5>
+			<Meta>
+				<credits>The Forge forum for help :P</credits>
+				<description>Wither and Ender Dragon will be more powerful the more are respawned</description>
+				<version>1.4.2-mc1.12.x</version>
+				<url>https://minecraft.curseforge.com/projects/progressive-bosses</url>
+				<authors>Insane96MCP</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://dmptr.com/playpack_5/files/config/ProgressiveBosses.cfg</URL>
+				<Path>config/ProgressiveBosses.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>82329fe622fc4ffa0df63feb56108377</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
 			<URL priority="0">https://dmptr.com/playpack_5/files/mods/TConstruct-1.12.2-2.12.0.135.jar</URL>
 			<Size>3997455</Size>
@@ -2778,15 +2798,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Tinkers&apos; Complement" id="tcomplement" depends="tconstruct" side="BOTH">
-			<URL priority="0">https://dmptr.com/playpack_5/files/mods/TinkersComplement-1.12.2-0.3.2.jar</URL>
-			<Size>232998</Size>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/TinkersComplement-1.12.2-0.4.1.jar</URL>
+			<Size>989571</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>b1b99076fe3ec5c214f1775b254ebae6</MD5>
+			<MD5>83572d68b16a3cffa1a732fa0dd56ead</MD5>
 			<Meta>
-				<credits></credits>
+				<credits>Design of the steelworks module and some high oven code based off Tinkers&apos; Steelworks by Toops and ephys</credits>
 				<description>Addon for Tinkers Construct adding various features to complement those from Tinkers</description>
-				<version>1.12.2-0.3.2</version>
+				<version>1.12.2-0.4.1</version>
 				<url>https://minecraft.curseforge.com/projects/tinkers-complement</url>
 				<authors>KnightMiner</authors>
 			</Meta>
