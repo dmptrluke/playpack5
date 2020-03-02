@@ -243,15 +243,15 @@
 			</Meta>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CyclopsCore-1.12.2-1.2.0.jar</URL>
-			<Size>1037728</Size>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CyclopsCore-1.12.2-1.3.0.jar</URL>
+			<Size>1037940</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1a02892020e69b8fae72cc18d776eaa1</MD5>
+			<MD5>058ef3c94f72f1bf9db9a042bac22afa</MD5>
 			<Meta>
 				<credits>kroeserr, _EeB_</credits>
 				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
-				<version>1.12.2-1.2.0</version>
+				<version>1.12.2-1.3.0</version>
 				<url>https://minecraft.curseforge.com/projects/cyclops-core</url>
 				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
 			</Meta>
@@ -263,15 +263,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CommonCapabilities" id="commoncapabilities" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CommonCapabilities-1.12.2-2.2.1.jar</URL>
-			<Size>355886</Size>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CommonCapabilities-1.12.2-2.4.0.jar</URL>
+			<Size>357465</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5e9c30d73782e8eb768c3b5fd5e3d070</MD5>
+			<MD5>03c03dc4a2b17e3e0677e4843cb3daaf</MD5>
 			<Meta>
 				<credits>kroeserr</credits>
 				<description>Forge Capabilities that can be shared by multiple mods</description>
-				<version>1.12.2-2.2.1</version>
+				<version>1.12.2-2.4.0</version>
 				<url>https://github.com/CyclopsMC/CommonCapabilities</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -297,15 +297,15 @@
 			</Meta>
 		</Module>
 		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/playpack_5/files/mods/IntegratedDynamics-1.12.2-1.0.11.jar</URL>
-			<Size>3001673</Size>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/IntegratedDynamics-1.12.2-1.0.13.jar</URL>
+			<Size>3002729</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e0cd3392b7b15d5ddacdc8574d6a748a</MD5>
+			<MD5>0b986705cf9471f5770bc8f1fd1defe5</MD5>
 			<Meta>
 				<credits>kroeserr, Yulife (textures)</credits>
 				<description>Take full and automated control of your appliances.</description>
-				<version>1.12.2-1.0.11</version>
+				<version>1.12.2-1.0.13</version>
 				<url>https://minecraft.curseforge.com/projects/integrated-dynamics</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -323,15 +323,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Terminals" id="integratedterminals" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/playpack_5/files/mods/IntegratedTerminals-1.12.2-1.0.6.jar</URL>
-			<Size>569844</Size>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/IntegratedTerminals-1.12.2-1.0.8.jar</URL>
+			<Size>570434</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>d2618ee538305a10aa47ff1cb190b43b</MD5>
+			<MD5>7c050e5fe89c70737b94bb27ecbc871e</MD5>
 			<Meta>
 				<credits>rubensworks (aka kroeserr)</credits>
 				<description>Terminals for managing and overviewing Integrated Dynamics networks</description>
-				<version>1.12.2-1.0.6</version>
+				<version>1.12.2-1.0.8</version>
 				<url>https://github.com/CyclopsMC/IntegratedTerminals</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -856,11 +856,11 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/playpack_5/files/mods/BiomesOPlenty-1.12.2-7.0.1.2439-universal.jar</URL>
-			<Size>4696290</Size>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/BiomesOPlenty-1.12.2-7.0.1.2440-universal.jar</URL>
+			<Size>4696315</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5045685c0b7c23362a54a080588d4de2</MD5>
+			<MD5>bc8a44cfce973d47b38dae4272e6cc49</MD5>
 			<Meta>
 				<credits>Tim Rurkowski, gamax92, GridMonkey, and many more</credits>
 				<description>Adds over 50 new biomes, blocks, and more!</description>
@@ -1474,17 +1474,17 @@
 			</Meta>
 		</Module>-->
 		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Mekanism-1.12.2-9.7.4.375.jar</URL>
-			<Size>7921690</Size>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Mekanism-1.12.2-9.7.5.376.jar</URL>
+			<Size>7927317</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8ba28800a7b27124125c5f62d8a1ba7d</MD5>
+			<MD5>6f680cfe521e275b5cf1a7e199633e27</MD5>
 			<Meta>
-				<credits>Thanks to everyone who has contributed to this ongoing project.</credits>
-				<description>Energy, Armor, Tools, Weapons, Machines, Magic.</description>
-				<version>1.12.2-9.7.4.375</version>
+				<credits>unpairedbracket, CyanideX and many others</credits>
+				<description>Tools and Machines</description>
+				<version>1.12.2-9.7.5.376</version>
 				<url></url>
-				<authors>aidancbrady</authors>
+				<authors>aidancbrady, thommy101, thiakil, pupnewfster, dizzyd</authors>
 			</Meta>
 			<ConfigFile>
 				<URL priority="0">https://dmptr.com/playpack_5/files/config/mekanism.cfg</URL>
@@ -1520,15 +1520,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CraftTweaker2-1.12-4.1.17.jar</URL>
-			<Size>1360499</Size>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/CraftTweaker2-1.12-4.1.18.jar</URL>
+			<Size>1363935</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1387bd1da3aa297b9d56b9c263a8798f</MD5>
+			<MD5>82659acedc94056013b0b545baf08c55</MD5>
 			<Meta>
 				<credits>Created By StanHebben and Jaredlll08</credits>
 				<description>Customize your minecraft experience!</description>
-				<version>1.12-4.1.17</version>
+				<version>1.12-4.1.18</version>
 				<url>http://minetweaker3.powerofbytes.com</url>
 				<authors>StanHebben, Jaredlll08</authors>
 			</Meta>
