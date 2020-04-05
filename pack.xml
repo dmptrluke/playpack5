@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4" 
+	 generateList="true" autoConnect="false" revision="1.4.1" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Rename to PlayPack 5</note>
+			<note title="Latest Changes">Update comforts, codechickenlib, cherishedworlds</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -934,15 +934,15 @@
 			</Meta>
 		</Module>
 		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CodeChickenLib-1.12.2-3.2.2.353-universal.jar</URL>
-			<Size>700785</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CodeChickenLib-1.12.2-3.2.3.358-universal.jar</URL>
+			<Size>704330</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f8b4843eccafb2213512ba9be17bfad2</MD5>
+			<MD5>3b5e44db5ac96fb23a439590b6731a31</MD5>
 			<Meta>
 				<credits></credits>
 				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
-				<version>3.2.2.353</version>
+				<version>3.2.3.358</version>
 				<url>http://chickenbones.net/Pages/links.html</url>
 				<authors>ChickenBones, covers1624</authors>
 			</Meta>
@@ -1036,15 +1036,15 @@
 			</ConfigFile>
 		</Module>
         <Module name="Cherished Worlds" id="cherishedworlds" depends="" side="CLIENT">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/cherishedworlds-1.12.2-1.0.jar</URL>
-			<Size>32283</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/cherishedworlds-1.12.2-1.0.1.jar</URL>
+			<Size>37519</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>b676d6d9f6901380d6f946fe522e8d51</MD5>
+			<MD5>278ace4ec3c481b36c0c2378fdb78b3a</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Pin/favorite/bookmark certain worlds, which will always show at the top and cannot be deleted.</description>
-				<version>1.12.2-1.0</version>
+				<version>1.12.2-1.0.1</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
@@ -1104,15 +1104,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Comforts" id="comforts" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/comforts-1.12.2-1.4.1.1.jar</URL>
-			<Size>166169</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/comforts-1.12.2-1.4.1.2.jar</URL>
+			<Size>166714</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1ebd817471565d581af366ec7cd44a98</MD5>
+			<MD5>c67398e16303c222f0c19cf60cb5bd6e</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Adds sleeping bags and hammocks for portability and daytime napping without setting a new spawn. Comes in 16 different colors!</description>
-				<version>1.12.2-1.4.1.1</version>
+				<version>1.12.2-1.4.1.2</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
