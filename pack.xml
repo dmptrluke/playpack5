@@ -435,15 +435,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/appliedenergistics2-rv6-stable-6.jar</URL>
-			<Size>4062132</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/appliedenergistics2-rv6-stable-7.jar</URL>
+			<Size>4062630</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9c7b1b142d9676cec4f92b7e07ac3cd9</MD5>
+			<MD5>b8667d60a761d5b5ae3c8a15192f9e28</MD5>
 			<Meta>
 				<credits>AlgorithmX2</credits>
 				<description>A Mod about Matter, Energy and using them to conquer the world..</description>
-				<version>rv6-stable-6</version>
+				<version>rv6-stable-7</version>
 				<url>http://ae2.ae-mod.info</url>
 				<authors>AlgorithmX2</authors>
 			</Meta>
@@ -1299,31 +1299,6 @@
 				<url>https://minecraft.curseforge.com/projects/simplelogic-wires</url>
 				<authors>asiekierka</authors>
 			</Meta>
-		</Module>
-		<Module name="Chisel" id="chisel" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Chisel-MC1.12.2-0.2.1.35.jar</URL>
-			<Size>4310011</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>dbda5475859bcffc9f572c5a1506a1f4</MD5>
-			<Meta>
-				<description>Adds in tons of fancy blocks for decoration, crafted using the Chisel.</description>
-				<version>MC1.12.2-0.2.1.35</version>
-				<url>https://minecraft.curseforge.com/projects/chisel</url>
-				<authors>tterrag, Drullkus, minecreatr</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/chisel.cfg</URL>
-				<Path>config/chisel.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>3af375b97ed5f79961c196b067be33ac</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/chisel.zs</URL>
-				<Path>scripts/chisel.zs</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d005a0e69f8d8592b3cdbe6a5755881f</MD5>
-			</ConfigFile>
 		</Module>
 		<Module name="Chisels &amp; Bits" id="chiselsandbits" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/chiselsandbits-14.32.jar</URL>
