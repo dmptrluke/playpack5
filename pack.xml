@@ -1149,26 +1149,6 @@
 				<MD5>934EAAFFCF7B61EC960FCC6F133A00E2</MD5>
 			</ConfigFile>
 		</Module>
-		<!--<Module name="Computronics" id="computronics" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Computronics-1.12.1-1.6.5.jar</URL>
-			<Size>1032851</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>755f04479da5a436831315e90485fe56</MD5>
-			<Meta>
-				<credits></credits>
-				<description>A ComputerCraft/OpenComputers addon mod.</description>
-				<version>1.12.1-1.6.5</version>
-				<url>https://wiki.vexatos.com/wiki:computronics</url>
-				<authors>asiekierka, Techokami, Vexatos</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/computronics.cfg</URL>
-				<Path>config/computronics.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>d4d6687d550dec4f92d7652d6c7c27cf</MD5>
-			</ConfigFile>
-		</Module>-->
 		<Module name="Cooking for Blockheads" id="cookingforblockheads" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CookingForBlockheads_1.12.2-6.4.70.jar</URL>
 			<Size>589828</Size>
@@ -1448,7 +1428,7 @@
 				<authors>Ollie Lansdell</authors>
 			</Meta>
 		</Module>-->
-		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
+		<!--<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Mekanism-1.12.2-9.7.5.376.jar</URL>
 			<Size>7927317</Size>
 			<Required>true</Required>
@@ -1473,7 +1453,7 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f640193a1aeb5462e93304c26e951c45</MD5>
 			</ConfigFile>
-		</Module>
+		</Module>-->
 		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/RebornCore-1.12.2-3.13.4.419-universal.jar</URL>
 			<Size>735142</Size>
@@ -2528,15 +2508,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="OpenComputers" id="opencomputers" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/OpenComputers-MC1.12.2-1.7.4.153.jar</URL>
-			<Size>15545293</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/OpenComputers-MC1.12.2-1.7.5.192.jar</URL>
+			<Size>15643758</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>67cfc01cfaeed3bf5ce0d568bf371e3b</MD5>
+			<MD5>1da9dd8478ba6d682f2787746776e18a</MD5>
 			<Meta>
 				<credits>Inspired by a couple of other mods, most notably ComputerCraft.</credits>
 				<description>This mod adds modular computers and robots that can be programmed in Lua.</description>
-				<version>1.7.4.153</version>
+				<version>1.7.5.192</version>
 				<url>http://oc.cil.li/</url>
 				<authors>Sangar, Vexatos, payonel, magik6k, Lord Joda, Github Contributors</authors>
 			</Meta>
@@ -2866,14 +2846,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="UniDict" id="unidict" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/UniDict-1.12.2-2.9.2.jar</URL>
-			<Size>192476</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/modsUniDict-1.12.2-2.9.6.jar</URL>
+			<Size>184842</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>b1ba004241d86a3e1280c8911c2b4ff2</MD5>
+			<MD5>997757ba2a263a6da929f4735455c018</MD5>
 			<Meta>
 				<description>a mod about unifying all the things.</description>
-				<version>1.12.2-2.9.2</version>
+				<version>1.12.2-2.9.6</version>
 				<url>http://minecraft.curseforge.com/projects/unidict</url>
 				<authors>WanionCane</authors>
 			</Meta>
