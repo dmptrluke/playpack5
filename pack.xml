@@ -2125,15 +2125,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/jei_1.12.2-4.15.0.268.jar</URL>
-			<Size>647239</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/jei_1.12.2-4.15.0.291.jar</URL>
+			<Size>651473</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>02f985065e7a2fdd17196b3030a067a4</MD5>
+			<MD5>cfdbfecefb1bdc5a3fbbcecbfecb0545</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Simple recipe and item helper.</description>
-				<version>4.15.0.268</version>
+				<version>4.15.0.291</version>
 				<url>https://github.com/mezz/JustEnoughItems</url>
 				<authors>mezz</authors>
 			</Meta>
@@ -2156,17 +2156,18 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				</ConfigFile>
 			</Submodule>
 			<Submodule name="Just Enough Throwing In Fluids" id="jei-jetif">
-                <URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/jetif-1.12.2-1.4.1.jar</URL>
-                <Size>25469</Size>
-                <ModType>Regular</ModType>
-                <MD5>97b057017466388ca72e723ddfd29db6</MD5>
-                <Meta>
-                    <credits>All those mods that add this kind of crafting for giving me this idea.</credits>
-                    <description>JEI addon for throwing stuff in fluids to make other stuff.</description>
-                    <version>1.12.2-1.4.1</version>
-                    <url></url>
-                    <authors>Lykrast</authors>
-                </Meta>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/jetif-1.12.2-1.5.1.jar</URL>
+				<Size>28946</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>4aa4204880f1696f33c37b7972fa2d0f</MD5>
+				<Meta>
+					<credits>All those mods that add this kind of crafting for giving me this idea.</credits>
+					<description>JEI addon for throwing stuff in fluids to make other stuff.</description>
+					<version>1.12.2-1.5.1</version>
+					<url></url>
+					<authors>Lykrast</authors>
+				</Meta>
 			</Submodule>
 			<Submodule name="Just Enough Energistics" id="jei-jee">
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/JustEnoughEnergistics-1.12.2-1.0.6.jar</URL>
