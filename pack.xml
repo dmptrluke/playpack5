@@ -1377,7 +1377,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charm.cfg</URL>
 				<Path>config/charm.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>bfa50fb4eeb7bc6af7fbc31de992a7d2</MD5>
+				<MD5>8e65d34ab7a78cd01539c396fafba7b8</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
@@ -2363,7 +2363,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/quark.cfg</URL>
 				<Path>config/quark.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>e7cf7db9e84a23b196f53906faa2fb4a</MD5>
+				<MD5>335225fcc91823c4ad648d5f95f971dd</MD5>
 			</ConfigFile>
 			<Submodule name="Quark Oddities" id="quark-oddities">
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/QuarkOddities-1.12.2.jar</URL>
