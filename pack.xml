@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.3" 
+	 generateList="true" autoConnect="false" revision="1.4.4" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update wanionlib, add creating tables</note>
+			<note title="Latest Changes">Update randompatches</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -1905,15 +1905,15 @@
 			</Meta>
 		</Module>
 		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/randompatches-1.12.2-1.15.0.3.jar</URL>
-			<Size>172129</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/randompatches-1.12.2-1.21.0.1.jar</URL>
+			<Size>283476</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>96059e07f848bc8db3461aed2f85c430</MD5>
+			<MD5>e24e16eaa1f34800d9c49ef6cb617197</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A bunch of miscellaneous patches for Minecraft.</description>
-				<version>1.12.2-1.15.0.3</version>
+				<version>1.12.2-1.21.0.1</version>
 				<url>https://minecraft.curseforge.com/projects/randompatches</url>
 				<authors>TheRandomLabs</authors>
 			</Meta>
@@ -1921,7 +1921,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/randompatches.cfg</URL>
 				<Path>config/randompatches.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>538307bab166db1a8f99c415ddd334f6</MD5>
+				<MD5>66ce226c9087c3df8cc46da7e0ace8e7</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
