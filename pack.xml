@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.1" 
+	 generateList="true" autoConnect="false" revision="1.4.2" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update comforts, codechickenlib, cherishedworlds</note>
+			<note title="Latest Changes">Update forgelin</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -2474,15 +2474,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Shadowfacts&apos; Forgelin" id="forgelin" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Forgelin-1.8.2.jar</URL>
-			<Size>5124663</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Forgelin-1.8.4.jar</URL>
+			<Size>6278399</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>59035365f7af35f599d1c4baade64d8b</MD5>
+			<MD5>2da79fce72265eab0541e565636d389d</MD5>
 			<Meta>
 				<credits>Emberwalker, for the original Forgelin</credits>
 				<description>Kotlin helper library for Forge.</description>
-				<version>1.8.2</version>
+				<version>1.8.4</version>
 				<url>https://github.com/shadowfacts/Forgelin</url>
 				<authors>shadowfacts</authors>
 			</Meta>
@@ -2846,7 +2846,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="UniDict" id="unidict" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/modsUniDict-1.12.2-2.9.6.jar</URL>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/UniDict-1.12.2-2.9.6.jar</URL>
 			<Size>184842</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
