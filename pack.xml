@@ -1357,7 +1357,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charm.cfg</URL>
 				<Path>config/charm.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>8e65d34ab7a78cd01539c396fafba7b8</MD5>
+				<MD5>c9d1c0295cd3d8736d7c374931f4f7a4</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
@@ -1475,15 +1475,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CraftTweaker2-1.12-4.1.18.jar</URL>
-			<Size>1363935</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CraftTweaker2-1.12-4.1.20.jar</URL>
+			<Size>1363036</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>82659acedc94056013b0b545baf08c55</MD5>
+			<MD5>521297c5e2459dd232a72dacffa45a0b</MD5>
 			<Meta>
 				<credits>Created By StanHebben and Jaredlll08</credits>
 				<description>Customize your minecraft experience!</description>
-				<version>1.12-4.1.18</version>
+				<version>1.12-4.1.20</version>
 				<url>http://minetweaker3.powerofbytes.com</url>
 				<authors>StanHebben, Jaredlll08</authors>
 			</Meta>
@@ -1512,10 +1512,10 @@
 				<MD5>6bbd9e0b6f98147e1a172a0d3483187e</MD5>
 			</ConfigFile>
 			<Submodule name="ModTweaker" id="modtweaker">
-                <URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/modtweaker-4.0.17.jar</URL>
-                <Size>447874</Size>
-                <ModType>Regular</ModType>
-                <MD5>e1737d87f3506f7913dea5462395cbda</MD5>
+                <URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/modtweaker-4.0.18.jar</URL>
+				<Size>488016</Size>
+				<ModType>Regular</ModType>
+				<MD5>d117e26e6b578b18d25848f578e86c3b</MD5>
 			</Submodule>
 			<Submodule name="MTLib" id="mtlib">
                 <URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/MTLib-3.0.6.jar</URL>
@@ -1602,15 +1602,15 @@
 			</Submodule>
 		</Module>
 		<Module name="Custom Main Menu" id="custommainmenu" depends="" side="CLIENT">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CustomMainMenu-MC1.12.2-2.0.9.jar</URL>
-			<Size>177791</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CustomMainMenu-MC1.12.2-2.0.9.1.jar</URL>
+			<Size>91121</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0d34d658c07ebe9dd36aba17e59f8d3d</MD5>
+			<MD5>c12200ad89f9399d5bdcbe9da7900bb9</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Allows you to edit the mainmenu using json</description>
-				<version>2.0.9</version>
+				<version>2.0.9.1</version>
 				<url></url>
 				<authors>lumien</authors>
 			</Meta>
