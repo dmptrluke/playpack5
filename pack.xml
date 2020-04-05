@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.2" 
+	 generateList="true" autoConnect="false" revision="1.4.3" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update forgelin</note>
+			<note title="Latest Changes">Update wanionlib, add creating tables</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -2905,16 +2905,30 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="WanionLib" id="wanionlib" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/WanionLib-1.12.2-2.2.jar</URL>
-			<Size>129188</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/WanionLib-1.12.2-2.4.jar</URL>
+			<Size>134537</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>da46d9a391cb6ac4d3bd453db2158e58</MD5>
+			<MD5>98eaacdc2b62a0d1bd47fefa2308713c</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Shared Code Library Used by (not)all WanionCane mods!</description>
-				<version>1.12.2-2.2</version>
+				<version>1.12.2-2.4</version>
 				<url>http://minecraft.curseforge.com/projects/wanionlib</url>
+				<authors>WanionCane</authors>
+			</Meta>
+		</Module>
+		<Module name="Creating Tables" id="creatingtables" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CreatingTables-1.12.2-1.2.jar</URL>
+			<Size>128687</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8c301c1ced82e5dba4a1dae78fcc9bfb</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Bringing Creating Tables!</description>
+				<version>1.12.2-1.2</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/creating-tables</url>
 				<authors>WanionCane</authors>
 			</Meta>
 		</Module>
