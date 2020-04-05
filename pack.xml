@@ -499,15 +499,15 @@
 			</Submodule>
 		</Module>
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/AutoRegLib-1.3-29.jar</URL>
-			<Size>105520</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/AutoRegLib-1.3-32.jar</URL>
+			<Size>108306</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9f3515bb4a166188c10acaf05d2832a8</MD5>
+			<MD5>4e5a4b881c27b1e4502a9a16c00882ad</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Automatically item, block, and model registration for mods.</description>
-				<version>1.3-29</version>
+				<version>1.3-32</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii</authors>
 			</Meta>
@@ -2372,15 +2372,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Quark-r1.5-152.jar</URL>
-			<Size>2252081</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Quark-r1.6-178.jar</URL>
+			<Size>3901586</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>13a44cf232d9956a62dd9e08c86134c3</MD5>
+			<MD5>8d69c5722fa6498813da16b4d940246d</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Small things.</description>
-				<version>r1.5-152</version>
+				<version>r1.6-178</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
