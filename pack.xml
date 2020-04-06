@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.6" 
+	 generateList="true" autoConnect="false" revision="1.4.7" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update Tinkers, Forestry, remove Twilight Forest</note>
+			<note title="Latest Changes">Fix missing reborncore config file.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -1468,10 +1468,10 @@
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
 			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/teamreborn/energy_priority.json</URL>
-				<Path>config/teamreborn/energy_priority.json</Path>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/teamreborn/reborncore/selected_energy.json</URL>
+				<Path>config/teamreborn/reborncore/selected_energy.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>0a25c070abd82ec3ea628bcd75e777b1</MD5>
+				<MD5>6515f66056b8cbcaa61ca9e02efb3698</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
