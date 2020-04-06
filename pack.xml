@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.5" 
+	 generateList="true" autoConnect="false" revision="1.4.6" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update EnderIO, EnderCore, CTM</note>
+			<note title="Latest Changes">Update Tinkers, Forestry, remove Twilight Forest</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -1500,12 +1500,6 @@
 				<MD5>A54D50811065199DBE55CDA05C6AB670</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/twilightforest.zs</URL>
-				<Path>scripts/twilightforest.zs</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>a229e1aea44a0377ef2b014caa956518</MD5>
-			</ConfigFile>
-			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/localisation.zs</URL>
 				<Path>scripts/localisation.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
@@ -1925,15 +1919,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Forestry" id="forestry" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/forestry_1.12.2-5.8.2.387.jar</URL>
-			<Size>5232265</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/forestry_1.12.2-5.8.2.422.jar</URL>
+			<Size>5298295</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>367a01e7ff21262fa3dfc71e8fbd7332</MD5>
+			<MD5>12f98d3df820bf377d8955ac7695d314</MD5>
 			<Meta>
 				<credits>mistaqur, Binnie, CovertJaguar, MysteriousAges, Nirek, Nedelosk</credits>
 				<description>Trees, bees and more.</description>
-				<version>5.8.2.387</version>
+				<version>5.8.2.422</version>
 				<url>http://forestry.sengir.net/</url>
 				<authors>SirSengir, mezz</authors>
 			</Meta>
@@ -2722,15 +2716,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/TConstruct-1.12.2-2.12.0.135.jar</URL>
-			<Size>3997455</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/TConstruct-1.12.2-2.13.0.183.jar</URL>
+			<Size>4023372</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>7f983680e4040cc1d70ea5c6fe1819aa</MD5>
+			<MD5>710d64342d41042b7d6ced891448e727</MD5>
 			<Meta>
 				<credits>Slime Knights, mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox</credits>
 				<description>A little of this, a little of that, a lot of tinkering, and a lot of tools</description>
-				<version>1.12.2-2.12.0.135</version>
+				<version>1.12.2-2.13.0.183</version>
 				<url>https://github.com/SlimeKnights/TinkersConstruct</url>
 				<authors>boni, KnightMiner</authors>
 			</Meta>
@@ -2825,7 +2819,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>f432c4b2fe4eabadb81ed04841d48dc2</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Twilight Forest" id="twilightforest" depends="" side="BOTH">
+		<!--<Module name="Twilight Forest" id="twilightforest" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/twilightforest-1.12.2-3.8.689-universal.jar</URL>
 			<Size>7296016</Size>
 			<Required>true</Required>
@@ -2844,7 +2838,13 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<url>https://minecraft.curseforge.com/projects/the-twilight-forest</url>
 				<authors>Benimatic (Ben Mazur)</authors>
 			</Meta>
-		</Module>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/twilightforest.zs</URL>
+				<Path>scripts/twilightforest.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a229e1aea44a0377ef2b014caa956518</MD5>
+			</ConfigFile>
+		</Module> -->
 		<Module name="UniDict" id="unidict" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/UniDict-1.12.2-2.9.6.jar</URL>
 			<Size>184842</Size>
