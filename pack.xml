@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.8" 
+	 generateList="true" autoConnect="false" revision="1.4.9" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update immersive, fastworkbench, add required lib.</note>
+			<note title="Latest Changes">Rename quark slate.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -2332,6 +2332,12 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<Path>config/quark.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>335225fcc91823c4ad648d5f95f971dd</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/quark.zs</URL>
+				<Path>scripts/quark.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3a773fc3d90658ef116d741563deb0a0</MD5>
 			</ConfigFile>
 			<Submodule name="Quark Oddities" id="quark-oddities">
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/QuarkOddities-1.12.2.jar</URL>
