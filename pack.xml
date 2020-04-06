@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.11" 
+	 generateList="true" autoConnect="false" revision="1.4.12" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update rustic, storage drawers.</note>
+			<note title="Latest Changes">Remove Earthworks.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -550,32 +550,6 @@
 				<Path>scripts/initialinventory.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>f4a760f4548d83311884fe578a3992db</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="Earthworks" id="earthworks" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Earthworks-1.12-1.3.6.jar</URL>
-			<Size>705301</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>ccf12258496a6e5936b6e0bc6def74b3</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Adds a small variety of earthen based building blocks.</description>
-				<version>1.3.6</version>
-				<url></url>
-				<authors>Alsender</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/earthworks.cfg</URL>
-				<Path>config/earthworks.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>3f3cc9d042cef9af65e204f4a1be62a2</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/earthworks.zs</URL>
-				<Path>scripts/earthworks.zs</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>eb906ece816e83dc56570ead0badb8c4</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Building Gadgets" id="buildinggadgets" depends="" side="BOTH">
