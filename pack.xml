@@ -899,26 +899,6 @@
 				<MD5>23eca5b4ac081543cf992eccdc22ac6f</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Bullseye" id="bullseye" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Bullseye-1.12.2-3.0.7.jar</URL>
-			<Size>137850</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>0f23f7cfdc626dae44125c46238c71bc</MD5>
-			<Meta>
-				<credits></credits>
-				<description>Adds new arrows, including fire arrows, dye arrows, bomb arrows, and more!</description>
-				<version>3.0.7</version>
-				<url>https://minecraft.curseforge.com/projects/bullseye</url>
-				<authors>Forstride</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/bullseye/config.cfg</URL>
-				<Path>config/bullseye/config.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>bb0f0f9e2709a6abcb12d4f0503a9187</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Chameleon" id="chameleon" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Chameleon-1.12-4.1.3.jar</URL>
 			<Size>96859</Size>
@@ -1064,15 +1044,15 @@
 			</Meta>
 		</Module>
 		<Module name="Colytra" id="colytra" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/colytra-1.12.2-1.2.0.jar</URL>
-			<Size>86659</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/colytra-1.12.2-1.2.0.4.jar</URL>
+			<Size>86568</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>4acd4d3c2a273f8a362b78e348827058</MD5>
+			<MD5>9f9470149a389cfb30de0f9dc6d8fe89</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Allows attachment of elytras to chestplates and includes an elytra bauble for Baubles</description>
-				<version>1.12.2-1.2.0</version>
+				<version>1.12.2-1.2.0.4</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
@@ -1321,15 +1301,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Nature&apos;s Compass" id="naturescompass" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/NaturesCompass-1.12.2-1.5.1.jar</URL>
-			<Size>180209</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/NaturesCompass-1.12.2-1.8.5.jar</URL>
+			<Size>196434</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8a1c19eb3a656ba4a577ba9864399540</MD5>
+			<MD5>3dbb990c72a185c9b9aeca7f3094eb21</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Search for a biome and get information about it.</description>
-				<version>1.12.2-1.5.1</version>
+				<version>1.12.2-1.8.5</version>
 				<url>https://minecraft.curseforge.com/projects/natures-compass</url>
 				<authors>ChaosTheDude</authors>
 			</Meta>
@@ -1455,15 +1435,15 @@
 			</ConfigFile>
 		</Module>-->
 		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/RebornCore-1.12.2-3.13.4.419-universal.jar</URL>
-			<Size>735142</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/RebornCore-1.12.2-3.19.2.522-universal.jar</URL>
+			<Size>2427557</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>c8a74d01460873892ccf2a3c2c225944</MD5>
+			<MD5>989aa656e7b917c405160d7029b20f73</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
-				<version>3.13.4.419</version>
+				<version>3.19.2.522</version>
 				<url>https://github.com/TechReborn/RebornCore</url>
 				<authors>modmuss50, Gigabit101, Prospector</authors>
 			</Meta>
@@ -1727,15 +1707,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Extra Alchemy" id="extraalchemy" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/extraalchemy-0.3.8.6.1-release.jar</URL>
-			<Size>210138</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/extraalchemy-0.5.3.jar</URL>
+			<Size>248069</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>c558dd3e132ef13a2af64f1e1bf1de02</MD5>
+			<MD5>05e9d2f6f678e80d9be002727e30bd2c</MD5>
 			<Meta>
-				<credits>Thanks to my Patrons: Jeremy Lowman, KienanBlue, Samie A., Josh Templeton, Daniel Drawer, and DanTheDetermined!</credits>
+				<credits></credits>
 				<description>An expansion on vanilla alchemy</description>
-				<version>0.3.8.6.1-release</version>
+				<version>0.5.3</version>
 				<url>http://minecraft.curseforge.com/projects/extra-alchemy</url>
 				<authors>ZaBi94</authors>
 			</Meta>
