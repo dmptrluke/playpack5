@@ -4,22 +4,22 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.14" 
+	 generateList="true" autoConnect="false" revision="1.4.15" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update PVJ, Waystones, VanillaFix.</note>
+			<note title="Latest Changes">Update Stuff A Sock In It.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
-			<Size>9998</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
+			<Size>18179</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>621284389aad47e6d5c37c18846960e2</MD5>
+			<MD5>8269d0cbeb6d20da81350281180226c6</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Stops logs from being annoying</description>
-				<version>1.1.14</version>
+				<version>1.1.30</version>
 				<url>https://minecraft.curseforge.com/projects/stuff-a-sock-in-it</url>
 				<authors>Darkhax</authors>
 			</Meta>
