@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.7" 
+	 generateList="true" autoConnect="false" revision="1.4.8" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update Enderstorage, Constructs Armory.</note>
+			<note title="Latest Changes">Update immersive, fastworkbench, add required lib.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -1706,6 +1706,20 @@
 				<MD5>b454ee84498d520ffa304e5301f2bc2f</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Minerva Library" id="minerva" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/minerva-library-1.0.13.jar</URL>
+			<Size>133294</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8fbca7ae4c249da928225c6726dea877</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A modding library by Zabi94</description>
+				<version>1.0.13</version>
+				<url></url>
+				<authors>Zabi94</authors>
+			</Meta>
+		</Module>
 		<Module name="Extra Alchemy" id="extraalchemy" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/extraalchemy-0.5.3.jar</URL>
 			<Size>248069</Size>
@@ -1845,15 +1859,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="FastWorkbench" id="fastbench" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/FastWorkbench-1.12.2-1.7.1.jar</URL>
-			<Size>26307</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/FastWorkbench-1.12.2-1.7.3.jar</URL>
+			<Size>26515</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>df23059495598b0bd5a6d915c988d0e2</MD5>
+			<MD5>b55a31e4193204572acf05f78e0deedc</MD5>
 			<Meta>
 				<credits></credits>
 				<description>1 fast boi</description>
-				<version>1.12.2-1.7.1</version>
+				<version>1.12.2-1.7.3</version>
 				<url></url>
 				<authors>Shadows_of_Fire</authors>
 			</Meta>
@@ -1994,15 +2008,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ImmersiveEngineering-0.12-89.jar</URL>
-			<Size>6542920</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ImmersiveEngineering-0.12-92.jar</URL>
+			<Size>6802153</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>b79a17d68e023e2cab3fcb99fff19f9a</MD5>
+			<MD5>732d7fb7d99480fc4a8885667567b54b</MD5>
 			<Meta>
 				<credits>All the great other Git Contributors, and the nerds on IRC!</credits>
 				<description>A tech based mod focused on realism.</description>
-				<version>0.12-89</version>
+				<version>0.12-92</version>
 				<url>https://github.com/BluSunrize/ImmersiveEngineering</url>
 				<authors>BluSunrize, Damien A.W. Hazard</authors>
 			</Meta>
