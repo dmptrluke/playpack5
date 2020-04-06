@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.9" 
+	 generateList="true" autoConnect="false" revision="1.4.10" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Rename quark slate.</note>
+			<note title="Latest Changes">Update JEE, Redstone Flux, p455w0rdslib.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -2113,10 +2113,10 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				</Meta>
 			</Submodule>
 			<Submodule name="Just Enough Energistics" id="jei-jee">
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/JustEnoughEnergistics-1.12.2-1.0.6.jar</URL>
-				<Size>19347</Size>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/JustEnoughEnergistics-1.12.2-1.0.8.jar</URL>
+				<Size>22714</Size>
 				<ModType>Regular</ModType>
-				<MD5>721b76c9f63d80bdd92719bac710f299</MD5>
+				<MD5>be626dce632db45ab61512e5a6d9cdd7</MD5>
 				<Meta>
 					<credits></credits>
 					<description>Adds a JEI Recipe Transfer Handler to AE2&apos;s Pattern Terminal</description>
@@ -2347,25 +2347,32 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Submodule>
 		</Module>
 		<Module name="Redstone Flux" id="redstoneflux" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/RedstoneFlux-1.12-2.1.0.6-universal.jar</URL>
-			<Size>36278</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/RedstoneFlux-1.12-2.1.1.1-universal.jar</URL>
+			<Size>31802</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f00530b437c41a189dbf8a85d0ac40b6</MD5>
+			<MD5>93b1715f05be1878da93fca36dd37f2a</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>The Redstone Flux API - the cornerstone of Energy Transfer in modded Minecraft since 1.6.4.</description>
-				<version>2.1.0.6</version>
+				<version>2.1.1.1</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
 		</Module>
 		<Module name="p455w0rdslib" id="pwrdslib" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/p455w0rdslib-1.12.2-2.1.44.jar</URL>
-			<Size>321326</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/p455w0rdslib-1.12.2-2.3.161.jar</URL>
+			<Size>328793</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0825306f9ef61099703d797596b84ef3</MD5>
+			<MD5>0f90369081c895ad54f5a011044d1779</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Library for containing commmon utilities used across my mods</description>
+				<version>1.12.2-2.3.161</version>
+				<url></url>
+				<authors>TheRealp455w0rd</authors>
+			</Meta>
 		</Module>
 		<Module name="Resource Loader" id="resourceloader" depends="" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ResourceLoader-MC1.12.1-1.5.3.jar</URL>
