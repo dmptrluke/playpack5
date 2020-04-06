@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.10" 
+	 generateList="true" autoConnect="false" revision="1.4.11" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update JEE, Redstone Flux, p455w0rdslib.</note>
+			<note title="Latest Changes">Update rustic, storage drawers.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -2409,15 +2409,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Rustic" id="rustic" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/rustic-1.1.0.jar</URL>
-			<Size>1335906</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/rustic-1.1.2.jar</URL>
+			<Size>1358969</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>06fc80e3f9ab85e988ccd725a3ab74af</MD5>
+			<MD5>af36085c20278f162c22fbe4bbbdd661</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A medieval themed Minecraft mod based around decoration, exploration, and agriculture.</description>
-				<version>1.1.0</version>
+				<version>1.1.2</version>
 				<url>https://github.com/the-realest-stu/Rustic</url>
 				<authors>the-realest-stu</authors>
 			</Meta>
@@ -2489,15 +2489,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Storage Drawers" id="storagedrawers" depends="chameleon" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StorageDrawers-1.12.2-5.3.8.jar</URL>
-			<Size>596220</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StorageDrawers-1.12.2-5.4.1.jar</URL>
+			<Size>605381</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ab008fc9f41cd9e215b4c8d5d7e5be6e</MD5>
+			<MD5>050dd7ca699431dc4ce0b581567aae8a</MD5>
 			<Meta>
 				<credits>By jaquadro</credits>
 				<description>Multi-drawer storage blocks for quick storage and retrieval.</description>
-				<version>1.12.2-5.3.8</version>
+				<version>1.12.2-5.4.1</version>
 				<url>http://www.jaquadro.com/</url>
 				<authors>jaquadro</authors>
 			</Meta>
