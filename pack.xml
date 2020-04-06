@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.13" 
+	 generateList="true" autoConnect="false" revision="1.4.14" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update thermal mods, progressive bosses.</note>
+			<note title="Latest Changes">Update PVJ, Waystones, VanillaFix.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -45,14 +45,14 @@
 			</Meta>
 		</Module>
         <Module name="Project: Vibrant Journeys" id="pvj" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ProjectVibrantJourneys-1.12.2-1.6.3.jar</URL>
-			<Size>1778356</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ProjectVibrantJourneys-1.12.2-1.6.4.jar</URL>
+			<Size>1777665</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>916cab186de32fa662c7e26431ad2676</MD5>
+			<MD5>37850b82bb77442b5126f56192a29962</MD5>
 			<Meta>
 				<description>A mod that adds new things that spice up your game. Aimed at decorating the world while not being intrusive on gameplay.</description>
-				<version>1.6.3</version>
+				<version>1.6.4</version>
 				<url></url>
 				<authors>jt9</authors>
 			</Meta>
@@ -2915,15 +2915,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Waystones" id="waystones" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Waystones_1.12.2-4.0.67.jar</URL>
-			<Size>172854</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Waystones_1.12.2-4.1.0.jar</URL>
+			<Size>178994</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>c0e79051072dcc3aacad71be1f31f7c4</MD5>
+			<MD5>5159122949ffb79b80a341135673e8f8</MD5>
 			<Meta>
 				<credits>Developed by BlayTheNinth. Includes item icons by @JoeCreates released under CC-BY-SA 3.0</credits>
 				<description>Teleport back to activated waystones. For Survival, Adventure or Servers.</description>
-				<version>4.0.67</version>
+				<version>4.1.0</version>
 				<url></url>
 				<authors>BlayTheNinth</authors>
 			</Meta>
@@ -2941,15 +2941,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="VanillaFix" id="vanillafix" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/VanillaFix-1.0.10-99.jar</URL>
-			<Size>1117860</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/VanillaFix-1.0.10-150.jar</URL>
+			<Size>1025896</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>eb05714c798a94f52ddd8617857052ab</MD5>
+			<MD5>a74aaab68100e03f54e35d1007d50169</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Bug fixes, optimizations, no more crashes, and better crash reports for Minecraft</description>
-				<version>1.0.10-SNAPSHOT</version>
+				<version>1.0.10-150</version>
 				<url>https://minecraft.curseforge.com/projects/vanillafix</url>
 				<authors>Runemoro</authors>
 			</Meta>
