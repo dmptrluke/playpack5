@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.4" 
+	 generateList="true" autoConnect="false" revision="1.4.5" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update randompatches</note>
+			<note title="Latest Changes">Update EnderIO, EnderCore, CTM</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -110,15 +110,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Connected Textures Mod" id="ctm" depends="" side="CLIENT">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CTM-MC1.12.2-0.3.3.22.jar</URL>
-			<Size>194281</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CTM-MC1.12.2-1.0.2.31.jar</URL>
+			<Size>199045</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>086cd9da4b8c50a9e483c7b580a9c4d8</MD5>
+			<MD5>77a8bb5486c97e3eaa6f45e5bd768864</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Allows resource packs to add connected textures, emissive rendering, and much more.</description>
-				<version>MC1.12.2-0.3.3.22</version>
+				<version>MC1.12.2-1.0.2.31</version>
 				<url>https://minecraft.curseforge.com/projects/ctm</url>
 				<authors>tterrag, Drullkus, minecreatr</authors>
 			</Meta>
@@ -1648,15 +1648,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="EnderCore" id="endercore" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/EnderCore-1.12.2-0.5.57.jar</URL>
-			<Size>638350</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/EnderCore-1.12.2-0.5.73.jar</URL>
+			<Size>642654</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>359cc98f8d86c2e43f3b0cbb0758a796</MD5>
+			<MD5>619a6d82109069d4326ba5fabf48d4fa</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Library mod used by EnderIO, EnderZoo, and others</description>
-				<version>1.12.2-0.5.57</version>
+				<version>1.12.2-0.5.73</version>
 				<url>http://enderio.com</url>
 				<authors>tterrag, CrazyPants, HenryLoenwind</authors>
 			</Meta>
@@ -1753,15 +1753,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/EnderIO-1.12.2-5.0.44.jar</URL>
-			<Size>7319402</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/EnderIO-1.12.2-5.1.55.jar</URL>
+			<Size>8366769</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2ecb643959ed9121245d8d3fb7bc51b3</MD5>
+			<MD5>8495577037840e0cacbc1c0c5914d459</MD5>
 			<Meta>
 				<credits>By CrazyPants, with the help of many</credits>
 				<description>Compact conduits, painted things and all sorts of stuff and bling.</description>
-				<version>5.0.44</version>
+				<version>5.1.55</version>
 				<url>http://enderio.com</url>
 				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</authors>
 			</Meta>
