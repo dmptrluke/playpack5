@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.12" 
+	 generateList="true" autoConnect="false" revision="1.4.13" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Remove Earthworks.</note>
+			<note title="Latest Changes">Update thermal mods, progressive bosses.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.14.jar</URL>
@@ -2500,18 +2500,19 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<Path>config/opencomputers/settings.conf</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>64fd8f32c7c6d05b866064aa425c80c0</MD5>
+
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Cultivation" id="thermalcultivation" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalCultivation-1.12.2-0.3.2.11-universal.jar</URL>
-			<Size>106846</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalCultivation-1.12.2-0.3.6.1-universal.jar</URL>
+			<Size>98845</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>73ab821d2bb16f28879d033f6021ca59</MD5>
+			<MD5>28970430074736ae6efbe4f7c353b30a</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Thermal gets Agrarian - provides options for farming and related activities!</description>
-				<version>0.3.2.11</version>
+				<version>0.3.6.1</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -2529,15 +2530,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Dynamics" id="thermaldynamics" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalDynamics-1.12.2-2.5.4.18-universal.jar</URL>
-			<Size>761920</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalDynamics-1.12.2-2.5.6.1-universal.jar</URL>
+			<Size>728082</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>793f1584e11de86146409de72ef80c26</MD5>
+			<MD5>38a0c024f5775b0cf783de839033f8db</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Thermal gets Dynamic! Adds ducts - blocks for transporting Items, Fluids, Redstone Flux, and even Players!</description>
-				<version>2.5.4.18</version>
+				<version>2.5.6.1</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -2561,15 +2562,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Expansion" id="thermalexpansion" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalExpansion-1.12.2-5.5.3.41-universal.jar</URL>
-			<Size>2415692</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalExpansion-1.12.2-5.5.6.1-universal.jar</URL>
+			<Size>2345112</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3007785edb021cedf51610119066d23a</MD5>
+			<MD5>cc357e0f72a0f5251d3b8b408e489543</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Expanding Minecraft Thermally - provides new options for automation and processing!</description>
-				<version>5.5.3.41</version>
+				<version>5.5.6.1</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -2599,15 +2600,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Foundation" id="thermalfoundation" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalFoundation-1.12.2-2.6.2.26-universal.jar</URL>
-			<Size>2305489</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalFoundation-1.12.2-2.6.6.1-universal.jar</URL>
+			<Size>2219733</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ceb3a8950a7ab555a0f3617bbc375673</MD5>
+			<MD5>c956183ceaa8cd78c108061947f78338</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>The Foundation of a Thermally enhanced world!</description>
-				<version>2.6.2.26</version>
+				<version>2.6.6.1</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -2631,15 +2632,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Innovation" id="thermalinnovation" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalInnovation-1.12.2-0.3.2.11-universal.jar</URL>
-			<Size>197603</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalInnovation-1.12.2-0.3.6.1-universal.jar</URL>
+			<Size>182379</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>c3c7de2b3ac5cfa8f32b52499cce9f43</MD5>
+			<MD5>320accf690ccc1c8a23679beb63fb615</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Thermal Technology marches on. Adds Thermal-style tools and equipment!</description>
-				<version>0.3.2.11</version>
+				<version>0.3.6.1</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -2677,15 +2678,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
         <Module name="Progressive Bosses" id="progressivebosses" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ProgressiveBosses-1.4.2-mc1.12.x.jar</URL>
-			<Size>56188</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ProgressiveBosses-1.5.4-mc1.12.x.jar</URL>
+			<Size>69818</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>d95492dcd1026ee1873b797bd171699e</MD5>
+			<MD5>89b1d4876a4523ca61692a874f34284c</MD5>
 			<Meta>
 				<credits>The Forge forum for help :P</credits>
 				<description>Wither and Ender Dragon will be more powerful the more are respawned</description>
-				<version>1.4.2-mc1.12.x</version>
+				<version>1.5.4-mc1.12.x</version>
 				<url>https://minecraft.curseforge.com/projects/progressive-bosses</url>
 				<authors>Insane96MCP</authors>
 			</Meta>
