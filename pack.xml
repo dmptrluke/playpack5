@@ -60,7 +60,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/projectvibrantjourneys.cfg</URL>
 				<Path>config/projectvibrantjourneys.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>fdf885c244bcbacd7288a4e504474573</MD5>
+				<MD5>ca745b7f23d1d75bc1f30e54937a0b3e</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
@@ -1339,7 +1339,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charm.cfg</URL>
 				<Path>config/charm.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>3f4c226fa45bda519528a67496e1377c</MD5>
+				<MD5>96ddee53c55cb33c42d023b8cce82dd8</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
