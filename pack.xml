@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.16" 
+	 generateList="true" autoConnect="false" revision="1.4.17" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update more stuff!</note>
+			<note title="Latest Changes">Update moremore stuff!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -414,6 +414,20 @@
 				<MD5>8593f9e5b3fef8384fc6b8cb5f4b75ee</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="GunpowderLib" id="gunpowderlib" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/GunpowderLib-1.12.2-1.0.jar</URL>
+			<Size>24639</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3db9feb2e7599dcbca3807341f97b592</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A support library for Jackyy&apos;s mods.</description>
+				<version>1.12.2-1.0</version>
+				<url>https://github.com/JackyyTV/GunpowderLib</url>
+				<authors>Jackyy</authors>
+			</Meta>
+		</Module>
         <Module name="Integration Foregoing" id="integrationforegoing" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegrationForegoing-1.12.2-1.10.jar</URL>
 			<Size>181197</Size>
@@ -506,11 +520,10 @@
 				<MD5>3f2ccd83f811caf2d12eb087fa5b576f</MD5>
 			</ConfigFile>
 			<Submodule name="AE2 Wireless Terminals (AE2WTLib)" id="ae2wtlib" depends="" side="BOTH">
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/AE2WTLib-1.12.2-1.0.6.jar</URL>
-				<Size>165113</Size>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/AE2WTLib-1.12.2-1.0.34.jar</URL>
+				<Size>243622</Size>
 				<ModType>Regular</ModType>
-				<MD5>71312cf271fce761a4ef5ac43e78c000</MD5>
-			</Submodule>
+				<MD5>fa9e9ca3b46eeb8710535d002067cf49</MD5>
 		</Module>
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/AutoRegLib-1.3-32.jar</URL>
@@ -1636,15 +1649,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Exchangers" id="exchangers" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Exchangers-1.12.2-2.8.jar</URL>
-			<Size>281052</Size>
+			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Exchangers-1.12.2-2.9.jar</URL>
+			<Size>316028</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6a01826309531ba47dea317e5dd5b409</MD5>
+			<MD5>5ad9b1d08a9d5075b8637c80cfd42520</MD5>
 			<Meta>
 				<credits>ThatGamerBlue, ColossalPercy, JCOnline_ and many other people that helped the development of this mod!</credits>
 				<description>Block Exchangers.</description>
-				<version>1.12.2-2.8</version>
+				<version>1.12.2-2.9</version>
 				<url>https://github.com/JackyyTV/Exchangers</url>
 				<authors>Jackyy, Turkey2349</authors>
 			</Meta>
