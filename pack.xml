@@ -524,6 +524,7 @@
 				<Size>243622</Size>
 				<ModType>Regular</ModType>
 				<MD5>fa9e9ca3b46eeb8710535d002067cf49</MD5>
+			</Submodule>
 		</Module>
 		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/AutoRegLib-1.3-32.jar</URL>
