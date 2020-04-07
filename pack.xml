@@ -60,7 +60,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/projectvibrantjourneys.cfg</URL>
 				<Path>config/projectvibrantjourneys.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>dad1552fc5cd88b89d46c8a7f30f0e93</MD5>
+				<MD5>fdf885c244bcbacd7288a4e504474573</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
@@ -1339,7 +1339,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charm.cfg</URL>
 				<Path>config/charm.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>c9d1c0295cd3d8736d7c374931f4f7a4</MD5>
+				<MD5>3f4c226fa45bda519528a67496e1377c</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
@@ -1650,7 +1650,7 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Exchangers" id="exchangers" depends="" side="BOTH">
-			<URL priority="0">https://dmptr.com/playpack_5/files/mods/Exchangers-1.12.2-2.9.jar</URL>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Exchangers-1.12.2-2.9.jar</URL>
 			<Size>316028</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
