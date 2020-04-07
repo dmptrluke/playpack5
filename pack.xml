@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.15" 
+	 generateList="true" autoConnect="false" revision="1.4.16" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update Stuff A Sock In It.</note>
+			<note title="Latest Changes">Update more stuff!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -375,15 +375,15 @@
 			</ConfigFile>
 		</Module>
         <Module name="Tesla Core Lib" id="teslacorelib" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/tesla-core-lib-1.12.2-1.0.15.jar</URL>
-			<Size>1140374</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/tesla-core-lib-1.12.2-1.0.17.jar</URL>
+			<Size>1138988</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>b0214b0a90243374c6bd89a023f2b26e</MD5>
+			<MD5>6c76ff8a9251852d00d9a648e72ad25c</MD5>
 			<Meta>
 				<credits>The Forge, FML guys and my wife.</credits>
 				<description>Just the most awesome lib mod out there!</description>
-				<version>1.12.2-1.0.15</version>
+				<version>1.12.2-1.0.17</version>
 				<url></url>
 				<authors>Face_of_Cat</authors>
 			</Meta>
@@ -395,15 +395,15 @@
 			</ConfigFile>
 		</Module>
         <Module name="Industrial Foregoing" id="industrialforegoing" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/industrialforegoing-1.12.2-1.12.12-236.jar</URL>
-			<Size>1600649</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/industrialforegoing-1.12.2-1.12.13-237.jar</URL>
+			<Size>1603134</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>7726b3d8b19dd88142db381a6d25c47a</MD5>
+			<MD5>a9330399f14295d90e4ec3b5bb93f81f</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A small reinvention of Minefactory Reloaded.</description>
-				<version>1.12.12</version>
+				<version>1.12.13</version>
 				<url>https://minecraft.curseforge.com/projects/industrial-foregoing</url>
 				<authors>Buuz135</authors>
 			</Meta>
@@ -415,15 +415,15 @@
 			</ConfigFile>
 		</Module>
         <Module name="Integration Foregoing" id="integrationforegoing" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegrationForegoing-1.12.2-1.9.jar</URL>
-			<Size>172247</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegrationForegoing-1.12.2-1.10.jar</URL>
+			<Size>181197</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>4b2cbad2243b62fc15a712f9159f3bc5</MD5>
+			<MD5>93c64021954444ac444ca26c5ee5095a</MD5>
 			<Meta>
 				<credits></credits>
 				<description>An addon mod for Industrial Foregoing!</description>
-				<version>1.12.2-1.9</version>
+				<version>1.12.2-1.10</version>
 				<url>https://github.com/JackyyTV/IntegrationForegoing</url>
 				<authors>Jackyy, Buuz135</authors>
 			</Meta>
@@ -472,16 +472,30 @@
 				<MD5>6d7a303d6945b8de1acddcc0c681fab5</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="Wireless Crafting Terminal 2" id="wct" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/WirelessCraftingTerminal-1.12.2-3.11.88.jar</URL>
-			<Size>243080</Size>
+		<Module name="Demagnetize" id="demagnetize" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/demagnetize-1.12.2-1.1.1.jar</URL>
+			<Size>62250</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>df5027ff9ec271702f6298f14b93db88</MD5>
+			<MD5>35a1d7931546ada27efb957cd9689002</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Stops item magnets in an area around the Demagnetizer.</description>
+				<version>1.12.2-1.1.1</version>
+				<url>https://github.com/comp500/Demagnetize/</url>
+				<authors>comp500</authors>
+			</Meta>
+		</Module>
+		<Module name="Wireless Crafting Terminal" id="wct" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/WirelessCraftingTerminal-1.12.2-3.12.97.jar</URL>
+			<Size>242030</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fcaacca63f3eab9eaa8b4efbe85add86</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Adds a wireless version of the AE2 crafting terminal</description>
-				<version>1.12.2-3.11.88</version>
+				<version>1.12.2-3.12.97</version>
 				<url></url>
 				<authors>TheRealp455w0rd</authors>
 			</Meta>
