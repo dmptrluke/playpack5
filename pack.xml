@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.18" 
+	 generateList="true" autoConnect="false" revision="1.4.19" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update FTB mods!</note>
+			<note title="Latest Changes">Add mysticalworld!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -718,6 +718,60 @@
 				<Path>config/bibliocraft.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1f4776b06c7b5783bacf2329ee9964a4</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Patchouli" id="patchouli" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Patchouli-1.0-20.jar</URL>
+			<Size>466243</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7ccc8471d31b2997768f813d8e3f7b96</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Accessible, Data-Driven, Dependency-Free Documentation for Minecraft Modders and Pack Makers</description>
+				<version>1.0-20</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/patchouli.cfg</URL>
+				<Path>config/patchouli.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4c45a70bd7fd87caa4fed16b558cdd86</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Mystical Lib" id="mysticallib" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/mysticallib-1.12.2-1.7.0.jar</URL>
+			<Size>423994</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8b0c70600a01b616f1e0a5de0c6db0c4</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Miscellaneous library mod.</description>
+				<version>1.1.1</version>
+				<url></url>
+				<authors>EpicSquid, Elucent</authors>
+			</Meta>
+		</Module>
+		<Module name="Mystical World" id="mysticalworld" depends="mysticallib patchouli" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/mysticalworld-1.12.2-1.8.4.jar</URL>
+			<Size>2784396</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a92e960b2c37fbe5a47b3c38ec2cbb78</MD5>
+			<Meta>
+				<credits>Elucent for the original ideas</credits>
+				<description>Provides world content including ores, blocks, and creatures, for Roots.</description>
+				<version>1.12.2-1.8.4</version>
+				<url></url>
+				<authors>Noobanidus, EpicSquid, Martacus, Davoleo, Kalaxi, Vulpie</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/mysticalworld.cfg</URL>
+				<Path>config/mysticalworld.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dc91f2dc3a9d190686916da6646a9c95</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
