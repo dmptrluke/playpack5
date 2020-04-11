@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.26" 
+	 generateList="true" autoConnect="false" revision="1.4.27" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update CraftTweaker!</note>
+			<note title="Latest Changes">Update Quark!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -2357,15 +2357,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Quark" id="quark" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Quark-r1.6-178.jar</URL>
-			<Size>3901586</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Quark-r1.6-179.jar</URL>
+			<Size>3877577</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8d69c5722fa6498813da16b4d940246d</MD5>
+			<MD5>dfcfa70d244f0435a5ff2b28037a324b</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Small things.</description>
-				<version>r1.6-178</version>
+				<version>r1.6-179</version>
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
