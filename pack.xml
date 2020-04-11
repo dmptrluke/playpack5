@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.28" 
+	 generateList="true" autoConnect="false" revision="1.4.29" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update Bookshelf!</note>
+			<note title="Latest Changes">Update Dark Utilities!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -209,15 +209,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Dark Utilities" id="darkutils" depends="bookshelf" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/DarkUtils-1.12.2-1.8.226.jar</URL>
-			<Size>419723</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/DarkUtils-1.12.2-1.8.230.jar</URL>
+			<Size>426515</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8a0016dad9624727d72bd757b384a455</MD5>
+			<MD5>672e81d68ebdf0ac8a4cd9f78a38a770</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A mod that adds a bunch of new utilities to the game.</description>
-				<version>1.8.226</version>
+				<version>1.8.230</version>
 				<url>http://www.darkhax.net</url>
 				<authors>Darkhax</authors>
 			</Meta>
