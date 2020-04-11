@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.25" 
+	 generateList="true" autoConnect="false" revision="1.4.26" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Config config config!</note>
+			<note title="Latest Changes">Update CraftTweaker!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -1511,15 +1511,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CraftTweaker2-1.12-4.1.20.jar</URL>
-			<Size>1363036</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CraftTweaker2-1.12-4.1.20.562.jar</URL>
+			<Size>1364832</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>521297c5e2459dd232a72dacffa45a0b</MD5>
+			<MD5>f96c334afcfb56afa714c7cc8bf387ca</MD5>
 			<Meta>
 				<credits>Created By StanHebben and Jaredlll08</credits>
 				<description>Customize your minecraft experience!</description>
-				<version>1.12-4.1.20</version>
+				<version>1.12-4.1.20.562</version>
 				<url>http://minetweaker3.powerofbytes.com</url>
 				<authors>StanHebben, Jaredlll08</authors>
 			</Meta>
