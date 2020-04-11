@@ -4,7 +4,6 @@ print("Initializing industrialcraft.zs");
 import mods.thermalexpansion.Pulverizer;
 import mods.thermalexpansion.Compacter;
 
-
 # add other mod machine support for clay dust
 Pulverizer.addRecipe(<ic2:dust:1> * 2, <minecraft:clay>, 4000);
 

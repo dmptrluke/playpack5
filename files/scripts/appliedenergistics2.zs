@@ -8,9 +8,6 @@ mods.appliedenergistics2.Grinder.removeRecipe(<minecraft:gravel>);
 mods.appliedenergistics2.Grinder.addRecipe(<minecraft:sand>, <minecraft:gravel>, 4, <minecraft:flint>, 0.3);
 mods.appliedenergistics2.Grinder.addRecipe(<minecraft:gravel>, <minecraft:cobblestone>, 4);
 
-# remove (possible) exploit
-mods.appliedenergistics2.Grinder.removeRecipe(<mekanism:crystal:*>);
-
 # re-do wheat grinding
 val wheatItems = [
     <ore:cropSoybean>,

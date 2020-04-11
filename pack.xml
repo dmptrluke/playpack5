@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.21" 
+	 generateList="true" autoConnect="false" revision="1.4.22" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update charm and quark config!</note>
+			<note title="Latest Changes">Update some Zenscript!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -146,7 +146,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/akashictome.zs</URL>
 				<Path>scripts/akashictome.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d1d33df11bfa666f2cc9bc0e926ba3ce</MD5>
+				<MD5>53d6e99ffe78489cf0d57d1aa0aca359</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="AppleCore" id="applecore" depends="" side="BOTH">
@@ -483,7 +483,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/appliedenergistics2.zs</URL>
 				<Path>scripts/appliedenergistics2.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>6d7a303d6945b8de1acddcc0c681fab5</MD5>
+				<MD5>df925c6ca26d7b92d34b796636148168</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Demagnetize" id="demagnetize" depends="" side="BOTH">
@@ -2299,7 +2299,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/harvestcraft.zs</URL>
 				<Path>scripts/harvestcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>6d530176721d6addfa54256580e423e4</MD5>
+				<MD5>05fd108b9fbc5cce47f5469ef3387483</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">

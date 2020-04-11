@@ -42,11 +42,11 @@ mods.thermalexpansion.Pulverizer.addRecipe(<harvestcraft:groundvenisonitem> * 2,
 mods.thermalexpansion.Pulverizer.addRecipe(<harvestcraft:groundvenisonitem> * 2, <harvestcraft:venisonrawitem>, 1500);
 
 # add harvestcraft recipes for earthworks thatch
-recipes.addShaped("dmptr_thatchrye", <earthworks:block_thatch>,
+recipes.addShaped("dmptr_thatchrye", <mysticalworld:thatch>,
  [[<harvestcraft:ryeitem>,<harvestcraft:ryeitem>],
   [<harvestcraft:ryeitem>,<harvestcraft:ryeitem>]]);
 
-recipes.addShaped("dmptr_thatchbarley", <earthworks:block_thatch>,
+recipes.addShaped("dmptr_thatchbarley", <mysticalworld:thatch>,
  [[<harvestcraft:barleyitem>,<harvestcraft:barleyitem>],
   [<harvestcraft:barleyitem>,<harvestcraft:barleyitem>]]);
 
