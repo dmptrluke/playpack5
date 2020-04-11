@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.19" 
+	 generateList="true" autoConnect="false" revision="1.4.21" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Add mysticalworld!</note>
+			<note title="Latest Changes">Update charm and quark config!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -1393,7 +1393,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charm.cfg</URL>
 				<Path>config/charm.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>96ddee53c55cb33c42d023b8cce82dd8</MD5>
+				<MD5>233ef34c95a1531a2bf90860dd3b83ab</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
@@ -2271,15 +2271,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Pam's HarvestCraft" id="harvestcraft" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Pams+HarvestCraft+1.12.2zc+The+7mm+Kidney+Stone+Update.jar</URL>
-			<Size>4883845</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Pams+HarvestCraft+1.12.2zg.jar</URL>
+			<Size>4912890</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>fa6f9e95a35e78edb10363147718b6be</MD5>
+			<MD5>e8e1ac67accdeea50116e1e92e592397</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Expanding minecraft&apos;s food system.</description>
-				<version>1.12a</version>
+				<version>1.12.2zg</version>
 				<url>http://minecraft.curseforge.com/members/MatrexsVigil/projects</url>
 				<authors>Pamela Collins</authors>
 			</Meta>
@@ -2373,7 +2373,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/quark.cfg</URL>
 				<Path>config/quark.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>335225fcc91823c4ad648d5f95f971dd</MD5>
+				<MD5>4641b4786b06591d35ae804d475badf9</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/quark.zs</URL>
