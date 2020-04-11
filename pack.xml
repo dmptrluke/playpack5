@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.17" 
+	 generateList="true" autoConnect="false" revision="1.4.18" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update moremore stuff!</note>
+			<note title="Latest Changes">Update FTB mods!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -2249,15 +2249,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/FTBUtilities-5.4.0.96.jar</URL>
-			<Size>422864</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/FTBUtilities-5.4.0.124.jar</URL>
+			<Size>424109</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>aa6230163d711febc5b3e4e5bb97edac</MD5>
+			<MD5>bccfb63dcd1a3ea196a748f1138ab758</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.4.0.96</version>
+				<version>5.4.0.124</version>
 				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
 				<authors>LatvianModder</authors>
 			</Meta>
@@ -2268,44 +2268,30 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>759f811ae1c2edec3cac7b4627f5d976</MD5>
 			</ConfigFile>
 		</Module>
-        <Module name="Item Filters" id="itemfilters" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ItemFilters-1.0.3.12.jar</URL>
-			<Size>78422</Size>
+		<Module name="FTB Backups" id="ftbbackups" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/FTBBackups-1.1.0.1.jar</URL>
+			<Size>43764</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>9d15a21d3f89354c9611f81215b66eb1</MD5>
+			<MD5>932a6981ff08c35bbdf83bb9f7af8d17</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>1.0.3.12</version>
-				<url>http://minecraft.curseforge.com/projects/item-filters</url>
-				<authors>LatvianModder</authors>
-			</Meta>
-		</Module>
-		<Module name="FTB Quests" id="ftbquests" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/FTBQuests-1.5.2.151.jar</URL>
-			<Size>863136</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>d6b0581099c1800ff81cea73ced6d9e5</MD5>
-			<Meta>
-				<credits></credits>
-				<description></description>
-				<version>1.5.2.151</version>
-				<url>http://minecraft.curseforge.com/projects/ftb-quests</url>
+				<version>1.1.0.1</version>
+				<url>https://www.curseforge.com/minecraft/mc-mods/ftb-backups</url>
 				<authors>LatvianModder</authors>
 			</Meta>
 		</Module>
 		<Module name="FTB Library" id="ftblib" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/FTBLib-5.4.1.99.jar</URL>
-			<Size>885574</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/FTBLib-5.4.7.0.jar</URL>
+			<Size>934566</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1bef55289ad005c2e4b085058083f687</MD5>
+			<MD5>23053152aeb147aec8d47329525449a7</MD5>
 			<Meta>
 				<credits></credits>
 				<description></description>
-				<version>5.4.1.99</version>
+				<version>5.4.7.0</version>
 				<url>http://minecraft.curseforge.com/projects/ftblib</url>
 				<authors>LatvianModder</authors>
 			</Meta>
