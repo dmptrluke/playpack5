@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.24" 
+	 generateList="true" autoConnect="false" revision="1.4.25" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update CoFH World!</note>
+			<note title="Latest Changes">Config config config!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -60,7 +60,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/projectvibrantjourneys.cfg</URL>
 				<Path>config/projectvibrantjourneys.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>8f80d06b8a0aa501c00dcc1e726b6aef</MD5>
+				<MD5>3d49c7665d356e48925a13d55bf11406</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
@@ -2911,13 +2911,13 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/unidict/IntegrationModule.cfg</URL>
 				<Path>config/unidict/IntegrationModule.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>12501c1cf1849e912a00a6becce575c5</MD5>
+				<MD5>17770ca20f167c946a60bf9f975ceb6d</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/unidict/UniDict.cfg</URL>
 				<Path>config/unidict/UniDict.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>06e5759667566cd98f7d6562aef774ce</MD5>
+				<MD5>2a32e898a2be9fef05697bb920f93007</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="WrapUp" id="wrapup" depends="" side="BOTH">
