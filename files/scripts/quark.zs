@@ -12,6 +12,6 @@ print("Initializing quark.zs");
 <quark:world_stone_pavement:7>.displayName = "Blue Slate Pavement";
 <quark:stone_slate_slab>.displayName = "Blue Slate Slab";
 <quark:stone_slate_stairs>.displayName = "Blue Slate Stairs";
-<quark:stone_slate_bricks_wall>.displayNane = "Blue Slate Brick Wall";
+<quark:stone_slate_bricks_wall>.displayName = "Blue Slate Brick Wall";
 <quark:slate_wall>.displayName = "Blue Slate Wall";
 <quark:slate_speleothem>.displayName = "Blue Slate Speleothem";
