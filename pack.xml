@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.32" 
+	 generateList="true" autoConnect="false" revision="1.4.33" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Configure /dank/null.</note>
+			<note title="Latest Changes">Configure /dank/null again.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -211,7 +211,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/danknull.zs</URL>
 				<Path>scripts/danknull.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>121a9e7db0eea86413cfefeae07d16d8</MD5>
+				<MD5>9bd244d9df972bf90b62a2ea11ad5647</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Bookshelf" id="bookshelf" depends="" side="BOTH">
