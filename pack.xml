@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.35" 
+	 generateList="true" autoConnect="false" revision="1.4.36" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update Building Gadgets.</note>
+			<note title="Latest Changes">Remove Simplevoidworld.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -897,19 +897,6 @@
 				<url></url>
 				<authors>BlayTheNinth</authors>
 			</Meta>
-		</Module>
-		<Module name="Simple Void World" id="simplevoidworld" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Simple-Void-World-1.12-1.2.0.9-universal.jar</URL>
-			<Size>19865</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>204a394109dbb01d6166b4a19d86c0a6</MD5>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/simplevoidworld.cfg</URL>
-				<Path>config/simplevoidworld.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>93096c1d1f67fbf7c9994de6334cb63d</MD5>
-			</ConfigFile>
 		</Module>
         <Module name="Hunting Dimension" id="huntingdim" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/HuntingDimension-1.12.2-1.0.38.jar</URL>
@@ -2462,15 +2449,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Submodule>
 		</Module>
 		<Module name="Ding" id="ding" depends="" side="CLIENT">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Ding-1.12.1-1.0.1.jar</URL>
-			<Size>4711</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Ding-1.12.2-1.0.2.jar</URL>
+			<Size>8008</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>5b15173c1a4d3a48afa382857a1c0faa</MD5>
+			<MD5>a53653c887baf2c82ceb55663e22a2a7</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Plays a sound once the client has loaded to the main menu or loaded the world</description>
-				<version>1.12.1-1.0.1</version>
+				<version>1.12.2-1.0.2</version>
 				<url>http://ichun.me/mods/ding/</url>
 				<authors>iChun</authors>
 			</Meta>
