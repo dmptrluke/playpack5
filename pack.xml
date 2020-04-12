@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.33" 
+	 generateList="true" autoConnect="false" revision="1.4.34" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Configure /dank/null again.</note>
+			<note title="Latest Changes">Update BoP, JETIF, Iron Chests.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -938,11 +938,11 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/BiomesOPlenty-1.12.2-7.0.1.2440-universal.jar</URL>
-			<Size>4696315</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar</URL>
+			<Size>4702147</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>bc8a44cfce973d47b38dae4272e6cc49</MD5>
+			<MD5>4c1d23b8a58b6aaa9a5204fae3f18393</MD5>
 			<Meta>
 				<credits>Tim Rurkowski, gamax92, GridMonkey, and many more</credits>
 				<description>Adds over 50 new biomes, blocks, and more!</description>
@@ -2123,16 +2123,16 @@
 			<MD5>944a413889537655a8c1165d44e2647f</MD5>
 		</Module>
 		<Module name="Iron Chests" id="ironchest" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ironchest-1.12.2-7.0.59.842.jar</URL>
-			<Size>952833</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ironchest-1.12.2-7.0.72.847.jar</URL>
+			<Size>956692</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6c30ff1e706cc56bd2d6605ac804d46a</MD5>
+			<MD5>743179bc3a8f50751efbb019acc759a9</MD5>
 			<Meta>
 				<credits>By cpw, based on an original idea by Lishid</credits>
 				<description>New chests with larger sizes, with in-place upgrade items.
 The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest</description>
-				<version>1.12.2-7.0.59.842</version>
+				<version>1.12.2-7.0.67.844</version>
 				<url>http://www.minecraftforum.net/topic/981855-</url>
 				<authors>cpw</authors>
 			</Meta>
@@ -2181,15 +2181,14 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				</ConfigFile>
 			</Submodule>
 			<Submodule name="Just Enough Throwing In Fluids" id="jei-jetif">
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/jetif-1.12.2-1.5.1.jar</URL>
-				<Size>28946</Size>
-				<Required>true</Required>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/jetif-1.12.2-1.5.2.jar</URL>
+				<Size>29003</Size>
 				<ModType>Regular</ModType>
-				<MD5>4aa4204880f1696f33c37b7972fa2d0f</MD5>
+				<MD5>361e466e0669d0d9cf533fbf6aafe3f1</MD5>
 				<Meta>
 					<credits>All those mods that add this kind of crafting for giving me this idea.</credits>
 					<description>JEI addon for throwing stuff in fluids to make other stuff.</description>
-					<version>1.12.2-1.5.1</version>
+					<version>1.12.2-1.5.2</version>
 					<url></url>
 					<authors>Lykrast</authors>
 				</Meta>
