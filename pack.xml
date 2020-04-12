@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.44" 
+	 generateList="true" autoConnect="false" revision="1.4.45" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Remove ivtoolkit.</note>
+			<note title="Latest Changes">Update charset mods.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -1239,15 +1239,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Charset Lib" id="charsetlib" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Charset-Lib-0.5.5.7.jar</URL>
-			<Size>1124675</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Charset-Lib-0.5.6.4.jar</URL>
+			<Size>1053391</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>6ca24090a8c9051881694a05be4902f0</MD5>
+			<MD5>a5a4f1ac96cec4f4e2ccff095815db51</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Arrange Your Experience</description>
-				<version>0.5.5.6</version>
+				<version>0.5.6.4</version>
 				<url>http://charset.asie.pl</url>
 				<authors>asiekierka</authors>
 			</Meta>
@@ -1291,11 +1291,11 @@
 			</Meta>
 		</Module>
 		<Module name="SimpleLogic Gates" id="simplelogic_gates" depends="charsetlib" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/SimpleLogic-Gates-0.5.5.7.jar</URL>
-			<Size>133234</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/SimpleLogic-Gates-0.5.6.1.jar</URL>
+			<Size>134259</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>7af01b153ca3135d6a36a2fa8c7eb1b6</MD5>
+			<MD5>1baa9f8cbd400ed951e7d528439795cc</MD5>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charset/module/simplelogic.gates.cfg</URL>
 				<Path>config/charset/module/simplelogic.gates.cfg</Path>
@@ -1305,17 +1305,17 @@
 			<Meta>
 				<credits></credits>
 				<description>SimpleLogic Gates is a mod which adds redstone gates, inspired by the designs found in RedPower 2 and its spiritual successors, in particular RedLogic.</description>
-				<version>0.5.5.0</version>
+				<version>0.5.6.1</version>
 				<url>https://minecraft.curseforge.com/projects/simplelogic-gates</url>
 				<authors>asiekierka</authors>
 			</Meta>
 		</Module>
 		<Module name="SimpleLogic Wires" id="simplelogic_wires" depends="charsetlib" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/SimpleLogic-Wires-0.5.5.7.jar</URL>
-			<Size>40662</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/SimpleLogic-Wires-0.5.6.3.jar</URL>
+			<Size>40733</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>94f3473d60e1456325dd3cb3abb58780</MD5>
+			<MD5>a72cd85a918dd0af6bea60dc7a751aa4</MD5>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charset/module/simplelogic.wires.cfg</URL>
 				<Path>config/charset/module/simplelogic.wires.cfg</Path>
@@ -1325,7 +1325,7 @@
 			<Meta>
 				<credits></credits>
 				<description>SimpleLogic Wires is a mod which adds redstone, insulated and bundled cables.</description>
-				<version>0.5.5.0</version>
+				<version>0.5.6.3</version>
 				<url>https://minecraft.curseforge.com/projects/simplelogic-wires</url>
 				<authors>asiekierka</authors>
 			</Meta>
