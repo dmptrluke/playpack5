@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.39" 
+	 generateList="true" autoConnect="false" revision="1.4.40" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Fix Typo.</note>
+			<note title="Latest Changes">Remove Rustic Thaumaturgy. Tweak Mystical World.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -805,7 +805,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/mysticalworld.cfg</URL>
 				<Path>config/mysticalworld.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>dc91f2dc3a9d190686916da6646a9c95</MD5>
+				<MD5>200a003650c5356fd877cc9ac4ca8763</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
@@ -2494,26 +2494,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<Path>scripts/rustic.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d026fba16de32ddbf65187eb785cfdb8</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="Rustic Thaumaturgy" id="rusticthaumaturgy" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Rustic+Thaumaturgy-4.4a.jar</URL>
-			<Size>601126</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>ee1458470256cc278b2c64679aec2503</MD5>
-			<Meta>
-				<credits>MrCrayfish, WolfieWaffle, and TheRealStu</credits>
-				<description>A mod that adds some Thaumcraft compatability to Rustic.</description>
-				<version>4.4a</version>
-				<url></url>
-				<authors>Voxel-Friend</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/rusticthaumaturgy.cfg</URL>
-				<Path>config/rusticthaumaturgy.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>0cd679a5f16cbc4e7df46770c28278c5</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="SwingThroughGrass" id="stg" depends="" side="BOTH">
