@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.30" 
+	 generateList="true" autoConnect="false" revision="1.4.31" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Remove wrapup, JAOPCA. Update harvestcraft config.</note>
+			<note title="Latest Changes">Re-add /dank/null.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -186,6 +186,32 @@
 				<Path>config/appleskin.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>5985c69d22b2f08443f7179dcd227f68</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/DankNull-1.12.2-1.7.94.jar</URL>
+			<Size>321926</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>70afba72397397127ff08b6ae844b638</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds the /dank/null items from p455w0rd&apos;s Things 1.10.2 mod</description>
+				<version>1.12.2-1.7.94</version>
+				<url></url>
+				<authors>TheRealp455w0rd</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/DankNull.cfg</URL>
+				<Path>config/DankNull.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d13089a5515226858e7070ca4e8fb2a2</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/danknull.zs</URL>
+				<Path>scripts/danknull.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>efc12569a1353cecdb644eb3ef1628f1</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Bookshelf" id="bookshelf" depends="" side="BOTH">
