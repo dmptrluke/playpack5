@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.46" 
+	 generateList="true" autoConnect="false" revision="1.4.48" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update Common Capabilities.</note>
+			<note title="Latest Changes">Update Cyclops Core and Integrated Mods.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -255,15 +255,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CyclopsCore-1.12.2-1.3.0.jar</URL>
-			<Size>1037940</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CyclopsCore-1.12.2-1.6.2.jar</URL>
+			<Size>1060829</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>058ef3c94f72f1bf9db9a042bac22afa</MD5>
+			<MD5>f59037bb77dde48e66fb65f9aa8bf16b</MD5>
 			<Meta>
 				<credits>kroeserr, _EeB_</credits>
 				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
-				<version>1.12.2-1.3.0</version>
+				<version>1.12.2-1.6.2</version>
 				<url>https://minecraft.curseforge.com/projects/cyclops-core</url>
 				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
 			</Meta>
@@ -309,15 +309,15 @@
 			</Meta>
 		</Module>
 		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegratedDynamics-1.12.2-1.0.13.jar</URL>
-			<Size>3002729</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegratedDynamics-1.12.2-1.1.4.jar</URL>
+			<Size>3039935</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>0b986705cf9471f5770bc8f1fd1defe5</MD5>
+			<MD5>e7da934572ec5e191f391bda613b64e7</MD5>
 			<Meta>
 				<credits>kroeserr, Yulife (textures)</credits>
 				<description>Take full and automated control of your appliances.</description>
-				<version>1.12.2-1.0.13</version>
+				<version>1.12.2-1.1.4</version>
 				<url>https://minecraft.curseforge.com/projects/integrated-dynamics</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -335,15 +335,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Terminals" id="integratedterminals" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegratedTerminals-1.12.2-1.0.8.jar</URL>
-			<Size>570434</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegratedTerminals-1.12.2-1.0.13.jar</URL>
+			<Size>572632</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>7c050e5fe89c70737b94bb27ecbc871e</MD5>
+			<MD5>6d976b109c629d7ea9a59a6a2d71d3dd</MD5>
 			<Meta>
 				<credits>rubensworks (aka kroeserr)</credits>
 				<description>Terminals for managing and overviewing Integrated Dynamics networks</description>
-				<version>1.12.2-1.0.8</version>
+				<version>1.12.2-1.0.13</version>
 				<url>https://github.com/CyclopsMC/IntegratedTerminals</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -361,15 +361,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Tunnels" id="integratedtunnels" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegratedTunnels-1.12.2-1.6.8.jar</URL>
-			<Size>450101</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/modsIntegratedTunnels-1.12.2-1.6.11.jar</URL>
+			<Size>492743</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>2bcc5f8c5fe1753020ff618da38018fa</MD5>
+			<MD5>472abfd6e27ac2d8b24247f34436ed26</MD5>
 			<Meta>
 				<credits>rubensworks (aka kroeserr)</credits>
 				<description>Transfer other stuff over Integrated Dynamics networks</description>
-				<version>1.12.2-1.6.8</version>
+				<version>1.12.2-1.6.11</version>
 				<url>https://github.com/CyclopsMC/IntegratedTunnels</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
