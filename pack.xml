@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.48" 
+	 generateList="true" autoConnect="false" revision="1.4.49" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update Cyclops Core and Integrated Mods.</note>
+			<note title="Latest Changes">Config updates.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -291,7 +291,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/commoncapabilities.cfg</URL>
 				<Path>config/commoncapabilities.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>092a8bbec264d4c74cbf42fcdbfef846</MD5>
+				<MD5>1f2e6b64866d13a25236224facffb339</MD5>
 			</ConfigFile>
 		</Module>
         <Module name="Pretty Beaches" id="prettybeaches" depends="" side="BOTH">
@@ -423,7 +423,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/industrialforegoing.cfg</URL>
 				<Path>config/industrialforegoing.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>8593f9e5b3fef8384fc6b8cb5f4b75ee</MD5>
+				<MD5>89bdc188304375530a695ebaff91ebaa</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="GunpowderLib" id="gunpowderlib" depends="" side="BOTH">
@@ -457,7 +457,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/IntegrationForegoing.cfg</URL>
 				<Path>config/IntegrationForegoing.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>88bfbb6e011a2d2ed251752de94f98c6</MD5>
+				<MD5>fcfe75eaa1038eb9f761c96e65bd9e58</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
@@ -1258,16 +1258,10 @@
 				<MD5>39c961767d42ce232d29e3fc62b0c6cb</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charset/ids.cfg</URL>
-				<Path>config/charset/ids.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>1cbb881da0235409919f6ae60be012d6</MD5>
-			</ConfigFile>
-			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charset/module/lib.cfg</URL>
 				<Path>config/charset/module/lib.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>78d06b14f083053b76d7dff2933bda23</MD5>
+				<MD5>1d3d06e27905b9eb7c029f6c3d0a6065</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charset/modules.cfg</URL>
@@ -1300,7 +1294,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charset/module/simplelogic.gates.cfg</URL>
 				<Path>config/charset/module/simplelogic.gates.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>79C1A7886490657F6B570019F967EF33</MD5>
+				<MD5>79c1a7886490657f6b570019f967ef33</MD5>
 			</ConfigFile>
 			<Meta>
 				<credits></credits>
@@ -1320,7 +1314,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charset/module/simplelogic.wires.cfg</URL>
 				<Path>config/charset/module/simplelogic.wires.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d4fc254b33e43beb358566e0e98645ec</MD5>
+				<MD5>7aa6f4d9a2c4e3def7e42213fa99b0b2</MD5>
 			</ConfigFile>
 			<Meta>
 				<credits></credits>
