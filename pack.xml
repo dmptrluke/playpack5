@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.50" 
+	 generateList="true" autoConnect="false" revision="1.4.51" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Script updates!</note>
+			<note title="Latest Changes">Reconfigure unification and oregen for roots!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -803,7 +803,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/mysticalworld.cfg</URL>
 				<Path>config/mysticalworld.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>200a003650c5356fd877cc9ac4ca8763</MD5>
+				<MD5>21a872dd6852a37c829f89fde6e3d8dd</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
@@ -1081,7 +1081,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/world/05_bop_gems.json</URL>
 				<Path>config/cofh/world/05_bop_gems.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>cd4054ab9eb0c4f5302c5e1847177fa4</MD5>
+				<MD5>a84517abcbced601b5ba520e967687e8</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/world/06_forestry.json</URL>
@@ -2916,7 +2916,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/unidict/UniDict.cfg</URL>
 				<Path>config/unidict/UniDict.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>2a32e898a2be9fef05697bb920f93007</MD5>
+				<MD5>bbc27dffb2e4040cc73e49e1cad054df</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookiereloaded" depends="" side="BOTH">

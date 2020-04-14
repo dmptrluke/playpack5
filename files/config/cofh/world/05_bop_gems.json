@@ -1,31 +1,6 @@
 {
 	"dependencies": "biomesoplenty",
 	"populate": {
-		"amethyst": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "biomesoplenty:gem_ore",
-					"metadata": 0
-				},
-				"material": "minecraft:end_stone",
-				"cluster-size": 2
-			},
-			"cluster-count": 12,
-			"min-height": 4,
-			"max-height": 32,
-			"retrogen": "true",
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "END"
-					}
-				]
-			},
-			"dimension": "all"
-		},
 		"ruby": {
 			"distribution": "uniform",
 			"generator": {
