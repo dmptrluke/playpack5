@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.54" 
+	 generateList="true" autoConnect="false" revision="1.4.55" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Add roots!</note>
+			<note title="Latest Changes">General config tweaks!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -60,7 +60,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/projectvibrantjourneys.cfg</URL>
 				<Path>config/projectvibrantjourneys.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>ffaa7f6caa30cfc4f34d92d673c1716a</MD5>
+				<MD5>dfc81b273c750f753064f3f0bfb6342a</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
@@ -1015,7 +1015,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/biomesoplenty/misc.cfg</URL>
 				<Path>config/biomesoplenty/misc.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>e4396dc6c4528017b339f85bb8c087a9</MD5>
+				<MD5>2f11b834eae24e50adf659fe15f73f59</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/biomesoplenty.zs</URL>
@@ -1463,7 +1463,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charm.cfg</URL>
 				<Path>config/charm.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>adc7b32aa23f177e0021b8763c876fa3</MD5>
+				<MD5>269f976b44392ca0d3accf133a94e340</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
@@ -2442,7 +2442,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/quark.cfg</URL>
 				<Path>config/quark.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>4392098195a31c20b0932f286a9d70b0</MD5>
+				<MD5>d87fc57c38bc0b839bd3f3cc4d75fe6b</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/quark.zs</URL>
