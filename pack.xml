@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.53" 
+	 generateList="true" autoConnect="false" revision="1.4.54" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Finish amethyst integration!</note>
+			<note title="Latest Changes">Add roots!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -804,6 +804,56 @@
 				<Path>config/mysticalworld.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3c44e8da7207de912535777d3aec6535</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Roots" id="roots" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Roots-1.12.2-3.0.26.jar</URL>
+			<Size>1467438</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f19f00ddbd9f414082d667e1c14bc98e</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Druidic magic mod.</description>
+				<version>1.12.2-3.0.26</version>
+				<url></url>
+				<authors>EpicSquid, Martacus, Noobanidus, Davoleo, Kalaxi, Elucent</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/roots/crops.cfg</URL>
+				<Path>config/roots/crops.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a9188b1dae3b9a994dec997daaa9d6fc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/roots/elemental_soil.cfg</URL>
+				<Path>config/roots/elemental_soil.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>438408678a5b652ce314d590a5bafd14</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/roots/general.cfg</URL>
+				<Path>config/roots/general.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c6951a6f2c048b39734dc901ce9d7525</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/roots/moss.cfg</URL>
+				<Path>config/roots/moss.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f345077754cb8e9c592007a8bc3ebfd9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/roots/rituals.cfg</URL>
+				<Path>config/roots/rituals.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b57a68dd9c8d0bfa38d8ba5477a38d38</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/roots/spells.cfg</URL>
+				<Path>config/roots/spells.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>40b7e8f805bc77a5d60e1186274ca523</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
