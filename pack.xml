@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.5.0" 
+	 generateList="true" autoConnect="false" revision="1.5.1" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Post-release update!</note>
+			<note title="Latest Changes">Update cyclops mods, add light level overlays!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -82,6 +82,20 @@
 				<NoOverwrite>true</NoOverwrite>
 				<MD5>9d69448e581152edf5c318d6887f3c5e</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="MoreOverlays" id="moreoverlays" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/moreoverlays-1.15.1-mc1.12.2.jar</URL>
+			<Size>51284</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>7b5200f51245b61ef149f7a33860e930</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds some overlays from NEI (Mob spawns, Chunk Bounds, Item Search)</description>
+				<version>1.15.1</version>
+				<url></url>
+				<authors>feldim2425</authors>
+			</Meta>
 		</Module>
 		<Module name="Default Options" id="defaultoptions" depends="" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/DefaultOptions_1.12.2-9.2.8.jar</URL>
@@ -255,15 +269,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CyclopsCore-1.12.2-1.6.2.jar</URL>
-			<Size>1060829</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/modshttps://launcher.dmptr.com/playpack_5/files/mods/CyclopsCore-1.12.2-1.6.3.jar</URL>
+			<Size>1060856</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f59037bb77dde48e66fb65f9aa8bf16b</MD5>
+			<MD5>700d4cfd8fc36c40b69859f2652ffaaf</MD5>
 			<Meta>
 				<credits>kroeserr, _EeB_</credits>
 				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
-				<version>1.12.2-1.6.2</version>
+				<version>1.12.2-1.6.3</version>
 				<url>https://minecraft.curseforge.com/projects/cyclops-core</url>
 				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
 			</Meta>
@@ -309,15 +323,15 @@
 			</Meta>
 		</Module>
 		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegratedDynamics-1.12.2-1.1.4.jar</URL>
-			<Size>3039935</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegratedDynamics-1.12.2-1.1.5.jar</URL>
+			<Size>3039966</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e7da934572ec5e191f391bda613b64e7</MD5>
+			<MD5>361621ffdba39977bc795eed9c515b20</MD5>
 			<Meta>
 				<credits>kroeserr, Yulife (textures)</credits>
 				<description>Take full and automated control of your appliances.</description>
-				<version>1.12.2-1.1.4</version>
+				<version>1.12.2-1.1.5</version>
 				<url>https://minecraft.curseforge.com/projects/integrated-dynamics</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
