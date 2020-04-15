@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.57" 
+	 generateList="true" autoConnect="false" revision="1.4.58" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Remove old earthworks reference from forestry config!</note>
+			<note title="Latest Changes">Minor tweaks!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -803,7 +803,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/mysticalworld.cfg</URL>
 				<Path>config/mysticalworld.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>3c44e8da7207de912535777d3aec6535</MD5>
+				<MD5>eed6f55bf2db9d8c44b4701340e2c83b</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Roots" id="roots" depends="" side="BOTH">
@@ -2144,7 +2144,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/tombmanygraves.cfg</URL>
 				<Path>config/tombmanygraves.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>83392256a6023e9cdb87f62de3e41210</MD5>
+				<MD5>a3a0d35895d10b18178d4222d7fcd6c7</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
@@ -2805,7 +2805,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/naturalnetherportals.cfg</URL>
 				<Path>config/naturalnetherportals.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>50075aa3a47d34a5187bc7b4a390b18d</MD5>
+				<MD5>ddc0dc08f69d9297b176a51f7d2fc7e4</MD5>
 			</ConfigFile>
 		</Module>
         <Module name="Progressive Bosses" id="progressivebosses" depends="" side="BOTH">
