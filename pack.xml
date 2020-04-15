@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.56" 
+	 generateList="true" autoConnect="false" revision="1.4.57" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Minor fixes!</note>
+			<note title="Latest Changes">Remove old earthworks reference from forestry config!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -2081,7 +2081,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/forestry/backpacks.cfg</URL>
 				<Path>config/forestry/backpacks.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>13e306085d85a8b0f8d912bb3d2e8c46</MD5>
+				<MD5>db85905b7ccd3c88adb49c5ba1aba393</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/forestry/common.cfg</URL>
