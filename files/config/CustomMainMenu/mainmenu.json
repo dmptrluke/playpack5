@@ -130,7 +130,7 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "�nCopyright Mojang AB. Do not distribute!",
+            "hoverText" : "Also, a load of awesome modders!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
@@ -145,6 +145,7 @@
 		"playpack":
         {
             "text" : "PlayPack 5",
+            "hoverText" : "PlayPack 5",
             "posX" : 2,
             "posY" : -60,
             "color" : -1,
@@ -152,7 +153,7 @@
 			"action" :
 			{
 				 "type" : "openLink",
-				 "link" : "https://dmptr.com/pack/normal.xml"
+				 "link" : "https://launcher.dmptr.com/playpack_5/pack.xml"
 			}
         },
         

@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.4.55" 
+	 generateList="true" autoConnect="false" revision="1.4.56" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">General config tweaks!</note>
+			<note title="Latest Changes">Minor fixes!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -361,7 +361,7 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Integrated Tunnels" id="integratedtunnels" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/modsIntegratedTunnels-1.12.2-1.6.11.jar</URL>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegratedTunnels-1.12.2-1.6.11.jar</URL>
 			<Size>492743</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -633,15 +633,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="McJtyLib" id="mcjtylib_ng" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/mcjtylib-1.12-3.5.2.jar</URL>
-			<Size>543094</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/mcjtylib-1.12-3.5.3.jar</URL>
+			<Size>544583</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8dbced0cd0d2be8c99fd4ed9f2f15d40</MD5>
+			<MD5>7712f1205d619e73a85b0af0bc28ad58</MD5>
 			<Meta>
 				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
 				<description>McJtyLib library for RFTools, Deep Resonance, ...</description>
-				<version>1.12-3.5.2</version>
+				<version>1.12-3.5.3</version>
 				<url></url>
 				<authors>McJty</authors>
 			</Meta>
@@ -979,6 +979,20 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>35eedba7e252667cc96e8e818e06dcae</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="DupeFix Project" id="dupefixproject" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/DupeFix+Project+2.1.jar</URL>
+			<Size>32191</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>321951bdf1bb0b0989fe182a33052f85</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A mod to fix some Dupe Bugs.</description>
+				<version>2.1</version>
+				<url></url>
+				<authors>Focamacho</authors>
+			</Meta>
 		</Module>
 		<Module name="Biomes O&apos; Plenty" id="biomesoplenty" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar</URL>
@@ -1718,7 +1732,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/CustomMainMenu/mainmenu.json</URL>
 				<Path>config/CustomMainMenu/mainmenu.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>005ff51282e0036da4618119726196be</MD5>
+				<MD5>4e67569d91a88ca86a46cf8a617c980f</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
