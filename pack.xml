@@ -8,7 +8,7 @@
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update cyclops mods, add light level overlays!</note>
+			<note title="Latest Changes">Update cyclops mods, add light level overlays, !</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -2396,7 +2396,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/harvestcraft.zs</URL>
 				<Path>scripts/harvestcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>a0d411500fe8a781b3a611390cb54040</MD5>
+				<MD5>59b86886c68ce0bf2c1839cb8f36b2ed</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">

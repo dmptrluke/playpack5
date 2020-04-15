@@ -25,13 +25,14 @@ recipes.addShapeless(<harvestcraft:beeswaxitem>, [<forestry:beeswax>]);
 
 # remove things I don't like 
 JEI.removeAndHide(<harvestcraft:presser>);
+JEI.removeAndHide(<harvestcraft:market>);
 JEI.removeAndHide(<harvestcraft:shippingbin>);
 
 # give traps proper oredict recipes
 recipes.remove(<harvestcraft:groundtrap>);
 recipes.remove(<harvestcraft:watertrap>);
-recipes.addShaped(<harvestcraft:groundtrap>, [[<ore:stickWood>, <ore:trapdoorWood>, <ore:stickWood>],[<minecraft:string>, <ore:chestWood>, <minecraft:string>], [<ore:stickWood>, <minecraft:string>, <ore:stickWood>]]);
-recipes.addShaped(<harvestcraft:watertrap>, [[<ore:stickWood>, <minecraft:fishing_rod>, <ore:stickWood>],[<minecraft:string>, <ore:chestWood>, <minecraft:string>], [<ore:stickWood>, <minecraft:string>, <ore:stickWood>]]);
+recipes.addShaped(<harvestcraft:groundtrap>, [[<ore:stickWood>, <ore:trapdoorWood>, <ore:stickWood>],[<ore:string>, <ore:chestWood>, <ore:string>], [<ore:stickWood>, <ore:string>, <ore:stickWood>]]);
+recipes.addShaped(<harvestcraft:watertrap>, [[<ore:stickWood>, <minecraft:fishing_rod>, <ore:stickWood>],[<ore:string>, <ore:chestWood>, <ore:string>], [<ore:stickWood>, <ore:string>, <ore:stickWood>]]);
 
 # add meat pulverisation
 Pulverizer.addRecipe(<harvestcraft:groundturkeyitem> * 2, <harvestcraft:turkeyrawitem>, 1500);
