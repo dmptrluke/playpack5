@@ -11,6 +11,8 @@ JEI.removeAndHide(<harvestcraft:royaljellyitem>);
 # remove duplicate crops
 JEI.removeAndHide(<harvestcraft:grapeitem>);
 JEI.removeAndHide(<harvestcraft:grapeseeditem>);
+JEI.removeAndHide(<harvestcraft:eggplantitem>);
+JEI.removeAndHide(<harvestcraft:eggplantseeditem>);
 JEI.removeAndHide(<harvestcraft:tomatoitem>);
 JEI.removeAndHide(<harvestcraft:tomatoseeditem>);
 JEI.removeAndHide(<harvestcraft:chilipepperitem>);
@@ -40,7 +42,11 @@ Pulverizer.addRecipe(<harvestcraft:groundturkeyitem> * 2, <familiarfauna:turkey_
 Pulverizer.addRecipe(<harvestcraft:groundduckitem> * 2, <harvestcraft:duckrawitem>, 1500);
 Pulverizer.addRecipe(<harvestcraft:groundmuttonitem> * 2, <minecraft:mutton>, 1500);
 Pulverizer.addRecipe(<harvestcraft:groundvenisonitem> * 2, <familiarfauna:venison_raw>, 1500);
+Pulverizer.addRecipe(<harvestcraft:groundvenisonitem> * 2, <mysticalworld:venison>, 1500);
 Pulverizer.addRecipe(<harvestcraft:groundvenisonitem> * 2, <harvestcraft:venisonrawitem>, 1500);
+
+# oredict quark frog legs
+<ore:foodFrogRaw>.add(<quark:frog_leg>)
 
 # add harvestcraft recipes for mysticalworld thatch
 recipes.addShaped("dmptr_thatchrye", <mysticalworld:thatch>,

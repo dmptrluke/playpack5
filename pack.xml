@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.5.1" 
+	 generateList="true" autoConnect="false" revision="1.5.2" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update cyclops mods, add light level overlays, tweak harvestcraft!</note>
+			<note title="Latest Changes">Cancel eggplants. Also redness!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -1319,7 +1319,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/FarmingForBlockheads/Market.json</URL>
 				<Path>config/FarmingForBlockheads/Market.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>28b2ae29e9a8f9c462683383b0f9056d</MD5>
+				<MD5>7fa796a25d7bddbc4e995c108d69b625</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/farmingforblockheads.cfg</URL>
@@ -2384,7 +2384,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/harvestcraft.cfg</URL>
 				<Path>config/harvestcraft.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>4b0294a04fe8ba4479bc66daebc78564</MD5>
+				<MD5>97590d2ec10fcd3d9cf060b14af61ba0</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/harvestcraft_fruittree.cfg</URL>
@@ -2396,7 +2396,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/harvestcraft.zs</URL>
 				<Path>scripts/harvestcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>59b86886c68ce0bf2c1839cb8f36b2ed</MD5>
+				<MD5>5cea5a666e486bfa13604d16a918df73</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
@@ -2470,7 +2470,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/quark.cfg</URL>
 				<Path>config/quark.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>153a14ac731846bf6e8581417070e56e</MD5>
+				<MD5>50836fc70f7c4b4674a497d4bbc49c83</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/quark.zs</URL>
