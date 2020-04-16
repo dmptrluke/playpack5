@@ -8,7 +8,7 @@
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update cyclops mods, add light level overlays, !</note>
+			<note title="Latest Changes">Update cyclops mods, add light level overlays, tweak harvestcraft!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -269,7 +269,7 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/modshttps://launcher.dmptr.com/playpack_5/files/mods/CyclopsCore-1.12.2-1.6.3.jar</URL>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CyclopsCore-1.12.2-1.6.3.jar</URL>
 			<Size>1060856</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
