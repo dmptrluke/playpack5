@@ -8,7 +8,7 @@
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Cancel eggplants. Also redness!</note>
+			<note title="Latest Changes">Cancel eggplants. Add AttributeFix. Also cancel redness!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -82,6 +82,20 @@
 				<NoOverwrite>true</NoOverwrite>
 				<MD5>9d69448e581152edf5c318d6887f3c5e</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Attribute Fix" id="attributefix" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/AttributeFix-1.12.2-1.0.4.jar</URL>
+			<Size>6796</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d1d921d9bb092ee3b5fd193abe95db32</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Fixes arbitrary attribute restrictions, and makes them configurable.</description>
+				<version>1.0.4</version>
+				<url>https://minecraft.curseforge.com/projects/attributefix</url>
+				<authors>darkhax</authors>
+			</Meta>
 		</Module>
 		<Module name="MoreOverlays" id="moreoverlays" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/moreoverlays-1.15.1-mc1.12.2.jar</URL>
@@ -2396,7 +2410,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/harvestcraft.zs</URL>
 				<Path>scripts/harvestcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>5cea5a666e486bfa13604d16a918df73</MD5>
+				<MD5>857b78a17ac0d44eb675830ee321c4d2</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">

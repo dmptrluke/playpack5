@@ -46,7 +46,7 @@ Pulverizer.addRecipe(<harvestcraft:groundvenisonitem> * 2, <mysticalworld:veniso
 Pulverizer.addRecipe(<harvestcraft:groundvenisonitem> * 2, <harvestcraft:venisonrawitem>, 1500);
 
 # oredict quark frog legs
-<ore:foodFrogRaw>.add(<quark:frog_leg>)
+<ore:foodFrogRaw>.add(<quark:frog_leg>);
 
 # add harvestcraft recipes for mysticalworld thatch
 recipes.addShaped("dmptr_thatchrye", <mysticalworld:thatch>,
