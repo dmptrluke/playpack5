@@ -4,7 +4,7 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.5.5" 
+	 generateList="true" autoConnect="false" revision="1.5.5_a" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
@@ -2436,7 +2436,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/ftbutilities.cfg</URL>
 				<Path>config/ftbutilities.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>759f811ae1c2edec3cac7b4627f5d976</MD5>
+				<MD5>2f630c27983819709219639793672916</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Backups" id="ftbbackups" depends="" side="BOTH">
