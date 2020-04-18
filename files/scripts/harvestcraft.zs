@@ -26,7 +26,6 @@ JEI.removeAndHide(<harvestcraft:pamolive>);
 recipes.addShapeless(<harvestcraft:beeswaxitem>, [<forestry:beeswax>]);
 
 # remove things I don't like 
-JEI.removeAndHide(<harvestcraft:presser>);
 JEI.removeAndHide(<harvestcraft:market>);
 JEI.removeAndHide(<harvestcraft:shippingbin>);
 

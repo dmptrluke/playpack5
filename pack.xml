@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.5.3_a" 
+	 generateList="true" autoConnect="false" revision="1.5.4" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Tweak mob amounts!</note>
+			<note title="Latest Changes">Update ThaumicJEI mappings, enable presser, make things scary!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -901,7 +901,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/thaumcraft_graphics.cfg</URL>
 				<Path>config/thaumcraft_graphics.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>5202c3b3e0bda3582dce883493a01da5</MD5>
+				<MD5>5bf851c06509a096cac7307248e2cdc2</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/thaumcraft_misc.cfg</URL>
@@ -945,7 +945,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/thaumicjei_itemstack_aspects.json</URL>
 				<Path>config/thaumicjei_itemstack_aspects.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d74b3a71f15a8786e05521b771cbc747</MD5>
+				<MD5>648badf3fb80565c3d12151e725b2cbe</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thaumic Periphery" id="thaumicperiphery" depends="" side="BOTH">
@@ -2410,7 +2410,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/harvestcraft.zs</URL>
 				<Path>scripts/harvestcraft.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>857b78a17ac0d44eb675830ee321c4d2</MD5>
+				<MD5>fa51ea0bc896bdcec05550e93272381e</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Utilities" id="ftbutilities" depends="ftblib" side="BOTH">
