@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.5.4" 
+	 generateList="true" autoConnect="false" revision="1.5.5" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Update ThaumicJEI mappings, enable presser, make things scary!</note>
+			<note title="Latest Changes">Worldgen tweaks, mod updates, JEHC!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -831,7 +831,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/mysticalworld.cfg</URL>
 				<Path>config/mysticalworld.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>eed6f55bf2db9d8c44b4701340e2c83b</MD5>
+				<MD5>bd5d0cbb467867633223abea8cba76ce</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Roots" id="roots" depends="" side="BOTH">
@@ -2061,15 +2061,15 @@
 			</Meta>
 		</Module>
 		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/randompatches-1.12.2-1.21.0.1.jar</URL>
-			<Size>283476</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/randompatches-1.12.2-1.21.0.2.jar</URL>
+			<Size>283552</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e24e16eaa1f34800d9c49ef6cb617197</MD5>
+			<MD5>511b1530f7d8ce8e22e69bdb517cd424</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A bunch of miscellaneous patches for Minecraft.</description>
-				<version>1.12.2-1.21.0.1</version>
+				<version>1.12.2-1.21.0.2</version>
 				<url>https://minecraft.curseforge.com/projects/randompatches</url>
 				<authors>TheRandomLabs</authors>
 			</Meta>
@@ -2265,6 +2265,12 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 					<NoOverwrite>false</NoOverwrite>
 					<MD5>03E7C4CEB175FA9731BCA1AF02C238D6</MD5>
 				</ConfigFile>
+			</Submodule>
+			<Submodule name="Just Enough HarvestCraft" id="jei-jehc">
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/just-enough-harvestcraft-1.12.2-1.7.0.jar</URL>
+				<Size>42287</Size>
+				<ModType>Regular</ModType>
+				<MD5>a4d06849e3ba31081d8a5e7d5222bf81</MD5>
 			</Submodule>
 			<Submodule name="Just Enough Throwing In Fluids" id="jei-jetif">
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/jetif-1.12.2-1.5.2.jar</URL>
