@@ -1505,7 +1505,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charm.cfg</URL>
 				<Path>config/charm.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>52F14FBFB4F531FDFE49B8EE0685C655</MD5>
+				<MD5>54F629363D1B79588676FEC82B9616EA</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
