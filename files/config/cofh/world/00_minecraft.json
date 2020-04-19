@@ -6,7 +6,33 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "dirt",
-				"material": "minecraft:stone",
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
 				"cluster-size": 33
 			},
 			"cluster-count": 10,
@@ -27,7 +53,33 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "gravel",
-				"material": "minecraft:stone",
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
 				"cluster-size": 33
 			},
 			"cluster-count": 8,
@@ -126,7 +178,33 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "coal_ore",
-				"material": "minecraft:stone",
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
 				"cluster-size": 17
 			},
 			"cluster-count": 20,
@@ -147,7 +225,33 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "iron_ore",
-				"material": "minecraft:stone",
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
 				"cluster-size": 9
 			},
 			"cluster-count": 20,
@@ -168,7 +272,33 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "gold_ore",
-				"material": "minecraft:stone",
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
 				"cluster-size": 9
 			},
 			"cluster-count": 2,
@@ -189,7 +319,33 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "redstone_ore",
-				"material": "minecraft:stone",
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
 				"cluster-size": 8
 			},
 			"cluster-count": 8,
@@ -210,7 +366,33 @@
 			"distribution": "uniform",
 			"generator": {
 				"block": "diamond_ore",
-				"material": "minecraft:stone",
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
 				"cluster-size": 8
 			},
 			"cluster-count": 1,
@@ -231,7 +413,33 @@
 			"distribution": "gaussian",
 			"generator": {
 				"block": "lapis_ore",
-				"material": "minecraft:stone",
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
 				"cluster-size": 7
 			},
 			"cluster-count": 1,
@@ -255,7 +463,33 @@
 				"block": {
 					"name": "gold_ore"
 				},
-				"material": "minecraft:stone",
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
 				"cluster-size": 9
 			},
 			"cluster-count": 20,
@@ -293,7 +527,33 @@
 				"block": {
 					"name": "emerald_ore"
 				},
-				"material": "minecraft:stone",
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
 				"cluster-size": 1
 			},
 			"cluster-count": {

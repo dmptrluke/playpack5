@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.5.5_a" 
+	 generateList="true" autoConnect="false" revision="1.5.6" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">Worldgen tweaks, mod updates, JEHC!</note>
+			<note title="Latest Changes">Remove /dank/null due to critical bug!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -216,7 +216,27 @@
 				<MD5>5985c69d22b2f08443f7179dcd227f68</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
+		<Module name="Super Sound Muffler: Revived" id="supersoundmuffler" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/supersoundmuffler-revived_1.12.2_1.0.2.10.jar</URL>
+			<Size>80841</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e2cdef436dfe1ef9d8629a1af821c063</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A block that allows you to select which sounds to muffle.</description>
+				<version>1.0.2.10</version>
+				<url></url>
+				<authors>EdgarAllen</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/supersoundmuffler.cfg</URL>
+				<Path>config/supersoundmuffler.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ea8f3ec9faa734ea170d6b368ad7b377</MD5>
+			</ConfigFile>
+		</Module>
+		<!--<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/DankNull-1.12.2-1.7.94.jar</URL>
 			<Size>321926</Size>
 			<Required>true</Required>
@@ -241,7 +261,7 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>9bd244d9df972bf90b62a2ea11ad5647</MD5>
 			</ConfigFile>
-		</Module>
+		</Module>-->
 		<Module name="Bookshelf" id="bookshelf" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Bookshelf-1.12.2-2.3.590.jar</URL>
 			<Size>266636</Size>

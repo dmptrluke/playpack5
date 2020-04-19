@@ -1,0 +1,260 @@
+{
+	"populate": {
+		"thorium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "nuclearcraft:ore",
+                    "properties": {
+                        "type": "thorium"
+                    }
+				},
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
+				"cluster-size": 5
+			},
+			"cluster-count": 2,
+			"min-height": 8,
+			"max-height": 32,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"uranium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "nuclearcraft:ore",
+                    "name": "nuclearcraft:ore",
+                    "properties": {
+                        "type": "uranium"
+                    }
+				},
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
+				"cluster-size": 6
+			},
+			"cluster-count": 4,
+			"min-height": 8,
+			"max-height": 32,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"boron": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "nuclearcraft:ore",
+                    "properties": {
+                        "type": "boron"
+                    }
+				},
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
+				"cluster-size": 7
+			},
+			"cluster-count": 4,
+			"min-height": 0,
+			"max-height": 28,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"lithium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "nuclearcraft:ore",
+                    "properties": {
+                        "type": "lithium"
+                    }
+				},
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
+				"cluster-size": 7
+			},
+			"cluster-count": 4,
+			"min-height": 0,
+			"max-height": 28,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"magnesium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+                    "name": "nuclearcraft:ore",
+                    "properties": {
+                        "type": "magnesium"
+                    }
+				},
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
+				"cluster-size": 6
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 24,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		}
+	}
+}
