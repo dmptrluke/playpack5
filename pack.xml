@@ -2799,6 +2799,12 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>5397d60d8e81f372bef7c2b6c91862cf</MD5>
 			</ConfigFile>
 			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/thermalexpansion.zs</URL>
+				<Path>scripts/thermalexpansion.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6ea72170229414151f7af85f6ccb9186</MD5>
+			</ConfigFile>
+			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/thermalexpansion/common.cfg</URL>
 				<Path>config/cofh/thermalexpansion/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
