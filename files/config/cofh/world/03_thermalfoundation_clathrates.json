@@ -17,7 +17,33 @@
 						"weight": 10
 					}
 				],
-				"material": "minecraft:stone",
+				"material": [
+					"minecraft:stone",
+					{
+						"name": "quark:limestone",
+						"properties": {
+							"variant": "stone_limestone"
+						}
+					},
+					{
+						"name": "quark:marble",
+						"properties": {
+							"variant": "stone_marble"
+						}
+					},
+					{
+						"name": "quark:jasper",
+						"properties": {
+							"variant": "stone_jasper"
+						}
+					},
+					{
+						"name": "quark:slate",
+						"properties": {
+							"variant": "stone_slate"
+						}
+					}
+				],
 				"cluster-size": 16
 			},
 			"cluster-count": 2,

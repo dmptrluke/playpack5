@@ -4,10 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.5.6" 
+	 generateList="true" autoConnect="false" revision="1.6" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
+			<note title="The Nuclear Expansion">NuclearCraft comes to PlayPack!</note>
 			<note title="Latest Changes">Remove /dank/null due to critical bug!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
@@ -1171,11 +1172,17 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>dffb6dd1e52fbd40c47e45c82295c62b</MD5>
 			</ConfigFile>
-				<ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/world/00_minecraft.json</URL>
+				<Path>config/cofh/world/00_minecraft.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a4bd5d190dedd97ec0006518415378ba</MD5>
+			</ConfigFile>
+			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/world/01_thermalfoundation_ores.json</URL>
 				<Path>config/cofh/world/01_thermalfoundation_ores.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d969bc3fd3778a95b72a7d772ba2d3e0</MD5>
+				<MD5>7908e81c916fd2de3e40ed474449c7d1</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/world/02_thermalfoundation_oil.json</URL>
@@ -1187,7 +1194,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/world/03_thermalfoundation_clathrates.json</URL>
 				<Path>config/cofh/world/03_thermalfoundation_clathrates.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>0a91046475638b0c0d2964b035b74b1c</MD5>
+				<MD5>d12303c3d7b2b7569e952cd530081be0</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/world/05_bop_gems.json</URL>
@@ -1199,7 +1206,33 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/world/06_forestry.json</URL>
 				<Path>config/cofh/world/06_forestry.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>7fb74d560a0c64b7975a1c4b589424ec</MD5>
+				<MD5>5fce042a490f68903afe9e46e31feeca</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/world/07_nuclearcraft.json</URL>
+				<Path>config/cofh/world/07_nuclearcraft.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b37962b1fab470be129c2de83594f98d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="NuclearCraft" id="nuclearcraft" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/NuclearCraft-2.18r-1.12.2.jar</URL>
+			<Size>6867980</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8b90145b68e9e83924bbeea0fa63f53f</MD5>
+			<Meta>
+				<credits>Thanks to all suggestors, bug reporters, modders whose APIs I have used and those who have made language files!</credits>
+				<description>Nuclear Physics, Minecraft Style</description>
+				<version>2.18r-1.12.2</version>
+				<url>https://minecraft.curseforge.com/projects/nuclearcraft-mod</url>
+				<authors>tomdodd4598</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/nuclearcraft.cfg</URL>
+				<Path>config/nuclearcraft.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ed44e8bc3fc44d7f1cb16d8fab6c7373</MD5>
 			</ConfigFile>
 		</Module>
         <Module name="Cherished Worlds" id="cherishedworlds" depends="" side="CLIENT">
