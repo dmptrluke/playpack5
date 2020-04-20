@@ -61,7 +61,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/projectvibrantjourneys.cfg</URL>
 				<Path>config/projectvibrantjourneys.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>4b0b4676f50d4f631480f9f4e5b2925c</MD5>
+				<MD5>1c707a0e31a2dd4ec0c8798c7203b092</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Client Tweaks" id="clienttweaks" depends="" side="CLIENT">
@@ -1558,7 +1558,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charm.cfg</URL>
 				<Path>config/charm.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>223D0EE830EB3635FCF2852DAF735B61</MD5>
+				<MD5>6bb3fc24d78288f1b33cedbcc4f6f544</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
@@ -2637,7 +2637,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/rustic.cfg</URL>
 				<Path>config/rustic.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>02ae4a1018dbfea67367f69d05b8ac22</MD5>
+				<MD5>cffa396cb5ffb48a0e73fadaccd71739</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/rustic.zs</URL>
