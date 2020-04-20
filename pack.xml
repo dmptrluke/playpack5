@@ -1026,7 +1026,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/huntingdim/world_generator_settings.json</URL>
 				<Path>config/huntingdim/world_generator_settings.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>35eedba7e252667cc96e8e818e06dcae</MD5>
+				<MD5>e8c8a620b9b880f29788c3ae8e43ba65</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="DupeFix Project" id="dupefixproject" depends="" side="BOTH">
@@ -2285,7 +2285,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/chests.zs</URL>
 				<Path>scripts/chests.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>959a3106574ef36213df3d29d1997b1b</MD5>
+				<MD5>2179eda9cb403766c37f6367852ce78b</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
@@ -2637,7 +2637,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/rustic.cfg</URL>
 				<Path>config/rustic.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>65da359cba0b3c6d74cba9146d051aea</MD5>
+				<MD5>02ae4a1018dbfea67367f69d05b8ac22</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/rustic.zs</URL>
@@ -2808,7 +2808,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/thermalexpansion/common.cfg</URL>
 				<Path>config/cofh/thermalexpansion/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>e21d4ff424e6c6c9764b295d241108aa</MD5>
+				<MD5>650902588c522ed6b8d5f8aa054d8d41</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/thermalexpansion/florbs.cfg</URL>
