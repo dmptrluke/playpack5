@@ -852,7 +852,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/mysticalworld.cfg</URL>
 				<Path>config/mysticalworld.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>bd5d0cbb467867633223abea8cba76ce</MD5>
+				<MD5>b002c54f65d15f0f8929f5d36bb6853f</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Roots" id="roots" depends="" side="BOTH">
