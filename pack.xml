@@ -8,8 +8,7 @@
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="The Nuclear Expansion">NuclearCraft comes to PlayPack!</note>
-			<note title="Latest Changes">Remove /dank/null due to critical bug!</note>
+			<note title="Latest Changes">1.6 prerelease!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -712,13 +711,13 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/rftools/rftools.cfg</URL>
 				<Path>config/rftools/rftools.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>44a9f7e89247b86c27b30c1cc98fb20e</MD5>
+				<MD5>84dca07dc14ddabb5cae1782d82064bb</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/rftools.zs</URL>
 				<Path>scripts/rftools.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>8da9ecba9d1c33ab2d71843fa640b2f7</MD5>
+				<MD5>6aa611f8d67d25eca6ab761e6771321b</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="RFTools Control" id="rftoolscontrol" depends="rftools" side="BOTH">
@@ -1215,7 +1214,7 @@
 				<MD5>b37962b1fab470be129c2de83594f98d</MD5>
 			</ConfigFile>
 		</Module>
-		<Module name="NuclearCraft" id="nuclearcraft" depends="" side="BOTH">
+		<!--<Module name="NuclearCraft" id="nuclearcraft" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/NuclearCraft-2.18r-1.12.2.jar</URL>
 			<Size>6867980</Size>
 			<Required>true</Required>
@@ -1234,7 +1233,7 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>ed44e8bc3fc44d7f1cb16d8fab6c7373</MD5>
 			</ConfigFile>
-		</Module>
+		</Module>-->
         <Module name="Cherished Worlds" id="cherishedworlds" depends="" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/cherishedworlds-1.12.2-1.0.1.jar</URL>
 			<Size>37519</Size>

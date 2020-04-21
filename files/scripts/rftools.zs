@@ -16,6 +16,14 @@ mods.jei.JEI.removeAndHide(<rftools:powercell_advanced>);
 mods.jei.JEI.removeAndHide(<rftools:powercell>);
 mods.jei.JEI.removeAndHide(<rftools:powercell_card>);
 
+# no quarries yet
+mods.jei.JEI.removeAndHide(<rftools:shape_card:2>);
+mods.jei.JEI.removeAndHide(<rftools:shape_card:3>);
+mods.jei.JEI.removeAndHide(<rftools:shape_card:4>);
+mods.jei.JEI.removeAndHide(<rftools:shape_card:5>);
+mods.jei.JEI.removeAndHide(<rftools:shape_card:6>);
+mods.jei.JEI.removeAndHide(<rftools:shape_card:7>);
+
 # techify storage scanners
 recipes.remove(<rftools:storage_scanner>);
 recipes.addShaped(<rftools:storage_scanner>, [[<ore:ingotGold>, <minecraft:redstone>, <ore:ingotGold>],[<minecraft:ender_pearl>, <rftools:machine_frame>, <minecraft:ender_pearl>], [<ore:plateInvar>, <ore:gearIron>, <ore:plateInvar>]]);
