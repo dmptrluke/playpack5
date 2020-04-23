@@ -678,7 +678,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/Building%20Gadgets.cfg</URL>
 				<Path>config/Building Gadgets.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>acf43bb133233499241c4e9e54d1fbf0</MD5>
+				<MD5>d43dcfaae4f5fb3070e0bd10721df19f</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="McJtyLib" id="mcjtylib_ng" depends="" side="BOTH">
@@ -2808,7 +2808,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/thermalexpansion.zs</URL>
 				<Path>scripts/thermalexpansion.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>e2a7c4137567112472878fb0a959becd</MD5>
+				<MD5>48d04b8d7f7b18501383f1ae581f1d91</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/thermalexpansion/common.cfg</URL>
