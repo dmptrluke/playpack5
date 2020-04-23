@@ -56,7 +56,6 @@
 			"generator": {
 				"block": {
                     "name": "nuclearcraft:ore",
-                    "name": "nuclearcraft:ore",
                     "properties": {
                         "type": "uranium"
                     }
@@ -88,9 +87,9 @@
 						}
 					}
 				],
-				"cluster-size": 6
+				"cluster-size": 10
 			},
-			"cluster-count": 4,
+			"cluster-count": 2,
 			"min-height": 8,
 			"max-height": 32,
 			"retrogen": "true",

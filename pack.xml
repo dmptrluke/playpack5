@@ -8,7 +8,8 @@
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Latest Changes">1.6 prerelease!</note>
+			<note title="The Nuclear Expansion">NuclearCraft comes to PlayPack!</note>
+			<note title="Latest Changes">See above!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -477,7 +478,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/industrialforegoing.cfg</URL>
 				<Path>config/industrialforegoing.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>89bdc188304375530a695ebaff91ebaa</MD5>
+				<MD5>08821667e9812bf00b894ec8a6dc80d9</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/industrialforegoing.zs</URL>
@@ -1211,10 +1212,10 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/world/07_nuclearcraft.json</URL>
 				<Path>config/cofh/world/07_nuclearcraft.json</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>b37962b1fab470be129c2de83594f98d</MD5>
+				<MD5>1c94580a2bd59194587fb62ae16ad613</MD5>
 			</ConfigFile>
 		</Module>
-		<!--<Module name="NuclearCraft" id="nuclearcraft" depends="" side="BOTH">
+		<Module name="NuclearCraft" id="nuclearcraft" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/NuclearCraft-2.18r-1.12.2.jar</URL>
 			<Size>6867980</Size>
 			<Required>true</Required>
@@ -1231,9 +1232,15 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/nuclearcraft.cfg</URL>
 				<Path>config/nuclearcraft.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>ed44e8bc3fc44d7f1cb16d8fab6c7373</MD5>
+				<MD5>69acc3237cc316d04e2c8f6ebeac2701</MD5>
 			</ConfigFile>
-		</Module>-->
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/nuclearcraft.zs</URL>
+				<Path>scripts/nuclearcraft.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>71f69bc7a853bf17f26edf65c53af4f6</MD5>
+			</ConfigFile>
+		</Module>
         <Module name="Cherished Worlds" id="cherishedworlds" depends="" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/cherishedworlds-1.12.2-1.0.1.jar</URL>
 			<Size>37519</Size>
@@ -2488,7 +2495,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/ftbutilities.cfg</URL>
 				<Path>config/ftbutilities.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>2f630c27983819709219639793672916</MD5>
+				<MD5>9557a7dfde25ede99902a163f720512f</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Backups" id="ftbbackups" depends="" side="BOTH">
@@ -2801,7 +2808,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/thermalexpansion.zs</URL>
 				<Path>scripts/thermalexpansion.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>6ea72170229414151f7af85f6ccb9186</MD5>
+				<MD5>e2a7c4137567112472878fb0a959becd</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/thermalexpansion/common.cfg</URL>
@@ -3072,7 +3079,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/unidict/UniDict.cfg</URL>
 				<Path>config/unidict/UniDict.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>48800538de7d814aecdaccd0799e389a</MD5>
+				<MD5>47a11796e5500d2cf639953cd2b1259f</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookiereloaded" depends="" side="BOTH">
