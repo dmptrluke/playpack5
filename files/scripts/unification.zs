@@ -22,10 +22,6 @@ function removeOre(item as IItemStack, entry as IOreDictEntry){
 removeOre(<thermalfoundation:material:22>, <ore:gearWood>);
 removeOre(<thermalfoundation:material:23>, <ore:gearStone>);
 
-//////////////////////////////////////////////////////////////////////////////
-/// APPLIED ENERGISTICS UNIFICATION
-///
-removeOre(<appliedenergistics2:material:40>, <ore:gearWood>);
 
 //////////////////////////////////////////////////////////////////////////////
 /// ENDER IO UNIFICATION
@@ -44,6 +40,7 @@ removeOre(<enderio:item_material:27>, <ore:dustTin>);
 mods.jei.JEI.removeAndHide(<enderio:item_material:5>);
 mods.jei.JEI.removeAndHide(<enderio:item_material:33>);
 <ore:dustNetherQuartz>.remove(<enderio:item_material:33>);
+<ore:dustQuartz>.remove(<enderio:item_material:33>);
 <ore:itemSilicon>.remove(<enderio:item_material:5>);
 
 // FLOUR
@@ -56,10 +53,43 @@ InductionSmelter.addRecipe(<enderio:item_alloy_ingot:3>, <ore:itemSilicon>.first
 
 // PULVERISER RECIPES
 Pulverizer.removeRecipe(<minecraft:clay>);
-Pulverizer.addRecipe(<minecraft:clay_ball> * 4, <minecraft:clay>, 3000, <appliedenergistics2:material:5>, 100);
+Pulverizer.addRecipe(<minecraft:clay_ball> * 2, <minecraft:clay>, 3000, <appliedenergistics2:material:5>, 100);
 
 // GRINDSTONE RECIPES
 Grinder.addRecipe(<minecraft:clay_ball>, <minecraft:clay>, 4, <appliedenergistics2:material:5>, 0.75);
+
+//////////////////////////////////////////////////////////////////////////////
+/// APPLIED ENERGISTICS UNIFICATION
+///
+removeOre(<appliedenergistics2:material:40>, <ore:gearWood>);
+
+// FLOUR
+recipes.replaceAllOccurences(<harvestcraft:flouritem>, <appliedenergistics2:material:4>);
+
+
+//////////////////////////////////////////////////////////////////////////////
+/// ROOTS UNIFICATION
+///
+
+
+// FLOUR
+mods.roots.Mortar.removeRecipe(<roots:flour>);
+mods.roots.Mortar.addRecipe(<appliedenergistics2:material:4>, [<minecraft:wheat>]);
+mods.roots.Mortar.addRecipe(<appliedenergistics2:material:4>, [<minecraft:potato>]);
+mods.roots.Mortar.addRecipe(<appliedenergistics2:material:4>, [<harvestcraft:barleyitem>]);
+mods.roots.Mortar.addRecipe(<appliedenergistics2:material:4>, [<harvestcraft:oatsitem>]);
+mods.roots.Mortar.addRecipe(<appliedenergistics2:material:4>, [<harvestcraft:riceitem>]);
+mods.roots.Mortar.addRecipe(<appliedenergistics2:material:4>, [<harvestcraft:ryeitem>]);
+
+//////////////////////////////////////////////////////////////////////////////
+/// NUCLEARCRAFT UNIFICATION
+///
+
+// HIDE DUPES
+mods.jei.JEI.removeAndHide(<nuclearcraft:gem_dust:2>);
+<ore:dustNetherQuartz>.remove(<nuclearcraft:gem_dust:2>);
+<ore:dustQuartz>.remove(<nuclearcraft:gem_dust:2>);
+
 
 //////////////////////////////////////////////////////////////////////////////
 /// FORESTRY UNIFICATION

@@ -4,12 +4,12 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.6" 
+	 generateList="true" autoConnect="false" revision="1.6.1" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
 			<note title="The Nuclear Expansion">NuclearCraft comes to PlayPack!</note>
-			<note title="Latest Changes">See above!</note>
+			<note title="Latest Change">Tweaked and fixed some unification stuff!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -1170,7 +1170,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/world/config.cfg</URL>
 				<Path>config/cofh/world/config.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>dffb6dd1e52fbd40c47e45c82295c62b</MD5>
+				<MD5>e7d71c45e75a1f90a27fc4d289224041</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/world/00_minecraft.json</URL>
@@ -1698,7 +1698,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/unification.zs</URL>
 				<Path>scripts/unification.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>a0f8581cd4c9fad783109c2dba3d904c</MD5>
+				<MD5>589339f0ca9d772a6b68ca9a0bddd80c</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/forestry_fluids.zs</URL>
@@ -2805,12 +2805,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>5397d60d8e81f372bef7c2b6c91862cf</MD5>
 			</ConfigFile>
 			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/thermalexpansion.zs</URL>
-				<Path>scripts/thermalexpansion.zs</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>48d04b8d7f7b18501383f1ae581f1d91</MD5>
-			</ConfigFile>
-			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/thermalexpansion/common.cfg</URL>
 				<Path>config/cofh/thermalexpansion/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
@@ -3079,7 +3073,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/unidict/UniDict.cfg</URL>
 				<Path>config/unidict/UniDict.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>47a11796e5500d2cf639953cd2b1259f</MD5>
+				<MD5>bcdfd92baff05b42e017c06df777e6ab</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookiereloaded" depends="" side="BOTH">
