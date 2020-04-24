@@ -121,9 +121,6 @@ mods.jei.JEI.removeAndHide(<forestry:crated.ingotcopper>);
 mods.forestry.Carpenter.removeRecipe(<forestry:crated.ingotbronze>);
 mods.jei.JEI.removeAndHide(<forestry:crated.ingotbronze>);
 
-// RECIPES
-recipes.replaceAllOccurences(<thermalfoundation:storage_resource:0>, <forestry:charcoal>);
-mods.jei.JEI.removeAndHide(<thermalfoundation:storage_resource:0>);
 
 ///////////////////////////////////////////////////////////////////////////////
 /// IMMERSIVE ENGINEERING UNIFICATION
