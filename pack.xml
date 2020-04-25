@@ -4,12 +4,12 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.6.2" 
+	 generateList="true" autoConnect="false" revision="1.6.3" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
 			<note title="The Nuclear Expansion">NuclearCraft comes to PlayPack!</note>
-			<note title="Latest Change">More unification fixes!</note>
+			<note title="Latest Change">Add ceramics!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -1681,6 +1681,26 @@
 				<MD5>6515f66056b8cbcaa61ca9e02efb3698</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Ceramics" id="ceramics" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Ceramics-1.12-1.3.7.jar</URL>
+			<Size>400538</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5992287165b230487f46d8321bb957dd</MD5>
+			<Meta>
+				<credits>Much of the code for clay buckets is based off the Forge universal bucket</credits>
+				<description>Adds a few early game items based on baking clay</description>
+				<version>1.12-1.3.7</version>
+				<url>https://minecraft.curseforge.com/projects/ceramics</url>
+				<authors>KnightMiner</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/ceramics.cfg</URL>
+				<Path>config/ceramics.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>58ee645b3e4d446a4445e3574295081f</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CraftTweaker2-1.12-4.1.20.562.jar</URL>
 			<Size>1364832</Size>
@@ -2970,13 +2990,13 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/tcomplement.cfg</URL>
 				<Path>config/tcomplement.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>b9e81c077568f5549ad57637a9b63d19</MD5>
+				<MD5>9fb88b267abcd198d69ad7dc16b2106c</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/TComplementModules.cfg</URL>
 				<Path>config/TComplementModules.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>c96f3994f0c848168b7f37e95cc198c0</MD5>
+				<MD5>6809b495958028cac1392ac5adeea6a6</MD5>
 			</ConfigFile>
 		</Module>
         <Module name="Traverse" id="traverse" depends="" side="BOTH">
