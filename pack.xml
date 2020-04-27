@@ -4,12 +4,12 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.6.3" 
+	 generateList="true" autoConnect="false" revision="1.6.5" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
 			<note title="The Nuclear Expansion">NuclearCraft comes to PlayPack!</note>
-			<note title="Latest Change">Add ceramics!</note>
+			<note title="Latest Change">Update roots, remove outfox.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -856,15 +856,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Roots" id="roots" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Roots-1.12.2-3.0.26.jar</URL>
-			<Size>1467438</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Roots-1.12.2-3.0.27.jar</URL>
+			<Size>1469800</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f19f00ddbd9f414082d667e1c14bc98e</MD5>
+			<MD5>3ef85a1df394afa94d16d5c7832703f6</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Druidic magic mod.</description>
-				<version>1.12.2-3.0.26</version>
+				<version>1.12.2-3.0.27</version>
 				<url></url>
 				<authors>EpicSquid, Martacus, Noobanidus, Davoleo, Kalaxi, Elucent</authors>
 			</Meta>
@@ -1122,15 +1122,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CoFHCore-1.12.2-4.6.2.25-universal.jar</URL>
-			<Size>844166</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CoFHCore-1.12.2-4.6.6.1-universal.jar</URL>
+			<Size>848187</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>cb72877f5ef51cf09582e035f62bcb57</MD5>
+			<MD5>f147d3b87f97bb317e1c37cba0dde002</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
-				<version>4.6.2.25</version>
+				<version>4.6.6.1</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -1912,25 +1912,6 @@
 				<Path>config/Exchangers.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d5dd78ae48b6bcf49afdd5d95e0b0467</MD5>
-			</ConfigFile>
-		</Module>
-		<Module name="Outfox" id="outfox" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/outfox-0.1.4-mc1.12.2.jar</URL>
-			<Size>133963</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>a36a1238abf04b21e1bbb354219f84ab</MD5>
-			<Meta>
-				<description>Adds adorable, tameable Foxes to Minecraft&apos;s forests. Once befriended, they can sniff out any block in the world and lead you to them.</description>
-				<version>_DEV_</version>
-				<url></url>
-				<authors>Kais</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/outfox.cfg</URL>
-				<Path>config/outfox.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>7181c425898452f5aaec411144fa14c4</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Engineer's Doors" id="engineersdoors" depends="" side="BOTH">
@@ -2806,15 +2787,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Expansion" id="thermalexpansion" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalExpansion-1.12.2-5.5.6.1-universal.jar</URL>
-			<Size>2345112</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalExpansion-1.12.2-5.5.7.1-universal.jar</URL>
+			<Size>2345139</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>cc357e0f72a0f5251d3b8b408e489543</MD5>
+			<MD5>0bf91e166b05e83d22455a9c7ec395bb</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>Expanding Minecraft Thermally - provides new options for automation and processing!</description>
-				<version>5.5.6.1</version>
+				<version>5.5.7.1</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
@@ -2844,15 +2825,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Thermal Foundation" id="thermalfoundation" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalFoundation-1.12.2-2.6.6.1-universal.jar</URL>
-			<Size>2219733</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThermalFoundation-1.12.2-2.6.7.1-universal.jar</URL>
+			<Size>2219736</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>c956183ceaa8cd78c108061947f78338</MD5>
+			<MD5>6eca041bbf28949b60ecf1179d561156</MD5>
 			<Meta>
 				<credits>Team CoFH</credits>
 				<description>The Foundation of a Thermally enhanced world!</description>
-				<version>2.6.6.1</version>
+				<version>2.6.7.1</version>
 				<url>http://www.teamcofh.com</url>
 				<authors>Team CoFH</authors>
 			</Meta>
