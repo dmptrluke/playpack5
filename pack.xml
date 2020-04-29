@@ -4,12 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.6.5" 
+	 generateList="true" autoConnect="false" revision="1.7" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="The Nuclear Expansion">NuclearCraft comes to PlayPack!</note>
-			<note title="Latest Change">Update roots, remove outfox.</note>
+			<note title="Pumpjacks and Warpstones">Immersive Petroleum and craftable warp stones!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -1336,15 +1335,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Construct&apos;s Armory" id="conarm" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/conarm-1.12.2-1.2.5.4.jar</URL>
-			<Size>894192</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/conarm-1.12.2-1.2.5.5.jar</URL>
+			<Size>894353</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>446e4ed35407246b3ebad1b24c230046</MD5>
+			<MD5>7c215b8f7b188c8c57409e47902edfb4</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A Tinkers&apos; Construct add-on for those looking to enter the world of armor</description>
-				<version>1.12.2-1.2.5.4</version>
+				<version>1.12.2-1.2.5.5</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
@@ -2121,15 +2120,15 @@
 			</Meta>
 		</Module>
 		<Module name="RandomPatches" id="randompatches" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/randompatches-1.12.2-1.21.0.2.jar</URL>
-			<Size>283552</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/randompatches-1.12.2-1.21.0.3.jar</URL>
+			<Size>283446</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>511b1530f7d8ce8e22e69bdb517cd424</MD5>
+			<MD5>1c7fc41b27b2f18210272ba3aa90eb99</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A bunch of miscellaneous patches for Minecraft.</description>
-				<version>1.12.2-1.21.0.2</version>
+				<version>1.12.2-1.21.0.3</version>
 				<url>https://minecraft.curseforge.com/projects/randompatches</url>
 				<authors>TheRandomLabs</authors>
 			</Meta>
@@ -2261,6 +2260,26 @@
 				<MD5>455f78d754f4bed3feeb9ee6b232d2be</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Immersive Petroleum" id="immersivepetroleum" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/immersivepetroleum-1.12.2-1.1.9.jar</URL>
+			<Size>906018</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>57ba127778e579d10d705f9f8359d2e0</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds oil and oil processing features to Immersive Engineering.</description>
+				<version>1.1.9</version>
+				<url>https://github.com/Flaxbeard/ImmersivePetroleum</url>
+				<authors>Flaxbeard</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/immersivepetroleum.cfg</URL>
+				<Path>config/immersivepetroleum.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c31a36220e73ba26826bc65fbbbc0c0b</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Born In A Barn" id="borninabarn" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Born+In+A+Barn+V1.8-1.12-1.1.jar</URL>
 			<Size>3642</Size>
@@ -2356,6 +2375,19 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 					<version>1.12.2-1.0.6</version>
 					<url></url>
 					<authors>TheRealp455w0rd</authors>
+				</Meta>
+			</Submodule>
+				<Submodule name="Just Enough Petroleum" id="justenoughpetroleum" depends="" side="BOTH">
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/JustEnoughPetroleum-0.1.jar</URL>
+				<Size>18945</Size>
+				<ModType>Regular</ModType>
+				<MD5>490c5fc3becfa64f3c25a38105796554</MD5>
+				<Meta>
+					<credits>Forge, mezz, Flaxbeard, the Immersive Engineering team</credits>
+					<description>-and petroleum accessories</description>
+					<version>0.1</version>
+					<url></url>
+					<authors>BordListian</authors>
 				</Meta>
 			</Submodule>
 		</Module>
@@ -3142,7 +3174,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/waystones.zs</URL>
 				<Path>scripts/waystones.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d76a0c8f59af8b255dcd1248b107b5a8</MD5>
+				<MD5>6f128b4fb0e27ed67c8beb7bcd94e6ec</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="VanillaFix" id="vanillafix" depends="" side="BOTH">
