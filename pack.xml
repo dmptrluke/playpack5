@@ -2971,7 +2971,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/tconstruct.cfg</URL>
 				<Path>config/tconstruct.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>b85c2739ed1ba95b624f54cb666fb7a6</MD5>
+				<MD5>7cc5280f5aa5b61ff387acaa70a46f87</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/TinkerModules.cfg</URL>
