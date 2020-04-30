@@ -2736,7 +2736,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/storagedrawers.cfg</URL>
 				<Path>config/storagedrawers.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d0d65dbf0cb978d7971b445a0e67f48f</MD5>
+				<MD5>17606920fafef56f5267a204fc0b2c99</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="OpenComputers" id="opencomputers" depends="" side="BOTH">
@@ -2971,13 +2971,13 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/tconstruct.cfg</URL>
 				<Path>config/tconstruct.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>7cc5280f5aa5b61ff387acaa70a46f87</MD5>
+				<MD5>0b2a771a27963995b914f876386ba226</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/TinkerModules.cfg</URL>
 				<Path>config/TinkerModules.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d0f79d1bbe0ea97400db4af8729274ce</MD5>
+				<MD5>85a2f93b12064176c5b12cd2de6f0bf7</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/tinkers.zs</URL>
