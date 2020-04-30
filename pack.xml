@@ -3168,7 +3168,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/Waystones.cfg</URL>
 				<Path>config/Waystones.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>a14af2aec58ba9dc614347bcc1685061</MD5>
+				<MD5>140b79e166ad92b03e0a0d44ec0baff7</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/waystones.zs</URL>
