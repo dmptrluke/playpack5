@@ -1701,15 +1701,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CraftTweaker2-1.12-4.1.20.562.jar</URL>
-			<Size>1364832</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CraftTweaker2-1.12-4.1.20.564.jar</URL>
+			<Size>1424627</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>f96c334afcfb56afa714c7cc8bf387ca</MD5>
+			<MD5>4709d6057aa57c475256280d75c362bc</MD5>
 			<Meta>
 				<credits>Created By StanHebben and Jaredlll08</credits>
 				<description>Customize your minecraft experience!</description>
-				<version>1.12-4.1.20.562</version>
+				<version>1.12-4.1.20.564</version>
 				<url>http://minetweaker3.powerofbytes.com</url>
 				<authors>StanHebben, Jaredlll08</authors>
 			</Meta>
@@ -3168,7 +3168,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/Waystones.cfg</URL>
 				<Path>config/Waystones.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>f574dd18e1fd2eadf4d53ca8432e93db</MD5>
+				<MD5>a14af2aec58ba9dc614347bcc1685061</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/waystones.zs</URL>
