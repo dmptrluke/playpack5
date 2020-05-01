@@ -2879,7 +2879,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/thermalfoundation/common.cfg</URL>
 				<Path>config/cofh/thermalfoundation/common.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>7A2ADD013A4D282377BCDF15A0D3F86F</MD5>
+				<MD5>6abe73c46ea036402adce347bb11dd5a</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cofh/thermalfoundation/lexicon-whitelist.cfg</URL>
