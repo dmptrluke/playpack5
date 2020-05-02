@@ -319,7 +319,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/cyclopscore.cfg</URL>
 				<Path>config/cyclopscore.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>c5f54de05ecd0456d5e391fcac61c094</MD5>
+				<MD5>37dc591e2a1ec363e163336792d5baf4</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="CommonCapabilities" id="commoncapabilities" depends="" side="BOTH">
@@ -2971,7 +2971,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/tconstruct.cfg</URL>
 				<Path>config/tconstruct.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>0b2a771a27963995b914f876386ba226</MD5>
+				<MD5>57ce2099a55bf73145c184f46620f9a9</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/TinkerModules.cfg</URL>
