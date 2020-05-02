@@ -2284,7 +2284,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/immersiveengineering.cfg</URL>
 				<Path>config/immersiveengineering.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>0ce45fe09da3bfc628c862f088c7ccff</MD5>
+				<MD5>6546c46dbbe0a0046b0e5d126936e41e</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/engineering.zs</URL>
