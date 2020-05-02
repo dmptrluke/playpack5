@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.7" 
+	 generateList="true" autoConnect="false" revision="1.7.1" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Pumpjacks and Warpstones">Immersive Petroleum and craftable warp stones!</note>
+			<note title="Chisel">Pretty Chisel blocks and other assorted changes!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -2709,7 +2709,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/rustic.cfg</URL>
 				<Path>config/rustic.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>cffa396cb5ffb48a0e73fadaccd71739</MD5>
+				<MD5>02ae4a1018dbfea67367f69d05b8ac22</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/rustic.zs</URL>
@@ -2717,6 +2717,20 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d026fba16de32ddbf65187eb785cfdb8</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Overloaded Armor Bar" id="overpoweredarmorbar" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/overloadedarmorbar-1.0.4g.jar</URL>
+			<Size>18649</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>acad421c31ba44659f4809d767e63821</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allow armor bar to wrap when wearing better than diamond, plus other tweaks</description>
+				<version>1.0.4g</version>
+				<url>https://github.com/Tfarcenim/OverpoweredArmorBar</url>
+				<authors>LocusWay, Tfarecmin</authors>
+			</Meta>
 		</Module>
 		<Module name="SwingThroughGrass" id="stg" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/stg-1.12.2-1.2.3.jar</URL>
