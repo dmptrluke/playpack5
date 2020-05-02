@@ -1506,6 +1506,25 @@
 				<MD5>ffbad73260c91b5924eb0c8d4bee21bf</MD5>
 			</ConfigFile>
 		</Module>
+		<Module name="Chisel" id="chisel" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Chisel-MC1.12.2-1.0.2.45.jar</URL>
+			<Size>4755282</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>54afc298f94e708f0e1cdf399200b2cb</MD5>
+			<Meta>
+				<description>Adds in tons of fancy blocks for decoration, crafted using the Chisel.</description>
+				<version>MC1.12.2-1.0.2.45</version>
+				<url>https://minecraft.curseforge.com/projects/chisel</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/chisel.cfg</URL>
+				<Path>config/chisel.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bba5a019c0b1e17854d557b37cf58685</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Cosmetic Armor Reworked" id="cosmeticarmorreworked" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CosmeticArmorReworked-1.12.2-v4a.jar</URL>
 			<Size>70745</Size>
