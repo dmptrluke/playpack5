@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.7.1" 
+	 generateList="true" autoConnect="false" revision="1.8" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Chisel">Pretty Chisel blocks and other assorted changes!</note>
+			<note title="Thaumic Expansions">Thaumic brewing, thaumic potions, and more fun in the void!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -941,6 +941,60 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d9954e846a286f8abed1a8d8c76209a9</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Rustic Thaumaturgy" id="rusticthaumaturgy" depends="thaumcraft" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Rustic+Thaumaturgy-4.4a.jar</URL>
+			<Size>601126</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ee1458470256cc278b2c64679aec2503</MD5>
+			<Meta>
+				<credits>MrCrayfish, WolfieWaffle, and TheRealStu</credits>
+				<description>A mod that adds some Thaumcraft compatability to Rustic.</description>
+				<version>4.4a</version>
+				<url></url>
+				<authors>Voxel-Friend</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/rusticthaumaturgy.cfg</URL>
+				<Path>config/rusticthaumaturgy.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>40d290f5f443bc7d3576ed6ea0bedbd3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thaumic Augmentation" id="thaumicaugmentation" depends="thaumcraft" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThaumicAugmentation-1.12.2-1.1.17.jar</URL>
+			<Size>2688758</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ada053ddbf0e3f3c49572dc33ce049df</MD5>
+			<Meta>
+				<credits>Azanor for all of his work on Thaumcraft, as well as KingLemming and others for maintaining the mod in the future. Additionally, thank you to everyone that has helped come up with content or report bugs, on both GitHub and CurseForge.</credits>
+				<description>An addon mod for Thaumcraft that tries to add new content that fits in with the source material.</description>
+				<version>1.12.2-1.1.17</version>
+				<url>https://minecraft.curseforge.com/projects/thaumic-augmentation</url>
+				<authors>TheCodex6824</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/thaumicaugmentation.cfg</URL>
+				<Path>config/thaumicaugmentation.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c72556f8c615b96ea74b1d23e612384c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thaumic Brewing" id="thaumicbrewing" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/thaumicbrewing-1.0.2.jar</URL>
+			<Size>11260</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5d52ec97ef79a518e505a707aed4caa9</MD5>
+			<Meta>
+				<credits>Thanks to Azanor for Thaumcraft.</credits>
+				<description>Make potions using alchemy!</description>
+				<version>1.0.2</version>
+				<url></url>
+				<authors>Daedalus4096</authors>
+			</Meta>
 		</Module>
 		<Module name="ThaumicJEI" id="jei-thaumic" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThaumicJEI-1.12.2-1.5.4-22.jar</URL>
