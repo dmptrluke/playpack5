@@ -2561,7 +2561,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/ftbutilities.cfg</URL>
 				<Path>config/ftbutilities.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>9557a7dfde25ede99902a163f720512f</MD5>
+				<MD5>7b42df68817d6f01acf62efa95a8fb57</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="FTB Backups" id="ftbbackups" depends="" side="BOTH">
