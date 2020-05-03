@@ -901,7 +901,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/roots/spells.cfg</URL>
 				<Path>config/roots/spells.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>40b7e8f805bc77a5d60e1186274ca523</MD5>
+				<MD5>5dd33407ba480c5a002a4ae3979f3ca0</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
