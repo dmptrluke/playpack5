@@ -1389,15 +1389,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Construct&apos;s Armory" id="conarm" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/conarm-1.12.2-1.2.5.7.jar</URL>
-			<Size>894655</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/conarm-1.12.2-1.2.5.8.jar</URL>
+			<Size>894526</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>d084f981da87661d6446d2cb445d5dc0</MD5>
+			<MD5>10ac64194c828ef4fcbf27f313e3448e</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A Tinkers&apos; Construct add-on for those looking to enter the world of armor</description>
-				<version>1.12.2-1.2.5.7</version>
+				<version>1.12.2-1.2.5.8</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
