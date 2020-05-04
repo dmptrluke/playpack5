@@ -128,7 +128,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/defaultoptions/keybindings.txt</URL>
 				<Path>config/defaultoptions/keybindings.txt</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>18d50409993f57eceb5455d3bd91521d</MD5>
+				<MD5>9e5c5a4adaaa2a832b81e37057b782be</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/defaultoptions/options.txt</URL>
@@ -2746,6 +2746,26 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>iChun</authors>
 			</Meta>
 		</Module>
+		<Module name="CraftPresence" id="craftpresence" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CraftPresence-1.12.2-1.6.1.jar</URL>
+			<Size>405848</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e39b9f252c0aee1b7239f40d801d2f0c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Completely Customize the way others see you play in Discord!</description>
+				<version>1.6.1</version>
+				<url>https://minecraft.curseforge.com/projects/craftpresence</url>
+				<authors>CDA_Gaming</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/craftpresence.properties</URL>
+				<Path>config/craftpresence.properties</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>35836be9dd7a33342e49eb77828b06cf</MD5>
+			</ConfigFile>
+		</Module>
 		<Module name="Rustic" id="rustic" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/rustic-1.1.3.jar</URL>
 			<Size>1362194</Size>
@@ -2769,7 +2789,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/rustic.zs</URL>
 				<Path>scripts/rustic.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d026fba16de32ddbf65187eb785cfdb8</MD5>
+				<MD5>6034c8c1f7ebf840541c7a2791fa70ed</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Overloaded Armor Bar" id="overpoweredarmorbar" depends="" side="BOTH">
