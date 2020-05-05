@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.8" 
+	 generateList="true" autoConnect="false" revision="1.8.1" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Thaumic Expansions">Thaumic brewing, thaumic potions, and more fun in the void!</note>
+			<note title="Minor Update">Minor version updates</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -855,15 +855,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Roots" id="roots" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Roots-1.12.2-3.0.27.jar</URL>
-			<Size>1469800</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Roots-1.12.2-3.0.28.jar</URL>
+			<Size>1464262</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>3ef85a1df394afa94d16d5c7832703f6</MD5>
+			<MD5>673530c8eee271d45b05ef0a9ce8d810</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Druidic magic mod.</description>
-				<version>1.12.2-3.0.27</version>
+				<version>1.12.2-3.0.28</version>
 				<url></url>
 				<authors>EpicSquid, Martacus, Noobanidus, Davoleo, Kalaxi, Elucent</authors>
 			</Meta>
