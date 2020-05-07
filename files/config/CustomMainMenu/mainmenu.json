@@ -122,6 +122,17 @@
                 "type" : "openGui",
                 "gui" : "languages"
             }
+        },
+
+        "reauth":
+        {
+            "text" : "Refresh Session",
+            "posX" : -105,
+            "posY" : -35,
+            "width" : 100,
+            "height" : 20,
+            "alignment" : "bottom_right",
+            "wrappedButton": 17325
         }
     },
     
@@ -130,7 +141,6 @@
         "mojang":
         {
             "text" : "Copyright Mojang AB. Do not distribute!",
-            "hoverText" : "Also, a load of awesome modders!",
             "posX" : -197,
             "posY" : -10,
             "color" : -1,
