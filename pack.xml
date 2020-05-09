@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.8.2" 
+	 generateList="true" autoConnect="false" revision="1.8.3" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Minor Update">Add "refresh session" button to main menu.</note>
+			<note title="Minor Update">Clean things up!</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -434,58 +434,6 @@
 				<MD5>6bbd6660b6fcad1513e90b0bf896d16e</MD5>
 			</ConfigFile>
 		</Module>
-        <Module name="Tesla Core Lib" id="teslacorelib" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/tesla-core-lib-1.12.2-1.0.17.jar</URL>
-			<Size>1138988</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>6c76ff8a9251852d00d9a648e72ad25c</MD5>
-			<Meta>
-				<credits>The Forge, FML guys and my wife.</credits>
-				<description>Just the most awesome lib mod out there!</description>
-				<version>1.12.2-1.0.17</version>
-				<url></url>
-				<authors>Face_of_Cat</authors>
-			</Meta>
-            <ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/teslacorelib.cfg</URL>
-				<Path>config/teslacorelib.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>c15cf6bd0dbf7648e59e0e7932522596</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/teslacorelib.zs</URL>
-				<Path>scripts/teslacorelib.zs</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>b3930208100ee8bd14cb03e24d45aff3</MD5>
-			</ConfigFile>
-		</Module>
-        <Module name="Industrial Foregoing" id="industrialforegoing" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/industrialforegoing-1.12.2-1.12.13-237.jar</URL>
-			<Size>1603134</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>a9330399f14295d90e4ec3b5bb93f81f</MD5>
-			<Meta>
-				<credits></credits>
-				<description>A small reinvention of Minefactory Reloaded.</description>
-				<version>1.12.13</version>
-				<url>https://minecraft.curseforge.com/projects/industrial-foregoing</url>
-				<authors>Buuz135</authors>
-			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/industrialforegoing.cfg</URL>
-				<Path>config/industrialforegoing.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>08821667e9812bf00b894ec8a6dc80d9</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/industrialforegoing.zs</URL>
-				<Path>scripts/industrialforegoing.zs</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>4c2dd009d3b658acf504b03ea2e741ce</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="GunpowderLib" id="gunpowderlib" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/GunpowderLib-1.12.2-1.0.jar</URL>
 			<Size>24639</Size>
@@ -499,26 +447,6 @@
 				<url>https://github.com/JackyyTV/GunpowderLib</url>
 				<authors>Jackyy</authors>
 			</Meta>
-		</Module>
-        <Module name="Integration Foregoing" id="integrationforegoing" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegrationForegoing-1.12.2-1.10.jar</URL>
-			<Size>181197</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<MD5>93c64021954444ac444ca26c5ee5095a</MD5>
-			<Meta>
-				<credits></credits>
-				<description>An addon mod for Industrial Foregoing!</description>
-				<version>1.12.2-1.10</version>
-				<url>https://github.com/JackyyTV/IntegrationForegoing</url>
-				<authors>Jackyy, Buuz135</authors>
-			</Meta>
-            <ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/IntegrationForegoing.cfg</URL>
-				<Path>config/IntegrationForegoing.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>fcfe75eaa1038eb9f761c96e65bd9e58</MD5>
-			</ConfigFile>
 		</Module>
 		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/appliedenergistics2-rv6-stable-7.jar</URL>
@@ -777,7 +705,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/fairylights.cfg</URL>
 				<Path>config/fairylights.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>924438e38169042d4cdf384e0a05122b</MD5>
+				<MD5>06b7eea1dbf17414af003b20d9f03eae</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="BiblioCraft" id="bibliocraft" depends="" side="BOTH">
@@ -1818,6 +1746,12 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>1e46a402e03199bc7ca216194a765642</MD5>
 			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/industrialforegoing.zs</URL>
+				<Path>scripts/industrialforegoing.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
+			</ConfigFile>
 			<Submodule name="ModTweaker" id="modtweaker">
                 <URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/modtweaker-4.0.18.jar</URL>
 				<Size>488016</Size>
@@ -2338,7 +2272,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/immersiveengineering.cfg</URL>
 				<Path>config/immersiveengineering.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>6546c46dbbe0a0046b0e5d126936e41e</MD5>
+				<MD5>6a8a518b50146e78bfa2d97b32843a97</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/engineering.zs</URL>
@@ -2669,7 +2603,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/quark.cfg</URL>
 				<Path>config/quark.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>7851dc7667372ceed95c50ae8f55861c</MD5>
+				<MD5>8366c09c01fea5d0dce08652b0e5df45</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/quark.zs</URL>
