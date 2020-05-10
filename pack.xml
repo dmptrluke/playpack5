@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.8.3" 
+	 generateList="true" autoConnect="false" revision="1.8.4" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Minor Update">Clean things up!</note>
+			<note title="Minor Update">Mod version bumps and minor tweaks.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -303,15 +303,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CyclopsCore-1.12.2-1.6.3.jar</URL>
-			<Size>1060856</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CyclopsCore-1.12.2-1.6.4.jar</URL>
+			<Size>1060865</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>700d4cfd8fc36c40b69859f2652ffaaf</MD5>
+			<MD5>15264dedd43b16ca7a14ef95f58c8ec6</MD5>
 			<Meta>
 				<credits>kroeserr, _EeB_</credits>
 				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
-				<version>1.12.2-1.6.3</version>
+				<version>1.12.2-1.6.4</version>
 				<url>https://minecraft.curseforge.com/projects/cyclops-core</url>
 				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
 			</Meta>
@@ -357,15 +357,15 @@
 			</Meta>
 		</Module>
 		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegratedDynamics-1.12.2-1.1.5.jar</URL>
-			<Size>3039966</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/IntegratedDynamics-1.12.2-1.1.6.jar</URL>
+			<Size>3039992</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>361621ffdba39977bc795eed9c515b20</MD5>
+			<MD5>365f246ec9c2b0c5360a81fe0935d4b4</MD5>
 			<Meta>
 				<credits>kroeserr, Yulife (textures)</credits>
 				<description>Take full and automated control of your appliances.</description>
-				<version>1.12.2-1.1.5</version>
+				<version>1.12.2-1.1.6</version>
 				<url>https://minecraft.curseforge.com/projects/integrated-dynamics</url>
 				<authors>rubensworks (aka kroeserr)</authors>
 			</Meta>
@@ -1001,7 +1001,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/huntingdim/huntingdim.cfg</URL>
 				<Path>config/huntingdim/huntingdim.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>d0f0ba8decfbb3da1f3e4726b2244c92</MD5>
+				<MD5>68dc50025bba90556935af36b9c4788c</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/huntingdim/world_generator_settings.json</URL>
@@ -2554,7 +2554,7 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/ftbutilities.cfg</URL>
 				<Path>config/ftbutilities.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
+				<NoOverwrite>true</NoOverwrite>
 				<MD5>7b42df68817d6f01acf62efa95a8fb57</MD5>
 			</ConfigFile>
 		</Module>
@@ -2781,15 +2781,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="Storage Drawers" id="storagedrawers" depends="chameleon" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StorageDrawers-1.12.2-5.4.1.jar</URL>
-			<Size>605381</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StorageDrawers-1.12.2-5.4.2.jar</URL>
+			<Size>605947</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>050dd7ca699431dc4ce0b581567aae8a</MD5>
+			<MD5>0f658c7cba3e6793abbcb934b4810902</MD5>
 			<Meta>
 				<credits>By jaquadro</credits>
 				<description>Multi-drawer storage blocks for quick storage and retrieval.</description>
-				<version>1.12.2-5.4.1</version>
+				<version>1.12.2-5.4.2</version>
 				<url>http://www.jaquadro.com/</url>
 				<authors>jaquadro</authors>
 			</Meta>
