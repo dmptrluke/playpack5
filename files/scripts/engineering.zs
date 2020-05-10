@@ -39,14 +39,8 @@ JEI.removeAndHide(engineering_coke);
 InductionSmelter.removeRecipe(<ore:dustIron>.firstItem, <ore:dustCoal>.firstItem * 4);
 InductionSmelter.removeRecipe(<ore:ingotIron>.firstItem, <ore:dustCoal>.firstItem * 4);
 
-InductionSmelter.removeRecipe(<ore:dustIron>.firstItem, <ore:fuelCoke>.firstItem);
-InductionSmelter.removeRecipe(<ore:ingotIron>.firstItem, <ore:fuelCoke>.firstItem);
-
 InductionSmelter.removeRecipe(<ore:dustIron>.firstItem, <ore:dustCharcoal>.firstItem * 4); 
 InductionSmelter.removeRecipe(<ore:ingotIron>.firstItem, <ore:dustCharcoal>.firstItem * 4);
-
-# fix up TE coke
-RedstoneFurnace.removePyrolysisRecipe(<minecraft:coal>);
 
 # add more crusher recipes
 Crusher.addRecipe(<minecraft:clay_ball> * 4, <minecraft:hardened_clay>, 2048);

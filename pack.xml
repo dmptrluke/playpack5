@@ -1752,6 +1752,12 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/teslacorelib.zs</URL>
+				<Path>scripts/teslacorelib.zs</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
+			</ConfigFile>
 			<Submodule name="ModTweaker" id="modtweaker">
                 <URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/modtweaker-4.0.18.jar</URL>
 				<Size>488016</Size>
@@ -2278,7 +2284,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/engineering.zs</URL>
 				<Path>scripts/engineering.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>455f78d754f4bed3feeb9ee6b232d2be</MD5>
+				<MD5>5e38cfdd123bf7f4c431316e57908cb4</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="Immersive Petroleum" id="immersivepetroleum" depends="" side="BOTH">
