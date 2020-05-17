@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.8.4" 
+	 generateList="true" autoConnect="false" revision="1.8.5" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Minor Update">Mod version bumps and minor tweaks.</note>
+			<note title="Minor Update">Mod version updates. Also quarries.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -639,13 +639,13 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/rftools/rftools.cfg</URL>
 				<Path>config/rftools/rftools.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>84dca07dc14ddabb5cae1782d82064bb</MD5>
+				<MD5>f429de3b193014987f48db2ff6af00ff</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/rftools.zs</URL>
 				<Path>scripts/rftools.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>6aa611f8d67d25eca6ab761e6771321b</MD5>
+				<MD5>8da9ecba9d1c33ab2d71843fa640b2f7</MD5>
 			</ConfigFile>
 		</Module>
 		<Module name="RFTools Control" id="rftoolscontrol" depends="rftools" side="BOTH">
@@ -1197,15 +1197,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="NuclearCraft" id="nuclearcraft" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/NuclearCraft-2.18r-1.12.2.jar</URL>
-			<Size>6867980</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/NuclearCraft-2.18s-1.12.2.jar</URL>
+			<Size>6868900</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8b90145b68e9e83924bbeea0fa63f53f</MD5>
+			<MD5>b8ec050b2b4dfac1843e0258e8ef17e5</MD5>
 			<Meta>
 				<credits>Thanks to all suggestors, bug reporters, modders whose APIs I have used and those who have made language files!</credits>
 				<description>Nuclear Physics, Minecraft Style</description>
-				<version>2.18r-1.12.2</version>
+				<version>2.18s-1.12.2</version>
 				<url>https://minecraft.curseforge.com/projects/nuclearcraft-mod</url>
 				<authors>tomdodd4598</authors>
 			</Meta>
@@ -1716,15 +1716,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CraftTweaker2-1.12-4.1.20.564.jar</URL>
-			<Size>1424627</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CraftTweaker2-1.12-4.1.20.574.jar</URL>
+			<Size>1431822</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>4709d6057aa57c475256280d75c362bc</MD5>
+			<MD5>0e6260e528f35e77ba857972d65ef058</MD5>
 			<Meta>
 				<credits>Created By StanHebben and Jaredlll08</credits>
 				<description>Customize your minecraft experience!</description>
-				<version>1.12-4.1.20.564</version>
+				<version>1.12-4.1.20.574</version>
 				<url>http://minetweaker3.powerofbytes.com</url>
 				<authors>StanHebben, Jaredlll08</authors>
 			</Meta>
@@ -2687,15 +2687,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</Meta>
 		</Module>
 		<Module name="CraftPresence" id="craftpresence" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CraftPresence-1.12.2-1.6.1.jar</URL>
-			<Size>405848</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CraftPresence-1.12.2-1.6.5.jar</URL>
+			<Size>421360</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>e39b9f252c0aee1b7239f40d801d2f0c</MD5>
+			<MD5>bd5454bc635ca2bb0f2f2e0151ffdd9b</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Completely Customize the way others see you play in Discord!</description>
-				<version>1.6.1</version>
+				<version>1.6.5</version>
 				<url>https://minecraft.curseforge.com/projects/craftpresence</url>
 				<authors>CDA_Gaming</authors>
 			</Meta>
