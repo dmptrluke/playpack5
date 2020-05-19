@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.8.6" 
+	 generateList="true" autoConnect="false" revision="1.8.7" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Minor Update">Folfy things.</note>
+			<note title="Minor Update">Unfolfy things.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -1197,15 +1197,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="NuclearCraft" id="nuclearcraft" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/NuclearCraft-2.18s-1.12.2.jar</URL>
-			<Size>6868900</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/NuclearCraft-2.18t-1.12.2.jar</URL>
+			<Size>6869074</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>b8ec050b2b4dfac1843e0258e8ef17e5</MD5>
+			<MD5>197f01483f837ea6f79308c0cd976d65</MD5>
 			<Meta>
 				<credits>Thanks to all suggestors, bug reporters, modders whose APIs I have used and those who have made language files!</credits>
 				<description>Nuclear Physics, Minecraft Style</description>
-				<version>2.18s-1.12.2</version>
+				<version>2.18t-1.12.2</version>
 				<url>https://minecraft.curseforge.com/projects/nuclearcraft-mod</url>
 				<authors>tomdodd4598</authors>
 			</Meta>
@@ -1213,7 +1213,7 @@
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/nuclearcraft.cfg</URL>
 				<Path>config/nuclearcraft.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
-				<MD5>38f8ee1a2f735e829ad059fb68546a9c</MD5>
+				<MD5>bb0f0f9e2709a6abcb12d4f0503a9187</MD5>
 			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/nuclearcraft.zs</URL>
