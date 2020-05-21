@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.8.7" 
+	 generateList="true" autoConnect="false" revision="1.9" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Minor Update">Unfolfy things.</note>
+			<note title="Flowers and Forests">Add Twilight Forest and Botania.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -29,6 +29,20 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>3633e1f63c63e44850be36be096c19f1</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="Just Enough Calculation" id="jecalculation" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/JustEnoughCalculation-1.12.2-3.2.3.jar</URL>
+			<Size>297982</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>68255675cdabf136bbc5b20f15262258</MD5>
+			<Meta>
+				<credits>Thanks to the MCP, Forge and FML guys; along with sesess, Pahimar, MrCrayfish and BedrockMiner for their tutorial.</credits>
+				<description>A simple mod to help you with recipe calculation.</description>
+				<version>1.12.2-3.2.3</version>
+				<url>https://github.com/Towdium/JustEnoughCalculation</url>
+				<authors>Towdium</authors>
+			</Meta>
 		</Module>
 		<Module name="Hwyla" id="waila" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Hwyla-1.8.26-B41_1.12.2.jar</URL>
@@ -3119,32 +3133,66 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<MD5>f432c4b2fe4eabadb81ed04841d48dc2</MD5>
 			</ConfigFile>
 		</Module>
-		<!--<Module name="Twilight Forest" id="twilightforest" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/twilightforest-1.12.2-3.8.689-universal.jar</URL>
-			<Size>7296016</Size>
+		<Module name="Broken Wings" id="brokenwings" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/brokenwings-2.1.1.jar</URL>
+			<Size>32256</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>d9a9e3e5dd851f5cbb50b72aab5e6037</MD5>
+			<MD5>c1d527584feb480195e4f31a807741c2</MD5>
+			<Meta>
+				<credits>Your MOM!!!!!!!!!! HA</credits>
+				<description>Disable flight in certain dimensions.</description>
+				<version>2.1.1</version>
+				<url></url>
+				<authors>quaternary</authors>
+			</Meta>
+		</Module>
+		<Module name="Botania" id="botania" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Botania+r1.10-363%20(1).jar</URL>
+			<Size>13814617</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5ba76d3db9345fa9e398523bddda59f3</MD5>
+			<Meta>
+				<credits>Azanor, Flaxbeard, Futureazoo, Rorax, Lorc, Adubbz, WTFG33ks, Auric245524, MegaManki, Kain Vinosec, Kihira, mDiyo, Mikeemoo, ChickenBones, PowerCrystals, cpw</credits>
+				<description>Botania is a mod that adds nature magic to Minecraft</description>
+				<version>r1.10-363</version>
+				<url>http://www.botaniamod.net</url>
+				<authors>Vazkii, williewillus, wiiv, dylan4ever</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/botania.cfg</URL>
+				<Path>config/botania.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fab2e26fa93441f4fce3c2ef40e814df</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="The Twilight Forest" id="twilightforest" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/twilightforest-1.12.2-3.10.1013-universal.jar</URL>
+			<Size>28721750</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>49ba19277c2bfbcf65aa93173292812b</MD5>
 			<Meta>
 				<credits>By Benimatic (Ben Mazur)</credits>
 				<description>An enchanted forest dimension.</description>
-				<version>3.8.689</version>
+				<version>3.10.1013</version>
 				<url>https://minecraft.curseforge.com/projects/the-twilight-forest</url>
 				<authors>Benimatic, AtomicBlom, Drullkus, Killer_Demon, quadraxis, Tamaized, williewillus</authors>
 			</Meta>
-			<Meta>
-				<description>An enchanted forest dimension.</description>
-				<version>3.8.654</version>
-				<url>https://minecraft.curseforge.com/projects/the-twilight-forest</url>
-				<authors>Benimatic (Ben Mazur)</authors>
-			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/twilightforest.cfg</URL>
+				<Path>config/twilightforest.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0e931fe7f2033eed64d087cef9d56fee</MD5>
+			</ConfigFile>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/twilightforest.zs</URL>
 				<Path>scripts/twilightforest.zs</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a229e1aea44a0377ef2b014caa956518</MD5>
 			</ConfigFile>
-		</Module> -->
+		</Module>
 		<Module name="UniDict" id="unidict" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/UniDict-1.12.2-2.9.6.jar</URL>
 			<Size>184842</Size>
