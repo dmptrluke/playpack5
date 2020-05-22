@@ -4,11 +4,11 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.9" 
+	 generateList="true" autoConnect="false" revision="1.9.2" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Flowers and Forests">Add Twilight Forest and Botania.</note>
+			<note title="Minor Update">More mod version updates.</note>
 		</Meta>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
@@ -192,13 +192,13 @@
 			</ConfigFile>
 		</Module>
 		<Module name="AppleCore" id="applecore" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/AppleCore-mc1.12.2-3.2.0.jar</URL>
-			<Size>88308</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/AppleCore-mc1.12.2-3.3.0.jar</URL>
+			<Size>88741</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>1cbb68f6f8e55dbbe525dd8d90f86d1f</MD5>
+			<MD5>f2a8fd003f94828a635bfafd5020d569</MD5>
 			<Meta>
-				<version>3.2.0</version>
+				<version>3.3.0</version>
 				<url>https://minecraft.curseforge.com/projects/applecore</url>
 				<description>An API for modifying the food and hunger mechanics of Minecraft.</description>
 				<authors>squeek</authors>
@@ -905,15 +905,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Thaumic Augmentation" id="thaumicaugmentation" depends="thaumcraft" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThaumicAugmentation-1.12.2-1.1.17.jar</URL>
-			<Size>2688758</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThaumicAugmentation-1.12.2-1.1.19.jar</URL>
+			<Size>2734651</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>ada053ddbf0e3f3c49572dc33ce049df</MD5>
+			<MD5>54d9867a08de7ea9d72f14e772584280</MD5>
 			<Meta>
 				<credits>Azanor for all of his work on Thaumcraft, as well as KingLemming and others for maintaining the mod in the future. Additionally, thank you to everyone that has helped come up with content or report bugs, on both GitHub and CurseForge.</credits>
 				<description>An addon mod for Thaumcraft that tries to add new content that fits in with the source material.</description>
-				<version>1.12.2-1.1.17</version>
+				<version>1.12.2-1.1.19</version>
 				<url>https://minecraft.curseforge.com/projects/thaumic-augmentation</url>
 				<authors>TheCodex6824</authors>
 			</Meta>
@@ -1025,15 +1025,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="DupeFix Project" id="dupefixproject" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/DupeFix+Project+2.2.jar</URL>
-			<Size>33104</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/DupeFix+Project+2.4.jar</URL>
+			<Size>33643</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a41c7a6f849787f69b27dc0e529070b0</MD5>
+			<MD5>4015990707f3e75ded08382784f4d722</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A mod to fix some Dupe Bugs.</description>
-				<version>2.2</version>
+				<version>2.4</version>
 				<url></url>
 				<authors>Focamacho</authors>
 			</Meta>
@@ -1331,15 +1331,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Construct&apos;s Armory" id="conarm" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/conarm-1.12.2-1.2.5.8.jar</URL>
-			<Size>894526</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/conarm-1.12.2-1.2.5.9.jar</URL>
+			<Size>894608</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>10ac64194c828ef4fcbf27f313e3448e</MD5>
+			<MD5>a91589e2f96fc28bc05c2dac88d4a95d</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A Tinkers&apos; Construct add-on for those looking to enter the world of armor</description>
-				<version>1.12.2-1.2.5.8</version>
+				<version>1.12.2-1.2.5.9</version>
 				<url></url>
 				<authors>C4</authors>
 			</Meta>
