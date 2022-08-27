@@ -4,12 +4,13 @@
 	xmlns="http://www.mcupdater.com" 
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="playpack5" abstract="false" name="PlayPack 5" newsUrl="https://launcher.dmptr.com/playpack_5/pack.xml" serverAddress="play.dmptr.com" version="1.12.2"
-	 generateList="true" autoConnect="false" revision="1.9.2" 
+	 generateList="true" autoConnect="false" revision="1.9.3" 
 	 mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla" iconUrl="https://launcher.dmptr.com/launcher/cell.png">
 		<Meta>
 			<note>PlayPack 5 is a simple, fast, kitchen-sink technological mod pack. The pack features a primary tech focus (though it does include magic!), avoiding mechanics that take away from the core Minecraft experiences.</note>
-			<note title="Minor Update">More mod version updates.</note>
+			<note title="Minor Update">Even more, new, version bumps!</note>
 		</Meta>
+		<Loader type="Forge" version="1.12.2-14.23.5.2860" loadOrder="0"/>
 		<Module name="Stuff A Sock In It" id="sasit" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/StuffASockInIt-1.12.2-1.1.30.jar</URL>
 			<Size>18179</Size>
@@ -763,29 +764,29 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Mystical Lib" id="mysticallib" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/mysticallib-1.12.2-1.7.0.jar</URL>
-			<Size>423994</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/mysticallib-1.12.2-1.9.0.jar</URL>
+			<Size>431560</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8b0c70600a01b616f1e0a5de0c6db0c4</MD5>
+			<MD5>85db7612a09eebe1e6395ca2712f4138</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Miscellaneous library mod.</description>
-				<version>1.1.1</version>
+				<version>1.12.2-1.9.0</version>
 				<url></url>
 				<authors>EpicSquid, Elucent</authors>
 			</Meta>
 		</Module>
 		<Module name="Mystical World" id="mysticalworld" depends="mysticallib patchouli" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/mysticalworld-1.12.2-1.8.4.jar</URL>
-			<Size>2784396</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/mysticalworld-1.12.2-1.9.2.jar</URL>
+			<Size>3008595</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>a92e960b2c37fbe5a47b3c38ec2cbb78</MD5>
+			<MD5>d63c2238c1b7df359ab6cef70418a0a6</MD5>
 			<Meta>
 				<credits>Elucent for the original ideas</credits>
 				<description>Provides world content including ores, blocks, and creatures, for Roots.</description>
-				<version>1.12.2-1.8.4</version>
+				<version>1.12.2-1.9.2</version>
 				<url></url>
 				<authors>Noobanidus, EpicSquid, Martacus, Davoleo, Kalaxi, Vulpie</authors>
 			</Meta>
@@ -797,15 +798,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Roots" id="roots" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Roots-1.12.2-3.0.28.jar</URL>
-			<Size>1464262</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Roots-1.12.2-3.0.32.jar</URL>
+			<Size>1471904</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>673530c8eee271d45b05ef0a9ce8d810</MD5>
+			<MD5>b864d16972de80dac5a7bb2ca9928162</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Druidic magic mod.</description>
-				<version>1.12.2-3.0.28</version>
+				<version>1.12.2-3.0.32</version>
 				<url></url>
 				<authors>EpicSquid, Martacus, Noobanidus, Davoleo, Kalaxi, Elucent</authors>
 			</Meta>
@@ -905,15 +906,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Thaumic Augmentation" id="thaumicaugmentation" depends="thaumcraft" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThaumicAugmentation-1.12.2-1.1.19.jar</URL>
-			<Size>2734651</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/ThaumicAugmentation-1.12.2-2.0.9.jar</URL>
+			<Size>7431222</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>54d9867a08de7ea9d72f14e772584280</MD5>
+			<MD5>4b9ba193a58df966c7645c031fde66ab</MD5>
 			<Meta>
 				<credits>Azanor for all of his work on Thaumcraft, as well as KingLemming and others for maintaining the mod in the future. Additionally, thank you to everyone that has helped come up with content or report bugs, on both GitHub and CurseForge.</credits>
 				<description>An addon mod for Thaumcraft that tries to add new content that fits in with the source material.</description>
-				<version>1.12.2-1.1.19</version>
+				<version>1.12.2-2.0.9</version>
 				<url>https://minecraft.curseforge.com/projects/thaumic-augmentation</url>
 				<authors>TheCodex6824</authors>
 			</Meta>
@@ -1909,15 +1910,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="EnderCore" id="endercore" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/EnderCore-1.12.2-0.5.73.jar</URL>
-			<Size>642654</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/EnderCore-1.12.2-0.5.76.jar</URL>
+			<Size>647959</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>619a6d82109069d4326ba5fabf48d4fa</MD5>
+			<MD5>6164be012de6ee761e37f54a74074125</MD5>
 			<Meta>
 				<credits></credits>
 				<description>Library mod used by EnderIO, EnderZoo, and others</description>
-				<version>1.12.2-0.5.73</version>
+				<version>1.12.2-0.5.76</version>
 				<url>http://enderio.com</url>
 				<authors>tterrag, CrazyPants, HenryLoenwind</authors>
 			</Meta>
@@ -2009,15 +2010,15 @@
 			</ConfigFile>
 		</Module>
 		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/EnderIO-1.12.2-5.1.55.jar</URL>
-			<Size>8366769</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/EnderIO-1.12.2-5.2.61.jar</URL>
+			<Size>8508268</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>8495577037840e0cacbc1c0c5914d459</MD5>
+			<MD5>158cb696bbc9431ed2eaeaa6806474ee</MD5>
 			<Meta>
 				<credits>By CrazyPants, with the help of many</credits>
 				<description>Compact conduits, painted things and all sorts of stuff and bling.</description>
-				<version>5.1.55</version>
+				<version>5.2.61</version>
 				<url>http://enderio.com</url>
 				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</authors>
 			</Meta>
@@ -2354,6 +2355,22 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>2179eda9cb403766c37f6367852ce78b</MD5>
 			</ConfigFile>
+		</Module>
+		<Module name="JustEnoughIDs" id="jeid" depends="" side="BOTH">
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/JustEnoughIDs-1.0.3-55.jar</URL>
+			<Size>982320</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ac6f54cb5478dd3d0147aedbfe782d5d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Use the 1.13 chunk format in 1.12 to remove block, item, and biome ID limits.
+
+Thanks to zabi94 for helping getting potions and enchants extended.</description>
+				<version>1.0.3-55</version>
+				<url>https://minecraft.curseforge.com/projects/jeid</url>
+				<authors>Runemoro, ZombieHDGaming</authors>
+			</Meta>
 		</Module>
 		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/jei_1.12.2-4.15.0.291.jar</URL>
@@ -2721,15 +2738,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="Rustic" id="rustic" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/rustic-1.1.3.jar</URL>
-			<Size>1362194</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/rustic-1.1.4.jar</URL>
+			<Size>1361675</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>fe42ede1c19cb17e19a32122049aade4</MD5>
+			<MD5>87d1ffd01b81fee5e13f56b7b78cda64</MD5>
 			<Meta>
 				<credits></credits>
 				<description>A medieval themed Minecraft mod based around decoration, exploration, and agriculture.</description>
-				<version>1.1.3</version>
+				<version>1.1.4</version>
 				<url>https://github.com/the-realest-stu/Rustic</url>
 				<authors>the-realest-stu</authors>
 			</Meta>
@@ -3168,15 +3185,15 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 			</ConfigFile>
 		</Module>
 		<Module name="The Twilight Forest" id="twilightforest" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/twilightforest-1.12.2-3.10.1013-universal.jar</URL>
-			<Size>28721750</Size>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/twilightforest-1.12.2-3.11.1021-universal.jar</URL>
+			<Size>28721862</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
-			<MD5>49ba19277c2bfbcf65aa93173292812b</MD5>
+			<MD5>0933760943721154f3208782306f04d6</MD5>
 			<Meta>
 				<credits>By Benimatic (Ben Mazur)</credits>
 				<description>An enchanted forest dimension.</description>
-				<version>3.10.1013</version>
+				<version>3.11.1021</version>
 				<url>https://minecraft.curseforge.com/projects/the-twilight-forest</url>
 				<authors>Benimatic, AtomicBlom, Drullkus, Killer_Demon, quadraxis, Tamaized, williewillus</authors>
 			</Meta>
@@ -3304,17 +3321,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<Path>config/vanillafix.cfg</Path>
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>2849fc975ebb371a4b35c4d8aab39f99</MD5>
-			</ConfigFile>
-		</Module>
-		<Import url="http://files.mcupdater.com/example/forge.php?mc=1.12.2&amp;forge=14.23.5.2847">forge</Import>
-        <Module name="Minecraft Forge" id="forge-14.23.5.2847" depends="" side="BOTH">
-			<Required>true</Required>
-			<ModType>Override</ModType>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/splash.properties</URL>
-				<Path>config/splash.properties</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>0cad0356fafa40ef9d8d294a09b17a33</MD5>
 			</ConfigFile>
 		</Module>
 		<Import url="https://launcher.dmptr.com/modules/1.12/basics/module.xml">basics_1.12</Import>
