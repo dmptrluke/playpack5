@@ -724,7 +724,7 @@
 			</ConfigFile>
 		</Module>
 		<Module name="BiblioCraft" id="bibliocraft" depends="" side="BOTH">
-			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/BiblioCraft[v2.4.5][MC1.12.2].jar</URL>
+			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/BiblioCraft-2.4.5.jar</URL>
 			<Size>5122856</Size>
 			<Required>true</Required>
 			<ModType>Regular</ModType>
@@ -1463,12 +1463,6 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>1baa9f8cbd400ed951e7d528439795cc</MD5>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charset/module/simplelogic.gates.cfg</URL>
-				<Path>config/charset/module/simplelogic.gates.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>79c1a7886490657f6b570019f967ef33</MD5>
-			</ConfigFile>
 			<Meta>
 				<credits></credits>
 				<description>SimpleLogic Gates is a mod which adds redstone gates, inspired by the designs found in RedPower 2 and its spiritual successors, in particular RedLogic.</description>
@@ -1476,6 +1470,12 @@
 				<url>https://minecraft.curseforge.com/projects/simplelogic-gates</url>
 				<authors>asiekierka</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charset/module/simplelogic.gates.cfg</URL>
+				<Path>config/charset/module/simplelogic.gates.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>79c1a7886490657f6b570019f967ef33</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="SimpleLogic Wires" id="simplelogic_wires" depends="charsetlib" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/SimpleLogic-Wires-0.5.6.3.jar</URL>
@@ -1483,12 +1483,6 @@
 			<Required>true</Required>
 			<ModType>Regular</ModType>
 			<MD5>a72cd85a918dd0af6bea60dc7a751aa4</MD5>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charset/module/simplelogic.wires.cfg</URL>
-				<Path>config/charset/module/simplelogic.wires.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>7aa6f4d9a2c4e3def7e42213fa99b0b2</MD5>
-			</ConfigFile>
 			<Meta>
 				<credits></credits>
 				<description>SimpleLogic Wires is a mod which adds redstone, insulated and bundled cables.</description>
@@ -1496,6 +1490,12 @@
 				<url>https://minecraft.curseforge.com/projects/simplelogic-wires</url>
 				<authors>asiekierka</authors>
 			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/charset/module/simplelogic.wires.cfg</URL>
+				<Path>config/charset/module/simplelogic.wires.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7aa6f4d9a2c4e3def7e42213fa99b0b2</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Chisels &amp; Bits" id="chiselsandbits" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/chiselsandbits-14.32.jar</URL>
@@ -1743,6 +1743,18 @@
 				<url>http://minetweaker3.powerofbytes.com</url>
 				<authors>StanHebben, Jaredlll08</authors>
 			</Meta>
+			<Submodule name="ModTweaker" id="modtweaker">
+                <URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/modtweaker-4.0.18.jar</URL>
+				<Size>488016</Size>
+				<ModType>Regular</ModType>
+				<MD5>d117e26e6b578b18d25848f578e86c3b</MD5>
+			</Submodule>
+			<Submodule name="MTLib" id="mtlib">
+                <URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/MTLib-3.0.6.jar</URL>
+                <Size>30002</Size>
+                <ModType>Regular</ModType>
+                <MD5>b46748362c046d70b821121331246aa5</MD5>
+			</Submodule>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/scripts/unification.zs</URL>
 				<Path>scripts/unification.zs</Path>
@@ -1773,18 +1785,6 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
 			</ConfigFile>
-			<Submodule name="ModTweaker" id="modtweaker">
-                <URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/modtweaker-4.0.18.jar</URL>
-				<Size>488016</Size>
-				<ModType>Regular</ModType>
-				<MD5>d117e26e6b578b18d25848f578e86c3b</MD5>
-			</Submodule>
-			<Submodule name="MTLib" id="mtlib">
-                <URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/MTLib-3.0.6.jar</URL>
-                <Size>30002</Size>
-                <ModType>Regular</ModType>
-                <MD5>b46748362c046d70b821121331246aa5</MD5>
-			</Submodule>
 		</Module>
 		<Module name="Quick Leaf Decay" id="quickleafdecay" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/QuickLeafDecay-MC1.12.1-1.2.4.jar</URL>
@@ -1819,6 +1819,19 @@
 				<url>http://minecraft.curseforge.com/mc-mods/228895-biometweaker</url>
 				<authors>superckl</authors>
 			</Meta>
+			<Submodule name="BiomeTweakerCore" id="biometweakercore">
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/BiomeTweakerCore-1.12.2-1.0.39.jar</URL>
+				<Size>45137</Size>
+				<Required>true</Required>
+				<ModType>Regular</ModType>
+				<MD5>b79eb875292bb76eec12b19fd2a692b1</MD5>
+				<ConfigFile>
+					<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/BiomeTweakerCore/BiomeTweakerCore.cfg</URL>
+					<Path>config/BiomeTweakerCore/BiomeTweakerCore.cfg</Path>
+					<NoOverwrite>false</NoOverwrite>
+					<MD5>a33ee8b9e3de3d2a968c9af1aa60e7ca</MD5>
+				</ConfigFile>
+			</Submodule>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/BiomeTweaker/BiomeTweaker.cfg</URL>
 				<Path>config/BiomeTweaker/BiomeTweaker.cfg</Path>
@@ -1849,19 +1862,6 @@
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>a44037204d85a425b76f77f8d0cb5e75</MD5>
 			</ConfigFile>
-			<Submodule name="BiomeTweakerCore" id="biometweakercore">
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/BiomeTweakerCore-1.12.2-1.0.39.jar</URL>
-				<Size>45137</Size>
-				<Required>true</Required>
-				<ModType>Regular</ModType>
-				<MD5>b79eb875292bb76eec12b19fd2a692b1</MD5>
-				<ConfigFile>
-					<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/BiomeTweakerCore/BiomeTweakerCore.cfg</URL>
-					<Path>config/BiomeTweakerCore/BiomeTweakerCore.cfg</Path>
-					<NoOverwrite>false</NoOverwrite>
-					<MD5>a33ee8b9e3de3d2a968c9af1aa60e7ca</MD5>
-				</ConfigFile>
-			</Submodule>
 		</Module>
 		<Module name="Custom Main Menu" id="custommainmenu" depends="" side="CLIENT">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/CustomMainMenu-MC1.12.2-2.0.9.1.jar</URL>
@@ -2385,12 +2385,6 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 				<url>https://github.com/mezz/JustEnoughItems</url>
 				<authors>mezz</authors>
 			</Meta>
-			<ConfigFile>
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/jei/itemBlacklist.cfg</URL>
-				<Path>config/jei/itemBlacklist.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>3ae817cfa39d7d3c64f33db0a325e778</MD5>
-			</ConfigFile>
 			<Submodule name="JEI Bees" id="jei-bees">
 				<URL>https://launcher.dmptr.com/playpack_5/files/mods/jeibees-0.9.0.5-mc1.12.2.jar</URL>
 				<Size>117480</Size>
@@ -2448,6 +2442,12 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 					<authors>BordListian</authors>
 				</Meta>
 			</Submodule>
+			<ConfigFile>
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/jei/itemBlacklist.cfg</URL>
+				<Path>config/jei/itemBlacklist.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3ae817cfa39d7d3c64f33db0a325e778</MD5>
+			</ConfigFile>
 		</Module>
 		<Module name="Mantle" id="mantle" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/Mantle-1.12-1.3.3.55.jar</URL>
@@ -2636,6 +2636,12 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 				<url>http://www.vazkii.us</url>
 				<authors>Vazkii, wiiv</authors>
 			</Meta>
+			<Submodule name="Quark Oddities" id="quark-oddities">
+				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/QuarkOddities-1.12.2.jar</URL>
+				<Size>1556</Size>
+				<ModType>Regular</ModType>
+				<MD5>6e16630baca6837163dbee699ef3cf4b</MD5>
+			</Submodule>
 			<ConfigFile>
 				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/config/quark.cfg</URL>
 				<Path>config/quark.cfg</Path>
@@ -2648,12 +2654,6 @@ Thanks to zabi94 for helping getting potions and enchants extended.</description
 				<NoOverwrite>false</NoOverwrite>
 				<MD5>ba8f00daee5cf2769dd141c688867291</MD5>
 			</ConfigFile>
-			<Submodule name="Quark Oddities" id="quark-oddities">
-				<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/QuarkOddities-1.12.2.jar</URL>
-				<Size>1556</Size>
-				<ModType>Regular</ModType>
-				<MD5>6e16630baca6837163dbee699ef3cf4b</MD5>
-			</Submodule>
 		</Module>
 		<Module name="Redstone Flux" id="redstoneflux" depends="" side="BOTH">
 			<URL priority="0">https://launcher.dmptr.com/playpack_5/files/mods/RedstoneFlux-1.12-2.1.1.1-universal.jar</URL>
